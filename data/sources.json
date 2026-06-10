@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "lr_fobas",
+    "source_name": "LR FOBAS",
+    "source_url": "https://www.lr.org/en/knowledge/press-room/",
+    "category": "燃油",
+    "update_frequency": "月度",
+    "enabled": true,
+    "phase": "mvp"
+  },
+  {
+    "source_id": "tokyo_mou",
+    "source_name": "Tokyo MoU",
+    "source_url": "https://www.tokyo-mou.org/publications/",
+    "category": "PSC",
+    "update_frequency": "滾動",
+    "enabled": true,
+    "phase": "mvp"
+  },
+  {
+    "source_id": "classnk",
+    "source_name": "ClassNK Topics",
+    "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
+    "category": "Class",
+    "update_frequency": "每月",
+    "enabled": true,
+    "phase": "mvp"
+  },
+  {
+    "source_id": "cimac_wg7",
+    "source_name": "CIMAC WG7 Fuels",
+    "source_url": "https://www.cimac.com/working-groups/wg7-fuels/index.html",
+    "category": "Tech",
+    "update_frequency": "季度",
+    "enabled": false,
+    "phase": "phase2"
+  },
+  {
+    "source_id": "paris_mou",
+    "source_name": "Paris MoU",
+    "source_url": "https://parismou.org/inspections-risk/library-faq/cic",
+    "category": "PSC",
+    "update_frequency": "滾動",
+    "enabled": false,
+    "phase": "phase2"
+  },
+  {
+    "source_id": "gard_insight",
+    "source_name": "Gard Insight",
+    "source_url": "https://www.gard.no/",
+    "category": "P&I",
+    "update_frequency": "每月",
+    "enabled": false,
+    "phase": "phase2"
+  }
+]
