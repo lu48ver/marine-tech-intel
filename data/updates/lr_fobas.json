@@ -1,0 +1,272 @@
+{
+  "source_id": "lr_fobas",
+  "source_name": "LR FOBAS",
+  "source_url": "https://www.lr.org/en/knowledge/press-room/",
+  "last_crawled_at": "2026-06-10T18:46:14+08:00",
+  "last_success_at": "2026-06-10T18:46:14+08:00",
+  "crawl_status": "success",
+  "items": [
+    {
+      "title": "FOBAS report warns of late year surge in marine fuel quality failures",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
+      "published_at": "2026-02-12",
+      "summary": "The new analysis, which follows the publication of the H1 report earlier in 2025, highlights a marked deterioration in fuel quality in the second half of 2025.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Alternative-fuelled ship orders remain significant in 2025",
+      "url": "https://www.lr.org/en/knowledge/insights-articles/alternative-fuelled-ship-orders-remain-significant-in-2025/",
+      "published_at": "2026-01-07",
+      "summary": "Discover how 2025 saw shipowners investing in alternative-fuel vessels, maintaining strong order momentum for a sustainable maritime future.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "insight article"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Biofuels emerge as superyachting’s next big step for decarbonisation",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/biofuels-emerge-as-superyachtings-next-big-step-for-decarbonisation/",
+      "published_at": "2025-09-24",
+      "summary": "Biofuels are emerging as one of the most proven and reliable alternative fuel options for reducing greenhouse gas emissions from shipping.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "LR launches Biofuel Advisory service to help accelerate shipping’s decarbonisation",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/lr-launches-biofuel-advisory-service-to-help-accelerate-shippings-decarbonisation/",
+      "published_at": "2025-09-16",
+      "summary": "The new service aims to support the shipping industry in safely and efficiently adopting biofuels to reduce greenhouse gas emissions.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Global bunker fuel quality holds steady as biofuel blends gain momentum",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/global-bunker-fuel-quality-holds-steady-as-biofuel-blends-gain-momentum/",
+      "published_at": "2025-08-18",
+      "summary": "LR’s latest FOBAS Fuel Insight report highlights broadly steady fuel quality with particular issues around high sediments and chemical contamination.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [
+        "bio_fuel"
+      ]
+    },
+    {
+      "title": "20/2025: IMO Guidance on the Carriage of Biofuels Blends by Conventional Bunker Ships",
+      "url": "https://www.lr.org/en/knowledge/class-news/20-25/",
+      "published_at": "2025-08-18",
+      "summary": "The International Maritime Organisation has approved its Interim Guidance on the Carriage of Blends of Biofuels and MARPOL Annex I Cargoes by Conventional Bunker Ships",
+      "tags": [
+        "fobas",
+        "fuel",
+        "class news"
+      ],
+      "topic_ids": [
+        "bio_fuel"
+      ]
+    },
+    {
+      "title": "Global Fuel Finder enhanced with new biofuels capability",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/global-fuel-finder-enhanced-with-new-biofuels-capability/",
+      "published_at": "2025-04-24",
+      "summary": "Discover Lloyd’s Register's enhanced Global Fuel Finder, now featuring biofuels. Make informed, sustainable fuel choices for safer marine operations.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [
+        "bio_fuel"
+      ]
+    },
+    {
+      "title": "Significant increase in biofuel usage to meet GHG reduction targets",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/significant-increase-in-biofuel-usage-to-meet-ghg-reduction-targets/",
+      "published_at": "2025-02-28",
+      "summary": "The latest FOBAS Fuel Insight Report highlights rising biofuel uptake, ongoing issues with off-specification fuels and the impact of new regulatory measures.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "21/2024 - Updated IMO fuel oil sampling guidelines",
+      "url": "https://www.lr.org/en/knowledge/class-news/21-24/",
+      "published_at": "2024-10-23",
+      "summary": "The IMO has published a joint circular updating the fuel oil sampling guidelines for compliance verification with MARPOL Annex VI and SOLAS Chapter II-2.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "class news"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "LR and Metcore link up for Mass Flow Meter certification",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2024/lr-and-metcore-link-up-for-mass-flow-meter-certification/",
+      "published_at": "2024-10-10",
+      "summary": "Independently accredited service will help ensure accuracy & reliability of bunker quantities",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Fuel quality remains critical issue for the maritime industry",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2024/fuel-quality-remains-critical-issue-for-the-maritime-industry/",
+      "published_at": "2024-10-10",
+      "summary": "Lloyd’s Register has released its Fuel Quality Report 2024, offering vital insights into the evolving landscape of marine fuel quality.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "06/2024 - Information about the flashpoint of fuels on Bunker Delivery Notes",
+      "url": "https://www.lr.org/en/knowledge/class-news/06-24/",
+      "published_at": "2024-03-07",
+      "summary": "Find out more about the flashpoint of fuels on Bunker Delivery Note.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "class news"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "18/2023 - IMO publishes interim guidance on the calculations of biofuel carbon conversion factor (CF) for IMO DCS and CII calculations",
+      "url": "https://www.lr.org/en/knowledge/class-news/18-23/",
+      "published_at": "2023-09-28",
+      "summary": "IMO publishes interim guidance on the calculations of biofuel carbon conversion factor (CF) for IMO DCS and CII calculations",
+      "tags": [
+        "fobas",
+        "fuel",
+        "class news"
+      ],
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "The rising importance of fuel testing for superyachts",
+      "url": "https://www.lr.org/en/knowledge/insights-articles/rising-importance-of-fuel-testing-superyachts/",
+      "published_at": "2023-01-24",
+      "summary": "Testing fuels is the best way for superyachts to mitigate the safety risks and operational issues that prevail even with distillate fuels.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "insight article"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "18/2022 - MARPOL ANNEX VI and the use of Marine Biofuels",
+      "url": "https://www.lr.org/en/knowledge/class-news/18-22/",
+      "published_at": "2022-12-14",
+      "summary": "In recent years ship operators have been looking at the possibility of using other marine biofuel grades, either as a replacement fuel or a blend component.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "class news"
+      ],
+      "topic_ids": [
+        "bio_fuel"
+      ]
+    },
+    {
+      "title": "Capital and LR explore the use of biofuels in pilot research project",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2022/capital-and-lr-explore-the-use-of-biofuels-in-pilot-research-project/",
+      "published_at": "2022-06-08",
+      "summary": "Biofuel trials onboard Capital Ship Management Corp. tanker to advance research for alternative fuels.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [
+        "bio_fuel"
+      ]
+    },
+    {
+      "title": "A less prescriptive future for shipping maintenance lies ahead",
+      "url": "https://www.lr.org/en/knowledge/insights-articles/a-less-prescriptive-future-for-shipping-maintenance-is-coming-into-view/",
+      "published_at": "2020-10-15",
+      "summary": "Usman Muhammad, Product Manager - Fuel Advisory at LR, analyses issues and explores actions to avoid costly failures associated with fuel transitions.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "insight article"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "The importance of cold flow properties of very low sulphur fuel oils.",
+      "url": "https://www.lr.org/en/knowledge/insights-articles/the-importance-of-cold-flow-properties-of-very-low-sulphur-fuel-oils/",
+      "published_at": "2020-07-28",
+      "summary": "Douglas Raitt Regional at Lloyd's Register looks at why it is critical for ship owners to order bunker fuel based on the suitability of its use.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "insight article"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "BLOC announces demonstrator consortium for blockchain use in bunkering",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2018/bloc-announces-demonstrator-consortium-for-blockchain-use-in-bunkering/",
+      "published_at": "2018-07-26",
+      "summary": "Consortium will demonstrate the application of blockchain as a means of facilitating an increase in transparency and traceability in marine fuel supply chain",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Guardian Marine Testing acquisition.",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2015/guardian-marine-testing-acquisition/",
+      "published_at": "2015-10-14",
+      "summary": "Acquisition combines Lloyd’s Register’s deep technical expertise with Guardian Marine Testing’s swift and efficient fuel testing operation",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": []
+    }
+  ]
+}

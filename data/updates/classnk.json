@@ -1,0 +1,290 @@
+{
+  "source_id": "classnk",
+  "source_name": "ClassNK Topics",
+  "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
+  "last_crawled_at": "2026-06-13T18:54:21+08:00",
+  "last_success_at": "2026-06-13T18:54:21+08:00",
+  "crawl_status": "success",
+  "items": [
+    {
+      "title": "Preliminary Report of MSC111 (May 2026)",
+      "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+      "published_at": "2026-05-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Preliminary Report of MEPC84 (May 2026)",
+      "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MEPC84_sumE.pdf",
+      "published_at": "2026-05-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Preliminary Report of IMO MEPC Extraordinaty Session (October 2025)",
+      "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MEPC ES2_sumE.pdf",
+      "published_at": "2025-10-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC110 (June 2025)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1363e.pdf",
+      "published_at": "2025-06-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MEPC83 (April 2025)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1354e.pdf",
+      "published_at": "2025-04-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC109 (December 2024)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1350e.pdf",
+      "published_at": "2024-12-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MEPC82 (October 2024)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1343e.pdf",
+      "published_at": "2024-10-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC108 (May 2024)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1335e.pdf",
+      "published_at": "2024-05-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MEPC81 (March 2024)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1325e.pdf",
+      "published_at": "2024-03-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MEPC80 (July 2023)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1309e.pdf",
+      "published_at": "2023-07-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC107 (June 2023)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1303e.pdf",
+      "published_at": "2023-06-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MEPC79 (December 2022)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1293e.pdf",
+      "published_at": "2022-12-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC106 (November 2022)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1287e.pdf",
+      "published_at": "2022-11-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MEPC78 (June 2022)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1275e.pdf",
+      "published_at": "2022-06-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC105 (April 2022)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1270e.pdf",
+      "published_at": "2022-04-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MEPC77 (November 2021)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1259e.pdf",
+      "published_at": "2021-11-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC104 (October 2021)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1251e.pdf",
+      "published_at": "2021-10-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MEPC76 (June 2021)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1245e.pdf",
+      "published_at": "2021-06-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "mepc"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Outcome of MSC103 (May 2021)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1241e.pdf",
+      "published_at": "2021-05-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Outcome of MSC102 (November 2020)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1229e.pdf",
+      "published_at": "2020-11-01",
+      "summary": "",
+      "tags": [
+        "imo",
+        "iacs",
+        "regulatory",
+        "msc"
+      ],
+      "topic_ids": []
+    }
+  ]
+}
