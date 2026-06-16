@@ -1,8 +1,0 @@
-Add daily GitHub Actions workflow, README and CHANGELOG
-
-- daily_update.yml: cron 00:00 UTC + manual dispatch; crawl, build,
-  commit data to main, publish build/ to gh-pages (peaceiris)
-- README: local run, GitHub Pages deploy (step-by-step), adding a source
-- CHANGELOG: MVP crawlers, schema additions, theme change
-
-Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
