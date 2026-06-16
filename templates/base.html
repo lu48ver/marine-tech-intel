@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marine Tech Intel — 海事技術情報終端</title>
+  <meta name="description" content="工務部海事技術情報彙總:自動匯整 LR FOBAS、Tokyo MoU、ClassNK 等權威來源的最新通告與報告。">
+  <!-- Google Fonts: Fraunces (headings), Noto Sans TC (body), JetBrains Mono (data) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/style.css?v={{ asset_version }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark">◈</span>
+        <div class="brand-text">
+          <h1>MARINE TECH INTEL</h1>
+          <p class="brand-sub">海事技術情報終端 · 工務部</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="meta-label">LAST BUILD</span>
+        <span class="meta-value">{{ generated_at }} <span class="tz">UTC+8</span></span>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab is-active" role="tab" data-tab="brief">BRIEF</button>
+      <button class="tab" role="tab" data-tab="sources">SOURCES</button>
+      <button class="tab" role="tab" data-tab="topics">HOT TOPICS</button>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <p>Marine Tech Intel · 靜態彙整,資料以各來源官方公告為準 · Built with Python + Jinja2</p>
+  </footer>
+
+  <script src="static/main.js?v={{ asset_version }}"></script>
+</body>
+</html>

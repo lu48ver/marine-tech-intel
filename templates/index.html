@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block content %}
+
+{# ---------- BRIEF: newest cross-source updates ---------- #}
+<section id="panel-brief" class="panel is-active" role="tabpanel">
+  <div class="panel-head">
+    <h2 class="panel-title">最新情報</h2>
+    <p class="panel-desc">跨來源最近 {{ brief_items|length }} 條更新,依發布日期排序。</p>
+  </div>
+  <ol class="brief-list">
+    {% for item in brief_items %}
+    <li class="brief-item">
+      <div class="brief-date">{{ item.published_at }}</div>
+      <div class="brief-body">
+        <a class="brief-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        {% if item.summary %}<p class="brief-summary">{{ item.summary }}</p>{% endif %}
+        <div class="brief-meta">
+          <span class="src-chip">{{ item.source_name }}</span>
+          {% for tid in item.topic_ids %}<span class="topic-chip" data-topic="{{ tid }}">{{ tid }}</span>{% endfor %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+{# ---------- SOURCES: one card per source ---------- #}
+<section id="panel-sources" class="panel" role="tabpanel">
+  <div class="panel-head">
+    <h2 class="panel-title">情報來源</h2>
+    <p class="panel-desc">各來源最近 {{ 5 }} 條,並標示最後成功更新時間。</p>
+  </div>
+  <div class="source-grid">
+    {% for src in sources %}
+    <article class="source-card">
+      <div class="source-card-head">
+        <div>
+          <h3 class="source-name">{{ src.source_name }}</h3>
+          <span class="source-cat">{{ src.category }}</span>
+        </div>
+        <div class="source-status">
+          {% if src.crawl_status != 'success' %}
+          <span class="status-badge status-error" title="{{ src.error_message }}">抓取失敗</span>
+          {% endif %}
+          <span class="freshness freshness-{{ src.staleness_class }}">{{ src.staleness_label }}</span>
+        </div>
+      </div>
+      {% if src["items"] %}
+      <ul class="source-items">
+        {% for item in src["items"] %}
+        <li>
+          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+          <span class="item-date">{{ item.published_at }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="source-empty">尚無資料</p>
+      {% endif %}
+      <a class="source-foot" href="{{ src.source_url }}" target="_blank" rel="noopener">前往來源官網 →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{# ---------- HOT TOPICS: expandable topic cards ---------- #}
+<section id="panel-topics" class="panel" role="tabpanel">
+  <div class="panel-head">
+    <h2 class="panel-title">熱門議題</h2>
+    <p class="panel-desc">點議題標題展開,顯示對應的最新文章。</p>
+  </div>
+  <div class="topic-list">
+    {% for topic in topics %}
+    <article class="topic-card" data-priority="{{ topic.priority }}">
+      <button class="topic-toggle" aria-expanded="false">
+        <span class="topic-pri pri-{{ topic.priority }}">{{ topic.priority|upper }}</span>
+        <span class="topic-name">{{ topic.name }}</span>
+        <span class="topic-count">{{ topic.item_count }}</span>
+        <span class="topic-caret">▸</span>
+      </button>
+      <div class="topic-body" hidden>
+        <p class="topic-summary">{{ topic.summary }}</p>
+        {% if topic["items"] %}
+        <ul class="topic-items">
+          {% for item in topic["items"] %}
+          <li>
+            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            <span class="item-meta">{{ item.source_name }} · {{ item.published_at }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="source-empty">目前尚無對應文章</p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

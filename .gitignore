@@ -13,3 +13,6 @@ Thumbs.db
 
 # Local archive of spec materials (extracted into files/)
 files.zip
+
+# Claude Code local settings (keep launch.json, ignore machine-local prefs)
+.claude/settings.local.json
