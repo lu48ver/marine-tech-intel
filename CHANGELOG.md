@@ -2,6 +2,17 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-06-16 (Phase 2 — 新增 3 來源)
+
+### 新增
+- **CIMAC WG7 Fuels** (`crawlers/cimac.py`):抓 WG7 燃油指南/FAQ PDF;日期解析自 "(MM/YYYY)";
+  尊重頁面 `<base href=".../cms/">` 解析 PDF 連結。
+- **Paris MoU** (`crawlers/paris_mou.py`):抓 Press releases 分類 (委員會、CIC、年報、Focused
+  Inspection),避開個別船舶 banning 雜訊;序數日期 "2nd of June 2026" 正規化。
+- **Gard Insight** (`crawlers/gard.py`):列表為 JS 渲染,改從 `sitemap insights.xml` 取最新文章,
+  逐篇讀 JSON-LD (headline / datePublished / description)。
+- 三者皆在 `sources.json` 設 `enabled: true` 並註冊進 `run_all_crawlers.py`。
+
 ## 2026-06-16 (Phase 2 — AI 摘要)
 
 ### 新增

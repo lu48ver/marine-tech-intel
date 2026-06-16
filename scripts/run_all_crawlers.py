@@ -17,8 +17,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from crawlers.base import DATA_DIR  # noqa: E402
+from crawlers.cimac import CimacCrawler  # noqa: E402
 from crawlers.classnk import ClassNkCrawler  # noqa: E402
+from crawlers.gard import GardCrawler  # noqa: E402
 from crawlers.lr_fobas import LrFobasCrawler  # noqa: E402
+from crawlers.paris_mou import ParisMouCrawler  # noqa: E402
 from crawlers.tokyo_mou import TokyoMouCrawler  # noqa: E402
 
 logger = logging.getLogger("run_all")
@@ -29,6 +32,9 @@ CRAWLER_CLASSES = {
     "lr_fobas": LrFobasCrawler,
     "tokyo_mou": TokyoMouCrawler,
     "classnk": ClassNkCrawler,
+    "cimac_wg7": CimacCrawler,
+    "paris_mou": ParisMouCrawler,
+    "gard_insight": GardCrawler,
 }
 
 

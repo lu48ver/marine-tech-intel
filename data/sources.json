@@ -32,25 +32,25 @@
     "source_url": "https://www.cimac.com/working-groups/wg7-fuels/index.html",
     "category": "Tech",
     "update_frequency": "季度",
-    "enabled": false,
+    "enabled": true,
     "phase": "phase2"
   },
   {
     "source_id": "paris_mou",
     "source_name": "Paris MoU",
-    "source_url": "https://parismou.org/inspections-risk/library-faq/cic",
+    "source_url": "https://parismou.org/publications?field_news_category_target_id=2",
     "category": "PSC",
     "update_frequency": "滾動",
-    "enabled": false,
+    "enabled": true,
     "phase": "phase2"
   },
   {
     "source_id": "gard_insight",
     "source_name": "Gard Insight",
-    "source_url": "https://www.gard.no/",
+    "source_url": "https://www.gard.no/insights",
     "category": "P&I",
     "update_frequency": "每月",
-    "enabled": false,
+    "enabled": true,
     "phase": "phase2"
   }
 ]

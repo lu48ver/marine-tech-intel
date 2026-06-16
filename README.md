@@ -4,7 +4,7 @@
 以靜態 HTML 呈現,部署在 GitHub Pages。一個地方看到所有更新,取代「每個人各自上 N 個網站翻」。
 
 - **線上網址**(部署完成後)：`https://lu48ver.github.io/marine-tech-intel/`
-- **目前來源**：LR FOBAS(燃油)、Tokyo MoU(PSC)、ClassNK Topics(IMO/IACS)
+- **目前來源**：LR FOBAS(燃油)、Tokyo MoU(PSC)、ClassNK Topics(IMO/IACS)、CIMAC WG7(燃油技術)、Paris MoU(PSC)、Gard Insight(P&I)
 - **技術**：Python 爬蟲 → JSON → Jinja2 套版 → 純靜態 HTML，無資料庫、無後端、無前端框架。
 
 ---
