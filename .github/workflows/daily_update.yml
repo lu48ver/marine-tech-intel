@@ -1,0 +1,59 @@
+name: Daily Update
+
+# Runs the crawlers, rebuilds the static site, commits refreshed data back to
+# main and publishes build/ to the gh-pages branch.
+on:
+  schedule:
+    # 00:00 UTC == 08:00 Taiwan time, once per day
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}  # allow manual "Run workflow" button
+
+# Needed to push data/ back to main and to publish gh-pages
+permissions:
+  contents: write
+
+# Avoid overlapping runs if a previous one is still going
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crawlers
+        # A total crawl failure must not block the rebuild/deploy: BaseCrawler
+        # preserves the previous JSON, so the site still ships last-known data.
+        continue-on-error: true
+        run: python scripts/run_all_crawlers.py
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - name: Commit refreshed data to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Only commit if something actually changed; [skip ci] avoids re-trigger
+          git diff --staged --quiet || git commit -m "chore: daily crawl data update [skip ci]"
+          git push
+
+      - name: Publish to GitHub Pages (gh-pages branch)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          # .nojekyll is added automatically so /static assets are served as-is
