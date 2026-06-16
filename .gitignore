@@ -16,3 +16,7 @@ files.zip
 
 # Claude Code local settings (keep launch.json, ignore machine-local prefs)
 .claude/settings.local.json
+
+# Scratch / temp files used during development
+_commitmsg.txt
+_probe*
