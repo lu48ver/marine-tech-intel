@@ -2,6 +2,20 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-06-16 (Phase 2 — AI 摘要)
+
+### 新增
+- `scripts/summarize.py`:用 OpenAI (預設 `gpt-4o-mini`) 把抓回的文章摘要成繁體中文重點。
+  - 依 content-type / 檔頭判斷 PDF 或 HTML 抓取原文 (Tokyo MoU 部分公告是 PDF 但網址非 .pdf)。
+  - 嚴格基於原文,抓不到內文則跳過,不從標題瞎掰 (防幻覺)。
+  - 摘要快取於 `data/summaries.json` (以 URL 為 key),同一篇只摘要一次。
+  - 金鑰來源:環境變數 `OPENAI_API_KEY` 或本機 `.openai_key` 檔 (兩者皆不進 repo)。
+- 前端 BRIEF 與議題展開處顯示 AI 摘要,並加「AI」標記區隔機器產生內容。
+- `daily_update.yml` 新增摘要步驟 (僅在設定 `OPENAI_API_KEY` Secret 時執行,失敗不擋部署)。
+
+### Schema
+- 每個 item 新增選用欄位 `summary_zh` (AI 產生的中文摘要)。
+
 ## 2026-06-16
 
 ### 新增

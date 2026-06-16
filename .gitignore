@@ -20,3 +20,7 @@ files.zip
 # Scratch / temp files used during development
 _commitmsg.txt
 _probe*
+
+# Local API key for testing (never commit secrets)
+.openai_key
+.env

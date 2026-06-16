@@ -55,13 +55,18 @@ python3 -m pip install -r requirements.txt
 # 1. 跑所有爬蟲 (抓最新資料,寫進 data/updates/)
 python scripts/run_all_crawlers.py
 
-# 2. 產出靜態網站到 build/
+# 2. (選用) AI 中文摘要 — 需先設好金鑰,見下方「AI 摘要」一節
+python scripts/summarize.py
+
+# 3. 產出靜態網站到 build/
 python scripts/build_site.py
 
-# 3. 本機預覽
+# 4. 本機預覽
 python -m http.server 8000 --directory build/
 # 瀏覽器開 http://localhost:8000
 ```
+
+> 第 2 步是選用的。沒設金鑰就跳過,網站照樣能建置,只是沒有 AI 中文摘要。
 
 > 改了 CSS 卻看到舊樣式?那是瀏覽器快取。本專案已對 CSS/JS 加版本號,
 > 重新 `build_site.py` 再重整即可;真的卡住就按 **Ctrl + F5** 強制重整。
@@ -109,7 +114,40 @@ python -m crawlers.lr_fobas      # 或 tokyo_mou / classnk
 
 ---
 
-## 三、怎麼新增一個來源
+## 三、AI 中文摘要 (選用)
+
+把抓回來的文章 (尤其 ClassNK / Tokyo MoU 那些只有標題的 PDF) 自動摘要成繁體中文重點。
+摘要只根據抓回的原文,抓不到內文就跳過、不會瞎掰;結果快取在 `data/summaries.json`,
+同一篇文章只摘要一次,之後每天幾乎零成本。預設模型 `gpt-4o-mini`,50 篇約 US$0.03。
+
+### 本機測試
+
+在專案根目錄建立 `.openai_key`,裡面只放一行 OpenAI 金鑰 (此檔已 gitignore,不會上傳):
+
+```powershell
+Set-Content -Path .openai_key -Value "sk-你的金鑰" -NoNewline -Encoding ascii
+python scripts/summarize.py --dry-run   # 先看會摘要哪些,不花錢
+python scripts/summarize.py             # 實際摘要
+```
+
+可用 `--limit 3` 只摘要 3 篇試水溫,或 `OPENAI_MODEL` 環境變數換模型。
+
+### 讓 GitHub 每天自動摘要
+
+把金鑰放進 repo 的加密 Secret (不會出現在程式碼裡):
+
+1. **Settings** → 左側 **Secrets and variables** → **Actions**
+2. **New repository secret**
+3. **Name** 填 `OPENAI_API_KEY`,**Secret** 貼你的金鑰 → **Add secret**
+
+設好後,每天的自動排程就會在抓完資料後自動產生摘要。**沒設這個 Secret 也沒關係** ——
+摘要步驟會自動跳過,網站照常部署,只是沒有 AI 摘要。
+
+> 想停用 AI 摘要:把這個 Secret 刪掉即可。
+
+---
+
+## 四、怎麼新增一個來源
 
 以新增來源 `example` 為例:
 

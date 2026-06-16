@@ -140,6 +140,24 @@ a:hover { text-decoration: underline; }
 .brief-link { font-size: 16px; font-weight: 500; color: var(--text-0); }
 .brief-link:hover { color: var(--accent); }
 .brief-summary { margin: 6px 0 0; font-size: 13px; color: var(--text-1); }
+
+/* AI-generated summary marker — make machine origin visible, not official */
+.ai-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--info);
+  background: rgba(45, 117, 147, 0.12);
+  border: 1px solid rgba(45, 117, 147, 0.3);
+  border-radius: 4px;
+  padding: 0 4px;
+  margin-right: 6px;
+  vertical-align: 1px;
+  cursor: help;
+}
+.item-summary { margin: 4px 0 0; font-size: 13px; color: var(--text-1); line-height: 1.55; }
 .brief-meta { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
 
 .src-chip, .topic-chip {

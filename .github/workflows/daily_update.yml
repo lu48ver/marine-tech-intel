@@ -39,6 +39,19 @@ jobs:
         continue-on-error: true
         run: python scripts/run_all_crawlers.py
 
+      - name: Summarize new items (AI)
+        # Optional: only runs if the OPENAI_API_KEY secret is set. Caching means
+        # only newly-crawled items cost anything. Never blocks the deploy.
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -n "$OPENAI_API_KEY" ]; then
+            python scripts/summarize.py
+          else
+            echo "OPENAI_API_KEY not set — skipping AI summaries"
+          fi
+
       - name: Build site
         run: python scripts/build_site.py
 
