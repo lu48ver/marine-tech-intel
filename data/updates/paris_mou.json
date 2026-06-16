@@ -2,8 +2,8 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications?field_news_category_target_id=2",
-  "last_crawled_at": "2026-06-16T16:43:16+08:00",
-  "last_success_at": "2026-06-16T16:43:16+08:00",
+  "last_crawled_at": "2026-06-16T19:40:00+08:00",
+  "last_success_at": "2026-06-16T19:40:00+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -15,8 +15,7 @@
         "psc",
         "paris-mou"
       ],
-      "topic_ids": [],
-      "summary_zh": "巴黎備忘錄（Paris MoU）於2026年5月18日至22日在英國格拉斯哥成功召開第59屆委員會會議，討論了加強海事安全、環境保護及海員福利的重要進展。會議決定啟動針對24米及以上漁船的自願性港口國檢查統一方法的發展，並成立專門工作小組來支持此倡議。此外，委員會強調了加強國際合作和信息交流的迫切需求，以應對船舶欺詐登記和證書的問題。"
+      "topic_ids": []
     },
     {
       "title": "Joint concentrated inspection campaign on Ballast Water Management",
@@ -29,8 +28,7 @@
       ],
       "topic_ids": [
         "cic_2026"
-      ],
-      "summary_zh": "東京和巴黎港口國控制備忘錄的成員機構將啟動一項關於壓載水管理的聯合集中檢查活動。此活動旨在確定船舶是否符合2004年國際船舶壓載水及沉積物控制與管理公約的要求，檢查將涵蓋壓載水管理計劃的批准、船員熟悉度及壓載水記錄等方面。檢查活動將於2025年9月1日至11月30日進行，期間每艘船僅接受一次檢查，結果將在相關網站上公布。"
+      ]
     },
     {
       "title": "2024 Paris MoU Annual Report “Progress and performance; highlights of the Paris MoU 2024\"",
@@ -41,8 +39,7 @@
         "psc",
         "paris-mou"
       ],
-      "topic_ids": [],
-      "summary_zh": "巴黎公約於2025年7月1日發布2024年年報，概述了2024年的活動和統計數據。2024年的扣留率上升至4.03%，相比2023年的3.81%有所增加，顯示出持續高扣留比例的趨勢。巴黎公約將在未來幾年密切監測此趨勢以評估其影響。"
+      "topic_ids": []
     },
     {
       "title": "Paris MoU 58th Committee meets in Malmö, Sweden",
@@ -53,8 +50,7 @@
         "psc",
         "paris-mou"
       ],
-      "topic_ids": [],
-      "summary_zh": "巴黎公約港口國控制備忘錄（Paris MoU）於2025年5月26日至30日在瑞典馬爾默成功召開第58屆委員會會議，會議重點在於提升海事安全、環境保護及海員福祉。會議回顧了2024年進行的集中檢查活動，強調行業需更加重視遵守海事勞工公約的要求，特別是在草擬海員雇用合約時。委員會還確認了與東京公約的聯合檢查活動計劃，並決定繼續進行針對環境污染的檢查活動。"
+      "topic_ids": []
     },
     {
       "title": "Concerning results found on the Paris MoU Focused Inspection Campaign on Fire Doors",
@@ -67,8 +63,7 @@
       ],
       "topic_ids": [
         "cic_2026"
-      ],
-      "summary_zh": "在巴黎公約的57次委員會會議中，討論了2023年9月1日至11月30日進行的火災安全集中檢查活動的結果。整體合規情況令人滿意，但在防火門的良好工作狀態（9.3%不合規）和消防演習（9.2%不合規）方面表現不佳。隨後，巴黎公約於2024年7月1日至28日進行了針對防火門的專項檢查，結果顯示有13.9%的不合規情況，其中30%被認為是未能執行ISM規範。巴黎公約再次強調合規性的重要性，呼籲行業採取適當措施。"
+      ]
     }
   ]
 }

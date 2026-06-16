@@ -2,8 +2,8 @@
   "source_id": "lr_fobas",
   "source_name": "LR FOBAS",
   "source_url": "https://www.lr.org/en/knowledge/press-room/",
-  "last_crawled_at": "2026-06-16T16:43:00+08:00",
-  "last_success_at": "2026-06-16T16:43:00+08:00",
+  "last_crawled_at": "2026-06-16T19:39:56+08:00",
+  "last_success_at": "2026-06-16T19:39:56+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -16,8 +16,7 @@
         "fuel",
         "press release"
       ],
-      "topic_ids": [],
-      "summary_zh": "FOBAS報告指出，2025年下半年海洋燃料質量顯著惡化。這項新分析是基於2025年上半年報告的結果。"
+      "topic_ids": []
     },
     {
       "title": "Alternative-fuelled ship orders remain significant in 2025",
@@ -29,8 +28,7 @@
         "fuel",
         "insight article"
       ],
-      "topic_ids": [],
-      "summary_zh": "2025年，船東持續投資於替代燃料船，顯示出對可持續海事未來的強勁訂單動能。"
+      "topic_ids": []
     },
     {
       "title": "Biofuels emerge as superyachting’s next big step for decarbonisation",
@@ -45,8 +43,7 @@
       "topic_ids": [
         "bio_fuel",
         "cii_ets"
-      ],
-      "summary_zh": "生物燃料正成為減少航運溫室氣體排放的最可靠替代燃料選項之一。"
+      ]
     },
     {
       "title": "LR launches Biofuel Advisory service to help accelerate shipping’s decarbonisation",
@@ -61,8 +58,7 @@
       "topic_ids": [
         "bio_fuel",
         "cii_ets"
-      ],
-      "summary_zh": "LR推出生物燃料諮詢服務，旨在協助航運業安全有效地採用生物燃料，以減少溫室氣體排放。"
+      ]
     },
     {
       "title": "Global bunker fuel quality holds steady as biofuel blends gain momentum",
@@ -76,8 +72,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "LR最新的FOBAS燃料洞察報告顯示，全球燃料品質基本穩定，但存在高沉積物和化學污染的特定問題。"
+      ]
     },
     {
       "title": "20/2025: IMO Guidance on the Carriage of Biofuels Blends by Conventional Bunker Ships",
@@ -91,8 +86,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "國際海事組織已批准其關於傳統加油船運輸生物燃料混合物及MARPOL附錄I貨物的臨時指導。"
+      ]
     },
     {
       "title": "Global Fuel Finder enhanced with new biofuels capability",
@@ -106,8 +100,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "Lloyd's Register 的全球燃料尋找器已增強，現在具備生物燃料功能。這有助於做出明智且可持續的燃料選擇，以確保更安全的海洋作業。"
+      ]
     },
     {
       "title": "Significant increase in biofuel usage to meet GHG reduction targets",
@@ -122,8 +115,7 @@
       "topic_ids": [
         "bio_fuel",
         "cii_ets"
-      ],
-      "summary_zh": "最新的FOBAS燃料洞察報告指出，生物燃料的使用顯著增加，並持續存在不符合規格的燃料問題，以及新法規措施的影響。"
+      ]
     },
     {
       "title": "21/2024 - Updated IMO fuel oil sampling guidelines",
@@ -135,8 +127,7 @@
         "fuel",
         "class news"
       ],
-      "topic_ids": [],
-      "summary_zh": "國際海事組織（IMO）發布了聯合通函，更新了燃油取樣指導方針，以便符合MARPOL附錄VI和SOLAS第II-2章的合規驗證要求。"
+      "topic_ids": []
     },
     {
       "title": "LR and Metcore link up for Mass Flow Meter certification",
@@ -148,8 +139,7 @@
         "fuel",
         "press release"
       ],
-      "topic_ids": [],
-      "summary_zh": "LR和Metcore合作進行質量流量計的認證，獨立認證服務將有助於確保燃料量的準確性和可靠性。"
+      "topic_ids": []
     },
     {
       "title": "Fuel quality remains critical issue for the maritime industry",
@@ -161,8 +151,7 @@
         "fuel",
         "press release"
       ],
-      "topic_ids": [],
-      "summary_zh": "Lloyd's Register 發布了 2024 年燃料質量報告，提供了有關海洋燃料質量變化的重要見解。燃料質量仍然是海事行業的一個關鍵問題。"
+      "topic_ids": []
     },
     {
       "title": "06/2024 - Information about the flashpoint of fuels on Bunker Delivery Notes",
@@ -189,8 +178,7 @@
       "topic_ids": [
         "bio_fuel",
         "cii_ets"
-      ],
-      "summary_zh": "國際海事組織（IMO）發布了有關生物燃料碳轉換係數（CF）計算的臨時指導，適用於IMO DCS和CII計算。"
+      ]
     },
     {
       "title": "The rising importance of fuel testing for superyachts",
@@ -202,8 +190,7 @@
         "fuel",
         "insight article"
       ],
-      "topic_ids": [],
-      "summary_zh": "對於超級遊艇來說，測試燃料是減輕安全風險和操作問題的最佳方法，即使是使用蒸餾燃料時也不例外。"
+      "topic_ids": []
     },
     {
       "title": "18/2022 - MARPOL ANNEX VI and the use of Marine Biofuels",
@@ -217,8 +204,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "近年來，船舶營運商正在考慮使用其他海洋生物燃料等級，作為替代燃料或混合成分。"
+      ]
     },
     {
       "title": "Capital and LR explore the use of biofuels in pilot research project",
@@ -232,8 +218,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "資本船舶管理公司正在其油輪上進行生物燃料試驗，以推進替代燃料的研究。"
+      ]
     },
     {
       "title": "A less prescriptive future for shipping maintenance lies ahead",
@@ -245,8 +230,7 @@
         "fuel",
         "insight article"
       ],
-      "topic_ids": [],
-      "summary_zh": "Usman Muhammad，LR的燃料顧問產品經理，分析了與燃料轉換相關的問題，並探討了避免昂貴故障的行動。"
+      "topic_ids": []
     },
     {
       "title": "The importance of cold flow properties of very low sulphur fuel oils.",
@@ -258,8 +242,7 @@
         "fuel",
         "insight article"
       ],
-      "topic_ids": [],
-      "summary_zh": "道格拉斯·賴特（Douglas Raitt）在倫敦保險集團（Lloyd's Register）指出，船東在訂購燃料油時，必須根據其適用性來選擇低硫燃料油的冷流特性，這是至關重要的。"
+      "topic_ids": []
     },
     {
       "title": "BLOC announces demonstrator consortium for blockchain use in bunkering",
@@ -271,8 +254,7 @@
         "fuel",
         "press release"
       ],
-      "topic_ids": [],
-      "summary_zh": "BLOC宣布成立示範聯盟，將展示區塊鏈在船舶燃料供應鏈中的應用。此技術旨在提高透明度和可追溯性。"
+      "topic_ids": []
     },
     {
       "title": "Guardian Marine Testing acquisition.",
@@ -284,8 +266,7 @@
         "fuel",
         "press release"
       ],
-      "topic_ids": [],
-      "summary_zh": "收購將勞埃德註冊公司的深厚技術專長與Guardian Marine Testing迅速高效的燃料測試運營結合在一起。"
+      "topic_ids": []
     }
   ]
 }

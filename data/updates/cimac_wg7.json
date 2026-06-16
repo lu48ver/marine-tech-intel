@@ -2,8 +2,8 @@
   "source_id": "cimac_wg7",
   "source_name": "CIMAC WG7 Fuels",
   "source_url": "https://www.cimac.com/working-groups/wg7-fuels/index.html",
-  "last_crawled_at": "2026-06-16T16:43:11+08:00",
-  "last_success_at": "2026-06-16T16:43:11+08:00",
+  "last_crawled_at": "2026-06-16T19:39:59+08:00",
+  "last_success_at": "2026-06-16T19:39:59+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -16,8 +16,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "CIMAC燃料工作組（WG7）報告指出，在2023年3月至7月期間，美國墨西哥灣沿岸的超低硫燃料油（VLSFO）使用後，出現了異常的引擎運行問題，約1%的船隻報告了類似問題。為了調查這些事件，CIMAC成立了事故應對小組（IRSG），並收集了燃料分析數據以識別潛在的燃料質量趨勢。初步分析顯示，問題燃料與非問題燃料在某些參數上存在顯著差異，包括粘度、沉積物水平和磷含量。"
+      "topic_ids": []
     },
     {
       "title": "CIMAC WG7 Fuels Guideline - ISO 8217:2024 - Design and operation of fuel cleaning systems for diesel engines",
@@ -31,8 +30,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "CIMAC 指南提供了設計和操作柴油引擎燃料清潔系統的關鍵考量，包括當前燃料的特性、燃料系統設計及操作實踐。安全處理燃料需要四個關鍵要素，包括正確選擇 ISO 8217 燃料等級、靈活的燃料系統設計、供應點燃料特性資訊以及受過良好訓練的工程師。該指南僅供參考，並不構成具體建議或保證。"
+      ]
     },
     {
       "title": "CIMAC WG7 Fuels Guideline - ISO 8217:2024 - Overview and interpretation of total sediment test results in the context of ISO 8217:2024",
@@ -46,8 +44,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "CIMAC 指南提供了如何評估和解釋 ISO 8217:2024 中殘餘海洋燃料的沉積物測試結果的概述。該文件強調了三種沉積物測試方法的應用，並新增了兩個表格，要求報告潛在總沉積物（TSP）、加速總沉積物（TSA）和現存總沉積物（TSE）的內容。這些測試結果有助於優化燃料的儲存、處理和使用。"
+      ]
     },
     {
       "title": "CIMAC WG7 Fuels Guideline - ISO 8217:2024 - Marine-fuels containing FAME; A guideline for shipowners & operators",
@@ -61,8 +58,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "該CIMAC指導文件提供了有關含FAME海洋燃料的組成和特性概述，以及使用這些燃料所需的盡職調查。文件強調了在使用前的準備工作、材料相容性、儲存罐和燃料處理系統等操作考量。該指導文件僅供參考，並不構成任何建議或推薦。"
+      ]
     },
     {
       "title": "CIMAC WG7 Fuels Guideline - ISO 8217:2024 - FAQ",
@@ -76,8 +72,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "CIMAC WG7發布的ISO 8217:2024指導文件提供了有關最新海洋燃料規範的常見問題解答。該文件僅供參考，並不構成法律建議或推薦，CIMAC對其內容的準確性不承擔任何責任。新標準包括四個表格，並涵蓋了生物燃料的相關規定，對於燃料的組成和性質有明確的要求。"
+      ]
     },
     {
       "title": "Frequently Asked Questions ISO 6583:2024: Methanol as a fuel for marine applications – General requirements and specifications",
@@ -91,8 +86,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "ISO 6583:2024 是首個針對甲醇作為海洋應用燃料的國際標準，提供了相關的要求和規範。該指南旨在回答與此標準相關的常見問題，並不構成法律建議或推薦。CIMAC 對於所提供信息的準確性和完整性不承擔任何責任。"
+      ]
     },
     {
       "title": "CIMAC WG7 Fuels Guideline - ISO 8217:2024 - The Interpretation of Marine Fuel Analysis Test Results",
@@ -106,8 +100,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "CIMAC WG7發布的《海洋燃料分析測試結果解釋指導》旨在提供海洋燃料分析結果的解釋概述，並不構成具體建議或保證。該指導的第二版於2024年4月獲得批准，涵蓋了ISO 8217中海洋燃料特性的測試方法及其解釋，並包含了最新的測試數據和方法。"
+      ]
     },
     {
       "title": "CIMAC WG7 Fuels - 2022 Organic chloride fuel incidents (10/2022).",
@@ -119,8 +112,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "在2022年2月和3月，超過100艘船舶在新加坡加油的高硫殘油中報告了操作問題，包括燃油泵卡住和引擎性能失常。調查顯示，這些燃油雖符合ISO 8217標準，但含有高濃度的有機氯化合物，特別是1,2-二氯乙烷。隨著問題的發現，業界迅速將含有這些化合物的燃油撤回，並進行進一步的原因分析以確定其對操作問題的影響。"
+      "topic_ids": []
     },
     {
       "title": "CIMAC Guideline: General guidance in marine fuel handling in connection to stability and compatibility (01/2019).",
@@ -132,8 +124,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "CIMAC指導方針提供有關海洋燃料穩定性和相容性的評估概述，以及如何降低相關風險。該指導方針旨在幫助理解海洋燃料的穩定性和相容性，並在供應鏈及船上進行最佳管理。文中還包含了可接受的穩定性測試方法及其正確解釋的詳細資訊。"
+      "topic_ids": []
     },
     {
       "title": "CIMAC WG7 contributed to the Joint Industry Project guidance document on ‘The supply and use of 0.50%-sulphur marine fuel’ (August 2019)",
@@ -145,8 +136,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "本文件提供有關供應和使用0.50%硫含量海洋燃料的指導，並強調使用者需自行承擔風險。文件不提供法律建議，若與法律或監管要求有衝突，應以法律或監管要求為準。文件內容可在不修改的情況下用於非商業目的。"
+      "topic_ids": []
     },
     {
       "title": "Statement - CIMAC WG7 2018 Fuel Incidents [PDF] (November 2018)",
@@ -158,8 +148,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "CIMAC工作組報告指出，2018年3月，數艘船隻在休斯頓加油時使用的殘餘燃料出現操作問題，主要表現為燃油泵卡滯及過濾器阻塞。雖然這些燃料符合ISO 8217標準，但約有100艘船隻報告了相關問題，部分船隻甚至失去推進力和電力，對船舶及船員安全構成威脅。CIMAC建議船舶操作員應謹慎使用燃油，並詳細記錄任何燃油相關問題，以便後續分析和處理。"
+      "topic_ids": []
     },
     {
       "title": "Guideline providing answers to FAQ from ISO 8217:2017 [PDF] (March 2017)",
@@ -173,8 +162,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "本指導文件提供有關ISO 8217:2017的常見問題解答，旨在幫助業界理解最新的海洋燃料規範。該版本相比於之前的版本，增加了對於冷操作性問題的要求，並引入了含生物柴油的DF等級，以改善燃料油的可用性。文件強調，所有內容僅供參考，並不構成法律建議或保證。"
+      ]
     },
     {
       "title": "Guideline on the Interpretation of Marine Fuel Analysis Test Results [PDF] (February 2016)",
@@ -186,8 +174,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "本指導方針旨在提供海洋燃料分析測試結果的解釋，並強調ISO 4259方法在所有海洋燃料分析中的應用。燃料通常依據ISO 8217規範訂購和供應，並在交付時進行分析以確保符合規範。由於不同實驗室的測試結果可能存在變異，因此建議在具備良好質量保證系統的實驗室中使用標準測試方法進行分析。"
+      "topic_ids": []
     },
     {
       "title": "Guideline on Filter Treatment of Residual Fuel Oils [PDF] (December 2015)",
@@ -199,8 +186,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "該指導文件提供了關於殘餘燃油過濾處理的概述，強調了過濾系統在燃油清潔中的重要性。自動反沖洗過濾器應安裝在服務或日用油箱下游，以捕捉通過離心分離階段的顆粒。文件還指出，過濾器的效率受限於其網孔大小，並建議在引擎進口處安裝手動清潔過濾器作為最後的保護措施。"
+      "topic_ids": []
     },
     {
       "title": "Guideline on Sulphur Marine (ECA) fuels (June 2015)",
@@ -212,8 +198,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "新推出的0.10%硫磺海洋燃料為船舶提供了經濟上有吸引力的替代品，但在購買前需考慮其技術和操作挑戰。這些燃料的特性各異，可能需要調整儲存和處理方式，並且在混合使用時存在不相容的風險。船東和操作人員應與燃料供應商或設備製造商聯繫，以確保安全操作。"
+      "topic_ids": []
     },
     {
       "title": "Guideline on Cold Flow Properties of Marine Fuel Oils [PDF) ] (January 2015)",
@@ -225,8 +210,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "本指導文件旨在提供船員對於海洋燃料油低溫流動性特性的理解，特別是在儲存和處理蒸餾油時。低溫流動性會影響燃料的可操作性，可能導致濾網堵塞和引擎停機。雖然ISO 8217對於燃料的流動性有規範，但在寒冷地區操作時，仍需特別注意燃料的冷流特性。"
+      "topic_ids": []
     },
     {
       "title": "Guideline on the interpretation of marine fuel oil anaylsis test results with particular reference to sulphur content [PDF] (September 2014)",
@@ -238,8 +222,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "該CIMAC指導文件提供了海洋燃料油分析測試結果的解釋，特別針對硫含量進行說明。文件中包含硫評估表，並闡述了根據ISO 4259和MARPOL的商業實踐中硫含量的測量和合規要求。該指導文件僅供參考，並不構成任何法律建議或保證。"
+      "topic_ids": []
     },
     {
       "title": "Guideline for the operation of marine engines on low sulphur distillate diesel.",
@@ -251,8 +234,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [],
-      "summary_zh": "本指導文件旨在為船舶操作低硫 distillate 柴油提供參考，特別是自2015年1月1日起在排放控制區（ECA）內將燃料硫含量降低至0.10% m/m的要求。文件分析了相關立法、經濟影響及燃料供應考量，並強調船員需熟悉操作程序以確保燃料轉換的順利進行，避免對引擎和燃料系統造成損害。此外，文件也提到可再生液體燃料的影響及操作建議。"
+      "topic_ids": []
     },
     {
       "title": "Guideline for Ship Owners and Operators on Managing Distillate Fuels up to 7.0 % v/v Fame (Biodiesel) [PDF] (Juli 2013)",
@@ -266,8 +248,7 @@
       ],
       "topic_ids": [
         "bio_fuel"
-      ],
-      "summary_zh": "本指導文件提供有關使用含有最高7.0% v/v生物柴油（FAME）的海洋蒸餾燃料的背景資訊和建議。由於環保法規的要求，生物柴油在海洋燃料中的使用正在增加，但目前ISO 8217標準仍未允許生物柴油的存在，僅允許低於0.1% v/v的微量含量。船舶在儲存和處理這類燃料時需遵循特定的安全措施，以確保符合環保要求。"
+      ]
     }
   ]
 }
