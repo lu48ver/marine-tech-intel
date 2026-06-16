@@ -66,9 +66,25 @@ def staleness(last_success_at: str | None, now: datetime) -> tuple[str, str]:
     return "ok", f"{days} 天前"
 
 
+def load_summary_cache() -> dict:
+    """Load cached AI summaries (url -> record), or {} if none yet."""
+    cache_path = DATA_DIR / "summaries.json"
+    if cache_path.exists():
+        try:
+            return load_json(cache_path)
+        except json.JSONDecodeError:
+            logger.warning("summaries.json corrupt — ignoring")
+    return {}
+
+
 def load_source_data() -> list[dict]:
-    """Load each enabled source's crawled JSON, in sources.json order."""
+    """Load each enabled source's crawled JSON, in sources.json order.
+
+    Re-applies cached AI summaries by URL so the site keeps showing them even
+    when a fresh crawl overwrote the items and the summarize step did not run.
+    """
     sources_meta = load_json(DATA_DIR / "sources.json")
+    summary_cache = load_summary_cache()
     out = []
     for meta in sources_meta:
         if not meta.get("enabled"):
@@ -79,6 +95,11 @@ def load_source_data() -> list[dict]:
             continue
         data = load_json(update_path)
         data["category"] = meta.get("category", "")
+        for item in data.get("items", []):
+            if not item.get("summary_zh"):
+                cached = summary_cache.get(item.get("url", ""))
+                if cached:
+                    item["summary_zh"] = cached["summary_zh"]
         out.append(data)
     return out
 
