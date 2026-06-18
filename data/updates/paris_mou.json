@@ -2,8 +2,8 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications?field_news_category_target_id=2",
-  "last_crawled_at": "2026-06-17T12:14:53+08:00",
-  "last_success_at": "2026-06-17T12:14:53+08:00",
+  "last_crawled_at": "2026-06-18T12:06:02+08:00",
+  "last_success_at": "2026-06-18T12:06:02+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "title": "Concerning results found on the Paris MoU Focused Inspection Campaign on Fire Doors",
-      "url": "https://parismou.org/index%2Ephp/2024/10/concerning-results-found-paris-mou-focused-inspection-campaign-fire-doors",
+      "url": "https://parismou.org/2024/10/concerning-results-found-paris-mou-focused-inspection-campaign-fire-doors",
       "published_at": "2024-10-24",
       "summary": "",
       "tags": [
