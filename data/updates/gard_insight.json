@@ -2,10 +2,22 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-06-19T12:24:50+08:00",
-  "last_success_at": "2026-06-19T12:24:50+08:00",
+  "last_crawled_at": "2026-06-20T11:48:49+08:00",
+  "last_success_at": "2026-06-20T11:48:49+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
+      "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
+      "published_at": "2026-06-19",
+      "summary": "Between January and May 2026, Gard handled over 70 bunker-related claims - a 50% increase on the same period last year. Almost all involved fuel quality, and the pattern has sharpened since the Middle East conflict escalated in late February.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": []
+    },
     {
       "title": "Updated CINS guidelines: carriage of cocoa butter in containers",
       "url": "https://gard.no/en/insights/updated-cins-guidelines-carriage-of-cocoa-butter-in-containers/",
@@ -83,18 +95,6 @@
       "url": "https://gard.no/en/insights/power-operated-watertight-doors-can-be-deadly/",
       "published_at": "2026-05-05",
       "summary": "Operating and passing through power-operated watertight doors remains one of the most underestimated – and potentially deadly – risks on board ships. A recent fatal accident highlights the need for continued vigilance and awareness.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": []
-    },
-    {
-      "title": "Harnessing the giants: safer wind turbine blade logistics",
-      "url": "https://gard.no/en/insights/harnessing-the-giants-safer-windmill-blade-logistics/",
-      "published_at": "2026-04-13",
-      "summary": "As wind‑energy deployment accelerates globally, the logistics of transporting major turbine components—particularly blades, towers, and nacelles—have become increasingly complex. Drawing on Gard’s claims experience, this article explores the most common causes of damage during the carriage of turbin",
       "tags": [
         "gard",
         "p&i",
