@@ -156,6 +156,35 @@ def build_sources_view(sources: list[dict], now: datetime) -> list[dict]:
     return view
 
 
+def build_search_index(sources: list[dict]) -> list[dict]:
+    """Flatten every item across sources into a compact client-side search index.
+
+    Powers the in-browser search (pure JS, no backend): one entry per article
+    with the fields the front-end matches/renders against.
+    """
+    index = []
+    seen = set()
+    for src in sources:
+        for item in src.get("items", []):
+            url = item.get("url", "")
+            if url in seen:
+                continue
+            seen.add(url)
+            index.append(
+                {
+                    "title": item.get("title", ""),
+                    "summary": item.get("summary_zh") or item.get("summary", ""),
+                    "source": src["source_name"],
+                    "url": url,
+                    "date": item.get("published_at", ""),
+                    "tags": item.get("tags", []),
+                    "topics": item.get("topic_ids", []),
+                }
+            )
+    index.sort(key=lambda x: x.get("date", ""), reverse=True)
+    return index
+
+
 def build_topics_view(topics: list[dict], sources: list[dict]) -> list[dict]:
     """For each topic, gather matching items across all sources, newest first."""
     view = []
@@ -212,6 +241,12 @@ def main() -> int:
     BUILD_DIR.mkdir(parents=True)
     (BUILD_DIR / "index.html").write_text(html, encoding="utf-8")
     shutil.copytree(STATIC_DIR, BUILD_DIR / "static")
+
+    # Client-side search index (all articles, searched in the browser)
+    search_index = build_search_index(sources)
+    (BUILD_DIR / "search.json").write_text(
+        json.dumps(search_index, ensure_ascii=False), encoding="utf-8"
+    )
 
     # One standalone brief page per topic (topic-<id>.html)
     brief_tmpl = env.get_template("topic_brief.html")

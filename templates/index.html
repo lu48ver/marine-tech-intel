@@ -1,6 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
 
+{# ---------- SEARCH: client-side, across all sources ---------- #}
+<div class="search-bar">
+  <input id="search-input" type="search" autocomplete="off"
+         placeholder="🔍 搜尋所有情報(標題、摘要、來源、議題)…" aria-label="搜尋情報">
+  <span id="search-count" class="search-count"></span>
+</div>
+<section id="panel-search" class="panel" role="tabpanel" hidden>
+  <ol id="search-results" class="brief-list"></ol>
+  <p id="search-empty" class="source-empty" hidden>找不到符合的情報</p>
+</section>
+
 {# ---------- BRIEF: newest cross-source updates ---------- #}
 <section id="panel-brief" class="panel is-active" role="tabpanel">
   <div class="panel-head">
