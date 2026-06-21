@@ -2,6 +2,19 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-06-21 (Phase 2 — 再新增 2 來源)
+
+### 新增
+- **DNV Technical & Regulatory News** (`crawlers/dnv.py`):讀 DynamicList JSON API
+  (`/api/listing/news?blockId=`),blockId 從頁面動態抓取以防改版。
+- **BIMCO News** (`crawlers/bimco.py`):列表為 JS 渲染,改從 sitemap 撈 `bimco-news`
+  文章(URL 帶日期),逐篇讀 og:title / og:description。
+- 共 **8 個來源**啟用。
+
+### 備註
+- 旗國技術通函暫緩:各船籍網站普遍難爬(IRI 憑證問題、Liberia 無日期化列表、
+  Bahamas 通告無明確日期);待確認船隊實際旗國後再做。
+
 ## 2026-06-21 (Phase 2 — 前端搜尋)
 
 ### 新增

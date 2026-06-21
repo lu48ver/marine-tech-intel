@@ -61,5 +61,14 @@
     "update_frequency": "滾動",
     "enabled": true,
     "phase": "phase2"
+  },
+  {
+    "source_id": "bimco_news",
+    "source_name": "BIMCO News",
+    "source_url": "https://www.bimco.org/news-insights/bimco-news/",
+    "category": "Industry",
+    "update_frequency": "滾動",
+    "enabled": true,
+    "phase": "phase2"
   }
 ]
