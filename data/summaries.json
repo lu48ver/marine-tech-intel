@@ -526,5 +526,11 @@
     "model": "gpt-4o-mini",
     "source_kind": "html",
     "generated_at": "2026-06-16T16:44:03+08:00"
+  },
+  "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/": {
+    "summary_zh": "在2026年1月至5月期間，Gard處理了超過70宗與燃料相關的索賠，較去年同期增加了50%。幾乎所有索賠均涉及燃料質量，自2月底中東衝突升級以來，這一趨勢更加明顯。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T09:43:02+08:00"
   }
 }
