@@ -152,12 +152,15 @@ def build_topics_view(topics: list[dict], sources: list[dict]) -> list[dict]:
     return view
 
 
-def render(context: dict) -> str:
-    env = Environment(
+def make_env() -> Environment:
+    return Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
         autoescape=select_autoescape(["html"]),
     )
-    return env.get_template("index.html").render(**context)
+
+
+def render(context: dict) -> str:
+    return make_env().get_template("index.html").render(**context)
 
 
 def main() -> int:
@@ -180,7 +183,8 @@ def main() -> int:
         "topics": build_topics_view(topics, sources),
     }
 
-    html = render(context)
+    env = make_env()
+    html = env.get_template("index.html").render(**context)
 
     # Fresh build dir each time
     if BUILD_DIR.exists():
@@ -189,8 +193,19 @@ def main() -> int:
     (BUILD_DIR / "index.html").write_text(html, encoding="utf-8")
     shutil.copytree(STATIC_DIR, BUILD_DIR / "static")
 
+    # One standalone brief page per topic (topic-<id>.html)
+    brief_tmpl = env.get_template("topic_brief.html")
+    for topic in context["topics"]:
+        page = brief_tmpl.render(
+            topic=topic,
+            generated_at=context["generated_at"],
+            asset_version=context["asset_version"],
+        )
+        (BUILD_DIR / f"topic-{topic['id']}.html").write_text(page, encoding="utf-8")
+
     logger.info(
-        "built build/index.html — %d brief, %d sources, %d topics",
+        "built build/index.html + %d topic pages — %d brief, %d sources, %d topics",
+        len(context["topics"]),
         len(context["brief_items"]),
         len(context["sources"]),
         len(context["topics"]),

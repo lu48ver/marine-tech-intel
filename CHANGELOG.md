@@ -2,6 +2,17 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-06-21 (Phase 2 — 議題 brief 頁 + 維護)
+
+### 新增
+- 每個議題產生獨立 brief 頁 `topic-<id>.html`(`templates/topic_brief.html`),
+  列出該議題**全部**相關文章與 AI 摘要;HOT TOPICS 卡片新增「查看完整 brief →」連結。
+
+### 維護
+- GitHub Actions 升版:`actions/checkout@v4→v5`、`actions/setup-python@v5→v6`
+  (改用 Node.js 24,清除淘汰警告)。
+- 設定 `OPENAI_API_KEY` repo Secret,雲端每日排程開始自動產生新文章的中文摘要。
+
 ## 2026-06-16 (Phase 2 — 新增 3 來源)
 
 ### 新增

@@ -278,6 +278,21 @@ a:hover { text-decoration: underline; }
 .topic-items a:hover { color: var(--accent); }
 .item-meta { display: block; font-family: var(--font-mono); font-size: 11px; color: var(--text-2); margin-top: 2px; }
 
+/* link from a topic card to its standalone brief page */
+.topic-brief-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent);
+}
+
+/* standalone topic brief page */
+.brief-page-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.brief-page-summary { color: var(--text-1); font-size: 15px; line-height: 1.7; margin: 0 0 8px; max-width: 70ch; }
+.brief-page-count { font-family: var(--font-mono); font-size: 12px; color: var(--text-2); margin-bottom: 18px; }
+.tab[href] { text-decoration: none; }
+
 /* ---------- footer ---------- */
 .site-footer {
   border-top: 1px solid var(--line);
