@@ -1,0 +1,174 @@
+{
+  "source_id": "dnv_trn",
+  "source_name": "DNV Technical & Regulatory News",
+  "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
+  "last_crawled_at": "2026-06-21T23:11:01+08:00",
+  "last_success_at": "2026-06-21T23:11:01+08:00",
+  "crawl_status": "success",
+  "items": [
+    {
+      "title": "North-east Atlantic joins the expanding network of ECAs",
+      "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+      "published_at": "2026-06-17",
+      "summary": "Recent amendments to MARPOL Annex VI adopted at MEPC 84 introduce the North-East Atlantic as a new Emission Control Area (ECA) for nitrogen oxides (NOx), sulphur oxides (SOx) and particulate matter (PM). The regulations enter into force on 1 September 2027.",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。"
+    },
+    {
+      "title": "The UK ETS expands to maritime from 1 July 2026",
+      "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
+      "published_at": "2026-06-05",
+      "summary": "The UK Emissions Trading Scheme (ETS) is rapidly evolving, shaping how industries price and manage greenhouse gas emissions as the UK moves toward net-zero. As the scheme expands and its carbon market strengthens, understanding its key mechanisms and implications is becoming increasingly important f",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。"
+    },
+    {
+      "title": "IMO MSC 111: New MASS Code adopted",
+      "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+      "published_at": "2026-05-22",
+      "summary": "The 111th session of the Maritime Safety Committee (MSC 111) was held from 13 to 22 May 2026. The adoption of a new goal-based Code for Maritime Autonomous Surface Ships (MASS) marks a key milestone in the IMO’s work to ensure the regulatory framework keeps pace with the rapid development of shippin",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。"
+    },
+    {
+      "title": "How to document PFOS-free fire-extinguishing foam on board",
+      "url": "https://www.dnv.com/news/2026/how-to-document-pfos-free-fire-extinguishing-foam-on-board/",
+      "published_at": "2026-05-04",
+      "summary": "At the first safety equipment survey* after 1 January 2026, all fire-extinguishing foams on board must be PFOS-free, and this must be verified by the attending surveyor. Compliance will prevent part-held surveys and/or Conditions of Authority. Here is a short summary of how to document compliance. T",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。"
+    },
+    {
+      "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
+      "url": "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/",
+      "published_at": "2026-05-04",
+      "summary": "The 84th session of the IMO’s Marine Environment Protection Committee (MEPC 84) held extensive discussions on the Net-Zero Framework (NZF). This was the first opportunity to do so following the adjournment of the extraordinary session in October 2025. Although there were divergent positions on key e",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Port State Control - Q1 2026 Detention review and other updates",
+      "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
+      "published_at": "2026-04-29",
+      "summary": "Effectiveness of safety management systems and fire safety readiness are still in focus for Port State Control (PSC) authorities. Our Q1 2026 review highlights key detention concerns, upcoming inspection campaigns, new procedures for PSC, and what ship operators should be addressing to reduce risk.",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "cic_2026"
+      ],
+      "summary_zh": "港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。"
+    },
+    {
+      "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
+      "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+      "published_at": "2026-04-21",
+      "summary": "Recent changes to the SCR Guidelines have altered how NOx measurement accuracy is assessed for catalyst monitoring. The former ±5% accuracy requirement has been replaced by a more flexible but less clearly defined concept of “sufficient accuracy”. This update places greater responsibility on applica",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效。近期SCR指導方針的變更改變了NOx測量準確性的評估方式，原本的±5%準確度要求已被更靈活但不明確的「足夠準確度」概念取代，這使得應用者承擔了更大的責任。"
+    },
+    {
+      "title": "Revised interpretation of requirements to permanent means of access (PMA)",
+      "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
+      "published_at": "2026-04-08",
+      "summary": "New IMO amendments clarify inspection requirements for PMA on tankers and bulk carriers.\nThe changes aim to prevent safety incidents and introduce stricter inspection and documentation rules. Ship operators must update procedures and manuals, and revised records must be reviewed during future survey",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "新的IMO修訂明確了油輪和散貨船上永久通道（PMA）的檢查要求。這些變更旨在防止安全事故，並引入更嚴格的檢查和文件規則。船舶經營者必須更新程序和手冊，並在未來的檢查中審查修訂的記錄。"
+    },
+    {
+      "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
+      "url": "https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/",
+      "published_at": "2026-04-08",
+      "summary": "Enclosed space entry remains a safety challenge in ship operations and for seafarers’ working conditions. On 27 June 2025, the IMO adopted revised recommendations for entering enclosed spaces aboard ships, to be handled in accordance with the SMS systematics. This statutory news summarizes this topi",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "summary_zh": "進入船舶封閉空間仍然是船舶操作和海員工作條件中的安全挑戰。國際海事組織於2025年6月27日採納了修訂的進入船舶封閉空間的建議，應根據安全管理系統進行處理。"
+    },
+    {
+      "title": "Global regulatory framework for fishing vessels safety in force from 24 February 2027",
+      "url": "https://www.dnv.com/news/2026/global-regulatory-framework-for-fishing-vessel-safety-in-force-from-24-february-2027/",
+      "published_at": "2026-04-01",
+      "summary": "The International Maritime Organization (IMO) has confirmed that the 2012 Cape Town Agreement (CTA), the long-awaited global regulatory framework for fishing vessel safety, will enter into force on 24 February 2027. More information is provided in this statutory news.",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "國際海事組織（IMO）已確認，2012年開普敦協議（CTA）將於2027年2月24日生效，成為全球漁船安全的法規框架。更多資訊可參見此法定新聞。"
+    },
+    {
+      "title": "IMO’s Facilitation Committee (FAL 50)",
+      "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
+      "published_at": "2026-03-30",
+      "summary": "The 50th session of the IMO’s Facilitation Committee (FAL 50) was held in London from 23 to 27 March 2026. FAL 50 continued discussions on an IMO Strategy on Maritime Digitalization. FAL 50 also agreed on amendments to the FAL Convention, and to progress the work on the new Maritime Cyber Code in th",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": []
+    },
+    {
+      "title": "Post-fire ship hull structure and material assessment",
+      "url": "https://www.dnv.com/news/2026/post-fire-ship-hull-structure-and-material-assessment/",
+      "published_at": "2026-03-18",
+      "summary": "Fire incidents on ships rank among the most frequent accidents, and in recent years, fire incidents have specially increased among container and ro-ro cargo/passenger ships. DNV has supported many cases of post-fire structural and material assessments, and this news aims to share our insights from t",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "船舶火災事件是最常見的事故之一，近年來，集裝箱船和滾裝貨物/客運船的火災事件特別增加。DNV在許多火災後的結構和材料評估中提供了支持，這則消息旨在分享我們的見解。"
+    }
+  ]
+}

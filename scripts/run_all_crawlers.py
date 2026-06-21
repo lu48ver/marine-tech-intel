@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from crawlers.base import DATA_DIR  # noqa: E402
 from crawlers.cimac import CimacCrawler  # noqa: E402
 from crawlers.classnk import ClassNkCrawler  # noqa: E402
+from crawlers.dnv import DnvCrawler  # noqa: E402
 from crawlers.gard import GardCrawler  # noqa: E402
 from crawlers.lr_fobas import LrFobasCrawler  # noqa: E402
 from crawlers.paris_mou import ParisMouCrawler  # noqa: E402
@@ -35,6 +36,7 @@ CRAWLER_CLASSES = {
     "cimac_wg7": CimacCrawler,
     "paris_mou": ParisMouCrawler,
     "gard_insight": GardCrawler,
+    "dnv_trn": DnvCrawler,
 }
 
 
