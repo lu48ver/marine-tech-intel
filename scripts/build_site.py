@@ -77,11 +77,30 @@ def load_summary_cache() -> dict:
     return {}
 
 
-def load_source_data() -> list[dict]:
+def match_topics(item: dict, topics: list[dict]) -> list[str]:
+    """Topic ids whose keywords appear in the item's text.
+
+    Matches against title + original summary + AI Chinese summary + tags, so
+    terse-titled PDFs still get classified from their richer content. Keywords
+    may be English or Chinese (substring, case-insensitive).
+    """
+    haystack = " ".join(
+        [
+            item.get("title", ""),
+            item.get("summary", ""),
+            item.get("summary_zh", ""),
+            " ".join(item.get("tags", [])),
+        ]
+    ).lower()
+    return [t["id"] for t in topics if any(kw.lower() in haystack for kw in t.get("keywords", []))]
+
+
+def load_source_data(topics: list[dict]) -> list[dict]:
     """Load each enabled source's crawled JSON, in sources.json order.
 
     Re-applies cached AI summaries by URL so the site keeps showing them even
-    when a fresh crawl overwrote the items and the summarize step did not run.
+    when a fresh crawl overwrote the items and the summarize step did not run,
+    then re-classifies topics using the (now richer) text incl. the AI summary.
     """
     sources_meta = load_json(DATA_DIR / "sources.json")
     summary_cache = load_summary_cache()
@@ -100,6 +119,7 @@ def load_source_data() -> list[dict]:
                 cached = summary_cache.get(item.get("url", ""))
                 if cached:
                     item["summary_zh"] = cached["summary_zh"]
+            item["topic_ids"] = match_topics(item, topics)
         out.append(data)
     return out
 
@@ -167,8 +187,8 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     now = datetime.now(TAIPEI_TZ)
 
-    sources = load_source_data()
     topics = load_json(DATA_DIR / "topics.json")
+    sources = load_source_data(topics)
     if not sources:
         logger.error("no source data found — run crawlers first")
         return 1
