@@ -39,6 +39,37 @@
   </ol>
 </section>
 
+{# ---------- AI RADAR: AI-identified emerging themes (refreshes each build) ---------- #}
+<section id="panel-radar" class="panel" role="tabpanel">
+  <div class="panel-head">
+    <h2 class="panel-title">近期重點主題 <span class="ai-tag" title="由 AI 從近期文章自動歸納,僅供參考,請以原文為準">AI</span></h2>
+    <p class="panel-desc">AI 從各來源近期文章歸納出、目前較熱但尚未列入固定議題的主題。每次更新自動刷新。</p>
+  </div>
+  {% if digest.themes %}
+  <div class="radar-list">
+    {% for theme in digest.themes %}
+    <article class="radar-card">
+      <div class="radar-card-head">
+        <h3 class="radar-name">{{ theme.name }}</h3>
+        <span class="radar-count">{{ theme.articles|length }} 篇</span>
+      </div>
+      <p class="radar-why">{{ theme.why }}</p>
+      <ul class="radar-items">
+        {% for a in theme.articles %}
+        <li>
+          <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title }}</a>
+          <span class="item-meta">{{ a.source }} · {{ a.published_at }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="source-empty">尚未產生近期主題(需先執行 AI 選題)</p>
+  {% endif %}
+</section>
+
 {# ---------- SOURCES: one card per source ---------- #}
 <section id="panel-sources" class="panel" role="tabpanel">
   <div class="panel-head">

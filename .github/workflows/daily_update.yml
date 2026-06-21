@@ -52,6 +52,19 @@ jobs:
             echo "OPENAI_API_KEY not set — skipping AI summaries"
           fi
 
+      - name: AI digest — emerging themes (選題)
+        # Optional: only runs if the OPENAI_API_KEY secret is set. One LLM call
+        # per run; refreshes the "AI RADAR" themes. Never blocks the deploy.
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -n "$OPENAI_API_KEY" ]; then
+            python scripts/digest.py
+          else
+            echo "OPENAI_API_KEY not set — skipping AI digest"
+          fi
+
       - name: Build site
         run: python scripts/build_site.py
 

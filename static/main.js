@@ -7,6 +7,7 @@
   const tabs = document.querySelectorAll(".tab");
   const panels = {
     brief: document.getElementById("panel-brief"),
+    radar: document.getElementById("panel-radar"),
     sources: document.getElementById("panel-sources"),
     topics: document.getElementById("panel-topics"),
   };

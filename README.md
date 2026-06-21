@@ -58,15 +58,18 @@ python scripts/run_all_crawlers.py
 # 2. (選用) AI 中文摘要 — 需先設好金鑰,見下方「AI 摘要」一節
 python scripts/summarize.py
 
-# 3. 產出靜態網站到 build/
+# 3. (選用) AI 選題 — 歸納近期重點主題 (AI RADAR 分頁),同樣需要金鑰
+python scripts/digest.py
+
+# 4. 產出靜態網站到 build/
 python scripts/build_site.py
 
-# 4. 本機預覽
+# 5. 本機預覽
 python -m http.server 8000 --directory build/
 # 瀏覽器開 http://localhost:8000
 ```
 
-> 第 2 步是選用的。沒設金鑰就跳過,網站照樣能建置,只是沒有 AI 中文摘要。
+> 第 2、3 步是選用的。沒設金鑰就跳過,網站照樣能建置(少了 AI 摘要與近期主題)。
 
 > 改了 CSS 卻看到舊樣式?那是瀏覽器快取。本專案已對 CSS/JS 加版本號,
 > 重新 `build_site.py` 再重整即可;真的卡住就按 **Ctrl + F5** 強制重整。

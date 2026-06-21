@@ -222,6 +222,14 @@ def main() -> int:
         logger.error("no source data found — run crawlers first")
         return 1
 
+    digest = {}
+    digest_path = DATA_DIR / "digest.json"
+    if digest_path.exists():
+        try:
+            digest = load_json(digest_path)
+        except json.JSONDecodeError:
+            logger.warning("digest.json corrupt — ignoring")
+
     context = {
         "generated_at": now.strftime("%Y-%m-%d %H:%M"),
         # Cache-buster appended to static asset URLs so browsers never serve a
@@ -230,6 +238,7 @@ def main() -> int:
         "brief_items": build_brief(sources),
         "sources": build_sources_view(sources, now),
         "topics": build_topics_view(topics, sources),
+        "digest": digest,
     }
 
     env = make_env()

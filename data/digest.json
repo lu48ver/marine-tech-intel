@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-06-21T23:59:39+08:00",
+  "model": "gpt-4o-mini",
+  "themes": [
+    {
+      "name": "海事數位化",
+      "why": "數位化在提升船舶與岸上利益相關者之間的協作和效率方面至關重要。",
+      "articles": [
+        {
+          "title": "Harmonising maritime digital interfaces: From alignment to action",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
+        },
+        {
+          "title": "BIMCO launches Seafarer Digital Certificates Charter to support industry-wide adoption",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/04-seafarers-digital-certificate-charter/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-04"
+        },
+        {
+          "title": "IMO’s Facilitation Committee (FAL 50)",
+          "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-03-30"
+        }
+      ]
+    },
+    {
+      "name": "船舶回收",
+      "why": "隨著環保意識的提高，船舶回收的安全和環保實踐變得愈加重要。",
+      "articles": [
+        {
+          "title": "What's happening in ship recycling?",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
+        },
+        {
+          "title": "Biofuel clause now available to support transition to low-carbon fuels",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "name": "燃料質量問題",
+      "why": "燃料質量問題對航運業的運營和合規性造成了重大影響。",
+      "articles": [
+        {
+          "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
+          "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
+          "source": "Gard Insight",
+          "published_at": "2026-06-19"
+        },
+        {
+          "title": "FOBAS report warns of late year surge in marine fuel quality failures",
+          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
+          "source": "LR FOBAS",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Scrubber risks: Lessons from six years of claims",
+          "url": "https://gard.no/en/insights/scrubber-risks-lessons-from-six-years-of-claims/",
+          "source": "Gard Insight",
+          "published_at": "2026-03-12"
+        }
+      ]
+    },
+    {
+      "name": "海上安全威脅",
+      "why": "海上安全威脅的增加對航運業的運營和海員的安全構成了挑戰。",
+      "articles": [
+        {
+          "title": "Lack of details remain a concern in the Strait of Hormuz",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-18"
+        },
+        {
+          "title": "Global shipping industry associations condemn recent attacks on seafarers",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-12"
+        },
+        {
+          "title": "Somali piracy structures are strengthening",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "name": "環境合規要求",
+      "why": "新的環境合規要求對船舶運營和管理提出了更高的標準。",
+      "articles": [
+        {
+          "title": "North-east Atlantic joins the expanding network of ECAs",
+          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-17"
+        },
+        {
+          "title": "The UK ETS expands to maritime from 1 July 2026",
+          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-05"
+        },
+        {
+          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
+          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-21"
+        }
+      ]
+    }
+  ]
+}
