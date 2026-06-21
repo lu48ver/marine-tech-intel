@@ -2,8 +2,8 @@
   "source_id": "lr_fobas",
   "source_name": "LR FOBAS",
   "source_url": "https://www.lr.org/en/knowledge/press-room/",
-  "last_crawled_at": "2026-06-21T10:38:52+08:00",
-  "last_success_at": "2026-06-21T10:38:52+08:00",
+  "last_crawled_at": "2026-06-21T12:20:14+08:00",
+  "last_success_at": "2026-06-21T12:20:14+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -135,7 +135,9 @@
         "fuel",
         "class news"
       ],
-      "topic_ids": [],
+      "topic_ids": [
+        "oil_sampling"
+      ],
       "summary_zh": "國際海事組織（IMO）發布了聯合通函，更新了燃油取樣指導方針，以便符合MARPOL附錄VI和SOLAS第II-2章的合規驗證要求。"
     },
     {
