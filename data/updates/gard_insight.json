@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-06-21T10:39:02+08:00",
-  "last_success_at": "2026-06-21T10:39:02+08:00",
+  "last_crawled_at": "2026-06-21T10:57:03+08:00",
+  "last_success_at": "2026-06-21T10:57:03+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -124,30 +124,80 @@
       "summary_zh": "全球近7,000艘船舶已配備洗滌器，這項技術的採用持續上升。儘管該技術提供明顯的合規性和商業優勢，但六年的索賠數據顯示出腐蝕、火災和淹水的特定模式。"
     },
     {
-      "title": "Heavy weather at sea: managing risks on passage",
-      "url": "https://gard.no/en/insights/heavy-weather-at-sea-managing-risks-on-passage/",
-      "published_at": "2026-03-05",
-      "summary": "Continuing our series on heavy weather risks, this article turns to the sea passage, when vessels may be more exposed to sustained or deteriorating conditions. We examine scenarios, decision points and operational pressures  that can turn heavy weather into a potential casualty.",
+      "title": "Enclosed spaces: When saving a life turns fatal",
+      "url": "https://gard.no/en/insights/enclosed-spaces-when-saving-a-life-turns-fatal/",
+      "published_at": "2025-12-10",
+      "summary": "Enclosed spaces on ships - such as cargo tanks, holds, and chain lockers - are among the most dangerous environments onboard. While much attention is paid to the initial victims of asphyxiation or toxic exposure, a significant and tragic share of fatalities are would-be rescuers: crew members who ru",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
-      "topic_ids": [],
-      "summary_zh": "在海上航行中，船隻可能面臨持續或惡化的天氣條件。本文探討了可能導致重型天氣成為潛在事故的情境、決策點和操作壓力。"
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "summary_zh": "船上的密閉空間，如貨艙、貨物舱和鏈條儲存室，是最危險的環境之一。雖然初次窒息或接觸有毒物質的受害者受到重視，但許多悲劇性的死亡案例是試圖救援的船員。"
     },
     {
-      "title": "Bumper Brazilian soya bean crop means more claims in China",
-      "url": "https://gard.no/en/insights/bumper-brazilian-soya-bean-crop-means-more-claims-in-china/",
-      "published_at": "2025-04-08",
-      "summary": "Brazil’s soybean industry is poised for a landmark year in 2025, with projections indicating unprecedented production and export levels, according to Gard’s local correspondents Proinde. This could bring about logistical pressures and more claims.",
+      "title": "FuelEU penalties: What charterers and owners need to know",
+      "url": "https://gard.no/en/insights/fueleu-penalties-what-charterers-and-owners-need-to-know/",
+      "published_at": "2025-11-24",
+      "summary": "One year into FuelEU, the first penalties are being incurred, and the shipping industry is still figuring out who pays, how and when. From biofuel handling to reporting obligations, multipliers and credit pooling, shipowners and charterers face a complex web of requirements. This article breaks down",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
-      "topic_ids": [],
-      "summary_zh": "巴西的大豆產業預計在2025年將迎來創紀錄的一年，生產和出口水平將達到前所未有的高度。這可能會帶來物流壓力和更多的索賠。"
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ],
+      "summary_zh": "燃料歐盟（FuelEU）計畫實施一年後，首批罰款已經開始出現，航運業仍在釐清誰負責支付、如何支付及何時支付。船東和租船人面臨著從生物燃料處理到報告義務、乘數和信用池等複雜的要求。"
+    },
+    {
+      "title": "New biofouling regulations in Brazil",
+      "url": "https://gard.no/en/insights/new-biofouling-regulations-in-brazil/",
+      "published_at": "2025-07-10",
+      "summary": "Vessels above 24 meters in length that enter Brazilian waters are required to arrive with a ‘clean hull’ or perform in-water hull cleaning. Similar restrictions apply to vessels operating between domestic marine biogeographic regions. The enforcement date for the associated sanctions has been deferr",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "biofouling"
+      ],
+      "summary_zh": "在巴西，長度超過24米的船舶進入巴西水域時，必須以「乾淨的船體」抵達，或進行水中清洗。類似的限制也適用於在國內海洋生物地理區域內運行的船舶。相關制裁的執行日期已被延遲。"
+    },
+    {
+      "title": "Fouling up Down Under: Biofouling non-compliance in New Zealand",
+      "url": "https://gard.no/en/insights/fouling-up-down-under-biofouling-non-compliance-in-new-zealand/",
+      "published_at": "2025-06-12",
+      "summary": "On 1 May 2025 submission of a Biosecurity Pre-Arrival Report (PAR) prior to arrival in New Zealand became mandatory. Certain vessels arriving in the country may also be required to go through a biofouling assessment, the failure of which can lead to disputes between owners and charterers.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "biofouling"
+      ],
+      "summary_zh": "自2025年5月1日起，抵達紐西蘭前必須提交生物安全預抵報告（PAR）。某些抵達該國的船舶可能還需進行生物污損評估，未通過評估可能導致船東與租船人之間的爭議。"
+    },
+    {
+      "title": "IMO updates fuel oil sampling guidelines",
+      "url": "https://gard.no/en/insights/imo-updates-fuel-oil-sampling-guidelines/",
+      "published_at": "2024-10-31",
+      "summary": "The 'MARPOL delivered sample' size has increased from 400ml to 600ml and must now also be available for checking the flashpoint requirements under SOLAS Regulation II-2/4.2.1.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "oil_sampling"
+      ],
+      "summary_zh": "國際海事組織（IMO）更新了燃油取樣指導方針，將「MARPOL交付樣本」的容量從400毫升增加至600毫升。此外，樣本必須能夠檢查根據SOLAS第II-2/4.2.1條規定的閃點要求。"
     },
     {
       "title": "Regional sulphur emission limits at a glance",
@@ -165,6 +215,171 @@
       "summary_zh": "航運業的脫碳仍然是重點，國際海事組織（IMO）持續加強改善沿海地區空氣質量的措施，包括擴大MARPOL指定的硫排放控制區。同時，許多地區、州和個別港口也在執行各自的規範。"
     },
     {
+      "title": "Hull biofouling – key recommendations",
+      "url": "https://gard.no/en/insights/hull-biofouling-key-recommendations/",
+      "published_at": "2024-02-22",
+      "summary": "The revised IMO Biofouling Guidelines came into force in 2023 and provide updated guidance on how to prevent the spread of marine invasive species. Here are the key recommendations.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "biofouling"
+      ],
+      "summary_zh": "2023年修訂的國際海事組織（IMO）生物污損指導方針已生效，提供了防止海洋入侵物種擴散的最新指導。以下是主要建議。"
+    },
+    {
+      "title": "EU ETS impact on EU MRV reporting",
+      "url": "https://gard.no/en/insights/eu-ets-impact-on-eu-mrv-reporting/",
+      "published_at": "2024-01-11",
+      "summary": "Ships of 5,000 gross tonnage and above, carrying out voyages to and/or from ports in the European Economic Area, must submit a revised and verified monitoring plan for carbon dioxide (CO2), methane (CH4) and nitrous oxide (N2O) emissions to the administering authority by 1 April 2024.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "summary_zh": "5,000總噸位以上的船舶，若執行往返歐洲經濟區港口的航行，必須在2024年4月1日前向主管機關提交修訂並經驗證的二氧化碳（CO2）、甲烷（CH4）和氧化亞氮（N2O）排放監測計劃。"
+    },
+    {
+      "title": "EU ETS: important compliance clarifications",
+      "url": "https://gard.no/en/insights/eu-ets-important-compliance-clarifications/",
+      "published_at": "2024-01-04",
+      "summary": "As of 1 January 2024, vessels over 5,000 GT operating within EU waters are subject to the EU's Emission Trading System (ETS). A recent implementing regulation has clarified how a shipowner may transfer responsibility for compliance – but some important questions still remain.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "summary_zh": "自2024年1月1日起，所有在歐盟水域內運行的5,000 GT以上船舶需遵守歐盟的排放交易系統（ETS）。最近的實施規定已澄清船東如何轉移合規責任，但仍有一些重要問題待解決。"
+    },
+    {
+      "title": "The third pillar: a contractual architecture for maritime decarbonisation",
+      "url": "https://gard.no/en/insights/the-third-pillar-a-contractual-architecture-for-maritime-decarbonisation/",
+      "published_at": "2023-10-20",
+      "summary": "In the run up to the UN climate conference – “COP26” in Glasgow, we are pleased to share guest author - Haris Zografakis’ thoughts on the need for a new contractual structure in shipping to immediately reduce GHG emissions rather than simply waiting for regulation. Our guest author explains why clim",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "Boost for biofuels as IMO removes regulatory hurdle",
+      "url": "https://gard.no/en/insights/boost-for-biofuels-as-imo-removes-regulatory-hurdle/",
+      "published_at": "2022-07-17",
+      "summary": "MARPOL Annex VI regulations were written for petroleum derived fuels but also apply to biofuels. It has been a challenge to meet the regulatory requirement to demonstrate that biofuels do not “cause an engine to exceed the applicable NOx emission limit”. Our guest author, Unni Einemo, explains the c",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "bio_fuel"
+      ],
+      "summary_zh": "國際海事組織（IMO）已移除對生物燃料的監管障礙，這將有助於生物燃料的發展。根據MARPOL附錄六的規定，生物燃料也必須符合不超過適用的氮氧化物（NOx）排放限值的要求。"
+    },
+    {
+      "title": "Biofouling management: the benefits of a clean hull",
+      "url": "https://gard.no/en/insights/biofouling-management-benefits-clean-hull/",
+      "published_at": "2022-06-13",
+      "summary": "**Updated 21 October 2022**\n\nAustralia has joined New Zealand and California and requires international vessels to provide information on how biofouling has been proactively managed prior to arriving in its territorial seas. While the aim of these national and sub-national biofouling regulations are",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "biofouling"
+      ],
+      "summary_zh": "澳大利亞已與紐西蘭和加州合作，要求國際船舶在進入其領海之前提供有關如何主動管理生物污損的信息。這些國家及次國家層級的生物污損法規旨在促進清潔的船體管理。"
+    },
+    {
+      "title": "Entry into enclosed spaces - are you prepared?",
+      "url": "https://gard.no/en/insights/entry-into-enclosed-spaces-are-you-prepared/",
+      "published_at": "2022-04-26",
+      "summary": "Recurring enclosed space incidents serve as a stark reminder that entry into such spaces without proper training or following procedures can result in seafarers being killed or seriously injured. Far too often, we also see that seafarers who die in enclosed spaces do so in the course of attempting t",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "summary_zh": "進入封閉空間的事件時常發生，提醒我們未經適當訓練或不遵循程序進入此類空間可能導致海員死亡或重傷。許多海員在封閉空間內遇難，往往是在嘗試救助他人時發生的。"
+    },
+    {
+      "title": "Beware of binary thinking – a single alternative fuel may not be the panacea some seek",
+      "url": "https://gard.no/en/insights/beware-binary-thinking-single-alternative-fuel-may-not-be-panacea-some-seek/",
+      "published_at": "2022-04-03",
+      "summary": "In the critical quest for decarbonisation of shipping, our guest author, Martin Crawford-Brunt, advocates for broader thinking in how to reach the goal. He cautions – Don’t let the great get in the way of the good as we transition to a zero-carbon emission future.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ],
+      "summary_zh": "在航運去碳化的關鍵追求中，作者馬丁·克勞福德-布朗特提倡更廣泛的思考方式以達成目標。他警告不要讓完美阻礙良好的進展，應在過渡到零碳排放的未來時保持靈活。"
+    },
+    {
+      "title": "Fitting of fuel oil sampling points becomes mandatory",
+      "url": "https://gard.no/en/insights/fitting-fuel-oil-sampling-points-becomes-mandatory/",
+      "published_at": "2022-03-28",
+      "summary": "The retroactive MARPOL Annex VI requirement to fit or designate sampling points for taking representative samples of the fuel oil in use onboard ships entered into force on 1 April 2022, and the deadline for compliance depends on each ship’s schedule for renewing its APP certificate.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "oil_sampling"
+      ],
+      "summary_zh": "根據MARPOL附錄VI的要求，自2022年4月1日起，船舶必須安裝或指定燃油取樣點，以便採集船上使用的燃油樣本。遵守的截止日期取決於每艘船更新其APP證書的時間表。"
+    },
+    {
+      "title": "Decarbonization of shipping – emerging alternative fuels from a US perspective",
+      "url": "https://gard.no/en/insights/decarbonization-shipping-emerging-alternative-fuels-from-us-perspective/",
+      "published_at": "2022-02-16",
+      "summary": "While the impact of COVID-19 on seafarers and port congestion have grabbed headlines over the past year, no single issue has dominated the maritime industry press more than decarbonization as climate change represents the greatest challenge of this century. According to the [U.S. Environmental Prote",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ]
+    },
+    {
+      "title": "After COP 26 – where are we with decarbonisation of shipping?",
+      "url": "https://gard.no/en/insights/after-cop-26-where-are-we-decarbonisation-shipping/",
+      "published_at": "2021-11-24",
+      "summary": "International shipping emits 2-3 per cent of global GHG emissions whilst transporting close to 80 per cent of global trade by volume. The IMO target for reduction of GHG emissions from shipping is a 50 per cent reduction from a 2008 baseline by 2050.  Many in the industry see this as too little, too",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "summary_zh": "國際航運佔全球溫室氣體排放的2-3%，同時運輸近80%的全球貿易量。國際海事組織（IMO）設定的目標是到2050年將航運的溫室氣體排放量從2008年的基準減少50%。業界許多人認為這一目標過於保守。"
+    },
+    {
       "title": "Master’s checklists for loading and carriage of soya beans",
       "url": "https://gard.no/en/insights/masters-checklists-for-loading-and-carriage-of-soya-beans/",
       "published_at": "2021-03-10",
@@ -178,17 +393,34 @@
       "summary_zh": "檢查清單確定應收集的證據類型，以最佳方式證明船長和船員在貨物護理方面沒有疏忽。"
     },
     {
-      "title": "GPS interference and jamming on the increase",
-      "url": "https://gard.no/en/insights/gps-interference-jamming-on-increase/",
-      "published_at": "2020-09-28",
-      "summary": "Ships have reported an increasing number of cases of significant GPS interference and jamming in recent months. The geographic areas with more than one reported incident include the eastern and central Mediterranean Sea, the Persian Gulf, and multiple Chinese ports. This interference and jamming hav",
+      "title": "AMSA inspection campaign to focus on stowage and securing of containers",
+      "url": "https://gard.no/en/insights/amsa-inspection-campaign-to-focus-on-stowage-securing-containers/",
+      "published_at": "2020-07-26",
+      "summary": "In response to several incidents of containers being lost into the sea, the Australian Maritime Safety Authority (AMSA) has initiated a focused inspection campaign on container stowage and securing arrangements, both fixed and portable, that will run from 1 August 2020 to 31 October 2020.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
-      "topic_ids": [],
-      "summary_zh": "船隻近期報告了顯著的GPS干擾和干擾事件增加的情況。受影響的地區包括東地中海、中地中海、波斯灣以及多個中國港口。"
+      "topic_ids": [
+        "cic_2026"
+      ],
+      "summary_zh": "澳洲海事安全局（AMSA）針對多起集裝箱掉入海中的事件，啟動了一項專注於集裝箱堆放和固定安排的檢查活動。此檢查活動將於2020年8月1日至2020年10月31日進行。"
+    },
+    {
+      "title": "Fixed gas detection systems – are you sure the correct gas concentration is displayed?",
+      "url": "https://gard.no/en/insights/fixed-gas-detection-systems-are-you-sure-the-correct-gas-concentration-is/",
+      "published_at": "2020-04-28",
+      "summary": "During routine port state control inspections, the USCG found that fixed gas detection system sensors on a few LNG carriers were outside the tolerances established by the manufacturer and failed subsequent calibration checks.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "summary_zh": "在例行的港口國家控制檢查中，美國海岸警衛隊發現幾艘液化天然氣運輸船的固定氣體檢測系統傳感器超出了製造商設定的容差範圍，並未通過隨後的校準檢查。"
     },
     {
       "title": "Tackling cargo misdeclaration – a first line of defence against container fires",

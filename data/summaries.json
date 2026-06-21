@@ -532,5 +532,101 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-06-21T09:43:02+08:00"
+  },
+  "https://gard.no/en/insights/enclosed-spaces-when-saving-a-life-turns-fatal/": {
+    "summary_zh": "船上的密閉空間，如貨艙、貨物舱和鏈條儲存室，是最危險的環境之一。雖然初次窒息或接觸有毒物質的受害者受到重視，但許多悲劇性的死亡案例是試圖救援的船員。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/fueleu-penalties-what-charterers-and-owners-need-to-know/": {
+    "summary_zh": "燃料歐盟（FuelEU）計畫實施一年後，首批罰款已經開始出現，航運業仍在釐清誰負責支付、如何支付及何時支付。船東和租船人面臨著從生物燃料處理到報告義務、乘數和信用池等複雜的要求。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/new-biofouling-regulations-in-brazil/": {
+    "summary_zh": "在巴西，長度超過24米的船舶進入巴西水域時，必須以「乾淨的船體」抵達，或進行水中清洗。類似的限制也適用於在國內海洋生物地理區域內運行的船舶。相關制裁的執行日期已被延遲。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/fouling-up-down-under-biofouling-non-compliance-in-new-zealand/": {
+    "summary_zh": "自2025年5月1日起，抵達紐西蘭前必須提交生物安全預抵報告（PAR）。某些抵達該國的船舶可能還需進行生物污損評估，未通過評估可能導致船東與租船人之間的爭議。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/imo-updates-fuel-oil-sampling-guidelines/": {
+    "summary_zh": "國際海事組織（IMO）更新了燃油取樣指導方針，將「MARPOL交付樣本」的容量從400毫升增加至600毫升。此外，樣本必須能夠檢查根據SOLAS第II-2/4.2.1條規定的閃點要求。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/hull-biofouling-key-recommendations/": {
+    "summary_zh": "2023年修訂的國際海事組織（IMO）生物污損指導方針已生效，提供了防止海洋入侵物種擴散的最新指導。以下是主要建議。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/eu-ets-impact-on-eu-mrv-reporting/": {
+    "summary_zh": "5,000總噸位以上的船舶，若執行往返歐洲經濟區港口的航行，必須在2024年4月1日前向主管機關提交修訂並經驗證的二氧化碳（CO2）、甲烷（CH4）和氧化亞氮（N2O）排放監測計劃。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/eu-ets-important-compliance-clarifications/": {
+    "summary_zh": "自2024年1月1日起，所有在歐盟水域內運行的5,000 GT以上船舶需遵守歐盟的排放交易系統（ETS）。最近的實施規定已澄清船東如何轉移合規責任，但仍有一些重要問題待解決。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/boost-for-biofuels-as-imo-removes-regulatory-hurdle/": {
+    "summary_zh": "國際海事組織（IMO）已移除對生物燃料的監管障礙，這將有助於生物燃料的發展。根據MARPOL附錄六的規定，生物燃料也必須符合不超過適用的氮氧化物（NOx）排放限值的要求。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/biofouling-management-benefits-clean-hull/": {
+    "summary_zh": "澳大利亞已與紐西蘭和加州合作，要求國際船舶在進入其領海之前提供有關如何主動管理生物污損的信息。這些國家及次國家層級的生物污損法規旨在促進清潔的船體管理。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/entry-into-enclosed-spaces-are-you-prepared/": {
+    "summary_zh": "進入封閉空間的事件時常發生，提醒我們未經適當訓練或不遵循程序進入此類空間可能導致海員死亡或重傷。許多海員在封閉空間內遇難，往往是在嘗試救助他人時發生的。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/beware-binary-thinking-single-alternative-fuel-may-not-be-panacea-some-seek/": {
+    "summary_zh": "在航運去碳化的關鍵追求中，作者馬丁·克勞福德-布朗特提倡更廣泛的思考方式以達成目標。他警告不要讓完美阻礙良好的進展，應在過渡到零碳排放的未來時保持靈活。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/fitting-fuel-oil-sampling-points-becomes-mandatory/": {
+    "summary_zh": "根據MARPOL附錄VI的要求，自2022年4月1日起，船舶必須安裝或指定燃油取樣點，以便採集船上使用的燃油樣本。遵守的截止日期取決於每艘船更新其APP證書的時間表。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/after-cop-26-where-are-we-decarbonisation-shipping/": {
+    "summary_zh": "國際航運佔全球溫室氣體排放的2-3%，同時運輸近80%的全球貿易量。國際海事組織（IMO）設定的目標是到2050年將航運的溫室氣體排放量從2008年的基準減少50%。業界許多人認為這一目標過於保守。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/amsa-inspection-campaign-to-focus-on-stowage-securing-containers/": {
+    "summary_zh": "澳洲海事安全局（AMSA）針對多起集裝箱掉入海中的事件，啟動了一項專注於集裝箱堆放和固定安排的檢查活動。此檢查活動將於2020年8月1日至2020年10月31日進行。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
+  },
+  "https://gard.no/en/insights/fixed-gas-detection-systems-are-you-sure-the-correct-gas-concentration-is/": {
+    "summary_zh": "在例行的港口國家控制檢查中，美國海岸警衛隊發現幾艘液化天然氣運輸船的固定氣體檢測系統傳感器超出了製造商設定的容差範圍，並未通過隨後的校準檢查。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-21T10:57:28+08:00"
   }
 }
