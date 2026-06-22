@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T23:59:39+08:00",
+  "generated_at": "2026-06-22T08:22:49+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "海事數位化",
-      "why": "數位化在提升船舶與岸上利益相關者之間的協作和效率方面至關重要。",
+      "why": "海事數位化是提升航運效率和安全的重要趨勢。",
       "articles": [
         {
           "title": "Harmonising maritime digital interfaces: From alignment to action",
@@ -28,7 +28,7 @@
     },
     {
       "name": "船舶回收",
-      "why": "隨著環保意識的提高，船舶回收的安全和環保實踐變得愈加重要。",
+      "why": "隨著環保意識的提升，船舶回收的安全和環保實踐變得愈加重要。",
       "articles": [
         {
           "title": "What's happening in ship recycling?",
@@ -46,7 +46,7 @@
     },
     {
       "name": "燃料質量問題",
-      "why": "燃料質量問題對航運業的運營和合規性造成了重大影響。",
+      "why": "燃料質量問題直接影響航運安全和運營成本。",
       "articles": [
         {
           "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
@@ -69,32 +69,26 @@
       ]
     },
     {
-      "name": "海上安全威脅",
-      "why": "海上安全威脅的增加對航運業的運營和海員的安全構成了挑戰。",
+      "name": "海盜活動",
+      "why": "海盜活動的增加對航運安全構成持續威脅。",
       "articles": [
-        {
-          "title": "Lack of details remain a concern in the Strait of Hormuz",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-18"
-        },
-        {
-          "title": "Global shipping industry associations condemn recent attacks on seafarers",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-12"
-        },
         {
           "title": "Somali piracy structures are strengthening",
           "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/",
           "source": "BIMCO News",
           "published_at": "2026-06-11"
+        },
+        {
+          "title": "Somali piracy warning",
+          "url": "https://gard.no/en/insights/somali-piracy-warning/",
+          "source": "Gard Insight",
+          "published_at": "2026-05-19"
         }
       ]
     },
     {
-      "name": "環境合規要求",
-      "why": "新的環境合規要求對船舶運營和管理提出了更高的標準。",
+      "name": "環境合規性",
+      "why": "隨著環保法規的增多，船舶必須適應新的環境合規要求。",
       "articles": [
         {
           "title": "North-east Atlantic joins the expanding network of ECAs",

@@ -1,10 +1,5 @@
 {
-  "source_id": "bimco_news",
-  "source_name": "BIMCO News",
-  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-06-21T23:50:21+08:00",
   "last_success_at": "2026-06-21T23:50:21+08:00",
-  "crawl_status": "success",
   "items": [
     {
       "title": "Lack of details remain a concern in the Strait of Hormuz",
@@ -202,5 +197,11 @@
       "topic_ids": [],
       "summary_zh": "BIMCO推出了海員數位證書章程，這是支持業界向安全且可互操作的數位認證解決方案過渡的重要一步。"
     }
-  ]
+  ],
+  "source_id": "bimco_news",
+  "source_name": "BIMCO News",
+  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
+  "last_crawled_at": "2026-06-22T08:22:39+08:00",
+  "crawl_status": "error",
+  "error_message": "fetch() returned 0 items — page structure may have changed"
 }
