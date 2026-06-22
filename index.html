@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/style.css?v=20260621122031">
+  <link rel="stylesheet" href="static/style.css?v=20260622082249">
 </head>
 <body>
   <header class="site-header">
@@ -23,11 +23,12 @@
       </div>
       <div class="header-meta">
         <span class="meta-label">LAST BUILD</span>
-        <span class="meta-value">2026-06-21 12:20 <span class="tz">UTC+8</span></span>
+        <span class="meta-value">2026-06-22 08:22 <span class="tz">UTC+8</span></span>
       </div>
     </div>
     <nav class="tabs" role="tablist">
       <button class="tab is-active" role="tab" data-tab="brief">BRIEF</button>
+      <button class="tab" role="tab" data-tab="radar">AI RADAR</button>
       <button class="tab" role="tab" data-tab="sources">SOURCES</button>
       <button class="tab" role="tab" data-tab="topics">HOT TOPICS</button>
     </nav>
@@ -35,6 +36,17 @@
 
   <main class="site-main">
     
+
+
+<div class="search-bar">
+  <input id="search-input" type="search" autocomplete="off"
+         placeholder="🔍 搜尋所有情報(標題、摘要、來源、議題)…" aria-label="搜尋情報">
+  <span id="search-count" class="search-count"></span>
+</div>
+<section id="panel-search" class="panel" role="tabpanel" hidden>
+  <ol id="search-results" class="brief-list"></ol>
+  <p id="search-empty" class="source-empty" hidden>找不到符合的情報</p>
+</section>
 
 
 <section id="panel-brief" class="panel is-active" role="tabpanel">
@@ -59,6 +71,90 @@
     </li>
     
     <li class="brief-item">
+      <div class="brief-date">2026-06-18</div>
+      <div class="brief-body">
+        <a class="brief-link" href="https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/" target="_blank" rel="noopener">Lack of details remain a concern in the Strait of Hormuz</a>
+        
+        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>霍爾木茲海峽的安全通行仍然是一個關注焦點。美國和伊朗之間的協議已經簽署，旨在結束敵對行為並確保商業航運的安全通行，但業界仍在等待進一步的澄清和細節。</p>
+        
+        <div class="brief-meta">
+          <span class="src-chip">BIMCO News</span>
+          
+        </div>
+      </div>
+    </li>
+    
+    <li class="brief-item">
+      <div class="brief-date">2026-06-17</div>
+      <div class="brief-body">
+        <a class="brief-link" href="https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/" target="_blank" rel="noopener">North-east Atlantic joins the expanding network of ECAs</a>
+        
+        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。</p>
+        
+        <div class="brief-meta">
+          <span class="src-chip">DNV Technical &amp; Regulatory News</span>
+          <span class="topic-chip" data-topic="cii_ets">cii_ets</span>
+        </div>
+      </div>
+    </li>
+    
+    <li class="brief-item">
+      <div class="brief-date">2026-06-16</div>
+      <div class="brief-body">
+        <a class="brief-link" href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/" target="_blank" rel="noopener">What&#39;s happening in ship recycling?</a>
+        
+        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>BIMCO船舶回收聯盟於2024年成立，旨在協調全球船舶回收和航運業的聲音。其主要目標是促進全球安全和環保的船舶回收實踐。</p>
+        
+        <div class="brief-meta">
+          <span class="src-chip">BIMCO News</span>
+          
+        </div>
+      </div>
+    </li>
+    
+    <li class="brief-item">
+      <div class="brief-date">2026-06-16</div>
+      <div class="brief-body">
+        <a class="brief-link" href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-macs/" target="_blank" rel="noopener">BIMCO enters knowledge partnership with MACS to support members on plastics reduction</a>
+        
+        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>BIMCO 與海洋清潔海洋協會 (MACS) 建立知識合作夥伴關係，以加強對會員在減少船上塑料和改善廢物處理方面的支持。此合作旨在為會員提供額外的專業知識和見解。</p>
+        
+        <div class="brief-meta">
+          <span class="src-chip">BIMCO News</span>
+          
+        </div>
+      </div>
+    </li>
+    
+    <li class="brief-item">
+      <div class="brief-date">2026-06-16</div>
+      <div class="brief-body">
+        <a class="brief-link" href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/" target="_blank" rel="noopener">Harmonising maritime digital interfaces: From alignment to action</a>
+        
+        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>BIMCO 與 ITS Norway 及 DYNAPORT 項目密切合作，在哥本哈根舉辦為期兩天的行業研討會，探討如何加速海事領域內船舶與岸上利益相關者之間數位介面的統一。此次研討會聚集了來自航運公司的 45 位代表。</p>
+        
+        <div class="brief-meta">
+          <span class="src-chip">BIMCO News</span>
+          
+        </div>
+      </div>
+    </li>
+    
+    <li class="brief-item">
+      <div class="brief-date">2026-06-12</div>
+      <div class="brief-body">
+        <a class="brief-link" href="https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/" target="_blank" rel="noopener">Global shipping industry associations condemn recent attacks on seafarers</a>
+        
+        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>全球航運業協會一致譴責近期在霍爾木茲海峽及其周邊對海員和商業航運的攻擊。根據國際海事組織的資料，該組織已確認46起對國際航運的攻擊事件。</p>
+        
+        <div class="brief-meta">
+          <span class="src-chip">BIMCO News</span>
+          
+        </div>
+      </div>
+    </li>
+    
+    <li class="brief-item">
       <div class="brief-date">2026-06-11</div>
       <div class="brief-body">
         <a class="brief-link" href="https://gard.no/en/insights/updated-cins-guidelines-carriage-of-cocoa-butter-in-containers/" target="_blank" rel="noopener">Updated CINS guidelines: carriage of cocoa butter in containers</a>
@@ -73,118 +169,167 @@
     </li>
     
     <li class="brief-item">
-      <div class="brief-date">2026-06-09</div>
+      <div class="brief-date">2026-06-11</div>
       <div class="brief-body">
-        <a class="brief-link" href="https://gard.no/en/insights/worlds-largest-eca-adopted-by-the-imo/" target="_blank" rel="noopener">World’s largest ECA adopted by the IMO</a>
+        <a class="brief-link" href="https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/" target="_blank" rel="noopener">Somali piracy structures are strengthening</a>
         
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際海事組織（IMO）正式採納了位於北東大西洋的新排放控制區（ECA），加強了歐洲水域大部分地區的空氣排放要求，並將歐洲現有的ECA與加拿大北極ECA連接起來。</p>
+        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>索馬利亞海盜活動在2026年有所增加，記錄到七起劫持事件，涉及貨船、漁船和油輪。截至六月初，三艘船隻及其船員被扣押，停靠在索馬利亞沿岸。</p>
         
         <div class="brief-meta">
-          <span class="src-chip">Gard Insight</span>
+          <span class="src-chip">BIMCO News</span>
           
         </div>
       </div>
     </li>
     
     <li class="brief-item">
-      <div class="brief-date">2026-06-02</div>
+      <div class="brief-date">2026-06-11</div>
       <div class="brief-body">
-        <a class="brief-link" href="https://parismou.org/2026/06/paris-mou-59th-committee-meets-glasgow-united-kingdom" target="_blank" rel="noopener">Paris MoU 59th Committee meets in Glasgow, United Kingdom</a>
+        <a class="brief-link" href="https://www.bimco.org/news-insights/bimco-news/2026/06/11-leadership-perspective/" target="_blank" rel="noopener">&#34;Our industry depends on people&#34; - BIMCO Secretary General and CEO David Loosley</a>
         
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>巴黎備忘錄（Paris MoU）於2026年5月18日至22日在英國格拉斯哥成功召開第59屆委員會會議，討論了加強海事安全、環境保護及海員福利的重要進展。會議決定啟動針對24米及以上漁船的自願性港口國檢查統一方法的發展，並成立專門工作小組來支持此倡議。此外，委員會強調了加強國際合作和信息交流的迫切需求，以應對船舶欺詐登記和證書的問題。</p>
+        <p class="brief-summary">This article by BIMCO Secretary General and CEO David Loosley was originally sent to the CEOs of all BIMCO member companies and organisations on 27 May 2026</p>
         
         <div class="brief-meta">
-          <span class="src-chip">Paris MoU</span>
-          
-        </div>
-      </div>
-    </li>
-    
-    <li class="brief-item">
-      <div class="brief-date">2026-05-26</div>
-      <div class="brief-body">
-        <a class="brief-link" href="https://gard.no/en/insights/mmg-app-updated-with-hantavirus-guidance/" target="_blank" rel="noopener">MMG App updated with Hantavirus guidance</a>
-        
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>海員醫療指南（MMG）已更新，提供有關漢坦病毒的新臨床指導給醫療官員。</p>
-        
-        <div class="brief-meta">
-          <span class="src-chip">Gard Insight</span>
-          
-        </div>
-      </div>
-    </li>
-    
-    <li class="brief-item">
-      <div class="brief-date">2026-05-19</div>
-      <div class="brief-body">
-        <a class="brief-link" href="https://gard.no/en/insights/somali-piracy-warning/" target="_blank" rel="noopener">Somali piracy warning</a>
-        
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>雖然西印度洋和亞丁灣的海盜事件水平顯著低於過去，但近期事件顯示威脅仍然存在。航行於這些水域的船隻應保持高度警覺，並全面執行最佳管理實踐指導。</p>
-        
-        <div class="brief-meta">
-          <span class="src-chip">Gard Insight</span>
-          
-        </div>
-      </div>
-    </li>
-    
-    <li class="brief-item">
-      <div class="brief-date">2026-05-18</div>
-      <div class="brief-body">
-        <a class="brief-link" href="https://gard.no/en/insights/fuel-shortages-raise-concerns-over-fuel-tank-levels-on-car-carriers/" target="_blank" rel="noopener">Fuel shortages raise concerns over fuel tank levels on car carriers</a>
-        
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>中東衝突及燃料短缺引發了航運業的疑慮，關於汽車運輸船上運載的車輛是否可以在油箱中裝載更多燃料，以滿足目的地市場日益增長的需求。</p>
-        
-        <div class="brief-meta">
-          <span class="src-chip">Gard Insight</span>
-          
-        </div>
-      </div>
-    </li>
-    
-    <li class="brief-item">
-      <div class="brief-date">2026-05-06</div>
-      <div class="brief-body">
-        <a class="brief-link" href="https://gard.no/en/insights/new-guidelines-shipping-of-lithium-ion-cells-and-batteries/" target="_blank" rel="noopener">New guidelines: shipping of lithium-ion cells and batteries</a>
-        
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>貨物事件網絡系統（CINS）剛剛發布了《鋰離子電池及電池運輸指南》，針對全球貨物運輸中的一項主要風險進行說明。</p>
-        
-        <div class="brief-meta">
-          <span class="src-chip">Gard Insight</span>
-          
-        </div>
-      </div>
-    </li>
-    
-    <li class="brief-item">
-      <div class="brief-date">2026-05-05</div>
-      <div class="brief-body">
-        <a class="brief-link" href="https://gard.no/en/insights/power-operated-watertight-doors-can-be-deadly/" target="_blank" rel="noopener">Power-operated watertight doors can be deadly</a>
-        
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>操作和通過電動水密門仍然是船上最被低估且潛在致命的風險之一。最近一起致命事故突顯了持續保持警覺和意識的必要性。</p>
-        
-        <div class="brief-meta">
-          <span class="src-chip">Gard Insight</span>
-          
-        </div>
-      </div>
-    </li>
-    
-    <li class="brief-item">
-      <div class="brief-date">2026-05-01</div>
-      <div class="brief-body">
-        <a class="brief-link" href="https://www.tokyo-mou.org/annual-report/2026/05/01/annual-report-2025/" target="_blank" rel="noopener">Annual Report 2025</a>
-        
-        <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>2025年亞太地區港口國控制年報顯示，東京MOU成員機構共進行了35,546次檢查，創下歷史新高。儘管拘留率持續下降，但尚未恢復到疫情前的水平。東京MOU將於2026年正式實施高效能和低效能公司的名單，以促進表現改善。報告強調過去三年低效能船舶的增加，並呼籲所有利益相關者重新評估其表現和安全文化，以確保符合國際海事標準。</p>
-        
-        <div class="brief-meta">
-          <span class="src-chip">Tokyo MoU</span>
+          <span class="src-chip">BIMCO News</span>
           
         </div>
       </div>
     </li>
     
   </ol>
+</section>
+
+
+<section id="panel-radar" class="panel" role="tabpanel">
+  <div class="panel-head">
+    <h2 class="panel-title">近期重點主題 <span class="ai-tag" title="由 AI 從近期文章自動歸納,僅供參考,請以原文為準">AI</span></h2>
+    <p class="panel-desc">AI 從各來源近期文章歸納出、目前較熱但尚未列入固定議題的主題。每次更新自動刷新。</p>
+  </div>
+  
+  <div class="radar-list">
+    
+    <article class="radar-card">
+      <div class="radar-card-head">
+        <h3 class="radar-name">海事數位化</h3>
+        <span class="radar-count">3 篇</span>
+      </div>
+      <p class="radar-why">海事數位化是提升航運效率和安全的重要趨勢。</p>
+      <ul class="radar-items">
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/" target="_blank" rel="noopener">Harmonising maritime digital interfaces: From alignment to action</a>
+          <span class="item-meta">BIMCO News · 2026-06-16</span>
+        </li>
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/04-seafarers-digital-certificate-charter/" target="_blank" rel="noopener">BIMCO launches Seafarer Digital Certificates Charter to support industry-wide adoption</a>
+          <span class="item-meta">BIMCO News · 2026-06-04</span>
+        </li>
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/" target="_blank" rel="noopener">IMO’s Facilitation Committee (FAL 50)</a>
+          <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-03-30</span>
+        </li>
+        
+      </ul>
+    </article>
+    
+    <article class="radar-card">
+      <div class="radar-card-head">
+        <h3 class="radar-name">船舶回收</h3>
+        <span class="radar-count">2 篇</span>
+      </div>
+      <p class="radar-why">隨著環保意識的提升，船舶回收的安全和環保實踐變得愈加重要。</p>
+      <ul class="radar-items">
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/" target="_blank" rel="noopener">What&#39;s happening in ship recycling?</a>
+          <span class="item-meta">BIMCO News · 2026-06-16</span>
+        </li>
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/" target="_blank" rel="noopener">Biofuel clause now available to support transition to low-carbon fuels</a>
+          <span class="item-meta">BIMCO News · 2026-06-11</span>
+        </li>
+        
+      </ul>
+    </article>
+    
+    <article class="radar-card">
+      <div class="radar-card-head">
+        <h3 class="radar-name">燃料質量問題</h3>
+        <span class="radar-count">3 篇</span>
+      </div>
+      <p class="radar-why">燃料質量問題直接影響航運安全和運營成本。</p>
+      <ul class="radar-items">
+        
+        <li>
+          <a href="https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/" target="_blank" rel="noopener">Beyond Specification: Bunker Claims Insights, Early 2026</a>
+          <span class="item-meta">Gard Insight · 2026-06-19</span>
+        </li>
+        
+        <li>
+          <a href="https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/" target="_blank" rel="noopener">FOBAS report warns of late year surge in marine fuel quality failures</a>
+          <span class="item-meta">LR FOBAS · 2026-02-12</span>
+        </li>
+        
+        <li>
+          <a href="https://gard.no/en/insights/scrubber-risks-lessons-from-six-years-of-claims/" target="_blank" rel="noopener">Scrubber risks: Lessons from six years of claims</a>
+          <span class="item-meta">Gard Insight · 2026-03-12</span>
+        </li>
+        
+      </ul>
+    </article>
+    
+    <article class="radar-card">
+      <div class="radar-card-head">
+        <h3 class="radar-name">海盜活動</h3>
+        <span class="radar-count">2 篇</span>
+      </div>
+      <p class="radar-why">海盜活動的增加對航運安全構成持續威脅。</p>
+      <ul class="radar-items">
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/" target="_blank" rel="noopener">Somali piracy structures are strengthening</a>
+          <span class="item-meta">BIMCO News · 2026-06-11</span>
+        </li>
+        
+        <li>
+          <a href="https://gard.no/en/insights/somali-piracy-warning/" target="_blank" rel="noopener">Somali piracy warning</a>
+          <span class="item-meta">Gard Insight · 2026-05-19</span>
+        </li>
+        
+      </ul>
+    </article>
+    
+    <article class="radar-card">
+      <div class="radar-card-head">
+        <h3 class="radar-name">環境合規性</h3>
+        <span class="radar-count">3 篇</span>
+      </div>
+      <p class="radar-why">隨著環保法規的增多，船舶必須適應新的環境合規要求。</p>
+      <ul class="radar-items">
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/" target="_blank" rel="noopener">North-east Atlantic joins the expanding network of ECAs</a>
+          <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-06-17</span>
+        </li>
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/" target="_blank" rel="noopener">The UK ETS expands to maritime from 1 July 2026</a>
+          <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-06-05</span>
+        </li>
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/" target="_blank" rel="noopener">New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026</a>
+          <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-04-21</span>
+        </li>
+        
+      </ul>
+    </article>
+    
+  </div>
+  
 </section>
 
 
@@ -459,6 +604,96 @@
       <a class="source-foot" href="https://www.gard.no/insights" target="_blank" rel="noopener">前往來源官網 →</a>
     </article>
     
+    <article class="source-card">
+      <div class="source-card-head">
+        <div>
+          <h3 class="source-name">DNV Technical &amp; Regulatory News</h3>
+          <span class="source-cat">Class</span>
+        </div>
+        <div class="source-status">
+          
+          <span class="freshness freshness-ok">今日</span>
+        </div>
+      </div>
+      
+      <ul class="source-items">
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/" target="_blank" rel="noopener">North-east Atlantic joins the expanding network of ECAs</a>
+          <span class="item-date">2026-06-17</span>
+        </li>
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/" target="_blank" rel="noopener">The UK ETS expands to maritime from 1 July 2026</a>
+          <span class="item-date">2026-06-05</span>
+        </li>
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/" target="_blank" rel="noopener">IMO MSC 111: New MASS Code adopted</a>
+          <span class="item-date">2026-05-22</span>
+        </li>
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/how-to-document-pfos-free-fire-extinguishing-foam-on-board/" target="_blank" rel="noopener">How to document PFOS-free fire-extinguishing foam on board</a>
+          <span class="item-date">2026-05-04</span>
+        </li>
+        
+        <li>
+          <a href="https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/" target="_blank" rel="noopener">IMO MEPC 84: Revisiting the Net-Zero Framework</a>
+          <span class="item-date">2026-05-04</span>
+        </li>
+        
+      </ul>
+      
+      <a class="source-foot" href="https://www.dnv.com/maritime/technical-regulatory-news/" target="_blank" rel="noopener">前往來源官網 →</a>
+    </article>
+    
+    <article class="source-card">
+      <div class="source-card-head">
+        <div>
+          <h3 class="source-name">BIMCO News</h3>
+          <span class="source-cat">Industry</span>
+        </div>
+        <div class="source-status">
+          
+          <span class="status-badge status-error" title="fetch() returned 0 items — page structure may have changed">抓取失敗</span>
+          
+          <span class="freshness freshness-ok">今日</span>
+        </div>
+      </div>
+      
+      <ul class="source-items">
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/" target="_blank" rel="noopener">Lack of details remain a concern in the Strait of Hormuz</a>
+          <span class="item-date">2026-06-18</span>
+        </li>
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/" target="_blank" rel="noopener">What&#39;s happening in ship recycling?</a>
+          <span class="item-date">2026-06-16</span>
+        </li>
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-macs/" target="_blank" rel="noopener">BIMCO enters knowledge partnership with MACS to support members on plastics reduction</a>
+          <span class="item-date">2026-06-16</span>
+        </li>
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/" target="_blank" rel="noopener">Harmonising maritime digital interfaces: From alignment to action</a>
+          <span class="item-date">2026-06-16</span>
+        </li>
+        
+        <li>
+          <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/" target="_blank" rel="noopener">Global shipping industry associations condemn recent attacks on seafarers</a>
+          <span class="item-date">2026-06-12</span>
+        </li>
+        
+      </ul>
+      
+      <a class="source-foot" href="https://www.bimco.org/news-insights/bimco-news/" target="_blank" rel="noopener">前往來源官網 →</a>
+    </article>
+    
   </div>
 </section>
 
@@ -474,7 +709,7 @@
       <button class="topic-toggle" aria-expanded="false">
         <span class="topic-pri pri-high">HIGH</span>
         <span class="topic-name">BIO FUEL Bunkering</span>
-        <span class="topic-count">25</span>
+        <span class="topic-count">22</span>
         <span class="topic-caret">▸</span>
       </button>
       <div class="topic-body" hidden>
@@ -483,9 +718,9 @@
         <ul class="topic-items">
           
           <li>
-            <a href="https://gard.no/en/insights/fueleu-penalties-what-charterers-and-owners-need-to-know/" target="_blank" rel="noopener">FuelEU penalties: What charterers and owners need to know</a>
-            <span class="item-meta">Gard Insight · 2025-11-24</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>燃料歐盟（FuelEU）計畫實施一年後，首批罰款已經開始出現，航運業仍在釐清誰負責支付、如何支付及何時支付。船東和租船人面臨著從生物燃料處理到報告義務、乘數和信用池等複雜的要求。</p>
+            <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/" target="_blank" rel="noopener">Biofuel clause now available to support transition to low-carbon fuels</a>
+            <span class="item-meta">BIMCO News · 2026-06-11</span>
+            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>BIMCO已發布新的生物燃料條款，旨在解決隨著低碳燃料在航運中使用增加而出現的法律和操作挑戰。隨著航運業的脫碳，監管框架正在重塑公司的燃料策略。</p>
           </li>
           
           <li>
@@ -579,27 +814,9 @@
           </li>
           
           <li>
-            <a href="https://gard.no/en/insights/boost-for-biofuels-as-imo-removes-regulatory-hurdle/" target="_blank" rel="noopener">Boost for biofuels as IMO removes regulatory hurdle</a>
-            <span class="item-meta">Gard Insight · 2022-07-17</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際海事組織（IMO）已移除對生物燃料的監管障礙，這將有助於生物燃料的發展。根據MARPOL附錄六的規定，生物燃料也必須符合不超過適用的氮氧化物（NOx）排放限值的要求。</p>
-          </li>
-          
-          <li>
             <a href="https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2022/capital-and-lr-explore-the-use-of-biofuels-in-pilot-research-project/" target="_blank" rel="noopener">Capital and LR explore the use of biofuels in pilot research project</a>
             <span class="item-meta">LR FOBAS · 2022-06-08</span>
             <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>資本船舶管理公司正在其油輪上進行生物燃料試驗，以推進替代燃料的研究。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/beware-binary-thinking-single-alternative-fuel-may-not-be-panacea-some-seek/" target="_blank" rel="noopener">Beware of binary thinking – a single alternative fuel may not be the panacea some seek</a>
-            <span class="item-meta">Gard Insight · 2022-04-03</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>在航運去碳化的關鍵追求中，作者馬丁·克勞福德-布朗特提倡更廣泛的思考方式以達成目標。他警告不要讓完美阻礙良好的進展，應在過渡到零碳排放的未來時保持靈活。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/decarbonization-shipping-emerging-alternative-fuels-from-us-perspective/" target="_blank" rel="noopener">Decarbonization of shipping – emerging alternative fuels from a US perspective</a>
-            <span class="item-meta">Gard Insight · 2022-02-16</span>
-            
           </li>
           
           <li>
@@ -649,6 +866,12 @@
         <p class="topic-summary">Tokyo MoU / Paris MoU 年度集中檢查活動 (CIC):確認本年度主題、檢查表 (questionnaire) 與常見缺失項目,提前讓船隊完成自查,避免滯留 (detention)。</p>
         
         <ul class="topic-items">
+          
+          <li>
+            <a href="https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/" target="_blank" rel="noopener">Port State Control - Q1 2026 Detention review and other updates</a>
+            <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-04-29</span>
+            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。</p>
+          </li>
           
           <li>
             <a href="https://www.tokyo-mou.org/press-releases/2026/03/17/preliminary-results-of-cic-on-ballast-water-management-2025/" target="_blank" rel="noopener">Preliminary results of CIC on Ballast Water Management 2025</a>
@@ -704,12 +927,6 @@
             <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>在巴黎公約的57次委員會會議中，討論了2023年9月1日至11月30日進行的火災安全集中檢查活動的結果。整體合規情況令人滿意，但在防火門的良好工作狀態（9.3%不合規）和消防演習（9.2%不合規）方面表現不佳。隨後，巴黎公約於2024年7月1日至28日進行了針對防火門的專項檢查，結果顯示有13.9%的不合規情況，其中30%被認為是未能執行ISM規範。巴黎公約再次強調合規性的重要性，呼籲行業採取適當措施。</p>
           </li>
           
-          <li>
-            <a href="https://gard.no/en/insights/amsa-inspection-campaign-to-focus-on-stowage-securing-containers/" target="_blank" rel="noopener">AMSA inspection campaign to focus on stowage and securing of containers</a>
-            <span class="item-meta">Gard Insight · 2020-07-26</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>澳洲海事安全局（AMSA）針對多起集裝箱掉入海中的事件，啟動了一項專注於集裝箱堆放和固定安排的檢查活動。此檢查活動將於2020年8月1日至2020年10月31日進行。</p>
-          </li>
-          
         </ul>
         
         <a class="topic-brief-link" href="topic-cic_2026.html">查看完整 brief →</a>
@@ -720,7 +937,7 @@
       <button class="topic-toggle" aria-expanded="false">
         <span class="topic-pri pri-watch">WATCH</span>
         <span class="topic-name">Oil Sampling Point</span>
-        <span class="topic-count">3</span>
+        <span class="topic-count">1</span>
         <span class="topic-caret">▸</span>
       </button>
       <div class="topic-body" hidden>
@@ -729,21 +946,9 @@
         <ul class="topic-items">
           
           <li>
-            <a href="https://gard.no/en/insights/imo-updates-fuel-oil-sampling-guidelines/" target="_blank" rel="noopener">IMO updates fuel oil sampling guidelines</a>
-            <span class="item-meta">Gard Insight · 2024-10-31</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際海事組織（IMO）更新了燃油取樣指導方針，將「MARPOL交付樣本」的容量從400毫升增加至600毫升。此外，樣本必須能夠檢查根據SOLAS第II-2/4.2.1條規定的閃點要求。</p>
-          </li>
-          
-          <li>
             <a href="https://www.lr.org/en/knowledge/class-news/21-24/" target="_blank" rel="noopener">21/2024 - Updated IMO fuel oil sampling guidelines</a>
             <span class="item-meta">LR FOBAS · 2024-10-23</span>
             <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際海事組織（IMO）發布了聯合通函，更新了燃油取樣指導方針，以便符合MARPOL附錄VI和SOLAS第II-2章的合規驗證要求。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/fitting-fuel-oil-sampling-points-becomes-mandatory/" target="_blank" rel="noopener">Fitting of fuel oil sampling points becomes mandatory</a>
-            <span class="item-meta">Gard Insight · 2022-03-28</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>根據MARPOL附錄VI的要求，自2022年4月1日起，船舶必須安裝或指定燃油取樣點，以便採集船上使用的燃油樣本。遵守的截止日期取決於每艘船更新其APP證書的時間表。</p>
           </li>
           
         </ul>
@@ -756,39 +961,13 @@
       <button class="topic-toggle" aria-expanded="false">
         <span class="topic-pri pri-watch">WATCH</span>
         <span class="topic-name">Biofouling Management Plan</span>
-        <span class="topic-count">4</span>
+        <span class="topic-count">0</span>
         <span class="topic-caret">▸</span>
       </button>
       <div class="topic-body" hidden>
         <p class="topic-summary">IMO 生物污損管理指南 (MEPC.378(80)) 與紐澳等國的強制申報要求:船上須備妥 Biofouling Management Plan 與 Record Book,留意水下清洗 (in-water cleaning) 的港口國規定。</p>
         
-        <ul class="topic-items">
-          
-          <li>
-            <a href="https://gard.no/en/insights/new-biofouling-regulations-in-brazil/" target="_blank" rel="noopener">New biofouling regulations in Brazil</a>
-            <span class="item-meta">Gard Insight · 2025-07-10</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>在巴西，長度超過24米的船舶進入巴西水域時，必須以「乾淨的船體」抵達，或進行水中清洗。類似的限制也適用於在國內海洋生物地理區域內運行的船舶。相關制裁的執行日期已被延遲。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/fouling-up-down-under-biofouling-non-compliance-in-new-zealand/" target="_blank" rel="noopener">Fouling up Down Under: Biofouling non-compliance in New Zealand</a>
-            <span class="item-meta">Gard Insight · 2025-06-12</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>自2025年5月1日起，抵達紐西蘭前必須提交生物安全預抵報告（PAR）。某些抵達該國的船舶可能還需進行生物污損評估，未通過評估可能導致船東與租船人之間的爭議。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/hull-biofouling-key-recommendations/" target="_blank" rel="noopener">Hull biofouling – key recommendations</a>
-            <span class="item-meta">Gard Insight · 2024-02-22</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>2023年修訂的國際海事組織（IMO）生物污損指導方針已生效，提供了防止海洋入侵物種擴散的最新指導。以下是主要建議。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/biofouling-management-benefits-clean-hull/" target="_blank" rel="noopener">Biofouling management: the benefits of a clean hull</a>
-            <span class="item-meta">Gard Insight · 2022-06-13</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>澳大利亞已與紐西蘭和加州合作，要求國際船舶在進入其領海之前提供有關如何主動管理生物污損的信息。這些國家及次國家層級的生物污損法規旨在促進清潔的船體管理。</p>
-          </li>
-          
-        </ul>
+        <p class="source-empty">目前尚無對應文章</p>
         
         <a class="topic-brief-link" href="topic-biofouling.html">查看完整 brief →</a>
       </div>
@@ -798,7 +977,7 @@
       <button class="topic-toggle" aria-expanded="false">
         <span class="topic-pri pri-watch">WATCH</span>
         <span class="topic-name">Gas Detector Requirement</span>
-        <span class="topic-count">3</span>
+        <span class="topic-count">1</span>
         <span class="topic-caret">▸</span>
       </button>
       <div class="topic-body" hidden>
@@ -807,21 +986,9 @@
         <ul class="topic-items">
           
           <li>
-            <a href="https://gard.no/en/insights/enclosed-spaces-when-saving-a-life-turns-fatal/" target="_blank" rel="noopener">Enclosed spaces: When saving a life turns fatal</a>
-            <span class="item-meta">Gard Insight · 2025-12-10</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>船上的密閉空間，如貨艙、貨物舱和鏈條儲存室，是最危險的環境之一。雖然初次窒息或接觸有毒物質的受害者受到重視，但許多悲劇性的死亡案例是試圖救援的船員。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/entry-into-enclosed-spaces-are-you-prepared/" target="_blank" rel="noopener">Entry into enclosed spaces - are you prepared?</a>
-            <span class="item-meta">Gard Insight · 2022-04-26</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>進入封閉空間的事件時常發生，提醒我們未經適當訓練或不遵循程序進入此類空間可能導致海員死亡或重傷。許多海員在封閉空間內遇難，往往是在嘗試救助他人時發生的。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/fixed-gas-detection-systems-are-you-sure-the-correct-gas-concentration-is/" target="_blank" rel="noopener">Fixed gas detection systems – are you sure the correct gas concentration is displayed?</a>
-            <span class="item-meta">Gard Insight · 2020-04-28</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>在例行的港口國家控制檢查中，美國海岸警衛隊發現幾艘液化天然氣運輸船的固定氣體檢測系統傳感器超出了製造商設定的容差範圍，並未通過隨後的校準檢查。</p>
+            <a href="https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/" target="_blank" rel="noopener">Revised IMO recommendations for entering enclosed spaces aboard ships</a>
+            <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-04-08</span>
+            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>進入船舶封閉空間仍然是船舶操作和海員工作條件中的安全挑戰。國際海事組織於2025年6月27日採納了修訂的進入船舶封閉空間的建議，應根據安全管理系統進行處理。</p>
           </li>
           
         </ul>
@@ -834,7 +1001,7 @@
       <button class="topic-toggle" aria-expanded="false">
         <span class="topic-pri pri-reg">REG</span>
         <span class="topic-name">CII / SEEMP / Net-Zero Framework</span>
-        <span class="topic-count">22</span>
+        <span class="topic-count">19</span>
         <span class="topic-caret">▸</span>
       </button>
       <div class="topic-body" hidden>
@@ -843,15 +1010,33 @@
         <ul class="topic-items">
           
           <li>
-            <a href="https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MEPC84_sumE.pdf" target="_blank" rel="noopener">Preliminary Report of MEPC84 (May 2026)</a>
-            <span class="item-meta">ClassNK Topics · 2026-05-01</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際海事組織（IMO）第84屆海洋環境保護委員會（MEPC 84）於2026年4月27日至5月1日召開，重點討論減少船舶溫室氣體（GHG）排放的中期措施及相關指導方針。會議決定於2026年9月和11月舉行工作小組會議，以解決目前草案修訂的剩餘問題，並計劃在2026年12月的MEPC 85會議後恢復特殊會議。會議中也強調了燃料全生命週期的GHG排放計算方法的重要性。</p>
+            <a href="https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/" target="_blank" rel="noopener">North-east Atlantic joins the expanding network of ECAs</a>
+            <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-06-17</span>
+            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。</p>
           </li>
           
           <li>
-            <a href="https://gard.no/en/insights/fueleu-penalties-what-charterers-and-owners-need-to-know/" target="_blank" rel="noopener">FuelEU penalties: What charterers and owners need to know</a>
-            <span class="item-meta">Gard Insight · 2025-11-24</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>燃料歐盟（FuelEU）計畫實施一年後，首批罰款已經開始出現，航運業仍在釐清誰負責支付、如何支付及何時支付。船東和租船人面臨著從生物燃料處理到報告義務、乘數和信用池等複雜的要求。</p>
+            <a href="https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/" target="_blank" rel="noopener">Biofuel clause now available to support transition to low-carbon fuels</a>
+            <span class="item-meta">BIMCO News · 2026-06-11</span>
+            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>BIMCO已發布新的生物燃料條款，旨在解決隨著低碳燃料在航運中使用增加而出現的法律和操作挑戰。隨著航運業的脫碳，監管框架正在重塑公司的燃料策略。</p>
+          </li>
+          
+          <li>
+            <a href="https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/" target="_blank" rel="noopener">The UK ETS expands to maritime from 1 July 2026</a>
+            <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-06-05</span>
+            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。</p>
+          </li>
+          
+          <li>
+            <a href="https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/" target="_blank" rel="noopener">IMO MEPC 84: Revisiting the Net-Zero Framework</a>
+            <span class="item-meta">DNV Technical &amp; Regulatory News · 2026-05-04</span>
+            
+          </li>
+          
+          <li>
+            <a href="https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MEPC84_sumE.pdf" target="_blank" rel="noopener">Preliminary Report of MEPC84 (May 2026)</a>
+            <span class="item-meta">ClassNK Topics · 2026-05-01</span>
+            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際海事組織（IMO）第84屆海洋環境保護委員會（MEPC 84）於2026年4月27日至5月1日召開，重點討論減少船舶溫室氣體（GHG）排放的中期措施及相關指導方針。會議決定於2026年9月和11月舉行工作小組會議，以解決目前草案修訂的剩餘問題，並計劃在2026年12月的MEPC 85會議後恢復特殊會議。會議中也強調了燃料全生命週期的GHG排放計算方法的重要性。</p>
           </li>
           
           <li>
@@ -903,24 +1088,6 @@
           </li>
           
           <li>
-            <a href="https://gard.no/en/insights/eu-ets-impact-on-eu-mrv-reporting/" target="_blank" rel="noopener">EU ETS impact on EU MRV reporting</a>
-            <span class="item-meta">Gard Insight · 2024-01-11</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>5,000總噸位以上的船舶，若執行往返歐洲經濟區港口的航行，必須在2024年4月1日前向主管機關提交修訂並經驗證的二氧化碳（CO2）、甲烷（CH4）和氧化亞氮（N2O）排放監測計劃。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/eu-ets-important-compliance-clarifications/" target="_blank" rel="noopener">EU ETS: important compliance clarifications</a>
-            <span class="item-meta">Gard Insight · 2024-01-04</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>自2024年1月1日起，所有在歐盟水域內運行的5,000 GT以上船舶需遵守歐盟的排放交易系統（ETS）。最近的實施規定已澄清船東如何轉移合規責任，但仍有一些重要問題待解決。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/the-third-pillar-a-contractual-architecture-for-maritime-decarbonisation/" target="_blank" rel="noopener">The third pillar: a contractual architecture for maritime decarbonisation</a>
-            <span class="item-meta">Gard Insight · 2023-10-20</span>
-            
-          </li>
-          
-          <li>
             <a href="https://www.lr.org/en/knowledge/class-news/18-23/" target="_blank" rel="noopener">18/2023 - IMO publishes interim guidance on the calculations of biofuel carbon conversion factor (CF) for IMO DCS and CII calculations</a>
             <span class="item-meta">LR FOBAS · 2023-09-28</span>
             <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際海事組織（IMO）發布了有關生物燃料碳轉換係數（CF）計算的臨時指導，適用於IMO DCS和CII計算。</p>
@@ -942,24 +1109,6 @@
             <a href="https://www.classnk.com/hp/pdf/tech_info/tech_img/T1275e.pdf" target="_blank" rel="noopener">Outcome of MEPC78 (June 2022)</a>
             <span class="item-meta">ClassNK Topics · 2022-06-01</span>
             <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>第七十八屆海洋環境保護委員會（MEPC 78）於2022年6月6日至10日召開，討論了減少國際航運溫室氣體（GHG）排放的措施。會議通過了短期和中長期的減排目標，包括到2030年提高運輸效率至少40%及到2050年減少70%的二氧化碳排放。會議還同意建立工作小組，開發海洋燃料的生命周期溫室氣體和碳強度指導方針，以促進未來低碳燃料的使用。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/beware-binary-thinking-single-alternative-fuel-may-not-be-panacea-some-seek/" target="_blank" rel="noopener">Beware of binary thinking – a single alternative fuel may not be the panacea some seek</a>
-            <span class="item-meta">Gard Insight · 2022-04-03</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>在航運去碳化的關鍵追求中，作者馬丁·克勞福德-布朗特提倡更廣泛的思考方式以達成目標。他警告不要讓完美阻礙良好的進展，應在過渡到零碳排放的未來時保持靈活。</p>
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/decarbonization-shipping-emerging-alternative-fuels-from-us-perspective/" target="_blank" rel="noopener">Decarbonization of shipping – emerging alternative fuels from a US perspective</a>
-            <span class="item-meta">Gard Insight · 2022-02-16</span>
-            
-          </li>
-          
-          <li>
-            <a href="https://gard.no/en/insights/after-cop-26-where-are-we-decarbonisation-shipping/" target="_blank" rel="noopener">After COP 26 – where are we with decarbonisation of shipping?</a>
-            <span class="item-meta">Gard Insight · 2021-11-24</span>
-            <p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>國際航運佔全球溫室氣體排放的2-3%，同時運輸近80%的全球貿易量。國際海事組織（IMO）設定的目標是到2050年將航運的溫室氣體排放量從2008年的基準減少50%。業界許多人認為這一目標過於保守。</p>
           </li>
           
           <li>
@@ -990,6 +1139,6 @@
     <p>Marine Tech Intel · 靜態彙整,資料以各來源官方公告為準 · Built with Python + Jinja2</p>
   </footer>
 
-  <script src="static/main.js?v=20260621122031"></script>
+  <script src="static/main.js?v=20260622082249"></script>
 </body>
 </html>
