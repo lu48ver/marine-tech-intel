@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-22T08:22:49+08:00",
+  "generated_at": "2026-06-22T12:22:30+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "海事數位化",
-      "why": "海事數位化是提升航運效率和安全的重要趨勢。",
+      "why": "隨著數位化的加速，海事界需要加強船舶與岸上利益相關者之間的數位介面整合。",
       "articles": [
         {
           "title": "Harmonising maritime digital interfaces: From alignment to action",
@@ -28,7 +28,7 @@
     },
     {
       "name": "船舶回收",
-      "why": "隨著環保意識的提升，船舶回收的安全和環保實踐變得愈加重要。",
+      "why": "隨著環保意識的提升，船舶回收的安全和環保實踐變得越來越重要。",
       "articles": [
         {
           "title": "What's happening in ship recycling?",
@@ -46,7 +46,7 @@
     },
     {
       "name": "燃料質量問題",
-      "why": "燃料質量問題直接影響航運安全和運營成本。",
+      "why": "燃料質量的問題對航運安全和經濟影響重大，需引起行業重視。",
       "articles": [
         {
           "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
@@ -70,7 +70,7 @@
     },
     {
       "name": "海盜活動",
-      "why": "海盜活動的增加對航運安全構成持續威脅。",
+      "why": "海盜活動的增長對航運安全構成威脅，需加強防範措施。",
       "articles": [
         {
           "title": "Somali piracy structures are strengthening",
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "name": "環境合規性",
-      "why": "隨著環保法規的增多，船舶必須適應新的環境合規要求。",
+      "name": "環境控制區擴展",
+      "why": "新的排放控制區的設立將影響航運業的運營和合規要求。",
       "articles": [
         {
           "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -97,16 +97,16 @@
           "published_at": "2026-06-17"
         },
         {
+          "title": "World’s largest ECA adopted by the IMO",
+          "url": "https://gard.no/en/insights/worlds-largest-eca-adopted-by-the-imo/",
+          "source": "Gard Insight",
+          "published_at": "2026-06-09"
+        },
+        {
           "title": "The UK ETS expands to maritime from 1 July 2026",
           "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
           "source": "DNV Technical & Regulatory News",
           "published_at": "2026-06-05"
-        },
-        {
-          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
-          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-21"
         }
       ]
     }
