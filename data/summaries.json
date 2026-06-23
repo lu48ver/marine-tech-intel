@@ -772,5 +772,11 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-06-21T23:51:26+08:00"
+  },
+  "https://www.tokyo-mou.org/deficiency-photos/2026/06/22/deficiency-photo-of-the-year-2025/": {
+    "summary_zh": "船名：OLGA L，IMO號碼：8320834，國籍：蒙古，船型：冷藏貨船。檢查港口：俄羅斯聯邦海參崴，檢查日期：2025年12月24日。主要缺陷為右側救生艇失效，且未配備三個醫療急救包及不符合要求的引航梯。",
+    "model": "gpt-4o-mini",
+    "source_kind": "pdf",
+    "generated_at": "2026-06-23T11:40:01+08:00"
   }
 }
