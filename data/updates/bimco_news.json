@@ -1,6 +1,24 @@
 {
-  "last_success_at": "2026-06-22T12:22:15+08:00",
+  "source_id": "bimco_news",
+  "source_name": "BIMCO News",
+  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
+  "last_crawled_at": "2026-06-24T11:40:54+08:00",
+  "last_success_at": "2026-06-24T11:40:54+08:00",
+  "crawl_status": "success",
   "items": [
+    {
+      "title": "Managing geopolitical cyber security risks",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+      "published_at": "2026-06-23",
+      "summary": "This research paper explores how to develop a Geopolitical Strategy in Maritime Cyber Security. The purpose is to give indications to shipowners whether national cyber security strategies can present a risk for their business in a context of geopolitical instability.\nThe paper was written by Aude Ch",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "本研究論文探討如何在海事網絡安全中制定地緣政治策略。其目的是向船東提供指導，以了解國家網絡安全策略在地緣政治不穩定的背景下是否會對其業務構成風險。"
+    },
     {
       "title": "Lack of details remain a concern in the Strait of Hormuz",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/",
@@ -183,25 +201,6 @@
       ],
       "topic_ids": [],
       "summary_zh": "隨著航運業對能源效率的重視加強，船舶改裝項目的標準合約框架變得愈加重要。BIMCO正在積極開發其能源節約裝置改裝附錄，旨在提供相關指導。"
-    },
-    {
-      "title": "BIMCO launches Seafarer Digital Certificates Charter to support industry-wide adoption",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/04-seafarers-digital-certificate-charter/",
-      "published_at": "2026-06-04",
-      "summary": "BIMCO has launched the Seafarer Digital Certificates Charter, marking an important step in supporting the industry’s transition towards secure and interoperable digital certification solutions.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "summary_zh": "BIMCO推出了海員數位證書章程，這是支持業界向安全且可互操作的數位認證解決方案過渡的重要一步。"
     }
-  ],
-  "source_id": "bimco_news",
-  "source_name": "BIMCO News",
-  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-06-23T11:40:00+08:00",
-  "crawl_status": "error",
-  "error_message": "fetch() returned 0 items — page structure may have changed"
+  ]
 }

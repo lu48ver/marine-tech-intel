@@ -778,5 +778,17 @@
     "model": "gpt-4o-mini",
     "source_kind": "pdf",
     "generated_at": "2026-06-23T11:40:01+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/": {
+    "summary_zh": "本研究論文探討如何在海事網絡安全中制定地緣政治策略。其目的是向船東提供指導，以了解國家網絡安全策略在地緣政治不穩定的背景下是否會對其業務構成風險。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-24T11:40:59+08:00"
+  },
+  "https://gard.no/en/insights/heroic-idun-learnings-from-landmark-itlos-ruling/": {
+    "summary_zh": "國際海洋法法庭對M/T Heroic Idun案件的裁決提供了重要的教訓，涉及航行自由、船員福祉及其價值。這一裁決考驗了國際海事法的基本原則。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-24T11:40:59+08:00"
   }
 }

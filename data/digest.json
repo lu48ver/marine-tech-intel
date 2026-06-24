@@ -1,58 +1,46 @@
 {
-  "generated_at": "2026-06-23T11:40:47+08:00",
+  "generated_at": "2026-06-24T11:41:14+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "海事數位化",
-      "why": "數位化在海事行業的推進對於提升效率和安全性至關重要。",
+      "name": "網絡安全風險管理",
+      "why": "隨著地緣政治的不穩定，海事網絡安全成為保護航運業務的重要考量。",
       "articles": [
         {
-          "title": "Harmonising maritime digital interfaces: From alignment to action",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/",
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
+        },
+        {
+          "title": "Lack of details remain a concern in the Strait of Hormuz",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-18"
+        }
+      ]
+    },
+    {
+      "name": "船舶回收與環保",
+      "why": "全球船舶回收的安全和環保實踐正受到越來越多的關注，促進可持續發展。",
+      "articles": [
+        {
+          "title": "What's happening in ship recycling?",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
           "source": "BIMCO News",
           "published_at": "2026-06-16"
         },
         {
-          "title": "BIMCO launches Seafarer Digital Certificates Charter to support industry-wide adoption",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/04-seafarers-digital-certificate-charter/",
+          "title": "BIMCO enters knowledge partnership with MACS to support members on plastics reduction",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-macs/",
           "source": "BIMCO News",
-          "published_at": "2026-06-04"
-        },
-        {
-          "title": "IMO’s Facilitation Committee (FAL 50)",
-          "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-03-30"
+          "published_at": "2026-06-16"
         }
       ]
     },
     {
-      "name": "船舶安全管理",
-      "why": "加強船舶安全管理能有效降低事故風險，保障海員和船舶的安全。",
-      "articles": [
-        {
-          "title": "Power-operated watertight doors can be deadly",
-          "url": "https://gard.no/en/insights/power-operated-watertight-doors-can-be-deadly/",
-          "source": "Gard Insight",
-          "published_at": "2026-05-05"
-        },
-        {
-          "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
-          "url": "https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-08"
-        },
-        {
-          "title": "Post-fire ship hull structure and material assessment",
-          "url": "https://www.dnv.com/news/2026/post-fire-ship-hull-structure-and-material-assessment/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-03-18"
-        }
-      ]
-    },
-    {
-      "name": "環境合規性",
-      "why": "遵守環境法規對於減少航運業的環境影響和提升企業形象至關重要。",
+      "name": "排放控制區擴展",
+      "why": "新的排放控制區的設立將影響航運業的合規性和環境影響。",
       "articles": [
         {
           "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -61,52 +49,46 @@
           "published_at": "2026-06-17"
         },
         {
+          "title": "World’s largest ECA adopted by the IMO",
+          "url": "https://gard.no/en/insights/worlds-largest-eca-adopted-by-the-imo/",
+          "source": "Gard Insight",
+          "published_at": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "name": "能源效率與改裝",
+      "why": "隨著對能源效率的重視，船舶改裝的標準合約框架變得愈加重要。",
+      "articles": [
+        {
+          "title": "BIMCO's Energy Saving Device Retrofitting Addendum: Work well underway",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/10-retrofit-addendum/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-10"
+        },
+        {
           "title": "The UK ETS expands to maritime from 1 July 2026",
           "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
           "source": "DNV Technical & Regulatory News",
           "published_at": "2026-06-05"
-        },
+        }
+      ]
+    },
+    {
+      "name": "海事自主水面船舶",
+      "why": "海事自主水面船舶的法規發展標誌著航運業的技術進步與挑戰。",
+      "articles": [
         {
-          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
-          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
           "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-21"
-        }
-      ]
-    },
-    {
-      "name": "海盜活動",
-      "why": "海盜活動的增加對航運安全構成威脅，需持續關注和應對。",
-      "articles": [
-        {
-          "title": "Somali piracy structures are strengthening",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-11"
+          "published_at": "2026-05-22"
         },
         {
-          "title": "Somali piracy warning",
-          "url": "https://gard.no/en/insights/somali-piracy-warning/",
-          "source": "Gard Insight",
-          "published_at": "2026-05-19"
-        }
-      ]
-    },
-    {
-      "name": "燃料質量問題",
-      "why": "燃料質量問題直接影響船舶運行效率和合規性，需加強監控和管理。",
-      "articles": [
-        {
-          "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
-          "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
-          "source": "Gard Insight",
-          "published_at": "2026-06-19"
-        },
-        {
-          "title": "FOBAS report warns of late year surge in marine fuel quality failures",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
-          "source": "LR FOBAS",
-          "published_at": "2026-02-12"
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
         }
       ]
     }

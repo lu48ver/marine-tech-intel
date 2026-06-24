@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-06-23T11:39:53+08:00",
-  "last_success_at": "2026-06-23T11:39:53+08:00",
+  "last_crawled_at": "2026-06-24T11:40:49+08:00",
+  "last_success_at": "2026-06-24T11:40:49+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Heroic Idun: What we can learn from the landmark ITLOS ruling",
+      "url": "https://gard.no/en/insights/heroic-idun-learnings-from-landmark-itlos-ruling/",
+      "published_at": "2026-06-23",
+      "summary": "Following the International Tribunal for the Law of the Sea's judgment in the M/T Heroic Idun case, Gard looks back on a dispute that truly tested the fundamental principles of international maritime law. The ruling offers important lessons – on freedom of navigation, crew welfare, and the value of ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "國際海洋法法庭對M/T Heroic Idun案件的裁決提供了重要的教訓，涉及航行自由、船員福祉及其價值。這一裁決考驗了國際海事法的基本原則。"
+    },
     {
       "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
       "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
@@ -122,19 +135,6 @@
       ],
       "topic_ids": [],
       "summary_zh": "全球近7,000艘船舶已配備洗滌器，這項技術的採用持續上升。儘管該技術提供明顯的合規性和商業優勢，但六年的索賠數據顯示出腐蝕、火災和淹水的特定模式。"
-    },
-    {
-      "title": "Heavy weather at sea: managing risks on passage",
-      "url": "https://gard.no/en/insights/heavy-weather-at-sea-managing-risks-on-passage/",
-      "published_at": "2026-03-05",
-      "summary": "Continuing our series on heavy weather risks, this article turns to the sea passage, when vessels may be more exposed to sustained or deteriorating conditions. We examine scenarios, decision points and operational pressures  that can turn heavy weather into a potential casualty.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "summary_zh": "在海上航行中，船隻可能面臨持續或惡化的天氣條件。本文探討了可能導致重型天氣成為潛在事故的情境、決策點和操作壓力。"
     },
     {
       "title": "Bumper Brazilian soya bean crop means more claims in China",

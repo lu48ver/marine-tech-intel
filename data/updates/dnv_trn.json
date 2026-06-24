@@ -1,10 +1,5 @@
 {
-  "source_id": "dnv_trn",
-  "source_name": "DNV Technical & Regulatory News",
-  "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-06-23T11:39:59+08:00",
   "last_success_at": "2026-06-23T11:39:59+08:00",
-  "crawl_status": "success",
   "items": [
     {
       "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -171,5 +166,11 @@
       "topic_ids": [],
       "summary_zh": "船舶火災事件是最常見的事故之一，近年來，集裝箱船和滾裝貨物/客運船的火災事件特別增加。DNV在許多火災後的結構和材料評估中提供了支持，這則消息旨在分享我們的見解。"
     }
-  ]
+  ],
+  "source_id": "dnv_trn",
+  "source_name": "DNV Technical & Regulatory News",
+  "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
+  "last_crawled_at": "2026-06-24T11:40:54+08:00",
+  "crawl_status": "error",
+  "error_message": "403 Client Error: Forbidden for url: https://www.dnv.com/api/listing/news?blockId=4983"
 }
