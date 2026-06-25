@@ -2,8 +2,8 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications?field_news_category_target_id=2",
-  "last_crawled_at": "2026-06-24T11:40:49+08:00",
-  "last_success_at": "2026-06-24T11:40:49+08:00",
+  "last_crawled_at": "2026-06-25T11:40:33+08:00",
+  "last_success_at": "2026-06-25T11:40:33+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "title": "2024 Paris MoU Annual Report “Progress and performance; highlights of the Paris MoU 2024\"",
-      "url": "https://parismou.org/2025/07/2024-paris-mou-annual-report-progress-and-performance-highlights-paris-mou-2024",
+      "url": "https://parismou.org/index%2ephp/2025/07/2024-paris-mou-annual-report-progress-and-performance-highlights-paris-mou-2024",
       "published_at": "2025-07-01",
       "summary": "",
       "tags": [
@@ -42,7 +42,7 @@
         "paris-mou"
       ],
       "topic_ids": [],
-      "summary_zh": "巴黎公約於2025年7月1日發布2024年年報，概述了2024年的活動和統計數據。2024年的扣留率上升至4.03%，相比2023年的3.81%有所增加，顯示出持續高扣留比例的趨勢。巴黎公約將在未來幾年密切監測此趨勢以評估其影響。"
+      "summary_zh": "巴黎公約於2025年7月1日發布2024年年度報告，概述了2024年的活動和統計數據。2024年的扣留率上升至4.03%，相比2023年的3.81%有所增加，顯示出過去幾年持續高企的扣留百分比趨勢。巴黎公約將在未來幾年內密切監測此趨勢及其影響。"
     },
     {
       "title": "Paris MoU 58th Committee meets in Malmö, Sweden",

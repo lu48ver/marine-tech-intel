@@ -790,5 +790,17 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-06-24T11:40:59+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/06/24-imo-hormuz/": {
+    "summary_zh": "國際海事組織（IMO）於2026年6月23日宣布了一項計劃，將對仍然滯留在波斯灣地區的超過11,000名海員進行撤離。BIMCO對該撤離計劃表示支持和讚揚。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-25T11:40:45+08:00"
+  },
+  "https://parismou.org/index%2ephp/2025/07/2024-paris-mou-annual-report-progress-and-performance-highlights-paris-mou-2024": {
+    "summary_zh": "巴黎公約於2025年7月1日發布2024年年度報告，概述了2024年的活動和統計數據。2024年的扣留率上升至4.03%，相比2023年的3.81%有所增加，顯示出過去幾年持續高企的扣留百分比趨勢。巴黎公約將在未來幾年內密切監測此趨勢及其影響。",
+    "model": "gpt-4o-mini",
+    "source_kind": "html",
+    "generated_at": "2026-06-25T11:40:45+08:00"
   }
 }

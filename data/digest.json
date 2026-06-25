@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24T11:41:14+08:00",
+  "generated_at": "2026-06-25T11:40:59+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "網絡安全風險管理",
-      "why": "隨著地緣政治的不穩定，海事網絡安全成為保護航運業務的重要考量。",
+      "name": "地緣政治網絡安全風險",
+      "why": "隨著地緣政治不穩定，海事網絡安全成為船東的重要考量。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -13,16 +13,16 @@
           "published_at": "2026-06-23"
         },
         {
-          "title": "Lack of details remain a concern in the Strait of Hormuz",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/",
+          "title": "Global shipping industry associations condemn recent attacks on seafarers",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
           "source": "BIMCO News",
-          "published_at": "2026-06-18"
+          "published_at": "2026-06-12"
         }
       ]
     },
     {
       "name": "船舶回收與環保",
-      "why": "全球船舶回收的安全和環保實踐正受到越來越多的關注，促進可持續發展。",
+      "why": "全球船舶回收的安全和環保實踐越來越受到重視。",
       "articles": [
         {
           "title": "What's happening in ship recycling?",
@@ -39,8 +39,50 @@
       ]
     },
     {
-      "name": "排放控制區擴展",
-      "why": "新的排放控制區的設立將影響航運業的合規性和環境影響。",
+      "name": "燃料質量問題",
+      "why": "燃料質量問題對航運業的影響日益增長，需加強監管與管理。",
+      "articles": [
+        {
+          "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
+          "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
+          "source": "Gard Insight",
+          "published_at": "2026-06-19"
+        },
+        {
+          "title": "Fuel shortages raise concerns over fuel tank levels on car carriers",
+          "url": "https://gard.no/en/insights/fuel-shortages-raise-concerns-over-fuel-tank-levels-on-car-carriers/",
+          "source": "Gard Insight",
+          "published_at": "2026-05-18"
+        },
+        {
+          "title": "FOBAS report warns of late year surge in marine fuel quality failures",
+          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
+          "source": "LR FOBAS",
+          "published_at": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "name": "海盜活動增長",
+      "why": "近期海盜活動的增長對航運安全構成了新的威脅。",
+      "articles": [
+        {
+          "title": "Somali piracy structures are strengthening",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-11"
+        },
+        {
+          "title": "Somali piracy warning",
+          "url": "https://gard.no/en/insights/somali-piracy-warning/",
+          "source": "Gard Insight",
+          "published_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "name": "新排放控制區的實施",
+      "why": "新的排放控制區的設立將影響航運業的環保合規要求。",
       "articles": [
         {
           "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -53,42 +95,6 @@
           "url": "https://gard.no/en/insights/worlds-largest-eca-adopted-by-the-imo/",
           "source": "Gard Insight",
           "published_at": "2026-06-09"
-        }
-      ]
-    },
-    {
-      "name": "能源效率與改裝",
-      "why": "隨著對能源效率的重視，船舶改裝的標準合約框架變得愈加重要。",
-      "articles": [
-        {
-          "title": "BIMCO's Energy Saving Device Retrofitting Addendum: Work well underway",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/10-retrofit-addendum/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-10"
-        },
-        {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
-        }
-      ]
-    },
-    {
-      "name": "海事自主水面船舶",
-      "why": "海事自主水面船舶的法規發展標誌著航運業的技術進步與挑戰。",
-      "articles": [
-        {
-          "title": "IMO MSC 111: New MASS Code adopted",
-          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-22"
-        },
-        {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
         }
       ]
     }
