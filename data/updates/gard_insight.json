@@ -2,10 +2,22 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-06-25T11:40:34+08:00",
-  "last_success_at": "2026-06-25T11:40:34+08:00",
+  "last_crawled_at": "2026-06-26T11:51:06+08:00",
+  "last_success_at": "2026-06-26T11:51:06+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "The New China Maritime Code: key cargo issues for carriers",
+      "url": "https://gard.no/en/insights/new-china-maritime-code-key-cargo-issues-for-carriers/",
+      "published_at": "2026-06-25",
+      "summary": "On 1 May 2026, a comprehensively revised China Maritime Code (CMC) entered into force, replacing a framework that had remained largely unchanged for over three decades. Several amendments are likely to have practical implications for carriers, terminal operators and their insurers. This article high",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": []
+    },
     {
       "title": "Heroic Idun: What we can learn from the landmark ITLOS ruling",
       "url": "https://gard.no/en/insights/heroic-idun-learnings-from-landmark-itlos-ruling/",
@@ -176,19 +188,6 @@
       ],
       "topic_ids": [],
       "summary_zh": "檢查清單確定應收集的證據類型，以最佳方式證明船長和船員在貨物護理方面沒有疏忽。"
-    },
-    {
-      "title": "GPS interference and jamming on the increase",
-      "url": "https://gard.no/en/insights/gps-interference-jamming-on-increase/",
-      "published_at": "2020-09-28",
-      "summary": "Ships have reported an increasing number of cases of significant GPS interference and jamming in recent months. The geographic areas with more than one reported incident include the eastern and central Mediterranean Sea, the Persian Gulf, and multiple Chinese ports. This interference and jamming hav",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "summary_zh": "船隻近期報告了顯著的GPS干擾和干擾事件增加的情況。受影響的地區包括東地中海、中地中海、波斯灣以及多個中國港口。"
     },
     {
       "title": "Tackling cargo misdeclaration – a first line of defence against container fires",
