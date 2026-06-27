@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T11:51:29+08:00",
+  "generated_at": "2026-06-27T11:34:22+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "海事網絡安全",
-      "why": "隨著地緣政治不穩定，海事網絡安全成為保護航運業務的重要議題。",
+      "why": "隨著地緣政治不穩定，海事網絡安全風險日益增加，船東需加強防範措施。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -39,8 +39,26 @@
       ]
     },
     {
+      "name": "自主水面船舶",
+      "why": "自主水面船舶的發展需要新的監管框架，以確保安全和合規。",
+      "articles": [
+        {
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
+        },
+        {
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
       "name": "燃料質量問題",
-      "why": "燃料質量問題影響航運的安全和經濟效益，需持續關注和管理。",
+      "why": "燃料質量問題對航運業的影響日益嚴重，需加強監管和管理。",
       "articles": [
         {
           "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
@@ -63,26 +81,8 @@
       ]
     },
     {
-      "name": "自主水面船舶",
-      "why": "自主水面船舶的發展將對航運業的未來運作和監管產生深遠影響。",
-      "articles": [
-        {
-          "title": "IMO MSC 111: New MASS Code adopted",
-          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-22"
-        },
-        {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
-        }
-      ]
-    },
-    {
       "name": "海盜活動",
-      "why": "海盜活動的增加對航運安全構成威脅，需加強防範措施。",
+      "why": "海盜活動的增長對航運安全構成威脅，船舶需提高警覺。",
       "articles": [
         {
           "title": "Somali piracy structures are strengthening",

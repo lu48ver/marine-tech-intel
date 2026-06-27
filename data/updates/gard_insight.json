@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-06-26T11:51:06+08:00",
-  "last_success_at": "2026-06-26T11:51:06+08:00",
+  "last_crawled_at": "2026-06-27T11:34:02+08:00",
+  "last_success_at": "2026-06-27T11:34:02+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -149,17 +149,19 @@
       "summary_zh": "全球近7,000艘船舶已配備洗滌器，這項技術的採用持續上升。儘管該技術提供明顯的合規性和商業優勢，但六年的索賠數據顯示出腐蝕、火災和淹水的特定模式。"
     },
     {
-      "title": "Bumper Brazilian soya bean crop means more claims in China",
-      "url": "https://gard.no/en/insights/bumper-brazilian-soya-bean-crop-means-more-claims-in-china/",
-      "published_at": "2025-04-08",
-      "summary": "Brazil’s soybean industry is poised for a landmark year in 2025, with projections indicating unprecedented production and export levels, according to Gard’s local correspondents Proinde. This could bring about logistical pressures and more claims.",
+      "title": "New biofouling regulations in Brazil",
+      "url": "https://gard.no/en/insights/new-biofouling-regulations-in-brazil/",
+      "published_at": "2025-07-10",
+      "summary": "Vessels above 24 meters must plan and record proactive biofouling management measures to document a ‘clean hull’ on entry into Brazilian waters, or undertake reactive in-water hull cleaning to achieve the same. While enforcement of associated sanctions has reportedly been deferred to 10 January 2028",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
-      "topic_ids": [],
-      "summary_zh": "巴西的大豆產業預計在2025年將迎來創紀錄的一年，生產和出口水平將達到前所未有的高度。這可能會帶來物流壓力和更多的索賠。"
+      "topic_ids": [
+        "biofouling"
+      ],
+      "summary_zh": "在巴西，長度超過24米的船舶進入巴西水域時，必須以「乾淨的船體」抵達，或進行水中清洗。類似的限制也適用於在國內海洋生物地理區域內運行的船舶。相關制裁的執行日期已被延遲。"
     },
     {
       "title": "Regional sulphur emission limits at a glance",
