@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-28T11:57:30+08:00",
+  "generated_at": "2026-06-29T12:03:26+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "海事網絡安全",
-      "why": "隨著地緣政治風險的增加，海事網絡安全成為保護航運業務的重要議題。",
+      "why": "隨著地緣政治風險增加，海事網絡安全成為保護航運業務的關鍵因素。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -22,7 +22,7 @@
     },
     {
       "name": "船舶回收",
-      "why": "隨著環保法規的推動，船舶回收的安全和環保實踐越來越受到重視。",
+      "why": "隨著環保法規的加強，船舶回收的安全和環保實踐變得愈發重要。",
       "articles": [
         {
           "title": "What's happening in ship recycling?",
@@ -40,7 +40,7 @@
     },
     {
       "name": "排放控制區擴展",
-      "why": "新的排放控制區的設立將影響航運業的運營和合規要求。",
+      "why": "新的排放控制區的設立將影響船舶的運營和合規要求，促進更清潔的航運。",
       "articles": [
         {
           "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -57,38 +57,38 @@
       ]
     },
     {
-      "name": "海盜活動增長",
-      "why": "海盜活動的增加對航運安全構成了新的挑戰，需加強防範措施。",
+      "name": "自主水面船舶",
+      "why": "自主水面船舶的發展將改變航運業的運作模式，需適應新的監管框架。",
       "articles": [
         {
-          "title": "Somali piracy structures are strengthening",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-11"
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
         },
         {
-          "title": "Somali piracy warning",
-          "url": "https://gard.no/en/insights/somali-piracy-warning/",
-          "source": "Gard Insight",
-          "published_at": "2026-05-19"
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
         }
       ]
     },
     {
-      "name": "船舶安全檢查要求",
-      "why": "新的安全檢查要求將影響船舶的運營和合規性，需及時更新相關程序。",
+      "name": "鋰電池運輸安全",
+      "why": "鋰電池的運輸風險日益受到關注，需加強相關的安全指導和管理。",
       "articles": [
         {
-          "title": "How to document PFOS-free fire-extinguishing foam on board",
-          "url": "https://www.dnv.com/news/2026/how-to-document-pfos-free-fire-extinguishing-foam-on-board/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-04"
+          "title": "New guidelines: shipping of lithium-ion cells and batteries",
+          "url": "https://gard.no/en/insights/new-guidelines-shipping-of-lithium-ion-cells-and-batteries/",
+          "source": "Gard Insight",
+          "published_at": "2026-05-06"
         },
         {
-          "title": "Revised interpretation of requirements to permanent means of access (PMA)",
-          "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-08"
+          "title": "Updated CINS guidelines: carriage of cocoa butter in containers",
+          "url": "https://gard.no/en/insights/updated-cins-guidelines-carriage-of-cocoa-butter-in-containers/",
+          "source": "Gard Insight",
+          "published_at": "2026-06-11"
         }
       ]
     }
