@@ -802,5 +802,65 @@
     "model": "gpt-4o-mini",
     "source_kind": "html",
     "generated_at": "2026-06-25T11:40:45+08:00"
+  },
+  "https://gard.no/en/insights/china-tightens-verification-ships-energy-consumption-data/": {
+    "summary_zh": "自2022年12月22日起，前往中國港口的船舶必須根據其船舶能源效率管理計劃（SEEMP）記錄能源消耗數據。船舶在離開之前還必須向中國當局報告其最後一次航行的消耗數據。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/seafarers-detained-egypt-for-carrying-prohibited-items/": {
+    "summary_zh": "埃及當地報導指出，海員因攜帶禁運物品（如無人機及其他“可疑”電子設備）而被拘留的案件有所增加，這些物品通常是在登船或下船時被發現的。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/war-ukraine-impact-on-maritime-situation/": {
+    "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/updated-guidance-on-pilot-transfer-arrangements/": {
+    "summary_zh": "國際航運商會（ICS）和國際海事引航員協會（IMPA）最近發布了更新版的《航運業引航轉移安排指導》，旨在提高引航轉移安排的安全性。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/international-group-joins-top-tier-project-on-container-losses/": {
+    "summary_zh": "國際集團參與了針對集裝箱損失的TopTier專案。2020-2021冬季期間發生了一系列異常的集裝箱損失事件。該專案旨在尋找避免未來類似事件的方法，初步結果顯示，在隨浪航行時的參數性翻滾特別危險。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/purpose-limitations-silver-nitrate-testing/": {
+    "summary_zh": "銀氯化物測試可在裝船時檢測高價值鋼貨物中的氯化物，這些氯化物來自海水或用於除冰的氯化鈉，對鋼材具有腐蝕性。這項測試可以幫助船長在提單上進行適當的註明。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/verification-electronic-statutory-class-certificates/": {
+    "summary_zh": "船舶在港口國控制檢查中仍然面臨干預的情況，有時還會遭受高額罰款，原因是其電子法定和級別證書在船上檢查時無法驗證有效性。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/ghana-withdraws-directive-imposing-fines-on-ships-unvaccinated-personnel/": {
+    "summary_zh": "加納已撤回對於抵達加納港口的船隻，若船員或乘客未接種COVID-19疫苗將處以罰款的指令。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/handling-covid-19-positive-crew-cases-china/": {
+    "summary_zh": "中國對COVID-19採取零容忍政策及嚴格的邊境管控，對於進入該國港口的船員和船舶造成嚴重影響，尤其是當船員檢測結果為陽性時。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://gard.no/en/insights/be-handwash-hero/": {
+    "summary_zh": "良好的手部衛生是避免通過細菌傳播感染的有效方法。手部接觸到多種表面，容易接觸到各種細菌，這些細菌可能進入人體並引發嚴重或致命的感染。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-06-30T11:45:29+08:00"
   }
 }
