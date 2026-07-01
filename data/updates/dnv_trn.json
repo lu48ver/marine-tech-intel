@@ -170,7 +170,7 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-06-30T11:45:22+08:00",
+  "last_crawled_at": "2026-07-01T12:01:02+08:00",
   "crawl_status": "error",
   "error_message": "403 Client Error: Forbidden for url: https://www.dnv.com/api/listing/news?blockId=4983"
 }

@@ -2,10 +2,22 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications?field_news_category_target_id=2",
-  "last_crawled_at": "2026-06-30T11:45:14+08:00",
-  "last_success_at": "2026-06-30T11:45:14+08:00",
+  "last_crawled_at": "2026-07-01T12:00:55+08:00",
+  "last_success_at": "2026-07-01T12:00:55+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "2025 Paris MoU Annual Report \"Port State Control; Progress and performance, highlights of the Paris MoU 2025\"",
+      "url": "https://parismou.org/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris",
+      "published_at": "2026-07-01",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "summary_zh": "巴黎公約於2026年7月1日發布2025年年度報告，概述了該年度的活動和統計數據。2025年拒絕進入的次數增加至19次，拘留率上升至4.18%。主要不合規的問題包括火災安全、結構和電氣元件，以及健康保護等領域，火災門和海員就業協議是突出的不合規項目。"
+    },
     {
       "title": "Paris MoU 59th Committee meets in Glasgow, United Kingdom",
       "url": "https://parismou.org/2026/06/paris-mou-59th-committee-meets-glasgow-united-kingdom",
@@ -55,20 +67,6 @@
       ],
       "topic_ids": [],
       "summary_zh": "巴黎公約港口國控制備忘錄（Paris MoU）於2025年5月26日至30日在瑞典馬爾默成功召開第58屆委員會會議，會議重點在於提升海事安全、環境保護及海員福祉。會議回顧了2024年進行的集中檢查活動，強調行業需更加重視遵守海事勞工公約的要求，特別是在草擬海員雇用合約時。委員會還確認了與東京公約的聯合檢查活動計劃，並決定繼續進行針對環境污染的檢查活動。"
-    },
-    {
-      "title": "Concerning results found on the Paris MoU Focused Inspection Campaign on Fire Doors",
-      "url": "https://parismou.org/2024/10/concerning-results-found-paris-mou-focused-inspection-campaign-fire-doors",
-      "published_at": "2024-10-24",
-      "summary": "",
-      "tags": [
-        "psc",
-        "paris-mou"
-      ],
-      "topic_ids": [
-        "cic_2026"
-      ],
-      "summary_zh": "在巴黎公約的57次委員會會議中，討論了2023年9月1日至11月30日進行的火災安全集中檢查活動的結果。整體合規情況令人滿意，但在防火門的良好工作狀態（9.3%不合規）和消防演習（9.2%不合規）方面表現不佳。隨後，巴黎公約於2024年7月1日至28日進行了針對防火門的專項檢查，結果顯示有13.9%的不合規情況，其中30%被認為是未能執行ISM規範。巴黎公約再次強調合規性的重要性，呼籲行業採取適當措施。"
     }
   ]
 }

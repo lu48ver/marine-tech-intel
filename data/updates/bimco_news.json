@@ -2,10 +2,38 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-06-30T11:45:22+08:00",
-  "last_success_at": "2026-06-30T11:45:22+08:00",
+  "last_crawled_at": "2026-07-01T12:01:02+08:00",
+  "last_success_at": "2026-07-01T12:01:02+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Help shape a common standard for maritime emissions data reporting",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-ovd-consultation/",
+      "published_at": "2026-06-30",
+      "summary": "You are invited to provide feedback on the use of Operational Vessel Data (OVD) as a common standard for exchanging log abstract and noon report data for greenhouse gas emissions reporting.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "summary_zh": "邀請您對使用操作船舶數據（OVD）作為交換溫室氣體排放報告的日誌摘要和中午報告數據的共同標準提供反饋。"
+    },
+    {
+      "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
+      "published_at": "2026-06-30",
+      "summary": "We welcome the continued engagement by governments and stakeholders at the latest meeting of the Basel Convention Open-ended Working Group (OEWG), where discussions focused on the complex legal and environmental framework for ship recycling.\nThe meeting was an important step towards clarifying how i",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "summary_zh": "在巴塞爾公約開放式工作組的最新會議中，各國政府和利益相關者持續參與，討論了船舶回收的法律和環境框架。此次會議是朝著釐清船舶回收相關問題的重要一步，但仍需進一步努力。"
+    },
     {
       "title": "BIMCO commends the IMO Strait of Hormuz Evacuation Plan",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/24-imo-hormuz/",
@@ -175,32 +203,6 @@
       ],
       "topic_ids": [],
       "summary_zh": "BIMCO 開始開發一項標準合約條款，以應對適用於油輪買賣交易的新歐盟要求。此舉是因應歐盟於2026年4月23日通過的第20套對俄制裁措施。"
-    },
-    {
-      "title": "Sargasso Sea: industry participation in developing potential voluntary measures – Stakeholder consultation event",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/10-sargasso-consultation/",
-      "published_at": "2026-06-10",
-      "summary": "We encourage BIMCO members to participate in the 4th Shipping Industry Consultation“Vessel Activity in the Sargasso Sea: industry participation in developing potential voluntary measures” which will take place on 2 July 2026 (1000–1600 BST) at the International Maritime Organization (IMO), London an",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "summary_zh": "鼓勵BIMCO成員參加第四屆航運業諮詢會議，主題為「薩爾伽索海的船舶活動：業界參與發展潛在自願措施」。會議將於2026年7月2日（英國夏令時間1000–1600）在倫敦的國際海事組織（IMO）舉行。"
-    },
-    {
-      "title": "SALEFORM 2025: An updated framework for ship sale and purchase",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/10-saleform/",
-      "published_at": "2026-06-10",
-      "summary": "The release of SALEFORM 2025 represents a further step in the continued evolution of standard documentation for ship sale and purchase transactions. Developed jointly by the Norwegian Shipbrokers’ Association (NSA) and BIMCO, the 2025 edition reflects accumulated market experience, regulatory and le",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "summary_zh": "SALEFORM 2025 是船舶買賣交易標準文件的進一步發展。此版本由挪威船舶經紀人協會和BIMCO共同開發，反映了累積的市場經驗和監管要求。"
     }
   ]
 }

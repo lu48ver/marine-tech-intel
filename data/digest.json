@@ -1,10 +1,28 @@
 {
-  "generated_at": "2026-06-30T11:45:55+08:00",
+  "generated_at": "2026-07-01T12:01:36+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "海事網絡安全",
-      "why": "隨著地緣政治的不穩定，海事網絡安全成為保護航運業務的重要議題。",
+      "name": "船舶回收",
+      "why": "隨著全球對環保和可持續發展的重視，船舶回收的法律和環境框架變得越來越重要。",
+      "articles": [
+        {
+          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-30"
+        },
+        {
+          "title": "What's happening in ship recycling?",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
+        }
+      ]
+    },
+    {
+      "name": "網絡安全",
+      "why": "在地緣政治不穩定的背景下，海事網絡安全風險管理成為船東的重要考量。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -21,86 +39,56 @@
       ]
     },
     {
-      "name": "船舶回收",
-      "why": "隨著環保意識的提升，船舶回收的安全和環保實踐變得越來越重要。",
+      "name": "排放控制區",
+      "why": "新的排放控制區的設立將影響船舶的運營和合規要求，促進環境保護。",
       "articles": [
         {
-          "title": "What's happening in ship recycling?",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-16"
+          "title": "North-east Atlantic joins the expanding network of ECAs",
+          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-17"
         },
         {
-          "title": "SALEFORM 2025: An updated framework for ship sale and purchase",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/10-saleform/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-10"
+          "title": "The UK ETS expands to maritime from 1 July 2026",
+          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-05"
         }
       ]
     },
     {
-      "name": "替代燃料的採用",
-      "why": "替代燃料的使用是航運業減少碳排放的關鍵，並且正在受到越來越多的關注和投資。",
+      "name": "生物燃料的法律挑戰",
+      "why": "隨著生物燃料在航運中的使用增加，相關的法律和操作挑戰也隨之而來。",
       "articles": [
         {
-          "title": "Alternative-fuelled ship orders remain significant in 2025",
-          "url": "https://www.lr.org/en/knowledge/insights-articles/alternative-fuelled-ship-orders-remain-significant-in-2025/",
-          "source": "LR FOBAS",
-          "published_at": "2026-01-07"
+          "title": "Biofuel clause now available to support transition to low-carbon fuels",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-11"
         },
         {
           "title": "Biofuels emerge as superyachting’s next big step for decarbonisation",
           "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/biofuels-emerge-as-superyachtings-next-big-step-for-decarbonisation/",
           "source": "LR FOBAS",
           "published_at": "2025-09-24"
-        },
-        {
-          "title": "LR launches Biofuel Advisory service to help accelerate shipping’s decarbonisation",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/lr-launches-biofuel-advisory-service-to-help-accelerate-shippings-decarbonisation/",
-          "source": "LR FOBAS",
-          "published_at": "2025-09-16"
         }
       ]
     },
     {
-      "name": "自主水面船舶",
-      "why": "自主水面船舶的發展對航運業的未來有著深遠的影響，需關注相關的監管變化。",
+      "name": "船舶安全檢查",
+      "why": "船舶安全檢查的要求和標準不斷提高，影響船舶的運營和合規性。",
       "articles": [
         {
-          "title": "IMO MSC 111: New MASS Code adopted",
-          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "title": "Port State Control - Q1 2026 Detention review and other updates",
+          "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
           "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-22"
+          "published_at": "2026-04-29"
         },
         {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
-        }
-      ]
-    },
-    {
-      "name": "燃料質量問題",
-      "why": "燃料質量問題直接影響船舶運行的安全性和經濟性，需持續關注和解決。",
-      "articles": [
-        {
-          "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
-          "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
-          "source": "Gard Insight",
-          "published_at": "2026-06-19"
-        },
-        {
-          "title": "FOBAS report warns of late year surge in marine fuel quality failures",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
-          "source": "LR FOBAS",
-          "published_at": "2026-02-12"
-        },
-        {
-          "title": "Global bunker fuel quality holds steady as biofuel blends gain momentum",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/global-bunker-fuel-quality-holds-steady-as-biofuel-blends-gain-momentum/",
-          "source": "LR FOBAS",
-          "published_at": "2025-08-18"
+          "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
+          "url": "https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-08"
         }
       ]
     }

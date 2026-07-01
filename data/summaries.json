@@ -862,5 +862,53 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-06-30T11:45:29+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/06/30-ovd-consultation/": {
+    "summary_zh": "邀請您對使用操作船舶數據（OVD）作為交換溫室氣體排放報告的日誌摘要和中午報告數據的共同標準提供反饋。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/": {
+    "summary_zh": "在巴塞爾公約開放式工作組的最新會議中，各國政府和利益相關者持續參與，討論了船舶回收的法律和環境框架。此次會議是朝著釐清船舶回收相關問題的重要一步，但仍需進一步努力。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/": {
+    "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://gard.no/en/insights/having-abandon-ship-drill-anytime-soon/": {
+    "summary_zh": "確保船員在乘員上船之前，對救生艇和吊艇裝置進行徹底的目視檢查和「測試降下」。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://gard.no/en/insights/bunker-quality-do-bunker-suppliers-have-charterers-over-barrel/": {
+    "summary_zh": "新加坡海事與港口管理局正在調查今年第一季度發現的含有有害氯化碳氫化合物的重燃料油。作者回顧了時間租船人與船舶所有者之間的權力不平衡。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://gard.no/en/insights/gard-warns-members-to-remain-vigilant-about-liquefaction-risk/": {
+    "summary_zh": "Gard 最近收到通知，指出有新事件發生，涉及被分類為 A 組的固體散裝貨物在裝載時，其水分含量超過可運輸水分限制（TML）。Gard 提醒會員在裝載此類貨物時保持警惕，並設置低閾值。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://gard.no/en/insights/crisis-ukraine-interview-torunn-biller-white/": {
+    "summary_zh": "托倫·比勒·懷特（Torunn Biller White）是Gard的首席風險官，她與高級律師譚婉晶（Wan Jing Tan）討論了烏克蘭危機對Gard及其會員和客戶的影響。討論內容涵蓋了對海員福祉的極大影響、全球商品市場的衝擊以及生態問題。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://parismou.org/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris": {
+    "summary_zh": "巴黎公約於2026年7月1日發布2025年年度報告，概述了該年度的活動和統計數據。2025年拒絕進入的次數增加至19次，拘留率上升至4.18%。主要不合規的問題包括火災安全、結構和電氣元件，以及健康保護等領域，火災門和海員就業協議是突出的不合規項目。",
+    "model": "gpt-4o-mini",
+    "source_kind": "html",
+    "generated_at": "2026-07-01T12:01:10+08:00"
   }
 }

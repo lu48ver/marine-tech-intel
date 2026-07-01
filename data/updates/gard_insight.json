@@ -2,62 +2,22 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-06-30T11:45:16+08:00",
-  "last_success_at": "2026-06-30T11:45:16+08:00",
+  "last_crawled_at": "2026-07-01T12:00:56+08:00",
+  "last_success_at": "2026-07-01T12:00:56+08:00",
   "crawl_status": "success",
   "items": [
     {
-      "title": "The New China Maritime Code: key cargo issues for carriers",
-      "url": "https://gard.no/en/insights/new-china-maritime-code-key-cargo-issues-for-carriers/",
-      "published_at": "2026-06-25",
-      "summary": "On 1 May 2026, a comprehensively revised China Maritime Code (CMC) entered into force, replacing a framework that had remained largely unchanged for over three decades. Several amendments are likely to have practical implications for carriers, terminal operators and their insurers. This article high",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": []
-    },
-    {
-      "title": "Heroic Idun: What we can learn from the landmark ITLOS ruling",
-      "url": "https://gard.no/en/insights/heroic-idun-learnings-from-landmark-itlos-ruling/",
-      "published_at": "2026-06-23",
-      "summary": "Following the International Tribunal for the Law of the Sea's judgment in the M/T Heroic Idun case, Gard looks back on a dispute that truly tested the fundamental principles of international maritime law. The ruling offers important lessons – on freedom of navigation, crew welfare, and the value of ",
+      "title": "US courts signal shift in the interpretation of “package” under COGSA",
+      "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
+      "published_at": "2026-06-30",
+      "summary": "Recent decisions from US courts, particularly in the Second Circuit (New York), suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA).\n\nBy giving effect to express package definitions in bills of lading, the courts may signific",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "國際海洋法法庭對M/T Heroic Idun案件的裁決提供了重要的教訓，涉及航行自由、船員福祉及其價值。這一裁決考驗了國際海事法的基本原則。"
-    },
-    {
-      "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
-      "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
-      "published_at": "2026-06-19",
-      "summary": "Between January and May 2026, Gard handled over 70 bunker-related claims - a 50% increase on the same period last year. Almost all involved fuel quality, and the pattern has sharpened since the Middle East conflict escalated in late February.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "summary_zh": "在2026年1月至5月期間，Gard處理了超過70宗與燃料相關的索賠，較去年同期增加了50%。幾乎所有索賠均涉及燃料質量，自2月底中東衝突升級以來，這一趨勢更加明顯。"
-    },
-    {
-      "title": "New biofouling regulations in Brazil",
-      "url": "https://gard.no/en/insights/new-biofouling-regulations-in-brazil/",
-      "published_at": "2025-07-10",
-      "summary": "Vessels above 24 meters must plan and record proactive biofouling management measures to document a ‘clean hull’ on entry into Brazilian waters, or undertake reactive in-water hull cleaning to achieve the same. While enforcement of associated sanctions has reportedly been deferred to 10 January 2028",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [
-        "biofouling"
-      ],
-      "summary_zh": "在巴西，長度超過24米的船舶進入巴西水域時，必須以「乾淨的船體」抵達，或進行水中清洗。類似的限制也適用於在國內海洋生物地理區域內運行的船舶。相關制裁的執行日期已被延遲。"
+      "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。"
     },
     {
       "title": "China tightens verification of ships’ energy consumption data",
@@ -86,6 +46,70 @@
       ],
       "topic_ids": [],
       "summary_zh": "埃及當地報導指出，海員因攜帶禁運物品（如無人機及其他“可疑”電子設備）而被拘留的案件有所增加，這些物品通常是在登船或下船時被發現的。"
+    },
+    {
+      "title": "Having an abandon ship drill anytime soon?",
+      "url": "https://gard.no/en/insights/having-abandon-ship-drill-anytime-soon/",
+      "published_at": "2022-06-01",
+      "summary": "Make sure the ship’s crew conduct a thorough visual inspection of the lifeboat and davit installation and a ‘test lowering’ prior to operating the lifeboat with crew onboard.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "確保船員在乘員上船之前，對救生艇和吊艇裝置進行徹底的目視檢查和「測試降下」。"
+    },
+    {
+      "title": "Bunker quality – do bunker suppliers have charterers over a barrel?",
+      "url": "https://gard.no/en/insights/bunker-quality-do-bunker-suppliers-have-charterers-over-barrel/",
+      "published_at": "2022-05-09",
+      "summary": "As the Maritime and Port Authority of Singapore continues to investigate HSFO bunkers found to contain harmful chlorinated hydrocarbons supplied in the first quarter this year, our authors review the imbalance between the position of time charterer vis-à-vis vessel owners versus the charterer’s reco",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "新加坡海事與港口管理局正在調查今年第一季度發現的含有有害氯化碳氫化合物的重燃料油。作者回顧了時間租船人與船舶所有者之間的權力不平衡。"
+    },
+    {
+      "title": "Gard warns Members to remain vigilant about liquefaction risk",
+      "url": "https://gard.no/en/insights/gard-warns-members-to-remain-vigilant-about-liquefaction-risk/",
+      "published_at": "2022-04-25",
+      "summary": "Gard has recently been notified of new incidents where solid bulk cargoes classified as Group A, liable to liquefy, have been loaded with moisture content in excess of the transportable moisture limit (TML). Gard reminds Members to remain vigilant when loading such cargoes and to have a low threshol",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "Gard 最近收到通知，指出有新事件發生，涉及被分類為 A 組的固體散裝貨物在裝載時，其水分含量超過可運輸水分限制（TML）。Gard 提醒會員在裝載此類貨物時保持警惕，並設置低閾值。"
+    },
+    {
+      "title": "Crisis in Ukraine – an interview with Torunn Biller White",
+      "url": "https://gard.no/en/insights/crisis-ukraine-interview-torunn-biller-white/",
+      "published_at": "2022-04-20",
+      "summary": "Torunn Biller White, Gard’s Chief Risk Officer, talks with Senior Lawyer Wan Jing Tan about the crisis in the Ukraine and how this has affected Gard and our Members and clients. In a discussion ranging from the extreme effect on seafarer well-being, the impact on global commodity markets and the eco",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "托倫·比勒·懷特（Torunn Biller White）是Gard的首席風險官，她與高級律師譚婉晶（Wan Jing Tan）討論了烏克蘭危機對Gard及其會員和客戶的影響。討論內容涵蓋了對海員福祉的極大影響、全球商品市場的衝擊以及生態問題。"
+    },
+    {
+      "title": "Three steps to contain an outbreak of infection onboard",
+      "url": "https://gard.no/en/insights/three-steps-to-contain-outbreak-infection-onboard/",
+      "published_at": "2022-04-19",
+      "summary": "An ‘outbreak’, in very simple terms is defined as prevalence of an infectious disease in a population. In the context of merchant ships, an outbreak is when multiple crew members are infected by the same infectious disease. In the confines of the onboard environment, infectious diseases can spread r",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": []
     },
     {
       "title": "War in Ukraine – impact on maritime situation",
@@ -176,32 +200,6 @@
         "insight"
       ],
       "topic_ids": []
-    },
-    {
-      "title": "Handling of COVID-19 positive crew cases in China",
-      "url": "https://gard.no/en/insights/handling-covid-19-positive-crew-cases-china/",
-      "published_at": "2022-01-05",
-      "summary": "China’s zero-tolerance for COVID-19 and stringent border control continue to have serious consequences for crews and ships calling at the country’s ports - particularly if crew members have tested positive for COVID-19.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "summary_zh": "中國對COVID-19採取零容忍政策及嚴格的邊境管控，對於進入該國港口的船員和船舶造成嚴重影響，尤其是當船員檢測結果為陽性時。"
-    },
-    {
-      "title": "Be a handwash hero!",
-      "url": "https://gard.no/en/insights/be-handwash-hero/",
-      "published_at": "2021-12-26",
-      "summary": "Good hand hygiene is one of the most effective ways to avoid any type of infection through the spread of germs. Our hands touch numerous surfaces in the course of the day which exposes them to various germs. These germs can enter our bodies and spread serious or fatal infections.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "summary_zh": "良好的手部衛生是避免通過細菌傳播感染的有效方法。手部接觸到多種表面，容易接觸到各種細菌，這些細菌可能進入人體並引發嚴重或致命的感染。"
     }
   ]
 }
