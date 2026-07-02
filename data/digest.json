@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-07-01T12:01:36+08:00",
+  "generated_at": "2026-07-02T11:41:28+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "船舶回收",
-      "why": "隨著全球對環保和可持續發展的重視，船舶回收的法律和環境框架變得越來越重要。",
-      "articles": [
-        {
-          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-30"
-        },
-        {
-          "title": "What's happening in ship recycling?",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-16"
-        }
-      ]
-    },
-    {
-      "name": "網絡安全",
-      "why": "在地緣政治不穩定的背景下，海事網絡安全風險管理成為船東的重要考量。",
+      "name": "海事網絡安全",
+      "why": "隨著地緣政治的不穩定，海事網絡安全成為保護航運業務的關鍵。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -39,8 +21,26 @@
       ]
     },
     {
-      "name": "排放控制區",
-      "why": "新的排放控制區的設立將影響船舶的運營和合規要求，促進環境保護。",
+      "name": "船舶回收",
+      "why": "隨著全球對環保的重視，船舶回收的法律和環境框架正在逐步明確。",
+      "articles": [
+        {
+          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-30"
+        },
+        {
+          "title": "What's happening in ship recycling?",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
+        }
+      ]
+    },
+    {
+      "name": "排放控制區擴展",
+      "why": "新的排放控制區的設立將影響船舶的運營和合規要求。",
       "articles": [
         {
           "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -58,7 +58,7 @@
     },
     {
       "name": "生物燃料的法律挑戰",
-      "why": "隨著生物燃料在航運中的使用增加，相關的法律和操作挑戰也隨之而來。",
+      "why": "隨著生物燃料的使用增加，相關的法律和操作挑戰也隨之而來。",
       "articles": [
         {
           "title": "Biofuel clause now available to support transition to low-carbon fuels",
@@ -75,20 +75,20 @@
       ]
     },
     {
-      "name": "船舶安全檢查",
-      "why": "船舶安全檢查的要求和標準不斷提高，影響船舶的運營和合規性。",
+      "name": "船員工資和就業協議",
+      "why": "船員的工資和就業條件是確保海事安全和合規的重要因素。",
       "articles": [
         {
-          "title": "Port State Control - Q1 2026 Detention review and other updates",
-          "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-29"
+          "title": "CIC on Crew Wages and Seafarer Employment Agreement (MLC, 2006) 2024",
+          "url": "https://www.tokyo-mou.org/cic-results/2025/11/19/cic-on-crew-wages-and-seafarer-employment-agreement-mlc-2006-2024/",
+          "source": "Tokyo MoU",
+          "published_at": "2025-11-19"
         },
         {
-          "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
-          "url": "https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-08"
+          "title": "Tokyo MOU Port State Control Committee 36th Meeting in Hong Kong, China",
+          "url": "https://www.tokyo-mou.org/press-releases/2025/10/29/tokyo-mou-port-state-control-committee-36th-meeting-in-hong-kong-china/",
+          "source": "Tokyo MoU",
+          "published_at": "2025-10-29"
         }
       ]
     }
