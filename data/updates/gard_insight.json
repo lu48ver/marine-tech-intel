@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-02T11:41:00+08:00",
-  "last_success_at": "2026-07-02T11:41:00+08:00",
+  "last_crawled_at": "2026-07-03T11:22:00+08:00",
+  "last_success_at": "2026-07-03T11:22:00+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "General Average: Managing the Process and Protecting the Recovery",
+      "url": "https://gard.no/en/insights/general-average-managing-process-protecting-recovery/",
+      "published_at": "2026-07-02",
+      "summary": "General Average is one of the oldest principles of maritime law. It is an equitable doctrine that shares among property owners of the assets involved in maritime adventures the cost of extraordinary sacrifices or expenses incurred to avert a peril threatening the whole voyage. This article explains ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "一般平均是海事法中最古老的原則之一。這是一項公平的法則，旨在在參與海上冒險的財產所有者之間分擔為避免整個航程面臨危險而產生的額外犧牲或費用。"
+    },
     {
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
       "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
@@ -109,7 +122,8 @@
         "p&i",
         "insight"
       ],
-      "topic_ids": []
+      "topic_ids": [],
+      "summary_zh": "在商船上，「疫情」是指多名船員感染相同傳染病。在船上環境中，傳染病可以迅速傳播。"
     },
     {
       "title": "War in Ukraine – impact on maritime situation",
@@ -188,18 +202,6 @@
       ],
       "topic_ids": [],
       "summary_zh": "加納已撤回對於抵達加納港口的船隻，若船員或乘客未接種COVID-19疫苗將處以罰款的指令。"
-    },
-    {
-      "title": "Risky business: managing geopolitical security threats",
-      "url": "https://gard.no/en/insights/risky-business-managing-geopolitical-security-threats/",
-      "published_at": "2022-01-11",
-      "summary": "Due to pandemic restrictions, Gard held its 16th annual Charterers and Traders Geneva seminar as a webinar. The topic of global maritime security threats was addressed through role play with panellists representing a shipowner and a charterer. To kick-off, our guest speaker from Risk Intelligence, t",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": []
     }
   ]
 }

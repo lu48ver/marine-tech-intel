@@ -910,5 +910,23 @@
     "model": "gpt-4o-mini",
     "source_kind": "html",
     "generated_at": "2026-07-01T12:01:10+08:00"
+  },
+  "https://gard.no/en/insights/general-average-managing-process-protecting-recovery/": {
+    "summary_zh": "一般平均是海事法中最古老的原則之一。這是一項公平的法則，旨在在參與海上冒險的財產所有者之間分擔為避免整個航程面臨危險而產生的額外犧牲或費用。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-03T11:22:10+08:00"
+  },
+  "https://gard.no/en/insights/three-steps-to-contain-outbreak-infection-onboard/": {
+    "summary_zh": "在商船上，「疫情」是指多名船員感染相同傳染病。在船上環境中，傳染病可以迅速傳播。",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-03T11:22:10+08:00"
+  },
+  "https://parismou.org/index%2Ephp/2025/07/2024-paris-mou-annual-report-progress-and-performance-highlights-paris-mou-2024": {
+    "summary_zh": "巴黎公約於2025年7月1日發布2024年年報，該報告概述了2024年的活動和統計數據。2024年的扣留率為4.03%，較2023年的3.81%有所上升，顯示出過去幾年持續高企的扣留百分比趨勢。巴黎公約將在未來幾年密切監測此趨勢以評估其影響。",
+    "model": "gpt-4o-mini",
+    "source_kind": "html",
+    "generated_at": "2026-07-03T11:22:10+08:00"
   }
 }

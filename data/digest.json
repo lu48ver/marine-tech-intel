@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-02T11:41:28+08:00",
+  "generated_at": "2026-07-03T11:22:27+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "海事網絡安全",
-      "why": "隨著地緣政治的不穩定，海事網絡安全成為保護航運業務的關鍵。",
+      "why": "隨著地緣政治風險的上升，海事網絡安全成為保護航運業務的關鍵因素。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -22,7 +22,7 @@
     },
     {
       "name": "船舶回收",
-      "why": "隨著全球對環保的重視，船舶回收的法律和環境框架正在逐步明確。",
+      "why": "隨著環保法規的加強，船舶回收的法律框架和實踐變得越來越重要。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -39,56 +39,74 @@
       ]
     },
     {
-      "name": "排放控制區擴展",
-      "why": "新的排放控制區的設立將影響船舶的運營和合規要求。",
+      "name": "替代燃料的採用",
+      "why": "替代燃料的使用是航運業減少碳排放和實現可持續發展的關鍵。",
       "articles": [
         {
-          "title": "North-east Atlantic joins the expanding network of ECAs",
-          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-17"
-        },
-        {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
-        }
-      ]
-    },
-    {
-      "name": "生物燃料的法律挑戰",
-      "why": "隨著生物燃料的使用增加，相關的法律和操作挑戰也隨之而來。",
-      "articles": [
-        {
-          "title": "Biofuel clause now available to support transition to low-carbon fuels",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-11"
+          "title": "Alternative-fuelled ship orders remain significant in 2025",
+          "url": "https://www.lr.org/en/knowledge/insights-articles/alternative-fuelled-ship-orders-remain-significant-in-2025/",
+          "source": "LR FOBAS",
+          "published_at": "2026-01-07"
         },
         {
           "title": "Biofuels emerge as superyachting’s next big step for decarbonisation",
           "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/biofuels-emerge-as-superyachtings-next-big-step-for-decarbonisation/",
           "source": "LR FOBAS",
           "published_at": "2025-09-24"
+        },
+        {
+          "title": "LR launches Biofuel Advisory service to help accelerate shipping’s decarbonisation",
+          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/lr-launches-biofuel-advisory-service-to-help-accelerate-shippings-decarbonisation/",
+          "source": "LR FOBAS",
+          "published_at": "2025-09-16"
         }
       ]
     },
     {
-      "name": "船員工資和就業協議",
-      "why": "船員的工資和就業條件是確保海事安全和合規的重要因素。",
+      "name": "安全管理系統的有效性",
+      "why": "提升安全管理系統的有效性對於減少海事事故和提高船舶安全至關重要。",
       "articles": [
         {
-          "title": "CIC on Crew Wages and Seafarer Employment Agreement (MLC, 2006) 2024",
-          "url": "https://www.tokyo-mou.org/cic-results/2025/11/19/cic-on-crew-wages-and-seafarer-employment-agreement-mlc-2006-2024/",
-          "source": "Tokyo MoU",
-          "published_at": "2025-11-19"
+          "title": "Port State Control - Q1 2026 Detention review and other updates",
+          "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-29"
         },
         {
-          "title": "Tokyo MOU Port State Control Committee 36th Meeting in Hong Kong, China",
-          "url": "https://www.tokyo-mou.org/press-releases/2025/10/29/tokyo-mou-port-state-control-committee-36th-meeting-in-hong-kong-china/",
+          "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
+          "url": "https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-08"
+        },
+        {
+          "title": "Post-fire ship hull structure and material assessment",
+          "url": "https://www.dnv.com/news/2026/post-fire-ship-hull-structure-and-material-assessment/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-03-18"
+        }
+      ]
+    },
+    {
+      "name": "港口國控制的挑戰",
+      "why": "港口國控制的合規性問題仍然是航運業面臨的重要挑戰，影響船舶的運營和安全。",
+      "articles": [
+        {
+          "title": "2025 Paris MoU Annual Report \"Port State Control; Progress and performance, highlights of the Paris MoU 2025\"",
+          "url": "https://parismou.org/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris",
+          "source": "Paris MoU",
+          "published_at": "2026-07-01"
+        },
+        {
+          "title": "Annual Report 2025",
+          "url": "https://www.tokyo-mou.org/annual-report/2026/05/01/annual-report-2025/",
           "source": "Tokyo MoU",
-          "published_at": "2025-10-29"
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Preliminary results of CIC on Ballast Water Management 2025",
+          "url": "https://www.tokyo-mou.org/press-releases/2026/03/17/preliminary-results-of-cic-on-ballast-water-management-2025/",
+          "source": "Tokyo MoU",
+          "published_at": "2026-03-17"
         }
       ]
     }
