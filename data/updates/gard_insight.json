@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-03T11:22:00+08:00",
-  "last_success_at": "2026-07-03T11:22:00+08:00",
+  "last_crawled_at": "2026-07-04T11:16:18+08:00",
+  "last_success_at": "2026-07-04T11:16:18+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -31,6 +31,19 @@
       ],
       "topic_ids": [],
       "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。"
+    },
+    {
+      "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
+      "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
+      "published_at": "2026-06-19",
+      "summary": "Between January and May 2026, Gard handled over 70 bunker-related claims - a 50% increase on the same period last year. Almost all involved fuel quality, and the pattern has sharpened since the Middle East conflict escalated in late February.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "在2026年1月至5月期間，Gard處理了超過70宗與燃料相關的索賠，較去年同期增加了50%。幾乎所有索賠均涉及燃料質量，自2月底中東衝突升級以來，這一趨勢更加明顯。"
     },
     {
       "title": "China tightens verification of ships’ energy consumption data",
@@ -189,19 +202,6 @@
       ],
       "topic_ids": [],
       "summary_zh": "船舶在港口國控制檢查中仍然面臨干預的情況，有時還會遭受高額罰款，原因是其電子法定和級別證書在船上檢查時無法驗證有效性。"
-    },
-    {
-      "title": "Ghana withdraws Directive imposing fines on ships with unvaccinated personnel",
-      "url": "https://gard.no/en/insights/ghana-withdraws-directive-imposing-fines-on-ships-unvaccinated-personnel/",
-      "published_at": "2022-01-17",
-      "summary": "The Directive announcing that fines will be levied on vessels arriving in Ghanaian ports with crew or passengers not vaccinated against COVID-19 has now been withdrawn.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "summary_zh": "加納已撤回對於抵達加納港口的船隻，若船員或乘客未接種COVID-19疫苗將處以罰款的指令。"
     }
   ]
 }
