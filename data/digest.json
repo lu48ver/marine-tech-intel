@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-07-04T11:16:40+08:00",
+  "generated_at": "2026-07-05T11:31:39+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "船舶回收",
-      "why": "隨著環保法規的加強，船舶回收的法律和環境框架變得愈加重要。",
-      "articles": [
-        {
-          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-30"
-        },
-        {
-          "title": "What's happening in ship recycling?",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-16"
-        }
-      ]
-    },
-    {
-      "name": "網絡安全風險",
-      "why": "地緣政治不穩定加劇了海事網絡安全的挑戰，需制定相應的應對策略。",
+      "name": "海事網絡安全",
+      "why": "隨著地緣政治不穩定，海事網絡安全成為保護航運業務的重要議題。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -39,14 +21,44 @@
       ]
     },
     {
-      "name": "替代燃料的採用",
-      "why": "替代燃料的使用是航運業減少碳排放的重要步驟，並受到行業的廣泛關注。",
+      "name": "船舶回收",
+      "why": "隨著環境法規的加強，船舶回收的法律和環境框架變得越來越重要。",
       "articles": [
+        {
+          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-30"
+        },
+        {
+          "title": "What's happening in ship recycling?",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
+        }
+      ]
+    },
+    {
+      "name": "替代燃料的採用",
+      "why": "替代燃料的使用顯示出航運業在減少碳排放方面的積極努力。",
+      "articles": [
+        {
+          "title": "Biofuel clause now available to support transition to low-carbon fuels",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-11"
+        },
         {
           "title": "Alternative-fuelled ship orders remain significant in 2025",
           "url": "https://www.lr.org/en/knowledge/insights-articles/alternative-fuelled-ship-orders-remain-significant-in-2025/",
           "source": "LR FOBAS",
           "published_at": "2026-01-07"
+        },
+        {
+          "title": "Biofuels emerge as superyachting’s next big step for decarbonisation",
+          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/biofuels-emerge-as-superyachtings-next-big-step-for-decarbonisation/",
+          "source": "LR FOBAS",
+          "published_at": "2025-09-24"
         },
         {
           "title": "LR launches Biofuel Advisory service to help accelerate shipping’s decarbonisation",
@@ -58,7 +70,7 @@
     },
     {
       "name": "港口國控制的挑戰",
-      "why": "港口國控制的檢查結果顯示出安全管理和火災安全的持續問題，影響船舶的合規性。",
+      "why": "港口國控制的檢查和合規性問題仍然是航運業面臨的重要挑戰。",
       "articles": [
         {
           "title": "2025 Paris MoU Annual Report \"Port State Control; Progress and performance, highlights of the Paris MoU 2025\"",
@@ -71,24 +83,30 @@
           "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
           "source": "DNV Technical & Regulatory News",
           "published_at": "2026-04-29"
+        },
+        {
+          "title": "Preliminary results of CIC on Ballast Water Management 2025",
+          "url": "https://www.tokyo-mou.org/press-releases/2026/03/17/preliminary-results-of-cic-on-ballast-water-management-2025/",
+          "source": "Tokyo MoU",
+          "published_at": "2026-03-17"
         }
       ]
     },
     {
-      "name": "生物燃料的法律挑戰",
-      "why": "隨著生物燃料的使用增加，相關的法律和操作挑戰也隨之而來，需進行相應的調整。",
+      "name": "自主水面船舶的監管",
+      "why": "隨著自主水面船舶技術的發展，相關的監管框架需要不斷更新以確保安全。",
       "articles": [
         {
-          "title": "Biofuel clause now available to support transition to low-carbon fuels",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-11"
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
         },
         {
-          "title": "Biofuels emerge as superyachting’s next big step for decarbonisation",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/biofuels-emerge-as-superyachtings-next-big-step-for-decarbonisation/",
-          "source": "LR FOBAS",
-          "published_at": "2025-09-24"
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
         }
       ]
     }
