@@ -14,7 +14,8 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。"
+      "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。",
+      "importance": "action"
     },
     {
       "title": "The UK ETS expands to maritime from 1 July 2026",
@@ -29,7 +30,8 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。"
+      "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。",
+      "importance": "action"
     },
     {
       "title": "IMO MSC 111: New MASS Code adopted",
@@ -42,7 +44,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。"
+      "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。",
+      "importance": "notice"
     },
     {
       "title": "How to document PFOS-free fire-extinguishing foam on board",
@@ -55,7 +58,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。"
+      "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。",
+      "importance": "action"
     },
     {
       "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
@@ -69,7 +73,9 @@
       ],
       "topic_ids": [
         "cii_ets"
-      ]
+      ],
+      "summary_zh": "國際海事組織海洋環境保護委員會第84次會議對淨零框架進行了廣泛討論，這是自2025年10月特別會議休會以來的首次機會。會議中對於關鍵議題存在不同立場。",
+      "importance": "notice"
     },
     {
       "title": "Port State Control - Q1 2026 Detention review and other updates",
@@ -84,7 +90,8 @@
       "topic_ids": [
         "cic_2026"
       ],
-      "summary_zh": "港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。"
+      "summary_zh": "港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。",
+      "importance": "action"
     },
     {
       "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
@@ -97,7 +104,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效。近期SCR指導方針的變更改變了NOx測量準確性的評估方式，原本的±5%準確度要求已被更靈活但不明確的「足夠準確度」概念取代，這使得應用者承擔了更大的責任。"
+      "summary_zh": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效。近期SCR指導方針的變更改變了NOx測量準確性的評估方式，原本的±5%準確度要求已被更靈活但不明確的「足夠準確度」概念取代，這使得應用者承擔了更大的責任。",
+      "importance": "action"
     },
     {
       "title": "Revised interpretation of requirements to permanent means of access (PMA)",
@@ -110,7 +118,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "新的IMO修訂明確了油輪和散貨船上永久通道（PMA）的檢查要求。這些變更旨在防止安全事故，並引入更嚴格的檢查和文件規則。船舶經營者必須更新程序和手冊，並在未來的檢查中審查修訂的記錄。"
+      "summary_zh": "新的IMO修訂明確了油輪和散貨船上永久通道（PMA）的檢查要求。這些變更旨在防止安全事故，並引入更嚴格的檢查和文件規則。船舶經營者必須更新程序和手冊，並在未來的檢查中審查修訂的記錄。",
+      "importance": "action"
     },
     {
       "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
@@ -125,7 +134,8 @@
       "topic_ids": [
         "gas_detector"
       ],
-      "summary_zh": "進入船舶封閉空間仍然是船舶操作和海員工作條件中的安全挑戰。國際海事組織於2025年6月27日採納了修訂的進入船舶封閉空間的建議，應根據安全管理系統進行處理。"
+      "summary_zh": "進入船舶封閉空間仍然是船舶操作和海員工作條件中的安全挑戰。國際海事組織於2025年6月27日採納了修訂的進入船舶封閉空間的建議，應根據安全管理系統進行處理。",
+      "importance": "action"
     },
     {
       "title": "Global regulatory framework for fishing vessels safety in force from 24 February 2027",
@@ -138,7 +148,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "國際海事組織（IMO）已確認，2012年開普敦協議（CTA）將於2027年2月24日生效，成為全球漁船安全的法規框架。更多資訊可參見此法定新聞。"
+      "summary_zh": "國際海事組織（IMO）已確認，2012年開普敦協議（CTA）將於2027年2月24日生效，成為全球漁船安全的法規框架。更多資訊可參見此法定新聞。",
+      "importance": "action"
     },
     {
       "title": "IMO’s Facilitation Committee (FAL 50)",
@@ -151,7 +162,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "國際海事組織（IMO）促進委員會的第50次會議於2026年3月23日至27日在倫敦舉行。會議繼續討論IMO海事數位化戰略，並同意對FAL公約進行修訂，推進新的海事網絡安全法典的工作。"
+      "summary_zh": "國際海事組織（IMO）促進委員會的第50次會議於2026年3月23日至27日在倫敦舉行。會議繼續討論IMO海事數位化戰略，並同意對FAL公約進行修訂，推進新的海事網絡安全法典的工作。",
+      "importance": "notice"
     },
     {
       "title": "Post-fire ship hull structure and material assessment",
@@ -164,7 +176,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "船舶火災事件是最常見的事故之一，近年來，集裝箱船和滾裝貨物/客運船的火災事件特別增加。DNV在許多火災後的結構和材料評估中提供了支持，這則消息旨在分享我們的見解。"
+      "summary_zh": "船舶火災事件是最常見的事故之一，近年來，集裝箱船和滾裝貨物/客運船的火災事件特別增加。DNV在許多火災後的結構和材料評估中提供了支持，這則消息旨在分享我們的見解。",
+      "importance": "notice"
     }
   ],
   "source_id": "dnv_trn",

@@ -38,10 +38,18 @@ SYSTEM_PROMPT = (
     "a list of topics ALREADY tracked. Identify 4-6 KEY EMERGING THEMES that "
     "are prominent across these articles but are NOT already in the tracked "
     "list. Respond in JSON only: {\"themes\":[{\"name\":\"<Traditional Chinese, "
-    "short>\",\"why\":\"<1 sentence Traditional Chinese on why it matters>\","
-    "\"articles\":[<indices>]}]}. Use ONLY the provided articles; cite the index "
-    "numbers that support each theme. Skip themes supported by fewer than 2 "
-    "articles."
+    "short>\",\"why\":\"<1-2 sentences Traditional Chinese>\","
+    "\"articles\":[<indices>]}]}.\n"
+    "The \"why\" must be CONCRETE: state the specific development and its "
+    "practical implication for fleet technical management, using facts from "
+    "the articles themselves (entry-into-force dates, regulation/instrument "
+    "names, regions, figures). Do NOT write generic filler such as "
+    "\"愈加重要\", \"至關重要\", \"構成挑戰\", \"造成重大影響\". Do NOT mention "
+    "article index numbers inside \"why\" — indices belong ONLY in the "
+    "\"articles\" array. Aim for 4-6 themes; it is fine if the \"why\" is "
+    "modest, as long as it states specifics rather than platitudes. "
+    "Use ONLY the provided articles; cite the index numbers that support each "
+    "theme. Skip themes supported by fewer than 2 articles."
 )
 
 

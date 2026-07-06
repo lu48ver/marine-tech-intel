@@ -188,6 +188,26 @@ a:hover { text-decoration: underline; }
   vertical-align: 1px;
   cursor: help;
 }
+/* AI importance rating — "須行動" flags items needing action/scheduling */
+.imp-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-right: 8px;
+  vertical-align: 2px;
+  white-space: nowrap;
+  cursor: help;
+}
+.imp-action {
+  color: var(--crit);
+  background: rgba(192, 67, 42, 0.1);
+  border: 1px solid rgba(192, 67, 42, 0.35);
+}
+
 .item-summary { margin: 4px 0 0; font-size: 13px; color: var(--text-1); line-height: 1.55; }
 .brief-meta { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
 

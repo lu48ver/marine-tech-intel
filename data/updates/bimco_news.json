@@ -19,7 +19,8 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "summary_zh": "邀請您對使用操作船舶數據（OVD）作為交換溫室氣體排放報告的日誌摘要和中午報告數據的共同標準提供反饋。"
+      "summary_zh": "邀請您對使用操作船舶數據（OVD）作為交換溫室氣體排放報告的日誌摘要和中午報告數據的共同標準提供反饋。",
+      "importance": "notice"
     },
     {
       "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -32,7 +33,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "在巴塞爾公約開放式工作組的最新會議中，各國政府和利益相關者持續參與，討論了船舶回收的法律和環境框架。此次會議是朝著釐清船舶回收相關問題的重要一步，但仍需進一步努力。"
+      "summary_zh": "在巴塞爾公約開放式工作組的最新會議中，各國政府和利益相關者持續參與，討論了船舶回收的法律和環境框架。此次會議是朝著釐清船舶回收相關問題的重要一步，但仍需進一步努力。",
+      "importance": "notice"
     },
     {
       "title": "BIMCO commends the IMO Strait of Hormuz Evacuation Plan",
@@ -45,7 +47,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "國際海事組織（IMO）於2026年6月23日宣布了一項計劃，將對仍然滯留在波斯灣地區的超過11,000名海員進行撤離。BIMCO對該撤離計劃表示支持和讚揚。"
+      "summary_zh": "國際海事組織（IMO）於2026年6月23日宣布了一項計劃，將對仍然滯留在波斯灣地區的超過11,000名海員進行撤離。BIMCO對該撤離計劃表示支持和讚揚。",
+      "importance": "notice"
     },
     {
       "title": "Managing geopolitical cyber security risks",
@@ -58,7 +61,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "本研究論文探討如何在海事網絡安全中制定地緣政治策略。其目的是向船東提供指導，以了解國家網絡安全策略在地緣政治不穩定的背景下是否會對其業務構成風險。"
+      "summary_zh": "本研究論文探討如何在海事網絡安全中制定地緣政治策略。其目的是向船東提供指導，以了解國家網絡安全策略在地緣政治不穩定的背景下是否會對其業務構成風險。",
+      "importance": "notice"
     },
     {
       "title": "Lack of details remain a concern in the Strait of Hormuz",
@@ -71,7 +75,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "霍爾木茲海峽的安全通行仍然是一個關注焦點。美國和伊朗之間的協議已經簽署，旨在結束敵對行為並確保商業航運的安全通行，但業界仍在等待進一步的澄清和細節。"
+      "summary_zh": "霍爾木茲海峽的安全通行仍然是一個關注焦點。美國和伊朗之間的協議已經簽署，旨在結束敵對行為並確保商業航運的安全通行，但業界仍在等待進一步的澄清和細節。",
+      "importance": "notice"
     },
     {
       "title": "What's happening in ship recycling?",
@@ -84,7 +89,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "BIMCO船舶回收聯盟於2024年成立，旨在協調全球船舶回收和航運業的聲音。其主要目標是促進全球安全和環保的船舶回收實踐。"
+      "summary_zh": "BIMCO船舶回收聯盟於2024年成立，旨在協調全球船舶回收和航運業的聲音。其主要目標是促進全球安全和環保的船舶回收實踐。",
+      "importance": "notice"
     },
     {
       "title": "BIMCO enters knowledge partnership with MACS to support members on plastics reduction",
@@ -97,7 +103,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "BIMCO 與海洋清潔海洋協會 (MACS) 建立知識合作夥伴關係，以加強對會員在減少船上塑料和改善廢物處理方面的支持。此合作旨在為會員提供額外的專業知識和見解。"
+      "summary_zh": "BIMCO 與海洋清潔海洋協會 (MACS) 建立知識合作夥伴關係，以加強對會員在減少船上塑料和改善廢物處理方面的支持。此合作旨在為會員提供額外的專業知識和見解。",
+      "importance": "reference"
     },
     {
       "title": "Harmonising maritime digital interfaces: From alignment to action",
@@ -110,7 +117,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "BIMCO 與 ITS Norway 及 DYNAPORT 項目密切合作，在哥本哈根舉辦為期兩天的行業研討會，探討如何加速海事領域內船舶與岸上利益相關者之間數位介面的統一。此次研討會聚集了來自航運公司的 45 位代表。"
+      "summary_zh": "BIMCO 與 ITS Norway 及 DYNAPORT 項目密切合作，在哥本哈根舉辦為期兩天的行業研討會，探討如何加速海事領域內船舶與岸上利益相關者之間數位介面的統一。此次研討會聚集了來自航運公司的 45 位代表。",
+      "importance": "notice"
     },
     {
       "title": "Global shipping industry associations condemn recent attacks on seafarers",
@@ -123,7 +131,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "全球航運業協會一致譴責近期在霍爾木茲海峽及其周邊對海員和商業航運的攻擊。根據國際海事組織的資料，該組織已確認46起對國際航運的攻擊事件。"
+      "summary_zh": "全球航運業協會一致譴責近期在霍爾木茲海峽及其周邊對海員和商業航運的攻擊。根據國際海事組織的資料，該組織已確認46起對國際航運的攻擊事件。",
+      "importance": "notice"
     },
     {
       "title": "Somali piracy structures are strengthening",
@@ -136,7 +145,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "索馬利亞海盜活動在2026年有所增加，記錄到七起劫持事件，涉及貨船、漁船和油輪。截至六月初，三艘船隻及其船員被扣押，停靠在索馬利亞沿岸。"
+      "summary_zh": "索馬利亞海盜活動在2026年有所增加，記錄到七起劫持事件，涉及貨船、漁船和油輪。截至六月初，三艘船隻及其船員被扣押，停靠在索馬利亞沿岸。",
+      "importance": "notice"
     },
     {
       "title": "\"Our industry depends on people\" - BIMCO Secretary General and CEO David Loosley",
@@ -173,7 +183,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "在2022年2月，MV Banglar Samriddhi從土耳其的Eregli港出發，前往烏克蘭的Olvia。抵達的第二天，俄羅斯入侵烏克蘭。首席工程師Mohammad Omor Faruk和他的同事們發現自己被困，無法安全撤離。"
+      "summary_zh": "在2022年2月，MV Banglar Samriddhi從土耳其的Eregli港出發，前往烏克蘭的Olvia。抵達的第二天，俄羅斯入侵烏克蘭。首席工程師Mohammad Omor Faruk和他的同事們發現自己被困，無法安全撤離。",
+      "importance": "reference"
     },
     {
       "title": "Biofuel clause now available to support transition to low-carbon fuels",
@@ -189,7 +200,8 @@
         "bio_fuel",
         "cii_ets"
       ],
-      "summary_zh": "BIMCO已發布新的生物燃料條款，旨在解決隨著低碳燃料在航運中使用增加而出現的法律和操作挑戰。隨著航運業的脫碳，監管框架正在重塑公司的燃料策略。"
+      "summary_zh": "BIMCO已發布新的生物燃料條款，旨在解決隨著低碳燃料在航運中使用增加而出現的法律和操作挑戰。隨著航運業的脫碳，監管框架正在重塑公司的燃料策略。",
+      "importance": "notice"
     },
     {
       "title": "BIMCO launches project to develop Russia Tanker Resale Restrictions Clause for MoAs",
@@ -202,7 +214,8 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "summary_zh": "BIMCO 開始開發一項標準合約條款，以應對適用於油輪買賣交易的新歐盟要求。此舉是因應歐盟於2026年4月23日通過的第20套對俄制裁措施。"
+      "summary_zh": "BIMCO 開始開發一項標準合約條款，以應對適用於油輪買賣交易的新歐盟要求。此舉是因應歐盟於2026年4月23日通過的第20套對俄制裁措施。",
+      "importance": "action"
     }
   ]
 }

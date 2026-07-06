@@ -4,7 +4,7 @@
 {# ---------- SEARCH: client-side, across all sources ---------- #}
 <div class="search-bar">
   <input id="search-input" type="search" autocomplete="off"
-         placeholder="🔍 搜尋所有情報(標題、摘要、來源、議題)…" aria-label="搜尋情報">
+         placeholder="🔍 搜尋近一年情報(標題、摘要、來源、議題)…" aria-label="搜尋情報">
   <span id="search-count" class="search-count"></span>
 </div>
 <section id="panel-search" class="panel" role="tabpanel" hidden>
@@ -16,14 +16,14 @@
 <section id="panel-brief" class="panel is-active" role="tabpanel">
   <div class="panel-head">
     <h2 class="panel-title">最新情報</h2>
-    <p class="panel-desc">跨來源最近 {{ brief_items|length }} 條更新,依發布日期排序。</p>
+    <p class="panel-desc">近 60 天各來源重點,「須行動」優先、同級依日期排序(每來源最多 3 條)。</p>
   </div>
   <ol class="brief-list">
     {% for item in brief_items %}
     <li class="brief-item">
       <div class="brief-date">{{ item.published_at }}</div>
       <div class="brief-body">
-        <a class="brief-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        {% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a class="brief-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
         {% if item.summary_zh %}
         <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>{{ item.summary_zh }}</p>
         {% elif item.summary %}
@@ -113,7 +113,7 @@
 <section id="panel-topics" class="panel" role="tabpanel">
   <div class="panel-head">
     <h2 class="panel-title">熱門議題</h2>
-    <p class="panel-desc">點議題標題展開,顯示對應的最新文章。</p>
+    <p class="panel-desc">點議題標題展開,顯示近 12 個月內的對應文章(議題空著代表近期沒動靜)。</p>
   </div>
   <div class="topic-list">
     {% for topic in topics %}

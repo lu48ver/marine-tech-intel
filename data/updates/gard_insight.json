@@ -17,7 +17,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "一般平均是海事法中最古老的原則之一。這是一項公平的法則，旨在在參與海上冒險的財產所有者之間分擔為避免整個航程面臨危險而產生的額外犧牲或費用。"
+      "summary_zh": "一般平均是海事法中最古老的原則之一。這是一項公平的法則，旨在在參與海上冒險的財產所有者之間分擔為避免整個航程面臨危險而產生的額外犧牲或費用。",
+      "importance": "reference"
     },
     {
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
@@ -30,7 +31,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。"
+      "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
+      "importance": "notice"
     },
     {
       "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
@@ -43,7 +45,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "在2026年1月至5月期間，Gard處理了超過70宗與燃料相關的索賠，較去年同期增加了50%。幾乎所有索賠均涉及燃料質量，自2月底中東衝突升級以來，這一趨勢更加明顯。"
+      "summary_zh": "在2026年1月至5月期間，Gard處理了超過70宗與燃料相關的索賠，較去年同期增加了50%。幾乎所有索賠均涉及燃料質量，自2月底中東衝突升級以來，這一趨勢更加明顯。",
+      "importance": "notice"
     },
     {
       "title": "China tightens verification of ships’ energy consumption data",
@@ -58,7 +61,8 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "summary_zh": "自2022年12月22日起，前往中國港口的船舶必須根據其船舶能源效率管理計劃（SEEMP）記錄能源消耗數據。船舶在離開之前還必須向中國當局報告其最後一次航行的消耗數據。"
+      "summary_zh": "自2022年12月22日起，前往中國港口的船舶必須根據其船舶能源效率管理計劃（SEEMP）記錄能源消耗數據。船舶在離開之前還必須向中國當局報告其最後一次航行的消耗數據。",
+      "importance": "action"
     },
     {
       "title": "Seafarers detained in Egypt for carrying prohibited items",
@@ -71,7 +75,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "埃及當地報導指出，海員因攜帶禁運物品（如無人機及其他“可疑”電子設備）而被拘留的案件有所增加，這些物品通常是在登船或下船時被發現的。"
+      "summary_zh": "埃及當地報導指出，海員因攜帶禁運物品（如無人機及其他“可疑”電子設備）而被拘留的案件有所增加，這些物品通常是在登船或下船時被發現的。",
+      "importance": "reference"
     },
     {
       "title": "Having an abandon ship drill anytime soon?",
@@ -84,7 +89,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "確保船員在乘員上船之前，對救生艇和吊艇裝置進行徹底的目視檢查和「測試降下」。"
+      "summary_zh": "確保船員在乘員上船之前，對救生艇和吊艇裝置進行徹底的目視檢查和「測試降下」。",
+      "importance": "notice"
     },
     {
       "title": "Bunker quality – do bunker suppliers have charterers over a barrel?",
@@ -97,7 +103,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "新加坡海事與港口管理局正在調查今年第一季度發現的含有有害氯化碳氫化合物的重燃料油。作者回顧了時間租船人與船舶所有者之間的權力不平衡。"
+      "summary_zh": "新加坡海事與港口管理局正在調查今年第一季度發現的含有有害氯化碳氫化合物的重燃料油。作者回顧了時間租船人與船舶所有者之間的權力不平衡。",
+      "importance": "notice"
     },
     {
       "title": "Gard warns Members to remain vigilant about liquefaction risk",
@@ -110,7 +117,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "Gard 最近收到通知，指出有新事件發生，涉及被分類為 A 組的固體散裝貨物在裝載時，其水分含量超過可運輸水分限制（TML）。Gard 提醒會員在裝載此類貨物時保持警惕，並設置低閾值。"
+      "summary_zh": "Gard 最近收到通知，指出有新事件發生，涉及被分類為 A 組的固體散裝貨物在裝載時，其水分含量超過可運輸水分限制（TML）。Gard 提醒會員在裝載此類貨物時保持警惕，並設置低閾值。",
+      "importance": "notice"
     },
     {
       "title": "Crisis in Ukraine – an interview with Torunn Biller White",
@@ -123,7 +131,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "托倫·比勒·懷特（Torunn Biller White）是Gard的首席風險官，她與高級律師譚婉晶（Wan Jing Tan）討論了烏克蘭危機對Gard及其會員和客戶的影響。討論內容涵蓋了對海員福祉的極大影響、全球商品市場的衝擊以及生態問題。"
+      "summary_zh": "托倫·比勒·懷特（Torunn Biller White）是Gard的首席風險官，她與高級律師譚婉晶（Wan Jing Tan）討論了烏克蘭危機對Gard及其會員和客戶的影響。討論內容涵蓋了對海員福祉的極大影響、全球商品市場的衝擊以及生態問題。",
+      "importance": "reference"
     },
     {
       "title": "Three steps to contain an outbreak of infection onboard",
@@ -136,7 +145,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "在商船上，「疫情」是指多名船員感染相同傳染病。在船上環境中，傳染病可以迅速傳播。"
+      "summary_zh": "在商船上，「疫情」是指多名船員感染相同傳染病。在船上環境中，傳染病可以迅速傳播。",
+      "importance": "notice"
     },
     {
       "title": "War in Ukraine – impact on maritime situation",
@@ -149,7 +159,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。"
+      "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。",
+      "importance": "notice"
     },
     {
       "title": "Updated guidance on pilot transfer arrangements",
@@ -162,7 +173,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "國際航運商會（ICS）和國際海事引航員協會（IMPA）最近發布了更新版的《航運業引航轉移安排指導》，旨在提高引航轉移安排的安全性。"
+      "summary_zh": "國際航運商會（ICS）和國際海事引航員協會（IMPA）最近發布了更新版的《航運業引航轉移安排指導》，旨在提高引航轉移安排的安全性。",
+      "importance": "notice"
     },
     {
       "title": "The International Group joins the Top Tier project on container losses",
@@ -175,7 +187,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "國際集團參與了針對集裝箱損失的TopTier專案。2020-2021冬季期間發生了一系列異常的集裝箱損失事件。該專案旨在尋找避免未來類似事件的方法，初步結果顯示，在隨浪航行時的參數性翻滾特別危險。"
+      "summary_zh": "國際集團參與了針對集裝箱損失的TopTier專案。2020-2021冬季期間發生了一系列異常的集裝箱損失事件。該專案旨在尋找避免未來類似事件的方法，初步結果顯示，在隨浪航行時的參數性翻滾特別危險。",
+      "importance": "notice"
     },
     {
       "title": "The purpose and limitations of Silver Nitrate Testing",
@@ -188,7 +201,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "銀氯化物測試可在裝船時檢測高價值鋼貨物中的氯化物，這些氯化物來自海水或用於除冰的氯化鈉，對鋼材具有腐蝕性。這項測試可以幫助船長在提單上進行適當的註明。"
+      "summary_zh": "銀氯化物測試可在裝船時檢測高價值鋼貨物中的氯化物，這些氯化物來自海水或用於除冰的氯化鈉，對鋼材具有腐蝕性。這項測試可以幫助船長在提單上進行適當的註明。",
+      "importance": "notice"
     },
     {
       "title": "Verification of electronic statutory and class certificates",
@@ -201,7 +215,8 @@
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "船舶在港口國控制檢查中仍然面臨干預的情況，有時還會遭受高額罰款，原因是其電子法定和級別證書在船上檢查時無法驗證有效性。"
+      "summary_zh": "船舶在港口國控制檢查中仍然面臨干預的情況，有時還會遭受高額罰款，原因是其電子法定和級別證書在船上檢查時無法驗證有效性。",
+      "importance": "action"
     }
   ]
 }

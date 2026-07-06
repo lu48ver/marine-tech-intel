@@ -31,7 +31,16 @@ WARN_AFTER_DAYS = 7
 CRIT_AFTER_DAYS = 30
 
 BRIEF_LIMIT = 10  # cross-source items on the front page
+BRIEF_WINDOW_DAYS = 60  # BRIEF only considers items published within this window
+BRIEF_PER_SOURCE = 3  # cap per source so one chatty source can't flood BRIEF
 SOURCE_ITEM_LIMIT = 5  # items shown per source card
+TOPIC_WINDOW_DAYS = 365  # topic cards / search only show the recent slice
+
+# AI importance rating (scripts/summarize.py) → ranking tier. Items the AI has
+# not rated yet rank alongside "notice" so the site degrades gracefully when
+# the summarize step is skipped.
+IMPORTANCE_ORDER = {"action": 0, "notice": 1, "reference": 2}
+DEFAULT_IMPORTANCE_RANK = IMPORTANCE_ORDER["notice"]
 
 logger = logging.getLogger("build_site")
 
@@ -115,22 +124,55 @@ def load_source_data(topics: list[dict]) -> list[dict]:
         data = load_json(update_path)
         data["category"] = meta.get("category", "")
         for item in data.get("items", []):
-            if not item.get("summary_zh"):
-                cached = summary_cache.get(item.get("url", ""))
-                if cached:
+            cached = summary_cache.get(item.get("url", ""))
+            if cached:
+                if not item.get("summary_zh"):
                     item["summary_zh"] = cached["summary_zh"]
+                if not item.get("importance") and cached.get("importance"):
+                    item["importance"] = cached["importance"]
             item["topic_ids"] = match_topics(item, topics)
         out.append(data)
     return out
 
 
-def build_brief(sources: list[dict]) -> list[dict]:
-    """Merge all items across sources, newest first, capped at BRIEF_LIMIT."""
+def importance_rank(item: dict) -> int:
+    return IMPORTANCE_ORDER.get(item.get("importance", ""), DEFAULT_IMPORTANCE_RANK)
+
+
+def build_brief(sources: list[dict], now: datetime) -> list[dict]:
+    """The front-page brief: recent AND important, not merely newest.
+
+    Per source: keep items published within BRIEF_WINDOW_DAYS, drop AI-rated
+    "reference" noise (commercial/PR), rank by importance then date, and cap
+    at BRIEF_PER_SOURCE so a high-volume source cannot flood the page. The
+    merged result is again ordered importance-first, newest within each tier.
+
+    Falls back to the plain newest-first list if the filters leave nothing
+    (e.g. every crawl has gone stale), so BRIEF never renders empty.
+    """
+    cutoff = (now - timedelta(days=BRIEF_WINDOW_DAYS)).date().isoformat()
     merged = []
     for src in sources:
-        for item in src.get("items", []):
+        candidates = [
+            item
+            for item in src.get("items", [])
+            if item.get("published_at", "") >= cutoff
+            and item.get("importance") != "reference"
+        ]
+        candidates.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+        candidates.sort(key=importance_rank)
+        for item in candidates[:BRIEF_PER_SOURCE]:
             merged.append({**item, "source_name": src["source_name"], "source_id": src["source_id"]})
+
+    if not merged:  # degrade to the old behaviour rather than show nothing
+        for src in sources:
+            for item in src.get("items", []):
+                merged.append(
+                    {**item, "source_name": src["source_name"], "source_id": src["source_id"]}
+                )
+
     merged.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    merged.sort(key=importance_rank)
     return merged[:BRIEF_LIMIT]
 
 
@@ -156,18 +198,21 @@ def build_sources_view(sources: list[dict], now: datetime) -> list[dict]:
     return view
 
 
-def build_search_index(sources: list[dict]) -> list[dict]:
-    """Flatten every item across sources into a compact client-side search index.
+def build_search_index(sources: list[dict], now: datetime) -> list[dict]:
+    """Flatten recent items across sources into a compact client-side search index.
 
     Powers the in-browser search (pure JS, no backend): one entry per article
-    with the fields the front-end matches/renders against.
+    with the fields the front-end matches/renders against. Only the recent
+    slice (TOPIC_WINDOW_DAYS) is indexed — the site tracks what's current;
+    the long-term archive lives elsewhere (Obsidian export, planned).
     """
+    cutoff = (now - timedelta(days=TOPIC_WINDOW_DAYS)).date().isoformat()
     index = []
     seen = set()
     for src in sources:
         for item in src.get("items", []):
             url = item.get("url", "")
-            if url in seen:
+            if url in seen or item.get("published_at", "") < cutoff:
                 continue
             seen.add(url)
             index.append(
@@ -179,20 +224,27 @@ def build_search_index(sources: list[dict]) -> list[dict]:
                     "date": item.get("published_at", ""),
                     "tags": item.get("tags", []),
                     "topics": item.get("topic_ids", []),
+                    "importance": item.get("importance", ""),
                 }
             )
     index.sort(key=lambda x: x.get("date", ""), reverse=True)
     return index
 
 
-def build_topics_view(topics: list[dict], sources: list[dict]) -> list[dict]:
-    """For each topic, gather matching items across all sources, newest first."""
+def build_topics_view(topics: list[dict], sources: list[dict], now: datetime) -> list[dict]:
+    """For each topic, gather matching RECENT items across sources, newest first.
+
+    The site is a recency lens (an empty topic means "quiet lately" and that is
+    useful signal), so items older than TOPIC_WINDOW_DAYS stay out even when a
+    slow source's latest-20 stretches back a decade.
+    """
+    cutoff = (now - timedelta(days=TOPIC_WINDOW_DAYS)).date().isoformat()
     view = []
     for topic in topics:
         matched = []
         for src in sources:
             for item in src.get("items", []):
-                if topic["id"] in item.get("topic_ids", []):
+                if topic["id"] in item.get("topic_ids", []) and item.get("published_at", "") >= cutoff:
                     matched.append(
                         {**item, "source_name": src["source_name"], "source_id": src["source_id"]}
                     )
@@ -235,9 +287,9 @@ def main() -> int:
         # Cache-buster appended to static asset URLs so browsers never serve a
         # stale style.css / main.js after a rebuild or daily Pages deploy.
         "asset_version": now.strftime("%Y%m%d%H%M%S"),
-        "brief_items": build_brief(sources),
+        "brief_items": build_brief(sources, now),
         "sources": build_sources_view(sources, now),
-        "topics": build_topics_view(topics, sources),
+        "topics": build_topics_view(topics, sources, now),
         "digest": digest,
     }
 
@@ -252,7 +304,7 @@ def main() -> int:
     shutil.copytree(STATIC_DIR, BUILD_DIR / "static")
 
     # Client-side search index (all articles, searched in the browser)
-    search_index = build_search_index(sources)
+    search_index = build_search_index(sources, now)
     (BUILD_DIR / "search.json").write_text(
         json.dumps(search_index, ensure_ascii=False), encoding="utf-8"
     )

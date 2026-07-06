@@ -117,9 +117,10 @@ python -m crawlers.lr_fobas      # 或 tokyo_mou / classnk
 
 ---
 
-## 三、AI 中文摘要 (選用)
+## 三、AI 中文摘要 + 重要性分級 (選用)
 
-把抓回來的文章 (尤其 ClassNK / Tokyo MoU 那些只有標題的 PDF) 自動摘要成繁體中文重點。
+把抓回來的文章 (尤其 ClassNK / Tokyo MoU 那些只有標題的 PDF) 自動摘要成繁體中文重點,
+並同時評定對工務的重要性 (`importance`:須行動/須知悉/參考),供 BRIEF 排序使用。
 摘要只根據抓回的原文,抓不到內文就跳過、不會瞎掰;結果快取在 `data/summaries.json`,
 同一篇文章只摘要一次,之後每天幾乎零成本。預設模型 `gpt-4o-mini`,50 篇約 US$0.03。
 
@@ -240,11 +241,18 @@ python scripts/build_site.py        # 確認網站能建置
       "published_at": "2026-02-12",
       "summary": "摘要,200 字內",
       "tags": ["fuel", "biofuel"],
-      "topic_ids": ["bio_fuel"]
+      "topic_ids": ["bio_fuel"],
+      "summary_zh": "AI 中文摘要 (summarize.py 產生,選用)",
+      "importance": "action | notice | reference (AI 重要性分級,選用)"
     }
   ]
 }
 ```
+
+`importance` 是 AI 以工務監督視角評定的重要性:`action` 須行動(新規生效、
+PSC/CIC 檢查、須備文件設備)、`notice` 須知悉(技術/法規動態)、`reference`
+參考(商務/公關/船員新聞)。BRIEF 依此排序並排除 `reference`;沒跑 AI 摘要時
+一律視為 `notice`,網站照常運作。
 
 失敗處理:單一爬蟲掛掉不影響其他來源;抓取失敗時保留前一次成功的資料,
 `crawl_status` 設為 `error`,前端會在該來源卡片標示「抓取失敗」並顯示資料過舊。

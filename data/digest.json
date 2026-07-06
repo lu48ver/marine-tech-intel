@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-07-06T11:39:08+08:00",
+  "generated_at": "2026-07-06T18:26:34+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "海事網絡安全",
-      "why": "隨著地緣政治不穩定，海事網絡安全成為保護航運業務的重要議題。",
-      "articles": [
-        {
-          "title": "Managing geopolitical cyber security risks",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-23"
-        },
-        {
-          "title": "Global shipping industry associations condemn recent attacks on seafarers",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
       "name": "船舶回收",
-      "why": "隨著環保法規的推進，船舶回收的法律和環境框架變得愈加重要。",
+      "why": "巴塞爾公約開放式工作組的會議推進了船舶回收的法律和環境框架，顯示出全球對安全和環保船舶回收實踐的重視，這將影響船東在船舶退役時的合規和環境責任。相關討論和進展將影響未來的船舶設計和運營策略。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -39,74 +21,74 @@
       ]
     },
     {
-      "name": "替代燃料的發展",
-      "why": "替代燃料的使用對於航運業的可持續發展至關重要，尤其是在減少溫室氣體排放方面。",
+      "name": "海事數位化",
+      "why": "IMO促進委員會的會議討論了海事數位化戰略，並同意對FAL公約進行修訂，這將推進海事網絡安全法典的工作，對船舶與岸上利益相關者之間的數位介面統一至關重要，影響船舶運營的效率和安全。",
       "articles": [
-        {
-          "title": "Biofuel clause now available to support transition to low-carbon fuels",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-11"
-        },
-        {
-          "title": "Alternative-fuelled ship orders remain significant in 2025",
-          "url": "https://www.lr.org/en/knowledge/insights-articles/alternative-fuelled-ship-orders-remain-significant-in-2025/",
-          "source": "LR FOBAS",
-          "published_at": "2026-01-07"
-        },
-        {
-          "title": "Biofuels emerge as superyachting’s next big step for decarbonisation",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/biofuels-emerge-as-superyachtings-next-big-step-for-decarbonisation/",
-          "source": "LR FOBAS",
-          "published_at": "2025-09-24"
-        },
-        {
-          "title": "LR launches Biofuel Advisory service to help accelerate shipping’s decarbonisation",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2025/lr-launches-biofuel-advisory-service-to-help-accelerate-shippings-decarbonisation/",
-          "source": "LR FOBAS",
-          "published_at": "2025-09-16"
-        }
-      ]
-    },
-    {
-      "name": "船舶檢查與合規性",
-      "why": "加強船舶檢查和合規性是確保航運安全和環保的關鍵。",
-      "articles": [
-        {
-          "title": "2025 Paris MoU Annual Report \"Port State Control; Progress and performance, highlights of the Paris MoU 2025\"",
-          "url": "https://parismou.org/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris",
-          "source": "Paris MoU",
-          "published_at": "2026-07-01"
-        },
-        {
-          "title": "Port State Control - Q1 2026 Detention review and other updates",
-          "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-29"
-        },
-        {
-          "title": "Preliminary results of CIC on Ballast Water Management 2025",
-          "url": "https://www.tokyo-mou.org/press-releases/2026/03/17/preliminary-results-of-cic-on-ballast-water-management-2025/",
-          "source": "Tokyo MoU",
-          "published_at": "2026-03-17"
-        }
-      ]
-    },
-    {
-      "name": "數位化與標準化",
-      "why": "數位化和標準化將提升海事操作的效率和安全性，促進行業的現代化。",
-      "articles": [
-        {
-          "title": "Harmonising maritime digital interfaces: From alignment to action",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-16"
-        },
         {
           "title": "IMO’s Facilitation Committee (FAL 50)",
           "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
           "source": "DNV Technical & Regulatory News",
           "published_at": "2026-03-30"
+        },
+        {
+          "title": "Harmonising maritime digital interfaces: From alignment to action",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
+        }
+      ]
+    },
+    {
+      "name": "海事網絡安全",
+      "why": "地緣政治的網絡安全風險日益增加，船東需要制定策略以應對國家網絡安全政策對業務的潛在影響，這對於保護船舶操作和數據安全至關重要。",
+      "articles": [
+        {
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
+        },
+        {
+          "title": "Global shipping industry associations condemn recent attacks on seafarers",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "name": "選擇性催化還原系統",
+      "why": "新的SCR系統要求將於2026年5月1日生效，這改變了NOx測量的準確性評估方式，船舶經營者需更新其操作程序以符合新的規範，這將影響船舶的排放合規性和運營成本。",
+      "articles": [
+        {
+          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
+          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-21"
+        },
+        {
+          "title": "North-east Atlantic joins the expanding network of ECAs",
+          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "name": "英國排放交易計劃",
+      "why": "英國排放交易計劃將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理和成本結構，船東需提前準備以適應新的市場環境。",
+      "articles": [
+        {
+          "title": "The UK ETS expands to maritime from 1 July 2026",
+          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-05"
+        },
+        {
+          "title": "North-east Atlantic joins the expanding network of ECAs",
+          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-17"
         }
       ]
     }
