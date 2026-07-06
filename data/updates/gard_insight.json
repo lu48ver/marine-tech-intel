@@ -2,10 +2,25 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-06T18:30:12+08:00",
-  "last_success_at": "2026-07-06T18:30:12+08:00",
+  "last_crawled_at": "2026-07-06T18:45:57+08:00",
+  "last_success_at": "2026-07-06T18:45:57+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Rise in fishery claims in South Korea waters",
+      "url": "https://gard.no/en/insights/fishery-claims-rise-south-korea-waters/",
+      "published_at": "2026-07-06",
+      "summary": "Gard has observed a rise in navigation incidents involving fishing nets over the past year. Our correspondent, KOMOS, reports that issues with offshore stow nets remain persistent, largely due to minimal restrictions on where this gear can be installed outside of designated anchorages and prohibited",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "summary_zh": "Gard觀察到過去一年在南韓水域涉及漁網的航行事故有所增加。KOMOS報告指出，離岸儲網的問題仍然持續，主要是因為對於這些設備安裝地點的限制較少，除了指定的錨地和禁止區域外。",
+      "importance": "notice",
+      "category": "safety"
+    },
     {
       "title": "General Average: Managing the Process and Protecting the Recovery",
       "url": "https://gard.no/en/insights/general-average-managing-process-protecting-recovery/",
@@ -202,21 +217,6 @@
       "summary_zh": "國際集團參與了針對集裝箱損失的TopTier專案。2020-2021冬季期間發生了一系列異常的集裝箱損失事件。該專案旨在尋找避免未來類似事件的方法，初步結果顯示，在隨浪航行時的參數性翻滾特別危險。",
       "importance": "notice",
       "category": "industry"
-    },
-    {
-      "title": "The purpose and limitations of Silver Nitrate Testing",
-      "url": "https://gard.no/en/insights/purpose-limitations-silver-nitrate-testing/",
-      "published_at": "2022-01-26",
-      "summary": "Sodium chloride found in seawater and as used to de-ice roadways is corrosive to steel. Silver nitrate testing of higher value steel cargos at the time of loading will detect chlorides present pre-shipment and can enable the Master to clause bills of lading as may be appropriate.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "summary_zh": "銀氯化物測試可在裝船時檢測高價值鋼貨物中的氯化物，這些氯化物來自海水或用於除冰的氯化鈉，對鋼材具有腐蝕性。這項測試可以幫助船長在提單上進行適當的註明。",
-      "importance": "notice",
-      "category": "machinery"
     },
     {
       "title": "Legal risks following quarantine of Yangtze River pilots",

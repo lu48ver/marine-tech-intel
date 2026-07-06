@@ -1184,5 +1184,13 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-06T18:44:54+08:00"
+  },
+  "https://gard.no/en/insights/fishery-claims-rise-south-korea-waters/": {
+    "summary_zh": "Gard觀察到過去一年在南韓水域涉及漁網的航行事故有所增加。KOMOS報告指出，離岸儲網的問題仍然持續，主要是因為對於這些設備安裝地點的限制較少，除了指定的錨地和禁止區域外。",
+    "importance": "notice",
+    "category": "safety",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-06T18:46:07+08:00"
   }
 }
