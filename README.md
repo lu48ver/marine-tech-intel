@@ -152,7 +152,24 @@ python scripts/summarize.py             # 實際摘要
 
 ---
 
-## 四、怎麼新增一個來源
+## 四、Obsidian 全歸檔 (TechNews)
+
+網站只顯示最新切片(每來源最多 20 篇,舊的會被擠掉);被擠掉的文章由
+`scripts/export_obsidian.py` 永久歸檔到 Obsidian vault repo
+(`wei_obsidian` 的 `marine engineer/TechNews/`),一篇文章一個 .md
+(frontmatter 含來源/日期/重要性/分類/議題 + AI 中文摘要 + 原文連結),
+**只進不出**、重跑不會重複(以 URL 為準,索引在 `.archive_index.json`)。
+
+每日 workflow 會在爬完後自動歸檔新文章並推進 vault repo,本機的
+obsidian-git 拉下來就同步。需要 `VAULT_DEPLOY_KEY` Secret(對 vault repo
+有寫入權的 deploy key,已設定);沒設就自動跳過。本機手動歸檔:
+
+```powershell
+python scripts/export_obsidian.py --vault D:\Nick_obsidian            # 實際寫入
+python scripts/export_obsidian.py --vault D:\Nick_obsidian --dry-run  # 先看會寫哪些
+```
+
+## 五、怎麼新增一個來源
 
 以新增來源 `example` 為例:
 

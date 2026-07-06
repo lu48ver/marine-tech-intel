@@ -2,6 +2,16 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-07-06 (Obsidian 全歸檔 TechNews)
+
+### 新增
+- `scripts/export_obsidian.py`:每篇文章一個 .md(frontmatter + AI 摘要 +
+  原文連結)歸檔到 vault repo `wei_obsidian` 的 `marine engineer/TechNews/`,
+  只進不出、以 URL 去重(索引 `.archive_index.json`)。已回填現有 116 篇。
+- 每日 workflow 加歸檔步驟:sparse clone vault repo → 匯出新文章 → 推回
+  (rebase 重試 3 次,與裝置端 obsidian-git 的推送共存)。用 `VAULT_DEPLOY_KEY`
+  Secret(限 wei_obsidian 的寫入 deploy key);沒設自動跳過、失敗不擋部署。
+
 ## 2026-07-06 (營運面:失敗通知 + NEW 徽章 + 測試)
 
 ### Schema 變動
