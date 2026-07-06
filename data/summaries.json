@@ -1054,5 +1054,12 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-06T18:20:53+08:00"
+  },
+  "https://gard.no/en/insights/legal-risks-following-quarantine-yangtze-river-pilots/": {
+    "summary_zh": "因新冠疫情，長江部分地區的國際貿易船隻航行已經突然停止，因為當地引航員被隔離。",
+    "importance": "notice",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-06T18:30:26+08:00"
   }
 }

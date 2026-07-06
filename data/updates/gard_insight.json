@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-06T11:38:48+08:00",
-  "last_success_at": "2026-07-06T11:38:48+08:00",
+  "last_crawled_at": "2026-07-06T18:30:12+08:00",
+  "last_success_at": "2026-07-06T18:30:12+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -205,18 +205,18 @@
       "importance": "notice"
     },
     {
-      "title": "Verification of electronic statutory and class certificates",
-      "url": "https://gard.no/en/insights/verification-electronic-statutory-class-certificates/",
-      "published_at": "2022-01-18",
-      "summary": "Ships continue to experience instances of port state control interventions, and sometimes hefty fines, allegedly because the validity of their electronic statutory and class certificates cannot be verified during onboard inspections.",
+      "title": "Legal risks following quarantine of Yangtze River pilots",
+      "url": "https://gard.no/en/insights/legal-risks-following-quarantine-yangtze-river-pilots/",
+      "published_at": "2022-01-04",
+      "summary": "Navigation on parts of the Yangtze River by international-trading vessels has come to an abrupt halt following the Covid-19 quarantining of local pilots.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "summary_zh": "船舶在港口國控制檢查中仍然面臨干預的情況，有時還會遭受高額罰款，原因是其電子法定和級別證書在船上檢查時無法驗證有效性。",
-      "importance": "action"
+      "summary_zh": "因新冠疫情，長江部分地區的國際貿易船隻航行已經突然停止，因為當地引航員被隔離。",
+      "importance": "notice"
     }
   ]
 }

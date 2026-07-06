@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T18:26:34+08:00",
+  "generated_at": "2026-07-06T18:30:37+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "船舶回收",
-      "why": "巴塞爾公約開放式工作組的會議推進了船舶回收的法律和環境框架，顯示出全球對安全和環保船舶回收實踐的重視，這將影響船東在船舶退役時的合規和環境責任。相關討論和進展將影響未來的船舶設計和運營策略。",
+      "why": "巴塞爾公約開放式工作組的會議進一步明確了船舶回收的法律和環境框架，這對於船舶經營者在未來的回收過程中遵循合規要求至關重要。隨著全球對環保要求的提高，船舶回收的合規性將成為技術管理的重要考量。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -21,26 +21,8 @@
       ]
     },
     {
-      "name": "海事數位化",
-      "why": "IMO促進委員會的會議討論了海事數位化戰略，並同意對FAL公約進行修訂，這將推進海事網絡安全法典的工作，對船舶與岸上利益相關者之間的數位介面統一至關重要，影響船舶運營的效率和安全。",
-      "articles": [
-        {
-          "title": "IMO’s Facilitation Committee (FAL 50)",
-          "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-03-30"
-        },
-        {
-          "title": "Harmonising maritime digital interfaces: From alignment to action",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-16"
-        }
-      ]
-    },
-    {
       "name": "海事網絡安全",
-      "why": "地緣政治的網絡安全風險日益增加，船東需要制定策略以應對國家網絡安全政策對業務的潛在影響，這對於保護船舶操作和數據安全至關重要。",
+      "why": "隨著地緣政治風險的增加，海事網絡安全成為船東和經營者必須重視的議題。文章強調了制定地緣政治策略以應對潛在的網絡安全威脅，這對於保護船舶運營和數據安全至關重要。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -49,16 +31,16 @@
           "published_at": "2026-06-23"
         },
         {
-          "title": "Global shipping industry associations condemn recent attacks on seafarers",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-12"
+          "title": "IMO’s Facilitation Committee (FAL 50)",
+          "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-03-30"
         }
       ]
     },
     {
       "name": "選擇性催化還原系統",
-      "why": "新的SCR系統要求將於2026年5月1日生效，這改變了NOx測量的準確性評估方式，船舶經營者需更新其操作程序以符合新的規範，這將影響船舶的排放合規性和運營成本。",
+      "why": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效，這將影響船舶的NOx排放控制。船舶經營者需要更新其系統以符合新的測量準則，這對於減少環境影響和遵循法規至關重要。",
       "articles": [
         {
           "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
@@ -67,16 +49,34 @@
           "published_at": "2026-04-21"
         },
         {
-          "title": "North-east Atlantic joins the expanding network of ECAs",
-          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+          "title": "Revised interpretation of requirements to permanent means of access (PMA)",
+          "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
           "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-17"
+          "published_at": "2026-04-08"
+        }
+      ]
+    },
+    {
+      "name": "海事自主水面船舶",
+      "why": "國際海事組織於2026年通過了針對海事自主水面船舶（MASS）的新法規，這標誌著對未來船舶運營模式的重大調整。船舶經營者需要開始考慮如何整合這些新技術以提高運營效率。",
+      "articles": [
+        {
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
+        },
+        {
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
         }
       ]
     },
     {
       "name": "英國排放交易計劃",
-      "why": "英國排放交易計劃將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理和成本結構，船東需提前準備以適應新的市場環境。",
+      "why": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理和成本結構。船舶經營者必須密切關注此計劃的發展，以便有效應對未來的合規要求。",
       "articles": [
         {
           "title": "The UK ETS expands to maritime from 1 July 2026",
@@ -85,10 +85,10 @@
           "published_at": "2026-06-05"
         },
         {
-          "title": "North-east Atlantic joins the expanding network of ECAs",
-          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+          "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
+          "url": "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/",
           "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-17"
+          "published_at": "2026-05-04"
         }
       ]
     }
