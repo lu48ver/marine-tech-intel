@@ -2,6 +2,20 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-07-06 (Phase 2 — AI 粗分類 + CATEGORY 分頁)
+
+### Schema 變動
+- item 與 `data/summaries.json` 快取新增 **`category`** 欄位,AI 給每篇文章唯一
+  粗分類:`regulation` 法規環保 / `fuel` 燃油 / `psc` PSC 檢查 / `machinery`
+  輪機設備 / `safety` 安全保安 / `industry` 產業商務。與 `importance` 同一次
+  呼叫產出;舊快取由 classify-only 補分類。
+
+### 內容邏輯
+- 前端新增 **CATEGORY** 分頁:近 12 個月**所有**文章依分類分組(每篇一類,
+  涵蓋固定議題漏接的 58% 內容),組內「須行動」優先、同級依日期。
+  未分類文章集中在「未分類」桶,全部分類完成時該桶自動隱藏。
+- 議題卡(HOT TOPICS)與分類項目同步顯示「須行動」徽章。
+
 ## 2026-07-06 (Phase 2 — 編輯判斷層:重要性分級 + BRIEF 排序邏輯)
 
 ### Schema 變動

@@ -8,6 +8,7 @@
   const panels = {
     brief: document.getElementById("panel-brief"),
     radar: document.getElementById("panel-radar"),
+    category: document.getElementById("panel-category"),
     sources: document.getElementById("panel-sources"),
     topics: document.getElementById("panel-topics"),
   };

@@ -63,6 +63,26 @@ HEADERS = {
 
 IMPORTANCE_LEVELS = ("action", "notice", "reference")
 
+# Broad content categories — every article gets exactly one, so nothing falls
+# through the cracks (topics.json keywords only cover a subset of the flow).
+CATEGORY_IDS = ("regulation", "fuel", "psc", "machinery", "safety", "industry")
+
+CATEGORY_RUBRIC = (
+    "Also assign the article to EXACTLY ONE category:\n"
+    '- "regulation": IMO / regional environmental & regulatory developments '
+    "(MEPC/MSC outcomes, ECA, ETS, FuelEU, conventions, entry-into-force).\n"
+    '- "fuel": marine fuel quality, bunkering, biofuel / alternative fuels, '
+    "lubricants.\n"
+    '- "psc": port state control — inspections, CIC campaigns, detentions, '
+    "deficiency statistics.\n"
+    '- "machinery": engines, emission abatement equipment (SCR, scrubbers), '
+    "onboard technical systems, class technical requirements.\n"
+    '- "safety": casualties, navigation safety, security/piracy, enclosed '
+    "space, fire.\n"
+    '- "industry": commercial/contractual, market, crew & welfare, '
+    "digitalization, association news — anything not technical."
+)
+
 IMPORTANCE_RUBRIC = (
     "Rate the article's importance FOR A SHIP ENGINEERING SUPERINTENDENT "
     "(工務監督, technical fleet management):\n"
@@ -81,16 +101,21 @@ SYSTEM_PROMPT = (
     "Chinese (繁體中文) as 2 to 4 short, practical key-point sentences. "
     "Use ONLY facts stated in the source text; never invent regulation "
     "numbers, dates, or figures.\n\n" + IMPORTANCE_RUBRIC + "\n\n"
+    + CATEGORY_RUBRIC + "\n\n"
     "Respond in JSON only: {\"summary_zh\": \"<the summary>\", "
-    "\"importance\": \"action|notice|reference\"}. If the source text is too "
-    "short or irrelevant to summarize, use {\"summary_zh\": \"\", "
-    "\"importance\": \"reference\"}."
+    "\"importance\": \"action|notice|reference\", "
+    "\"category\": \"regulation|fuel|psc|machinery|safety|industry\"}. "
+    "If the source text is too short or irrelevant to summarize, use "
+    "{\"summary_zh\": \"\", \"importance\": \"reference\", "
+    "\"category\": \"industry\"}."
 )
 
 CLASSIFY_PROMPT = (
     "You are a maritime technical analyst.\n\n" + IMPORTANCE_RUBRIC + "\n\n"
+    + CATEGORY_RUBRIC + "\n\n"
     "You are given an article title and its existing Chinese summary. "
-    "Respond in JSON only: {\"importance\": \"action|notice|reference\"}."
+    "Respond in JSON only: {\"importance\": \"action|notice|reference\", "
+    "\"category\": \"regulation|fuel|psc|machinery|safety|industry\"}."
 )
 
 logger = logging.getLogger("summarize")
@@ -170,8 +195,14 @@ def _normalize_importance(value: object) -> str:
     return value if value in IMPORTANCE_LEVELS else "notice"
 
 
-def summarize_text(client, title: str, text: str) -> tuple[str, str]:
-    """Call the LLM; return (summary_zh, importance). Empty summary = declined."""
+def _normalize_category(value: object) -> str:
+    """Clamp a model-provided category to a known id (default industry)."""
+    value = str(value or "").strip().lower()
+    return value if value in CATEGORY_IDS else "industry"
+
+
+def summarize_text(client, title: str, text: str) -> tuple[str, str, str]:
+    """Call the LLM; return (summary_zh, importance, category)."""
     resp = client.chat.completions.create(
         model=DEFAULT_MODEL,
         temperature=0.2,
@@ -185,19 +216,23 @@ def summarize_text(client, title: str, text: str) -> tuple[str, str]:
     try:
         data = json.loads(resp.choices[0].message.content or "{}")
     except json.JSONDecodeError:
-        return "", "notice"
+        return "", "notice", "industry"
     summary = (data.get("summary_zh") or "").strip()
     if "NO_SUMMARY" in summary:
         summary = ""
-    return summary, _normalize_importance(data.get("importance"))
+    return (
+        summary,
+        _normalize_importance(data.get("importance")),
+        _normalize_category(data.get("category")),
+    )
 
 
-def classify_only(client, title: str, summary_zh: str) -> str:
-    """Backfill importance for an already-summarized item (no source re-fetch)."""
+def classify_only(client, title: str, summary_zh: str) -> tuple[str, str]:
+    """Backfill (importance, category) for an already-summarized item."""
     resp = client.chat.completions.create(
         model=DEFAULT_MODEL,
         temperature=0,
-        max_tokens=20,
+        max_tokens=30,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": CLASSIFY_PROMPT},
@@ -207,8 +242,8 @@ def classify_only(client, title: str, summary_zh: str) -> str:
     try:
         data = json.loads(resp.choices[0].message.content or "{}")
     except json.JSONDecodeError:
-        return "notice"
-    return _normalize_importance(data.get("importance"))
+        return "notice", "industry"
+    return _normalize_importance(data.get("importance")), _normalize_category(data.get("category"))
 
 
 def main() -> int:
@@ -261,22 +296,25 @@ def main() -> int:
             if url in cache:  # already summarized in a previous run
                 record = cache[url]
                 item["summary_zh"] = record["summary_zh"]
-                if not record.get("importance"):
-                    # Pre-importance cache entry: cheap classify-only backfill
+                if not record.get("importance") or not record.get("category"):
+                    # Cache entry predates the rating/category fields:
+                    # cheap classify-only backfill (no source re-fetch)
                     if args.dry_run:
                         stats["would_backfill"] += 1
                     elif not args.limit or calls < args.limit:
-                        record["importance"] = classify_only(
+                        record["importance"], record["category"] = classify_only(
                             client, item.get("title", ""), record["summary_zh"]
                         )
                         calls += 1
                         stats["backfilled"] += 1
                         logger.info(
-                            "backfilled importance=%s %s",
-                            record["importance"], item.get("title", "")[:60],
+                            "backfilled importance=%s category=%s %s",
+                            record["importance"], record["category"],
+                            item.get("title", "")[:60],
                         )
-                if record.get("importance"):
-                    item["importance"] = record["importance"]
+                for field in ("importance", "category"):
+                    if record.get(field):
+                        item[field] = record[field]
                 stats["cached"] += 1
                 changed = True
                 continue
@@ -294,7 +332,7 @@ def main() -> int:
             if args.limit and calls >= args.limit:
                 continue
 
-            summary_zh, importance = summarize_text(client, item.get("title", ""), text)
+            summary_zh, importance, category = summarize_text(client, item.get("title", ""), text)
             calls += 1
             if not summary_zh:
                 stats["skipped"] += 1
@@ -303,15 +341,19 @@ def main() -> int:
             cache[url] = {
                 "summary_zh": summary_zh,
                 "importance": importance,
+                "category": category,
                 "model": DEFAULT_MODEL,
                 "source_kind": kind,
                 "generated_at": now,
             }
             item["summary_zh"] = summary_zh
             item["importance"] = importance
+            item["category"] = category
             stats["summarized"] += 1
             changed = True
-            logger.info("summarized (%s, %s) %s", kind, importance, item.get("title", "")[:60])
+            logger.info(
+                "summarized (%s, %s, %s) %s", kind, importance, category, item.get("title", "")[:60]
+            )
 
         if changed and not args.dry_run:
             Path(path).write_text(

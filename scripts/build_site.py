@@ -42,6 +42,18 @@ TOPIC_WINDOW_DAYS = 365  # topic cards / search only show the recent slice
 IMPORTANCE_ORDER = {"action": 0, "notice": 1, "reference": 2}
 DEFAULT_IMPORTANCE_RANK = IMPORTANCE_ORDER["notice"]
 
+# AI broad categories (scripts/summarize.py CATEGORY_IDS) — every article gets
+# exactly one, so the category view covers content the fixed topics miss.
+CATEGORY_DEFS = [
+    {"id": "regulation", "name": "法規環保", "desc": "IMO / 區域環保與法規動態:MEPC/MSC 決議、ECA、ETS、公約生效"},
+    {"id": "fuel", "name": "燃油", "desc": "燃油品質、加油實務、生質/替代燃料、滑油"},
+    {"id": "psc", "name": "PSC 檢查", "desc": "港口國管制:檢查活動 (CIC)、滯留與缺失統計"},
+    {"id": "machinery", "name": "輪機設備", "desc": "主機、排放後處理 (SCR/洗滌塔)、船上技術系統、船級技術要求"},
+    {"id": "safety", "name": "安全保安", "desc": "海事事故、航行安全、保安/海盜、密閉空間、火災"},
+    {"id": "industry", "name": "產業商務", "desc": "商務合約、市場、船員、數位化與產業動態"},
+    {"id": "", "name": "未分類", "desc": "尚未經 AI 分類的文章"},
+]
+
 logger = logging.getLogger("build_site")
 
 
@@ -128,8 +140,9 @@ def load_source_data(topics: list[dict]) -> list[dict]:
             if cached:
                 if not item.get("summary_zh"):
                     item["summary_zh"] = cached["summary_zh"]
-                if not item.get("importance") and cached.get("importance"):
-                    item["importance"] = cached["importance"]
+                for field in ("importance", "category"):
+                    if not item.get(field) and cached.get(field):
+                        item[field] = cached[field]
             item["topic_ids"] = match_topics(item, topics)
         out.append(data)
     return out
@@ -231,6 +244,37 @@ def build_search_index(sources: list[dict], now: datetime) -> list[dict]:
     return index
 
 
+def build_categories_view(sources: list[dict], now: datetime) -> list[dict]:
+    """Group every recent item by its AI category, newest first in each group.
+
+    Unlike the fixed topics (keyword subset), each article has exactly one
+    category, so this view is exhaustive — it is where the reader browses
+    everything the BRIEF and topics didn't surface. The trailing "未分類"
+    bucket only renders when the summarize step hasn't classified something.
+    """
+    cutoff = (now - timedelta(days=TOPIC_WINDOW_DAYS)).date().isoformat()
+    buckets = {c["id"]: [] for c in CATEGORY_DEFS}
+    for src in sources:
+        for item in src.get("items", []):
+            if item.get("published_at", "") < cutoff:
+                continue
+            cat = item.get("category", "")
+            if cat not in buckets:
+                cat = ""
+            buckets[cat].append(
+                {**item, "source_name": src["source_name"], "source_id": src["source_id"]}
+            )
+    view = []
+    for cat in CATEGORY_DEFS:
+        matched = buckets[cat["id"]]
+        if cat["id"] == "" and not matched:
+            continue  # hide the fallback bucket when everything is classified
+        matched.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+        matched.sort(key=importance_rank)
+        view.append({**cat, "items": matched, "item_count": len(matched)})
+    return view
+
+
 def build_topics_view(topics: list[dict], sources: list[dict], now: datetime) -> list[dict]:
     """For each topic, gather matching RECENT items across sources, newest first.
 
@@ -290,6 +334,7 @@ def main() -> int:
         "brief_items": build_brief(sources, now),
         "sources": build_sources_view(sources, now),
         "topics": build_topics_view(topics, sources, now),
+        "categories": build_categories_view(sources, now),
         "digest": digest,
     }
 

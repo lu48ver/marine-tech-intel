@@ -70,6 +70,41 @@
   {% endif %}
 </section>
 
+{# ---------- CATEGORY: every recent article, grouped by AI category ---------- #}
+<section id="panel-category" class="panel" role="tabpanel">
+  <div class="panel-head">
+    <h2 class="panel-title">分類瀏覽 <span class="ai-tag" title="分類由 AI 自動判定,僅供快速瀏覽,請以原文為準">AI</span></h2>
+    <p class="panel-desc">近 12 個月所有文章,每篇歸入一類;「須行動」排前、同級依日期排序。</p>
+  </div>
+  <div class="topic-list">
+    {% for cat in categories %}
+    <article class="topic-card">
+      <button class="topic-toggle" aria-expanded="false">
+        <span class="topic-name">{{ cat.name }}</span>
+        <span class="topic-count">{{ cat.item_count }}</span>
+        <span class="topic-caret">▸</span>
+      </button>
+      <div class="topic-body" hidden>
+        <p class="topic-summary">{{ cat.desc }}</p>
+        {% if cat["items"] %}
+        <ul class="topic-items">
+          {% for item in cat["items"] %}
+          <li>
+            {% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            <span class="item-meta">{{ item.source_name }} · {{ item.published_at }}</span>
+            {% if item.summary_zh %}<p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>{{ item.summary_zh }}</p>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="source-empty">近 12 個月無此類文章</p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
 {# ---------- SOURCES: one card per source ---------- #}
 <section id="panel-sources" class="panel" role="tabpanel">
   <div class="panel-head">
@@ -130,7 +165,7 @@
         <ul class="topic-items">
           {% for item in topic["items"] %}
           <li>
-            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            {% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
             <span class="item-meta">{{ item.source_name }} · {{ item.published_at }}</span>
             {% if item.summary_zh %}<p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>{{ item.summary_zh }}</p>{% endif %}
           </li>
