@@ -33,6 +33,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Run tests
+        # Fail fast: broken build/crawler logic must not crawl, spend API
+        # credit, or deploy a broken page.
+        run: python -m pytest -q
+
       - name: Run crawlers
         # A total crawl failure must not block the rebuild/deploy: BaseCrawler
         # preserves the previous JSON, so the site still ships last-known data.
@@ -101,3 +106,9 @@ jobs:
             sleep 5
           done
           echo "could not push data update after retries (will retry next run)"
+
+      # Runs LAST so a red X here never blocks the deploy above. Fails the run
+      # (and triggers GitHub's failure email) if any enabled source errored,
+      # and writes a per-source status table to the run summary.
+      - name: Crawler health check
+        run: python scripts/check_crawler_health.py

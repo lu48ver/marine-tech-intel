@@ -208,6 +208,23 @@ a:hover { text-decoration: underline; }
   border: 1px solid rgba(192, 67, 42, 0.35);
 }
 
+/* first crawled within the last 48h — today's additions at a glance */
+.new-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-right: 8px;
+  vertical-align: 2px;
+  white-space: nowrap;
+  cursor: help;
+}
+
 .item-summary { margin: 4px 0 0; font-size: 13px; color: var(--text-1); line-height: 1.55; }
 .brief-meta { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
 

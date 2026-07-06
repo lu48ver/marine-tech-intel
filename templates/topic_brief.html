@@ -45,7 +45,7 @@
         <li class="brief-item">
           <div class="brief-date">{{ item.published_at }}</div>
           <div class="brief-body">
-            <a class="brief-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            {% if item.is_new %}<span class="new-badge" title="48 小時內新收錄">NEW</span>{% endif %}{% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a class="brief-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
             {% if item.summary_zh %}
             <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>{{ item.summary_zh }}</p>
             {% elif item.summary %}

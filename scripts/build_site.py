@@ -30,6 +30,10 @@ TAIPEI_TZ = timezone(timedelta(hours=8))
 WARN_AFTER_DAYS = 7
 CRIT_AFTER_DAYS = 30
 
+# Items first crawled within this window get a NEW badge, so a daily reader
+# can tell today's additions from yesterday's at a glance.
+NEW_WINDOW_HOURS = 48
+
 BRIEF_LIMIT = 10  # cross-source items on the front page
 BRIEF_WINDOW_DAYS = 60  # BRIEF only considers items published within this window
 BRIEF_PER_SOURCE = 3  # cap per source so one chatty source can't flood BRIEF
@@ -87,6 +91,20 @@ def staleness(last_success_at: str | None, now: datetime) -> tuple[str, str]:
     return "ok", f"{days} 天前"
 
 
+def is_new(item: dict, now: datetime) -> bool:
+    """True if the item was first crawled within NEW_WINDOW_HOURS.
+
+    first_seen_at may be a full timestamp (crawler-stamped) or a bare date
+    (backfilled from published_at); naive values are read as Taipei time.
+    """
+    dt = parse_dt(item.get("first_seen_at"))
+    if dt is None:
+        return False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=TAIPEI_TZ)
+    return (now - dt) <= timedelta(hours=NEW_WINDOW_HOURS)
+
+
 def load_summary_cache() -> dict:
     """Load cached AI summaries (url -> record), or {} if none yet."""
     cache_path = DATA_DIR / "summaries.json"
@@ -116,7 +134,7 @@ def match_topics(item: dict, topics: list[dict]) -> list[str]:
     return [t["id"] for t in topics if any(kw.lower() in haystack for kw in t.get("keywords", []))]
 
 
-def load_source_data(topics: list[dict]) -> list[dict]:
+def load_source_data(topics: list[dict], now: datetime) -> list[dict]:
     """Load each enabled source's crawled JSON, in sources.json order.
 
     Re-applies cached AI summaries by URL so the site keeps showing them even
@@ -143,6 +161,7 @@ def load_source_data(topics: list[dict]) -> list[dict]:
                 for field in ("importance", "category"):
                     if not item.get(field) and cached.get(field):
                         item[field] = cached[field]
+            item["is_new"] = is_new(item, now)
             item["topic_ids"] = match_topics(item, topics)
         out.append(data)
     return out
@@ -313,7 +332,7 @@ def main() -> int:
     now = datetime.now(TAIPEI_TZ)
 
     topics = load_json(DATA_DIR / "topics.json")
-    sources = load_source_data(topics)
+    sources = load_source_data(topics, now)
     if not sources:
         logger.error("no source data found — run crawlers first")
         return 1

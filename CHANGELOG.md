@@ -2,6 +2,24 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-07-06 (營運面:失敗通知 + NEW 徽章 + 測試)
+
+### Schema 變動
+- item 新增 **`first_seen_at`**(第一次被爬到的時間),`BaseCrawler.run()` 自動
+  維護:同 URL 重爬保留原時間戳;舊資料(欄位出現前)回退用 `published_at`,
+  不會整批閃 NEW。既有 116 篇已回填。
+
+### 新增
+- **爬蟲健康檢查** `scripts/check_crawler_health.py`:每日 workflow 最後一步
+  (部署後執行,永不擋部署),任一來源失敗就讓 run 變紅並觸發 GitHub 通知信,
+  同時在 run summary 輸出各來源狀態表。上線當下即抓到 DNV 自 6/23 起 403 的
+  無聲故障。
+- **NEW 徽章**:48 小時內新收錄的文章在 BRIEF/SOURCES/HOT TOPICS/CATEGORY/
+  議題 brief 頁標綠色 NEW。
+- **測試** `tests/`(25 條):BRIEF 排序/時間窗/議題比對/NEW 判定/BaseCrawler
+  first_seen 保留與失敗處理 + build_site 煙霧測試;CI 裝完依賴先跑測試,
+  失敗不爬取、不部署。`requirements.txt` 加 `pytest`。
+
 ## 2026-07-06 (Phase 2 — AI 粗分類 + CATEGORY 分頁)
 
 ### Schema 變動

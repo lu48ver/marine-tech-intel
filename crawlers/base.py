@@ -109,10 +109,22 @@ class BaseCrawler(ABC):
         output_path = UPDATES_DIR / f"{self.source_id}.json"
         now = datetime.now(TAIPEI_TZ).isoformat(timespec="seconds")
 
+        # first_seen_at map from the previous run: a URL we've crawled before
+        # keeps its original first-seen timestamp (items that predate the field
+        # fall back to their published date, so nothing old flashes as NEW).
+        previous = self._load_previous(output_path)
+        first_seen = {
+            it["url"]: it.get("first_seen_at") or it.get("published_at") or now
+            for it in previous.get("items", [])
+            if it.get("url")
+        }
+
         try:
             items = [self.assign_topics(item) for item in self.fetch()][: self.max_items]
             if not items:
                 raise RuntimeError("fetch() returned 0 items — page structure may have changed")
+            for item in items:
+                item["first_seen_at"] = first_seen.get(item.get("url", ""), now)
             result = {
                 "source_id": self.source_id,
                 "source_name": self.source_name,
@@ -125,7 +137,7 @@ class BaseCrawler(ABC):
             self.logger.info("success: %d items", len(items))
         except Exception as exc:
             self.logger.exception("crawl failed")
-            result = self._load_previous(output_path)
+            result = previous  # keep the last successful items (with their first_seen_at)
             result.update(
                 {
                     "source_id": self.source_id,
