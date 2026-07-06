@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T18:46:28+08:00",
+  "generated_at": "2026-07-06T19:13:09+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "船舶回收法規",
-      "why": "巴塞爾公約開放式工作組的會議進一步推進了船舶回收的法律框架，這將影響船舶的處理和回收流程，促使船東必須遵循新的環保標準以避免法律風險。",
+      "name": "船舶回收",
+      "why": "巴塞爾公約開放式工作組的會議進一步明確了船舶回收的法律和環境框架，顯示出全球對安全和環保船舶回收實踐的需求日益增長。這將影響船東在船舶退役時的決策，促使其遵循更嚴格的回收標準。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -21,8 +21,26 @@
       ]
     },
     {
-      "name": "燃料質量問題",
-      "why": "2025年海洋燃料質量顯著惡化，這一趨勢對船舶的運行和合規性造成影響，船東需加強對燃料質量的監控以減少索賠風險。",
+      "name": "海事自主水面船舶",
+      "why": "IMO於2026年通過了針對海事自主水面船舶的新目標導向法規，這標誌著對未來航運技術的重大支持，船東需開始考慮如何整合這些新技術以符合未來的監管要求。",
+      "articles": [
+        {
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
+        },
+        {
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "name": "海洋燃料質量",
+      "why": "Gard報告指出，2026年初海洋燃料質量問題顯著增加，特別是在中東衝突後，這對船舶運營的風險管理提出了新的挑戰，船東需加強對燃料供應鏈的監控。",
       "articles": [
         {
           "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
@@ -35,6 +53,42 @@
           "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
           "source": "LR FOBAS",
           "published_at": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "name": "選擇性催化還原系統",
+      "why": "新的SCR系統要求將於2026年生效，改變了NOx測量的準確性評估方式，這要求船舶經營者更新其操作程序，以確保符合新的合規標準。",
+      "articles": [
+        {
+          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
+          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-21"
+        },
+        {
+          "title": "Revised interpretation of requirements to permanent means of access (PMA)",
+          "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-08"
+        }
+      ]
+    },
+    {
+      "name": "英國排放交易計劃",
+      "why": "英國排放交易計劃將於2026年擴展至海運業，這將影響船舶的排放成本和管理策略，船東需提前準備以應對新的經濟壓力。",
+      "articles": [
+        {
+          "title": "The UK ETS expands to maritime from 1 July 2026",
+          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-05"
+        },
+        {
+          "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
+          "url": "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-04"
         }
       ]
     }
