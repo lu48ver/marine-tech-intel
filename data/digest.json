@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T11:31:39+08:00",
+  "generated_at": "2026-07-06T11:39:08+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "船舶回收",
-      "why": "隨著環境法規的加強，船舶回收的法律和環境框架變得越來越重要。",
+      "why": "隨著環保法規的推進，船舶回收的法律和環境框架變得愈加重要。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -39,8 +39,8 @@
       ]
     },
     {
-      "name": "替代燃料的採用",
-      "why": "替代燃料的使用顯示出航運業在減少碳排放方面的積極努力。",
+      "name": "替代燃料的發展",
+      "why": "替代燃料的使用對於航運業的可持續發展至關重要，尤其是在減少溫室氣體排放方面。",
       "articles": [
         {
           "title": "Biofuel clause now available to support transition to low-carbon fuels",
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "name": "港口國控制的挑戰",
-      "why": "港口國控制的檢查和合規性問題仍然是航運業面臨的重要挑戰。",
+      "name": "船舶檢查與合規性",
+      "why": "加強船舶檢查和合規性是確保航運安全和環保的關鍵。",
       "articles": [
         {
           "title": "2025 Paris MoU Annual Report \"Port State Control; Progress and performance, highlights of the Paris MoU 2025\"",
@@ -93,20 +93,20 @@
       ]
     },
     {
-      "name": "自主水面船舶的監管",
-      "why": "隨著自主水面船舶技術的發展，相關的監管框架需要不斷更新以確保安全。",
+      "name": "數位化與標準化",
+      "why": "數位化和標準化將提升海事操作的效率和安全性，促進行業的現代化。",
       "articles": [
         {
-          "title": "IMO MSC 111: New MASS Code adopted",
-          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-22"
+          "title": "Harmonising maritime digital interfaces: From alignment to action",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
         },
         {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
+          "title": "IMO’s Facilitation Committee (FAL 50)",
+          "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-03-30"
         }
       ]
     }
