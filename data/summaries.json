@@ -1192,5 +1192,29 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-06T18:46:07+08:00"
+  },
+  "https://www.dnv.com/news/2026/standards-now-available-the-july-2026-edition-of-the-dnv-class-rules-and-standards-for-ship-and-offshore/": {
+    "summary_zh": "2026年7月版DNV船級規則和標準引入了新的船級標記及重大更新，旨在支持海事產業向更可持續和創新的方向轉型。",
+    "importance": "notice",
+    "category": "regulation",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-06T19:11:33+08:00"
+  },
+  "https://www.dnv.com/news/2026/New-IMO-requirements-for-pilot-transfer-arrangements/": {
+    "summary_zh": "國際海事組織（IMO）在第13屆導航、通訊、搜尋與救援小組會議（NCSR 13）中，完成了下一代電子海圖顯示與資訊系統（ECDIS）的實施指導草案。",
+    "importance": "notice",
+    "category": "regulation",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-06T19:11:33+08:00"
+  },
+  "https://www.dnv.com/news/2026/the-imo-sub-committee-on-navigation-communications-search-and-rescue-ncsr13/": {
+    "summary_zh": "國際海事組織導航、通訊、搜尋與救援小組委員會（NCSR 13）於2026年6月22日至26日召開，並完成了下一代電子海圖顯示與資訊系統（ECDIS）實施的草案指導。",
+    "importance": "notice",
+    "category": "regulation",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-06T19:11:33+08:00"
   }
 }

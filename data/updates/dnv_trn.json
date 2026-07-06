@@ -1,6 +1,59 @@
 {
-  "last_success_at": "2026-06-23T11:39:59+08:00",
+  "source_id": "dnv_trn",
+  "source_name": "DNV Technical & Regulatory News",
+  "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
+  "last_crawled_at": "2026-07-06T19:11:21+08:00",
+  "last_success_at": "2026-07-06T19:11:21+08:00",
+  "crawl_status": "success",
   "items": [
+    {
+      "title": "Now available: The July 2026 edition of the DNV class rules and standards for ship and offshore",
+      "url": "https://www.dnv.com/news/2026/standards-now-available-the-july-2026-edition-of-the-dnv-class-rules-and-standards-for-ship-and-offshore/",
+      "published_at": "2026-07-02",
+      "summary": "The July 2026 edition introduces new class notations and significant updates designed to support the maritime industry’s ongoing transition towards greater sustainability and innovation. This news highlights the key changes introduced in the new edition.",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-06T19:11:21+08:00",
+      "summary_zh": "2026年7月版DNV船級規則和標準引入了新的船級標記及重大更新，旨在支持海事產業向更可持續和創新的方向轉型。",
+      "importance": "notice",
+      "category": "regulation"
+    },
+    {
+      "title": "New IMO requirements for pilot transfer arrangements",
+      "url": "https://www.dnv.com/news/2026/New-IMO-requirements-for-pilot-transfer-arrangements/",
+      "published_at": "2026-07-01",
+      "summary": "The 13th session of the IMO’s Sub-Committee on Navigation, Communications, Search and Rescue (NCSR 13) was held from 22 to 26 June 2026. NCSR 13 advanced maritime digitalization by finalizing draft guidance for the implementation of nextgeneration Electronic Chart Display and Information Systems (EC",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-06T19:11:21+08:00",
+      "summary_zh": "國際海事組織（IMO）在第13屆導航、通訊、搜尋與救援小組會議（NCSR 13）中，完成了下一代電子海圖顯示與資訊系統（ECDIS）的實施指導草案。",
+      "importance": "notice",
+      "category": "regulation"
+    },
+    {
+      "title": "The IMO sub-committee on navigation, communications, search and rescue (NCSR 13)",
+      "url": "https://www.dnv.com/news/2026/the-imo-sub-committee-on-navigation-communications-search-and-rescue-ncsr13/",
+      "published_at": "2026-06-29",
+      "summary": "The 13th session of the IMO’s Sub-Committee on Navigation, Communications, Search and Rescue (NCSR 13) was held from 22 to 26 June 2026. NCSR 13 advanced maritime digitalization by finalizing draft guidance for the implementation of nextgeneration Electronic Chart Display and Information Systems (EC",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-06T19:11:21+08:00",
+      "summary_zh": "國際海事組織導航、通訊、搜尋與救援小組委員會（NCSR 13）於2026年6月22日至26日召開，並完成了下一代電子海圖顯示與資訊系統（ECDIS）實施的草案指導。",
+      "importance": "notice",
+      "category": "regulation"
+    },
     {
       "title": "North-east Atlantic joins the expanding network of ECAs",
       "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
@@ -14,10 +67,10 @@
       "topic_ids": [
         "cii_ets"
       ],
+      "first_seen_at": "2026-06-17",
       "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。",
       "importance": "action",
-      "category": "regulation",
-      "first_seen_at": "2026-06-17"
+      "category": "regulation"
     },
     {
       "title": "The UK ETS expands to maritime from 1 July 2026",
@@ -32,10 +85,10 @@
       "topic_ids": [
         "cii_ets"
       ],
+      "first_seen_at": "2026-06-05",
       "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。",
       "importance": "action",
-      "category": "regulation",
-      "first_seen_at": "2026-06-05"
+      "category": "regulation"
     },
     {
       "title": "IMO MSC 111: New MASS Code adopted",
@@ -48,10 +101,10 @@
         "regulatory"
       ],
       "topic_ids": [],
+      "first_seen_at": "2026-05-22",
       "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。",
       "importance": "action",
-      "category": "regulation",
-      "first_seen_at": "2026-05-22"
+      "category": "regulation"
     },
     {
       "title": "How to document PFOS-free fire-extinguishing foam on board",
@@ -64,10 +117,10 @@
         "regulatory"
       ],
       "topic_ids": [],
+      "first_seen_at": "2026-05-04",
       "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。",
       "importance": "action",
-      "category": "regulation",
-      "first_seen_at": "2026-05-04"
+      "category": "regulation"
     },
     {
       "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
@@ -82,10 +135,10 @@
       "topic_ids": [
         "cii_ets"
       ],
+      "first_seen_at": "2026-05-04",
       "summary_zh": "國際海事組織海洋環境保護委員會第84次會議對淨零框架進行了廣泛討論，這是自2025年10月特別會議休會以來的首次機會。會議中對於關鍵議題存在不同立場。",
       "importance": "notice",
-      "category": "regulation",
-      "first_seen_at": "2026-05-04"
+      "category": "regulation"
     },
     {
       "title": "Port State Control - Q1 2026 Detention review and other updates",
@@ -100,10 +153,10 @@
       "topic_ids": [
         "cic_2026"
       ],
+      "first_seen_at": "2026-04-29",
       "summary_zh": "港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。",
       "importance": "action",
-      "category": "psc",
-      "first_seen_at": "2026-04-29"
+      "category": "psc"
     },
     {
       "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
@@ -116,10 +169,10 @@
         "regulatory"
       ],
       "topic_ids": [],
+      "first_seen_at": "2026-04-21",
       "summary_zh": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效。近期SCR指導方針的變更改變了NOx測量準確性的評估方式，原本的±5%準確度要求已被更靈活但不明確的「足夠準確度」概念取代，這使得應用者承擔了更大的責任。",
       "importance": "action",
-      "category": "regulation",
-      "first_seen_at": "2026-04-21"
+      "category": "regulation"
     },
     {
       "title": "Revised interpretation of requirements to permanent means of access (PMA)",
@@ -132,10 +185,10 @@
         "regulatory"
       ],
       "topic_ids": [],
+      "first_seen_at": "2026-04-08",
       "summary_zh": "新的IMO修訂明確了油輪和散貨船上永久通道（PMA）的檢查要求。這些變更旨在防止安全事故，並引入更嚴格的檢查和文件規則。船舶經營者必須更新程序和手冊，並在未來的檢查中審查修訂的記錄。",
       "importance": "action",
-      "category": "regulation",
-      "first_seen_at": "2026-04-08"
+      "category": "regulation"
     },
     {
       "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
@@ -150,64 +203,10 @@
       "topic_ids": [
         "gas_detector"
       ],
+      "first_seen_at": "2026-04-08",
       "summary_zh": "進入船舶封閉空間仍然是船舶操作和海員工作條件中的安全挑戰。國際海事組織於2025年6月27日採納了修訂的進入船舶封閉空間的建議，應根據安全管理系統進行處理。",
       "importance": "action",
-      "category": "safety",
-      "first_seen_at": "2026-04-08"
-    },
-    {
-      "title": "Global regulatory framework for fishing vessels safety in force from 24 February 2027",
-      "url": "https://www.dnv.com/news/2026/global-regulatory-framework-for-fishing-vessel-safety-in-force-from-24-february-2027/",
-      "published_at": "2026-04-01",
-      "summary": "The International Maritime Organization (IMO) has confirmed that the 2012 Cape Town Agreement (CTA), the long-awaited global regulatory framework for fishing vessel safety, will enter into force on 24 February 2027. More information is provided in this statutory news.",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "summary_zh": "國際海事組織（IMO）已確認，2012年開普敦協議（CTA）將於2027年2月24日生效，成為全球漁船安全的法規框架。更多資訊可參見此法定新聞。",
-      "importance": "action",
-      "category": "regulation",
-      "first_seen_at": "2026-04-01"
-    },
-    {
-      "title": "IMO’s Facilitation Committee (FAL 50)",
-      "url": "https://www.dnv.com/news/2026/imos-facilitation-committee-fal-50/",
-      "published_at": "2026-03-30",
-      "summary": "The 50th session of the IMO’s Facilitation Committee (FAL 50) was held in London from 23 to 27 March 2026. FAL 50 continued discussions on an IMO Strategy on Maritime Digitalization. FAL 50 also agreed on amendments to the FAL Convention, and to progress the work on the new Maritime Cyber Code in th",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "summary_zh": "國際海事組織（IMO）促進委員會的第50次會議於2026年3月23日至27日在倫敦舉行。會議繼續討論IMO海事數位化戰略，並同意對FAL公約進行修訂，推進新的海事網絡安全法典的工作。",
-      "importance": "notice",
-      "category": "regulation",
-      "first_seen_at": "2026-03-30"
-    },
-    {
-      "title": "Post-fire ship hull structure and material assessment",
-      "url": "https://www.dnv.com/news/2026/post-fire-ship-hull-structure-and-material-assessment/",
-      "published_at": "2026-03-18",
-      "summary": "Fire incidents on ships rank among the most frequent accidents, and in recent years, fire incidents have specially increased among container and ro-ro cargo/passenger ships. DNV has supported many cases of post-fire structural and material assessments, and this news aims to share our insights from t",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "summary_zh": "船舶火災事件是最常見的事故之一，近年來，集裝箱船和滾裝貨物/客運船的火災事件特別增加。DNV在許多火災後的結構和材料評估中提供了支持，這則消息旨在分享我們的見解。",
-      "importance": "notice",
-      "category": "safety",
-      "first_seen_at": "2026-03-18"
+      "category": "safety"
     }
-  ],
-  "source_id": "dnv_trn",
-  "source_name": "DNV Technical & Regulatory News",
-  "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-07-06T18:46:03+08:00",
-  "crawl_status": "error",
-  "error_message": "403 Client Error: Forbidden for url: https://www.dnv.com/api/listing/news?blockId=4983"
+  ]
 }

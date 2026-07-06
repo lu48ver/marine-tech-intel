@@ -3,10 +3,18 @@
 The TRN listing is client-rendered by a "DynamicList" component that fetches
 /api/listing/news?blockId=<id>. We read that same JSON API. The blockId is
 extracted from the page's data-props so we adapt if DNV changes it.
+
+Since 2026-06 dnv.com sits behind Cloudflare bot protection that blocks
+plain python-requests by TLS fingerprint (403 "Just a moment..." on every
+path, headers don't help). curl_cffi impersonating Chrome's TLS/JA3
+fingerprint passes, so this crawler swaps its HTTP session for a curl_cffi
+one — the rest of the pipeline is unchanged.
 """
 
 import html as htmlmod
 import re
+
+from curl_cffi import requests as curl_requests
 
 from crawlers.base import BaseCrawler, normalize_date, run_from_cli
 
@@ -22,6 +30,14 @@ class DnvCrawler(BaseCrawler):
     source_id = "dnv_trn"
     source_name = "DNV Technical & Regulatory News"
     source_url = PAGE_URL
+
+    def __init__(self) -> None:
+        super().__init__()
+        # requests-compatible session with a real-browser TLS fingerprint.
+        # No custom headers: Cloudflare cross-checks the User-Agent string
+        # against the TLS fingerprint, so curl_cffi's own matched set must
+        # be left as-is (overriding it gets 403 again).
+        self.session = curl_requests.Session(impersonate="chrome")
 
     def fetch(self) -> list[dict]:
         block_id = self._block_id()
