@@ -61,7 +61,7 @@
         <li class="brief-item">
           <div class="brief-date">${escapeHtml(it.date || "")}</div>
           <div class="brief-body">
-            <a class="brief-link" href="${encodeURI(it.url)}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a>
+            ${it.importance === "action" ? '<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>' : ""}<a class="brief-link" href="${encodeURI(it.url)}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a>
             ${it.summary ? `<p class="brief-summary">${escapeHtml(it.summary)}</p>` : ""}
             <div class="brief-meta">
               <span class="src-chip">${escapeHtml(it.source)}</span>
