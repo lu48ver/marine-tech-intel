@@ -2,10 +2,26 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-06T19:12:52+08:00",
-  "last_success_at": "2026-07-06T19:12:52+08:00",
+  "last_crawled_at": "2026-07-06T22:56:26+08:00",
+  "last_success_at": "2026-07-06T22:56:26+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "BMP Maritime Security updated with new guidance on managing activism at sea",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/06-bmp/",
+      "published_at": "2026-07-06",
+      "summary": "The latest edition of BMP Maritime Security (BMP MS) has been updated to include a new section dedicated to managing incidents involving activist boardings of ships and offshore installations. The guidance reflects the growing need for vessel operators and crews to be prepared for organised protest ",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-06T22:56:26+08:00",
+      "summary_zh": "最新版本的BMP海事安全已更新，新增了一節專門針對管理船舶和海上設施遭遇活動人士登船事件的指導。這些指導反映了船舶操作員和船員對有組織抗議活動的準備需求日益增長。",
+      "importance": "notice",
+      "category": "safety"
+    },
     {
       "title": "Help shape a common standard for maritime emissions data reporting",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-ovd-consultation/",
@@ -231,22 +247,6 @@
       "summary_zh": "BIMCO已發布新的生物燃料條款，旨在解決隨著低碳燃料在航運中使用增加而出現的法律和操作挑戰。隨著航運業的脫碳，監管框架正在重塑公司的燃料策略。",
       "importance": "notice",
       "category": "fuel"
-    },
-    {
-      "title": "BIMCO launches project to develop Russia Tanker Resale Restrictions Clause for MoAs",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/10-tanker-resale/",
-      "published_at": "2026-06-10",
-      "summary": "BIMCO has commenced work on the development of a standard contractual clause to address new EU requirements applicable to tanker sale and purchase transactions. \nThe initiative follows the adoption of the European Union’s 20th sanctions package against Russia on 23 April 2026, which introduced manda",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-10",
-      "summary_zh": "BIMCO 開始開發一項標準合約條款，以應對適用於油輪買賣交易的新歐盟要求。此舉是因應歐盟於2026年4月23日通過的第20套對俄制裁措施。",
-      "importance": "notice",
-      "category": "industry"
     }
   ]
 }

@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-07-06T19:13:09+08:00",
+  "generated_at": "2026-07-06T22:56:47+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "船舶回收",
-      "why": "巴塞爾公約開放式工作組的會議進一步明確了船舶回收的法律和環境框架，顯示出全球對安全和環保船舶回收實踐的需求日益增長。這將影響船東在船舶退役時的決策，促使其遵循更嚴格的回收標準。",
-      "articles": [
-        {
-          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-30"
-        },
-        {
-          "title": "What's happening in ship recycling?",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-16"
-        }
-      ]
-    },
-    {
       "name": "海事自主水面船舶",
-      "why": "IMO於2026年通過了針對海事自主水面船舶的新目標導向法規，這標誌著對未來航運技術的重大支持，船東需開始考慮如何整合這些新技術以符合未來的監管要求。",
+      "why": "2026年5月，國際海事組織通過了針對海事自主水面船舶（MASS）的新法規，這將影響未來船舶的設計和操作，要求船東和管理者更新其技術和操作程序以符合新標準。",
       "articles": [
         {
           "title": "IMO MSC 111: New MASS Code adopted",
@@ -39,56 +21,38 @@
       ]
     },
     {
-      "name": "海洋燃料質量",
-      "why": "Gard報告指出，2026年初海洋燃料質量問題顯著增加，特別是在中東衝突後，這對船舶運營的風險管理提出了新的挑戰，船東需加強對燃料供應鏈的監控。",
+      "name": "船舶回收法律框架",
+      "why": "巴塞爾公約開放式工作組的會議進一步討論了船舶回收的法律和環境框架，這對於船東在船舶退役時的合規性和環保要求將產生直接影響，促進安全和可持續的回收實踐。",
       "articles": [
         {
-          "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
-          "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
-          "source": "Gard Insight",
-          "published_at": "2026-06-19"
+          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-30"
         },
         {
-          "title": "FOBAS report warns of late year surge in marine fuel quality failures",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
-          "source": "LR FOBAS",
-          "published_at": "2026-02-12"
+          "title": "What's happening in ship recycling?",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
         }
       ]
     },
     {
-      "name": "選擇性催化還原系統",
-      "why": "新的SCR系統要求將於2026年生效，改變了NOx測量的準確性評估方式，這要求船舶經營者更新其操作程序，以確保符合新的合規標準。",
+      "name": "海事網絡安全",
+      "why": "隨著地緣政治風險的增加，海事網絡安全成為船東的重要考量。文章指出，船東需要制定策略以應對國家網絡安全政策可能對業務造成的風險，這將影響船舶的運營和數據保護措施。",
       "articles": [
         {
-          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
-          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-21"
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
         },
         {
-          "title": "Revised interpretation of requirements to permanent means of access (PMA)",
-          "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-08"
-        }
-      ]
-    },
-    {
-      "name": "英國排放交易計劃",
-      "why": "英國排放交易計劃將於2026年擴展至海運業，這將影響船舶的排放成本和管理策略，船東需提前準備以應對新的經濟壓力。",
-      "articles": [
-        {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
-        },
-        {
-          "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
-          "url": "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-04"
+          "title": "Global shipping industry associations condemn recent attacks on seafarers",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-12"
         }
       ]
     }

@@ -1216,5 +1216,13 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-06T19:11:33+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/06-bmp/": {
+    "summary_zh": "最新版本的BMP海事安全已更新，新增了一節專門針對管理船舶和海上設施遭遇活動人士登船事件的指導。這些指導反映了船舶操作員和船員對有組織抗議活動的準備需求日益增長。",
+    "importance": "notice",
+    "category": "safety",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-06T22:56:30+08:00"
   }
 }
