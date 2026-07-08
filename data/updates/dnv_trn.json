@@ -2,10 +2,26 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-07-07T11:30:11+08:00",
-  "last_success_at": "2026-07-07T11:30:11+08:00",
+  "last_crawled_at": "2026-07-08T10:46:45+08:00",
+  "last_success_at": "2026-07-08T10:46:45+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Boiler tube plugging – class requirements",
+      "url": "https://www.dnv.com/news/2026/boiler-tube-plugging-class-requirements/",
+      "published_at": "2026-07-06",
+      "summary": "Boiler tubes play a critical role in both heat transfer and in maintaining the pressure integrity of marine boilers. When leaks occur, careful evaluation is required to prevent secondary damage. This technical news provides guidance on class acceptance criteria, including the assessment of repair fe",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-08T10:46:45+08:00",
+      "summary_zh": "鍋爐管在熱傳遞和維持海洋鍋爐壓力完整性方面扮演關鍵角色。當發生洩漏時，需要仔細評估以防止次級損壞。本文提供了關於修復的級別接受標準的指導。",
+      "importance": "notice",
+      "category": "machinery"
+    },
     {
       "title": "Now available: The July 2026 edition of the DNV class rules and standards for ship and offshore",
       "url": "https://www.dnv.com/news/2026/standards-now-available-the-july-2026-edition-of-the-dnv-class-rules-and-standards-for-ship-and-offshore/",
@@ -189,24 +205,6 @@
       "summary_zh": "新的IMO修訂明確了油輪和散貨船上永久通道（PMA）的檢查要求。這些變更旨在防止安全事故，並引入更嚴格的檢查和文件規則。船舶經營者必須更新程序和手冊，並在未來的檢查中審查修訂的記錄。",
       "importance": "action",
       "category": "regulation"
-    },
-    {
-      "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
-      "url": "https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/",
-      "published_at": "2026-04-08",
-      "summary": "Enclosed space entry remains a safety challenge in ship operations and for seafarers’ working conditions. On 27 June 2025, the IMO adopted revised recommendations for entering enclosed spaces aboard ships, to be handled in accordance with the SMS systematics. This statutory news summarizes this topi",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "gas_detector"
-      ],
-      "first_seen_at": "2026-04-08",
-      "summary_zh": "進入船舶封閉空間仍然是船舶操作和海員工作條件中的安全挑戰。國際海事組織於2025年6月27日採納了修訂的進入船舶封閉空間的建議，應根據安全管理系統進行處理。",
-      "importance": "action",
-      "category": "safety"
     }
   ]
 }

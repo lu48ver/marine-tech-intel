@@ -2,10 +2,26 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-07T11:30:12+08:00",
-  "last_success_at": "2026-07-07T11:30:12+08:00",
+  "last_crawled_at": "2026-07-08T10:46:46+08:00",
+  "last_success_at": "2026-07-08T10:46:46+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Progress continues on WINDSEACON as subcommittee meets in person",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/06-windseacon/",
+      "published_at": "2026-07-06",
+      "summary": "Work on BIMCO’s WINDSEACON contract continues to move forward, with the subcommittee recently meeting in person to advance the drafting process and build on earlier milestones. The project aims to create a standard time charter party for the transport and installation of offshore wind turbines, supp",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-08T10:46:46+08:00",
+      "summary_zh": "BIMCO的WINDSEACON合約正在持續進展，子委員會最近親自會議以推進草擬過程並建立早期里程碑。該項目旨在為海上風力發電機的運輸和安裝創建標準的時間租船合同。",
+      "importance": "notice",
+      "category": "industry"
+    },
     {
       "title": "BMP Maritime Security updated with new guidance on managing activism at sea",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/06-bmp/",
@@ -228,25 +244,6 @@
       "summary_zh": "在2022年2月，MV Banglar Samriddhi從土耳其的Eregli港出發，前往烏克蘭的Olvia。抵達的第二天，俄羅斯入侵烏克蘭。首席工程師Mohammad Omor Faruk和他的同事們發現自己被困，無法安全撤離。",
       "importance": "reference",
       "category": "safety"
-    },
-    {
-      "title": "Biofuel clause now available to support transition to low-carbon fuels",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-biofuel-clause/",
-      "published_at": "2026-06-11",
-      "summary": "BIMCO has published its new Biofuel Clause for Time Charter Parties to address legal and operational challenges as the use of low-carbon fuels in shipping increases. \nAs the shipping industry decarbonises, regulatory frameworks reshape companies’ fuel strategies. The integration of biofuels into cha",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "bio_fuel",
-        "cii_ets"
-      ],
-      "first_seen_at": "2026-06-11",
-      "summary_zh": "BIMCO已發布新的生物燃料條款，旨在解決隨著低碳燃料在航運中使用增加而出現的法律和操作挑戰。隨著航運業的脫碳，監管框架正在重塑公司的燃料策略。",
-      "importance": "notice",
-      "category": "fuel"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-07T11:30:05+08:00",
-  "last_success_at": "2026-07-07T11:30:05+08:00",
+  "last_crawled_at": "2026-07-08T10:46:38+08:00",
+  "last_success_at": "2026-07-08T10:46:38+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -42,7 +42,7 @@
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
       "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
       "published_at": "2026-06-30",
-      "summary": "Recent decisions from US courts, particularly in the Second Circuit (New York), suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA).\n\nBy giving effect to express package definitions in bills of lading, the courts may signific",
+      "summary": "Recent decisions from US courts, particularly in the Second Circuit (New York), suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA). By giving effect to express package definitions in bills of lading, the courts may significa",
       "tags": [
         "gard",
         "p&i",

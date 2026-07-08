@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-07-07T11:30:26+08:00",
+  "generated_at": "2026-07-08T10:47:05+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "海事自主水面船舶",
-      "why": "IMO於2026年5月通過了針對海事自主水面船舶（MASS）的新法規，這將影響未來船舶的設計和運營，要求船東和管理者更新其技術和操作程序以符合新標準，這一變化將於2028年生效。",
-      "articles": [
-        {
-          "title": "IMO MSC 111: New MASS Code adopted",
-          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-22"
-        },
-        {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
-        }
-      ]
-    },
-    {
-      "name": "船舶回收法律框架",
-      "why": "巴塞爾公約開放式工作組的最新會議進一步明確了船舶回收的法律和環境框架，這將影響船舶的退役和回收流程，促使船東在船舶生命週期結束時遵循更嚴格的環保標準。",
+      "name": "船舶回收",
+      "why": "巴塞爾公約開放式工作組的會議強調了船舶回收的法律和環境框架，並指出仍需進一步努力以促進安全和環保的回收實踐。這對船東來說意味著必須遵循新規範以避免法律風險和潛在的經濟損失。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -40,7 +22,7 @@
     },
     {
       "name": "海事網絡安全",
-      "why": "隨著地緣政治不穩定的加劇，海事網絡安全的風險日益增加，BIMCO提供的指導旨在幫助船東理解國家網絡安全策略對其業務的潛在影響，這對於保護船舶和數據至關重要。",
+      "why": "隨著地緣政治風險的增加，海事網絡安全成為船東必須重視的議題。文章指出，國家網絡安全策略可能對航運業務構成風險，要求船東制定相應的應對策略以保護其資產。",
       "articles": [
         {
           "title": "Managing geopolitical cyber security risks",
@@ -53,6 +35,60 @@
           "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
           "source": "BIMCO News",
           "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "name": "SCR系統要求",
+      "why": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效，這改變了NOx測量的準確性評估方式，增加了船舶經營者的責任。這意味著船舶需要更新其技術和操作程序以符合新標準。",
+      "articles": [
+        {
+          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
+          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-21"
+        },
+        {
+          "title": "Revised interpretation of requirements to permanent means of access (PMA)",
+          "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-08"
+        }
+      ]
+    },
+    {
+      "name": "海事自主水面船舶",
+      "why": "IMO於2026年通過了針對海事自主水面船舶（MASS）的新法規，這標誌著監管框架的重大進展。船東需要開始考慮如何適應這些新規範，以確保未來的合規性和安全性。",
+      "articles": [
+        {
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
+        },
+        {
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "name": "英國排放交易計劃",
+      "why": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理和成本結構。船東必須了解這一變化以制定相應的減排策略。",
+      "articles": [
+        {
+          "title": "The UK ETS expands to maritime from 1 July 2026",
+          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-05"
+        },
+        {
+          "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
+          "url": "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-04"
         }
       ]
     }
