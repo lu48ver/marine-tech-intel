@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-08T10:46:38+08:00",
-  "last_success_at": "2026-07-08T10:46:38+08:00",
+  "last_crawled_at": "2026-07-09T11:23:26+08:00",
+  "last_success_at": "2026-07-09T11:23:26+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -42,7 +42,7 @@
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
       "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
       "published_at": "2026-06-30",
-      "summary": "Recent decisions from US courts, particularly in the Second Circuit (New York), suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA). By giving effect to express package definitions in bills of lading, the courts may significa",
+      "summary": "Recent decisions from the Southern District of New York, affirmed by the Second Circuit, suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA).\n\nBy giving effect to express package definitions in bills of lading, the courts may",
       "tags": [
         "gard",
         "p&i",
@@ -71,164 +71,164 @@
       "category": "fuel"
     },
     {
-      "title": "China tightens verification of ships’ energy consumption data",
-      "url": "https://gard.no/en/insights/china-tightens-verification-ships-energy-consumption-data/",
-      "published_at": "2022-12-19",
-      "summary": "From 22 December 2022, ships trading to Chinese ports must record their energy consumption data in accordance with the requirements of their Ship Energy Efficiency Management Plan (SEEMP). Ships must also report the consumption data from their last voyage to the Chinese authorities prior to leaving ",
+      "title": "An exciting start to a career at sea",
+      "url": "https://gard.no/en/insights/exciting-start-to-career-at-sea/",
+      "published_at": "2023-07-25",
+      "summary": "Cadetship is a great way to start your career at sea and for Gard’s latest sponsored cadet, Harriet Harding, it was even more so as she joined the Royal Research Ship Sir David Attenborough for the first sea phase of her cadetship.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "實習生計畫是開始海上職業的好方法，Gard最新贊助的實習生Harriet Harding更是如此，她加入了皇家研究船Sir David Attenborough，開始了實習的第一個海上階段。",
+      "importance": "reference",
+      "category": "industry"
+    },
+    {
+      "title": "Polar Code on the PSC agenda",
+      "url": "https://gard.no/en/insights/polar-code-on-psc-agenda/",
+      "published_at": "2022-06-21",
+      "summary": "Paris MOU has launched an inspection campaign to verify compliance with the requirements of the Polar Code. The campaign will be run over two periods, the first inspection period started on 13 June and will last until 1 July 2022, the second period will run from 1 to 19 August 2022.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [
-        "cii_ets"
+        "cic_2026"
       ],
-      "first_seen_at": "2022-12-19",
-      "summary_zh": "自2022年12月22日起，前往中國港口的船舶必須根據其船舶能源效率管理計劃（SEEMP）記錄能源消耗數據。船舶在離開之前還必須向中國當局報告其最後一次航行的消耗數據。",
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "巴黎公約組織啟動了一項檢查活動，以驗證對極地法規的遵守。此活動將分為兩個期間，第一個檢查期從2022年6月13日開始，持續到7月1日，第二個檢查期將在2022年8月1日至19日進行。",
       "importance": "action",
-      "category": "regulation"
+      "category": "psc"
     },
     {
-      "title": "Seafarers detained in Egypt for carrying prohibited items",
-      "url": "https://gard.no/en/insights/seafarers-detained-egypt-for-carrying-prohibited-items/",
-      "published_at": "2022-12-13",
-      "summary": "Our local correspondent in Egypt reports an increase in cases where seafarers have been detained for carrying prohibited items, such as drones and other “suspicious” electronic devices, in their luggage when embarking or disembarking ships in the country.",
+      "title": "Face masks are effective transmission barriers against infections",
+      "url": "https://gard.no/en/insights/face-masks-are-effective-transmission-barriers-against-infections/",
+      "published_at": "2022-04-05",
+      "summary": "Respiratory viruses can lead to significant illness and in some cases even death. One of the most effective infection control strategies is to wear a face mask.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2022-12-13",
-      "summary_zh": "埃及當地報導指出，海員因攜帶禁運物品（如無人機及其他“可疑”電子設備）而被拘留的案件有所增加，這些物品通常是在登船或下船時被發現的。",
-      "importance": "notice",
-      "category": "safety"
-    },
-    {
-      "title": "Having an abandon ship drill anytime soon?",
-      "url": "https://gard.no/en/insights/having-abandon-ship-drill-anytime-soon/",
-      "published_at": "2022-06-01",
-      "summary": "Make sure the ship’s crew conduct a thorough visual inspection of the lifeboat and davit installation and a ‘test lowering’ prior to operating the lifeboat with crew onboard.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2022-06-01",
-      "summary_zh": "確保船員在乘員上船之前，對救生艇和吊艇裝置進行徹底的目視檢查和「測試降下」。",
-      "importance": "notice",
-      "category": "safety"
-    },
-    {
-      "title": "Bunker quality – do bunker suppliers have charterers over a barrel?",
-      "url": "https://gard.no/en/insights/bunker-quality-do-bunker-suppliers-have-charterers-over-barrel/",
-      "published_at": "2022-05-09",
-      "summary": "As the Maritime and Port Authority of Singapore continues to investigate HSFO bunkers found to contain harmful chlorinated hydrocarbons supplied in the first quarter this year, our authors review the imbalance between the position of time charterer vis-à-vis vessel owners versus the charterer’s reco",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2022-05-09",
-      "summary_zh": "新加坡海事與港口管理局正在調查今年第一季度發現的含有有害氯化碳氫化合物的重燃料油。作者回顧了時間租船人與船舶所有者之間的權力不平衡。",
-      "importance": "notice",
-      "category": "fuel"
-    },
-    {
-      "title": "Gard warns Members to remain vigilant about liquefaction risk",
-      "url": "https://gard.no/en/insights/gard-warns-members-to-remain-vigilant-about-liquefaction-risk/",
-      "published_at": "2022-04-25",
-      "summary": "Gard has recently been notified of new incidents where solid bulk cargoes classified as Group A, liable to liquefy, have been loaded with moisture content in excess of the transportable moisture limit (TML). Gard reminds Members to remain vigilant when loading such cargoes and to have a low threshol",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2022-04-25",
-      "summary_zh": "Gard 最近收到通知，指出有新事件發生，涉及被分類為 A 組的固體散裝貨物在裝載時，其水分含量超過可運輸水分限制（TML）。Gard 提醒會員在裝載此類貨物時保持警惕，並設置低閾值。",
-      "importance": "notice",
-      "category": "safety"
-    },
-    {
-      "title": "Crisis in Ukraine – an interview with Torunn Biller White",
-      "url": "https://gard.no/en/insights/crisis-ukraine-interview-torunn-biller-white/",
-      "published_at": "2022-04-20",
-      "summary": "Torunn Biller White, Gard’s Chief Risk Officer, talks with Senior Lawyer Wan Jing Tan about the crisis in the Ukraine and how this has affected Gard and our Members and clients. In a discussion ranging from the extreme effect on seafarer well-being, the impact on global commodity markets and the eco",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2022-04-20",
-      "summary_zh": "托倫·比勒·懷特（Torunn Biller White）是Gard的首席風險官，她與高級律師譚婉晶（Wan Jing Tan）討論了烏克蘭危機對Gard及其會員和客戶的影響。討論內容涵蓋了對海員福祉的極大影響、全球商品市場的衝擊以及生態問題。",
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "呼吸道病毒可能導致重大疾病，甚至死亡。佩戴口罩是最有效的感染控制策略之一。",
       "importance": "reference",
       "category": "industry"
     },
     {
-      "title": "Three steps to contain an outbreak of infection onboard",
-      "url": "https://gard.no/en/insights/three-steps-to-contain-outbreak-infection-onboard/",
-      "published_at": "2022-04-19",
-      "summary": "An ‘outbreak’, in very simple terms is defined as prevalence of an infectious disease in a population. In the context of merchant ships, an outbreak is when multiple crew members are infected by the same infectious disease. In the confines of the onboard environment, infectious diseases can spread r",
+      "title": "Marine plastic pollution - are nurdles a special case for regulation?",
+      "url": "https://gard.no/en/insights/marine-plastic-pollution-are-nurdles-special-case-for-regulation/",
+      "published_at": "2022-04-03",
+      "summary": "The IMO Pollution Prevention and Response Sub-Committee (PPR) will meet on 4-8 April.  Proposals to regulate the carriage of pre-production plastic pellets, so called “nurdles”, are on the agenda. Our authors discuss the cause and effect of nurdle spills and the specifics of the proposals on the age",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2022-04-19",
-      "summary_zh": "在商船上，「疫情」是指多名船員感染相同傳染病。在船上環境中，傳染病可以迅速傳播。",
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "國際海事組織污染防治與應對小組將於4月4日至8日召開會議，議程中將討論對預生產塑料顆粒（即「nurdles」）運輸的規範提案。",
       "importance": "notice",
-      "category": "safety"
+      "category": "regulation"
     },
     {
-      "title": "War in Ukraine – impact on maritime situation",
-      "url": "https://gard.no/en/insights/war-ukraine-impact-on-maritime-situation/",
-      "published_at": "2022-03-28",
-      "summary": "Despite ongoing peace talks between Ukraine and Russia, the security situation in the Black Sea remains unstable. All port calls in the region should be assessed on a case-by-case basis, consulting best management practices for guidance on threats and mitigating measures.",
+      "title": "Feeling unwell? Report and recover but don’t pass it to others",
+      "url": "https://gard.no/en/insights/feeling-unwell-report-recover-but-don-t-pass-it-to-others/",
+      "published_at": "2022-03-30",
+      "summary": "Any one of us can fall sick with a viral infection. What do we do? We take prescribed medicines and try to stay away from our family and friends until we have recovered. This is us being ‘socially responsible’.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2022-03-28",
-      "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。",
-      "importance": "notice",
-      "category": "safety"
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "任何人都可能感染病毒，應該服用處方藥並儘量避免與家人和朋友接觸，直到康復，這是我們的社會責任。",
+      "importance": "reference",
+      "category": "industry"
     },
     {
-      "title": "Updated guidance on pilot transfer arrangements",
-      "url": "https://gard.no/en/insights/updated-guidance-on-pilot-transfer-arrangements/",
-      "published_at": "2022-02-13",
-      "summary": "The International Chamber of Shipping (ICS) and the International Maritime Pilots Association (IMPA) recently published an updated version of their ‘Shipping Industry Guidance on Pilot Transfer Arrangements’ in an effort to make pilot transfer arrangements safer.",
+      "title": "Singapore bunkers - presence of chlorinated hydrocarbons",
+      "url": "https://gard.no/en/insights/singapore-bunkers-presence-chlorinated-hydrocarbons/",
+      "published_at": "2022-03-29",
+      "summary": "Gard Members and clients are reporting operational problems that may be caused by contaminated bunkers, mostly HSFO, stemmed in Singapore in the first quarter of 2022.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2022-02-13",
-      "summary_zh": "國際航運商會（ICS）和國際海事引航員協會（IMPA）最近發布了更新版的《航運業引航轉移安排指導》，旨在提高引航轉移安排的安全性。",
-      "importance": "notice",
-      "category": "safety"
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "新加坡在2022年第一季度供應的重油（HSFO）可能受到污染，導致操作問題。",
+      "importance": "action",
+      "category": "fuel"
     },
     {
-      "title": "The International Group joins the Top Tier project on container losses",
-      "url": "https://gard.no/en/insights/international-group-joins-top-tier-project-on-container-losses/",
-      "published_at": "2022-02-01",
-      "summary": "A series of incidents with exceptional container losses occurred during the winter season 2020-2021. The TopTier project was put in place by the industry to find ways to avoid similar incidents in the future. Initial Results show that parametric rolling in following seas was especially hazardous.",
+      "title": "Does your onboard hygiene management cover high touch surfaces?",
+      "url": "https://gard.no/en/insights/does-your-onboard-hygiene-management-cover-high-touch-surfaces/",
+      "published_at": "2022-03-21",
+      "summary": "Although not visible to the naked eye, germs live among us. They are more likely to be present on surfaces which people touch quite frequently with their hands. These are known as as ‘high touch surfaces’.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2022-02-01",
-      "summary_zh": "國際集團參與了針對集裝箱損失的TopTier專案。2020-2021冬季期間發生了一系列異常的集裝箱損失事件。該專案旨在尋找避免未來類似事件的方法，初步結果顯示，在隨浪航行時的參數性翻滾特別危險。",
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "雖然肉眼看不見，但細菌存在於我們周圍。經常被人手觸碰的表面被稱為「高接觸表面」，這些表面上更可能存在細菌。",
+      "importance": "notice",
+      "category": "industry"
+    },
+    {
+      "title": "Ukrainian seafarer repatriation",
+      "url": "https://gard.no/en/insights/ukrainian-seafarer-repatriation/",
+      "published_at": "2022-03-02",
+      "summary": "As the conflict in Ukraine continues, many Members and clients are having difficulties repatriating Ukrainian crew. Some crew members may want to extend their contracts given the turbulence and uncertainty of the situation; others will want to terminate their contracts earlier than intended in order",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "隨著烏克蘭衝突持續，許多會員和客戶在遣返烏克蘭船員方面遇到困難。一些船員可能希望延長合約，而另一些則希望提前終止合約。",
+      "importance": "notice",
+      "category": "industry"
+    },
+    {
+      "title": "One is the loneliest number – the enduring practice of the “on board bill of lading”",
+      "url": "https://gard.no/en/insights/one-is-loneliest-number-enduring-practice-on-board-bill-lading/",
+      "published_at": "2022-03-01",
+      "summary": "An original bill which has been carried on board has no practical value as evidence of title and the practice remains inherently risky because of the difficulty in verifying which party is entitled to possession of the cargo if none of the negotiated bills are available.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "隨船攜帶的原始提單在證明所有權方面沒有實際價值，且因為難以驗證哪一方有權擁有貨物，這種做法本質上存在風險。",
+      "importance": "notice",
+      "category": "industry"
+    },
+    {
+      "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
+      "url": "https://gard.no/en/insights/export-season-for-brazilian-soya-beans-is-underway-reminder-for-recommended-precautions/",
+      "published_at": "2022-02-23",
+      "summary": "The Brazilian soya bean export season is underway with the bulk of the beans scheduled for export in March, April and May.  The long voyage time to Chinese ports together with pandemic related delay in discharge increase the risk of natural deterioration and cargo claims.  Documentation of care of t",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-09T11:23:26+08:00",
+      "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
       "importance": "notice",
       "category": "industry"
     },

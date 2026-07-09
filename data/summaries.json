@@ -1240,5 +1240,93 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-08T10:46:51+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/": {
+    "summary_zh": "英國已於2026年7月1日起將英國排放交易計劃（UK ETS）擴展至海運業。初步的海運階段預計將適用於國內海運活動，包括英國港口之間的航行及船舶在英國港口停泊時產生的排放。",
+    "importance": "action",
+    "category": "regulation",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/exciting-start-to-career-at-sea/": {
+    "summary_zh": "實習生計畫是開始海上職業的好方法，Gard最新贊助的實習生Harriet Harding更是如此，她加入了皇家研究船Sir David Attenborough，開始了實習的第一個海上階段。",
+    "importance": "reference",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/polar-code-on-psc-agenda/": {
+    "summary_zh": "巴黎公約組織啟動了一項檢查活動，以驗證對極地法規的遵守。此活動將分為兩個期間，第一個檢查期從2022年6月13日開始，持續到7月1日，第二個檢查期將在2022年8月1日至19日進行。",
+    "importance": "action",
+    "category": "psc",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/face-masks-are-effective-transmission-barriers-against-infections/": {
+    "summary_zh": "呼吸道病毒可能導致重大疾病，甚至死亡。佩戴口罩是最有效的感染控制策略之一。",
+    "importance": "reference",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/marine-plastic-pollution-are-nurdles-special-case-for-regulation/": {
+    "summary_zh": "國際海事組織污染防治與應對小組將於4月4日至8日召開會議，議程中將討論對預生產塑料顆粒（即「nurdles」）運輸的規範提案。",
+    "importance": "notice",
+    "category": "regulation",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/feeling-unwell-report-recover-but-don-t-pass-it-to-others/": {
+    "summary_zh": "任何人都可能感染病毒，應該服用處方藥並儘量避免與家人和朋友接觸，直到康復，這是我們的社會責任。",
+    "importance": "reference",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/singapore-bunkers-presence-chlorinated-hydrocarbons/": {
+    "summary_zh": "新加坡在2022年第一季度供應的重油（HSFO）可能受到污染，導致操作問題。",
+    "importance": "action",
+    "category": "fuel",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/does-your-onboard-hygiene-management-cover-high-touch-surfaces/": {
+    "summary_zh": "雖然肉眼看不見，但細菌存在於我們周圍。經常被人手觸碰的表面被稱為「高接觸表面」，這些表面上更可能存在細菌。",
+    "importance": "notice",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/ukrainian-seafarer-repatriation/": {
+    "summary_zh": "隨著烏克蘭衝突持續，許多會員和客戶在遣返烏克蘭船員方面遇到困難。一些船員可能希望延長合約，而另一些則希望提前終止合約。",
+    "importance": "notice",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/one-is-loneliest-number-enduring-practice-on-board-bill-lading/": {
+    "summary_zh": "隨船攜帶的原始提單在證明所有權方面沒有實際價值，且因為難以驗證哪一方有權擁有貨物，這種做法本質上存在風險。",
+    "importance": "notice",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/export-season-for-brazilian-soya-beans-is-underway-reminder-for-recommended-precautions/": {
+    "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
+    "importance": "notice",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-09T11:23:41+08:00"
   }
 }

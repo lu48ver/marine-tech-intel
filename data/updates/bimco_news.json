@@ -2,10 +2,26 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-08T10:46:46+08:00",
-  "last_success_at": "2026-07-08T10:46:46+08:00",
+  "last_crawled_at": "2026-07-09T11:23:35+08:00",
+  "last_success_at": "2026-07-09T11:23:35+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/",
+      "published_at": "2026-07-08",
+      "summary": "The United Kingdom has expanded the UK Emissions Trading Scheme (UK ETS) to the maritime sector from 1 July 2026. The initial maritime phase is expected to apply to domestic maritime activity, including voyages between UK ports and emissions generated while vessels are in UK ports, such as at berth ",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-09T11:23:35+08:00",
+      "summary_zh": "英國已於2026年7月1日起將英國排放交易計劃（UK ETS）擴展至海運業。初步的海運階段預計將適用於國內海運活動，包括英國港口之間的航行及船舶在英國港口停泊時產生的排放。",
+      "importance": "action",
+      "category": "regulation"
+    },
     {
       "title": "Progress continues on WINDSEACON as subcommittee meets in person",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/06-windseacon/",
@@ -228,22 +244,6 @@
       "summary_zh": "UBC Savannah號散貨船在2019年2月從美國新奧爾良港出發前往哥倫比亞，船長安德烈·拉索塔未曾想過在抵達墨西哥的阿爾塔米拉港後，會面臨如此困境。",
       "importance": "reference",
       "category": "industry"
-    },
-    {
-      "title": "Under missile attack in Ukraine",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-faruk-interview/",
-      "published_at": "2026-06-11",
-      "summary": "In February 2022, the MV Banglar Samriddhi left the port of Eregli in Türkiye, heading for Olvia in Ukraine. The day after it arrived, Russia invaded Ukraine.\nChief Engineer Mohammad Omor Faruk and his colleagues found themselves stranded with no safe way out. On 2 March, the 29 Bangladeshi seafarer",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-11",
-      "summary_zh": "在2022年2月，MV Banglar Samriddhi從土耳其的Eregli港出發，前往烏克蘭的Olvia。抵達的第二天，俄羅斯入侵烏克蘭。首席工程師Mohammad Omor Faruk和他的同事們發現自己被困，無法安全撤離。",
-      "importance": "reference",
-      "category": "safety"
     }
   ]
 }
