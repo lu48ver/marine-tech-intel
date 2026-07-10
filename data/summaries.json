@@ -1328,5 +1328,13 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-09T11:23:41+08:00"
+  },
+  "https://gard.no/en/insights/emergency-power-system-in-blackout/": {
+    "summary_zh": "東京公約組織和國際船級社的研究顯示，常規測試可能無法真實反映緊急電力系統在主電力失效時的表現。不充分的測試可能使關鍵系統未經驗證，並在關鍵時刻給船員帶來錯誤的準備感。",
+    "importance": "notice",
+    "category": "machinery",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-10T11:26:08+08:00"
   }
 }
