@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-11T10:43:51+08:00",
+  "generated_at": "2026-07-12T10:51:50+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "英國排放交易計劃擴展",
-      "why": "英國排放交易計劃（UK ETS）將於2026年7月1日起擴展至海運業，這將影響國內海運活動的排放管理，要求船舶運營商必須適應新的排放報告和合規要求。",
+      "why": "英國排放交易計劃（UK ETS）將於2026年7月1日起擴展至海運業，這將影響國內海運活動的排放管理，船舶經營者需提前了解並適應新的合規要求。",
       "articles": [
         {
           "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
@@ -21,26 +21,8 @@
       ]
     },
     {
-      "name": "船舶回收法律框架",
-      "why": "巴塞爾公約開放式工作組的會議推進了船舶回收的法律和環境框架，這對於促進安全和環保的船舶回收實踐至關重要，並將影響未來的船舶處置策略。",
-      "articles": [
-        {
-          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-30"
-        },
-        {
-          "title": "What's happening in ship recycling?",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
-          "source": "BIMCO News",
-          "published_at": "2026-06-16"
-        }
-      ]
-    },
-    {
       "name": "海事自主水面船舶法規",
-      "why": "IMO於2026年5月通過了針對海事自主水面船舶（MASS）的新法規，這標誌著監管框架的更新，將影響未來自動化船舶的設計和運營要求。",
+      "why": "IMO於2026年5月通過了針對海事自主水面船舶（MASS）的新法規，這標誌著對自動化船舶的監管框架進一步完善，船舶經營者需考慮如何符合這些新要求以確保合規。",
       "articles": [
         {
           "title": "IMO MSC 111: New MASS Code adopted",
@@ -53,6 +35,24 @@
           "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
           "source": "ClassNK Topics",
           "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "name": "船舶回收法律框架",
+      "why": "巴塞爾公約開放式工作組的會議進一步討論了船舶回收的法律和環境框架，這對於未來的船舶回收實踐和合規要求具有重要意義，船舶經營者需關注相關進展以確保合規。",
+      "articles": [
+        {
+          "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-30"
+        },
+        {
+          "title": "What's happening in ship recycling?",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-16"
         }
       ]
     }
