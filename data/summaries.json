@@ -1151,7 +1151,9 @@
     "summary_zh": "巴黎公約於2025年7月1日發布2024年年報，該報告概述了2024年的活動和統計數據。2024年的扣留率為4.03%，較2023年的3.81%有所上升，顯示出過去幾年持續高企的扣留百分比趨勢。巴黎公約將在未來幾年密切監測此趨勢以評估其影響。",
     "model": "gpt-4o-mini",
     "source_kind": "html",
-    "generated_at": "2026-07-03T11:22:10+08:00"
+    "generated_at": "2026-07-03T11:22:10+08:00",
+    "importance": "notice",
+    "category": "psc"
   },
   "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/": {
     "summary_zh": "國際海事組織海洋環境保護委員會第84次會議對淨零框架進行了廣泛討論，這是自2025年10月特別會議休會以來的首次機會。會議中對於關鍵議題存在不同立場。",
@@ -1336,5 +1338,21 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-10T11:26:08+08:00"
+  },
+  "https://parismou.org/index%2Ephp/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris": {
+    "summary_zh": "巴黎公約於2026年7月1日發布2025年年報，顯示拒絕進入的案例增加至19例，拘留率上升至4.18%。主要不合規範的問題包括火災安全、結構和電氣元件，以及健康保護等，火災門和海員就業協議是突出的不合規範領域。",
+    "importance": "notice",
+    "category": "psc",
+    "model": "gpt-4o-mini",
+    "source_kind": "html",
+    "generated_at": "2026-07-13T10:53:07+08:00"
+  },
+  "https://parismou.org/index%2Ephp/2026/06/paris-mou-59th-committee-meets-glasgow-united-kingdom": {
+    "summary_zh": "巴黎公約的第59次委員會會議在格拉斯哥成功舉行，討論了加強海事安全、環境保護和海員福利的進展。會議決定啟動針對24米及以上漁船的統一自願港口國控制方法的開發，並強調了加強國際合作和信息交流的必要性。",
+    "importance": "notice",
+    "category": "psc",
+    "model": "gpt-4o-mini",
+    "source_kind": "html",
+    "generated_at": "2026-07-13T10:53:07+08:00"
   }
 }
