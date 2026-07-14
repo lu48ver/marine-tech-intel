@@ -7,11 +7,12 @@
   const tabs = document.querySelectorAll(".tab");
   const panels = {
     brief: document.getElementById("panel-brief"),
-    radar: document.getElementById("panel-radar"),
-    category: document.getElementById("panel-category"),
-    sources: document.getElementById("panel-sources"),
     topics: document.getElementById("panel-topics"),
+    browse: document.getElementById("panel-browse"),
+    sources: document.getElementById("panel-sources"),
   };
+  // Old bookmarked hashes from the 5-tab layout map onto the new tabs
+  const HASH_ALIASES = { radar: "topics", category: "browse" };
 
   function activateTab(name) {
     tabs.forEach((t) => t.classList.toggle("is-active", t.dataset.tab === name));
@@ -26,8 +27,9 @@
     tab.addEventListener("click", () => activateTab(tab.dataset.tab));
   });
 
-  // Restore tab from URL hash on load (e.g. #topics)
-  const initial = (location.hash || "").replace("#", "");
+  // Restore tab from URL hash on load (e.g. #topics), mapping legacy hashes
+  let initial = (location.hash || "").replace("#", "");
+  initial = HASH_ALIASES[initial] || initial;
   if (panels[initial]) activateTab(initial);
 
   // ---------- Topic expand / collapse ----------
