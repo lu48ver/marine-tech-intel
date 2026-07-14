@@ -1354,5 +1354,21 @@
     "model": "gpt-4o-mini",
     "source_kind": "html",
     "generated_at": "2026-07-13T10:53:07+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/13-crew-survey/": {
+    "summary_zh": "BIMCO正在徵求業界分享在操作人員配置及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗，因為疲勞管理和船員休息在國際法規議程中越來越受到重視。",
+    "importance": "notice",
+    "category": "industry",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T10:34:01+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/13-biofuel/": {
+    "summary_zh": "隨著航運業尋求脫碳的可行途徑，生物燃料成為一種即時可用的過渡選擇，通常可在不需或少量修改現有引擎和燃料系統的情況下使用。",
+    "importance": "notice",
+    "category": "fuel",
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T10:34:01+08:00"
   }
 }

@@ -2,10 +2,45 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-13T10:53:01+08:00",
-  "last_success_at": "2026-07-13T10:53:01+08:00",
+  "last_crawled_at": "2026-07-14T10:33:55+08:00",
+  "last_success_at": "2026-07-14T10:33:55+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "New BIMCO survey explores challenges and best practices in operational crewing and rest hour compliance",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/13-crew-survey/",
+      "published_at": "2026-07-13",
+      "summary": "As fatigue management, crewing and seafarers rest feature increasingly on the international regulatory agenda, BIMCO is asking the industry to share practical experience on challenges and best practices related to operational crewing and compliance with work and rest hour requirements. The survey wi",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-14T10:33:55+08:00",
+      "summary_zh": "BIMCO正在徵求業界分享在操作人員配置及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗，因為疲勞管理和船員休息在國際法規議程中越來越受到重視。",
+      "importance": "notice",
+      "category": "industry"
+    },
+    {
+      "title": "BIMCO Biofuel Clause for Time Charter Parties 2026: What owners and charterers need to know",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/13-biofuel/",
+      "published_at": "2026-07-13",
+      "summary": "As the shipping industry continues its search for viable pathways towards decarbonisation, biofuels have emerged as one of the more immediately available transitional options. They can, in many cases, be used with little or no modification to existing engines and fuel systems, and they offer a pract",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "bio_fuel",
+        "cii_ets"
+      ],
+      "first_seen_at": "2026-07-14T10:33:55+08:00",
+      "summary_zh": "隨著航運業尋求脫碳的可行途徑，生物燃料成為一種即時可用的過渡選擇，通常可在不需或少量修改現有引擎和燃料系統的情況下使用。",
+      "importance": "notice",
+      "category": "fuel"
+    },
     {
       "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/",
@@ -215,35 +250,6 @@
       "summary_zh": "索馬利亞海盜活動在2026年有所增加，記錄到七起劫持事件，涉及貨船、漁船和油輪。截至六月初，三艘船隻及其船員被扣押，停靠在索馬利亞沿岸。",
       "importance": "notice",
       "category": "safety"
-    },
-    {
-      "title": "\"Our industry depends on people\" - BIMCO Secretary General and CEO David Loosley",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-leadership-perspective/",
-      "published_at": "2026-06-11",
-      "summary": "This article by BIMCO Secretary General and CEO David Loosley was originally sent to the CEOs of all BIMCO member companies and organisations on 27 May 2026",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-11"
-    },
-    {
-      "title": "592 days in Mexican prison without conviction or evidence",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-lasota-interview/",
-      "published_at": "2026-06-11",
-      "summary": "When the bulk carrier UBC Savannah left the US port of New Orleans in February 2019 for Columbia, Captain Andrzej Lasota never imagined that when the ship arrived at its subsequent port of call of Altamira in Mexico, his world would turn upside down. \nAnd when Captain Lasota began his career at sea ",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-11",
-      "summary_zh": "UBC Savannah號散貨船在2019年2月從美國新奧爾良港出發前往哥倫比亞，船長安德烈·拉索塔未曾想過在抵達墨西哥的阿爾塔米拉港後，會面臨如此困境。",
-      "importance": "reference",
-      "category": "industry"
     }
   ]
 }
