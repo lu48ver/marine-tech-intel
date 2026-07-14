@@ -18,9 +18,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-10T11:25:56+08:00",
-      "summary_zh": "東京公約組織和國際船級社的研究顯示，常規測試可能無法真實反映緊急電力系統在主電力失效時的表現。不充分的測試可能使關鍵系統未經驗證，並在關鍵時刻給船員帶來錯誤的準備感。",
+      "summary_zh": "東京公約組織與國際船級社的研究顯示，常規測試可能無法真實反映緊急電力系統在主電力失效時的表現。不充分的測試可能使關鍵系統未經證實，並在關鍵時刻讓船員產生錯誤的準備感。",
       "importance": "notice",
-      "category": "machinery"
+      "category": "safety",
+      "watch_topics": []
     },
     {
       "title": "Rise in fishery claims in South Korea waters",
@@ -35,8 +36,9 @@
       "topic_ids": [],
       "first_seen_at": "2026-07-06",
       "summary_zh": "Gard觀察到過去一年在南韓水域涉及漁網的航行事故有所增加。KOMOS報告指出，離岸儲網的問題仍然持續，主要是因為對於這些設備安裝地點的限制較少，除了指定的錨地和禁止區域外。",
-      "importance": "notice",
-      "category": "safety"
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
@@ -51,8 +53,9 @@
       "topic_ids": [],
       "first_seen_at": "2026-06-30",
       "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
-      "importance": "reference",
-      "category": "industry"
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
@@ -68,7 +71,8 @@
       "first_seen_at": "2026-06-19",
       "summary_zh": "在2026年1月至5月期間，Gard處理了超過70宗與燃料相關的索賠，較去年同期增加了50%。幾乎所有索賠均涉及燃料質量，自2月底中東衝突升級以來，這一趨勢更加明顯。",
       "importance": "notice",
-      "category": "fuel"
+      "category": "fuel",
+      "watch_topics": []
     },
     {
       "title": "An exciting start to a career at sea",
@@ -82,9 +86,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "實習生計畫是開始海上職業的好方法，Gard最新贊助的實習生Harriet Harding更是如此，她加入了皇家研究船Sir David Attenborough，開始了實習的第一個海上階段。",
+      "summary_zh": "學員計畫是開始海上職業的好方法，Gard 最新贊助的學員 Harriet Harding 加入了皇家研究船 Sir David Attenborough，開始她的學員海上階段。",
       "importance": "reference",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Polar Code on the PSC agenda",
@@ -100,9 +105,10 @@
         "cic_2026"
       ],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "巴黎公約組織啟動了一項檢查活動，以驗證對極地法規的遵守。此活動將分為兩個期間，第一個檢查期從2022年6月13日開始，持續到7月1日，第二個檢查期將在2022年8月1日至19日進行。",
+      "summary_zh": "巴黎公約組織啟動了一項檢查活動，以驗證對極地規範的遵守情況。該活動將分為兩個檢查期間，第一個檢查期從2022年6月13日開始，持續到7月1日，第二個檢查期將於2022年8月1日至19日進行。",
       "importance": "action",
-      "category": "psc"
+      "category": "psc",
+      "watch_topics": []
     },
     {
       "title": "Face masks are effective transmission barriers against infections",
@@ -116,9 +122,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "呼吸道病毒可能導致重大疾病，甚至死亡。佩戴口罩是最有效的感染控制策略之一。",
-      "importance": "reference",
-      "category": "industry"
+      "summary_zh": "佩戴口罩是有效的感染控制策略，能有效阻止呼吸道病毒的傳播，減少重大疾病及死亡的風險。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Marine plastic pollution - are nurdles a special case for regulation?",
@@ -132,9 +139,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "國際海事組織污染防治與應對小組將於4月4日至8日召開會議，議程中將討論對預生產塑料顆粒（即「nurdles」）運輸的規範提案。",
+      "summary_zh": "國際海事組織污染防治與應對小組將於4月4日至8日召開會議，議程中將討論對預生產塑膠顆粒（即「nurdles」）運輸的規範提案。",
       "importance": "notice",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Feeling unwell? Report and recover but don’t pass it to others",
@@ -148,9 +156,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "任何人都可能感染病毒，應該服用處方藥並儘量避免與家人和朋友接觸，直到康復，這是我們的社會責任。",
+      "summary_zh": "任何人都可能感染病毒，應該服用醫生開的藥物並儘量避免與家人和朋友接觸，直到康復，這是我們的社會責任。",
       "importance": "reference",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Singapore bunkers - presence of chlorinated hydrocarbons",
@@ -164,9 +173,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "新加坡在2022年第一季度供應的重油（HSFO）可能受到污染，導致操作問題。",
-      "importance": "action",
-      "category": "fuel"
+      "summary_zh": "Gard 會員和客戶報告在2022年第一季度於新加坡加油的重油（HSFO）可能受到污染，導致操作問題。",
+      "importance": "notice",
+      "category": "fuel",
+      "watch_topics": []
     },
     {
       "title": "Does your onboard hygiene management cover high touch surfaces?",
@@ -180,9 +190,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "雖然肉眼看不見，但細菌存在於我們周圍。經常被人手觸碰的表面被稱為「高接觸表面」，這些表面上更可能存在細菌。",
+      "summary_zh": "雖然肉眼看不見，但細菌存在於我們周圍。它們更可能存在於人們經常用手觸摸的表面，這些被稱為「高接觸表面」。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Ukrainian seafarer repatriation",
@@ -198,7 +209,8 @@
       "first_seen_at": "2026-07-09T11:23:26+08:00",
       "summary_zh": "隨著烏克蘭衝突持續，許多會員和客戶在遣返烏克蘭船員方面遇到困難。一些船員可能希望延長合約，而另一些則希望提前終止合約。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "One is the loneliest number – the enduring practice of the “on board bill of lading”",
@@ -212,9 +224,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "隨船攜帶的原始提單在證明所有權方面沒有實際價值，且因為難以驗證哪一方有權擁有貨物，這種做法本質上存在風險。",
+      "summary_zh": "在船上攜帶的原始提單對於所有權的證明沒有實際價值，且由於難以驗證哪一方有權擁有貨物，這種做法本質上存在風險。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
@@ -230,7 +243,8 @@
       "first_seen_at": "2026-07-09T11:23:26+08:00",
       "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Legal risks following quarantine of Yangtze River pilots",
@@ -246,7 +260,8 @@
       "first_seen_at": "2022-01-04",
       "summary_zh": "因新冠疫情，長江部分地區的國際貿易船舶航行已突然停止，因當地引航員被隔離。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     }
   ]
 }

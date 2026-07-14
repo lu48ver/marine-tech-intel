@@ -18,9 +18,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-08T10:46:45+08:00",
-      "summary_zh": "鍋爐管在熱傳遞和維持海洋鍋爐壓力完整性方面扮演關鍵角色。當發生洩漏時，需要仔細評估以防止次級損壞。本文提供了關於修復的級別接受標準的指導。",
+      "summary_zh": "鍋爐管在熱傳遞和維持海洋鍋爐壓力完整性方面扮演關鍵角色。當發生洩漏時，需要仔細評估以防止次級損壞。此技術新聞提供了關於修復的類別接受標準的指導。",
       "importance": "notice",
-      "category": "machinery"
+      "category": "machinery",
+      "watch_topics": []
     },
     {
       "title": "Now available: The July 2026 edition of the DNV class rules and standards for ship and offshore",
@@ -36,7 +37,8 @@
       "first_seen_at": "2026-07-06T19:11:21+08:00",
       "summary_zh": "2026年7月版DNV船級規則和標準引入了新的船級標記及重大更新，旨在支持海事產業向更可持續和創新的方向轉型。",
       "importance": "notice",
-      "category": "regulation"
+      "category": "machinery",
+      "watch_topics": []
     },
     {
       "title": "New IMO requirements for pilot transfer arrangements",
@@ -52,7 +54,8 @@
       "first_seen_at": "2026-07-06T19:11:21+08:00",
       "summary_zh": "國際海事組織（IMO）在第13屆導航、通訊、搜尋與救援小組會議（NCSR 13）中，完成了下一代電子海圖顯示與資訊系統（ECDIS）的實施指導草案。",
       "importance": "notice",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "The IMO sub-committee on navigation, communications, search and rescue (NCSR 13)",
@@ -68,7 +71,8 @@
       "first_seen_at": "2026-07-06T19:11:21+08:00",
       "summary_zh": "國際海事組織導航、通訊、搜尋與救援小組委員會（NCSR 13）於2026年6月22日至26日召開，並完成了下一代電子海圖顯示與資訊系統（ECDIS）實施的草案指導。",
       "importance": "notice",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -86,7 +90,8 @@
       "first_seen_at": "2026-06-17",
       "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。",
       "importance": "action",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "The UK ETS expands to maritime from 1 July 2026",
@@ -104,7 +109,10 @@
       "first_seen_at": "2026-06-05",
       "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。",
       "importance": "action",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": [
+        "cii_ets"
+      ]
     },
     {
       "title": "IMO MSC 111: New MASS Code adopted",
@@ -120,7 +128,8 @@
       "first_seen_at": "2026-05-22",
       "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。",
       "importance": "action",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "How to document PFOS-free fire-extinguishing foam on board",
@@ -136,7 +145,8 @@
       "first_seen_at": "2026-05-04",
       "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。",
       "importance": "action",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
@@ -154,7 +164,10 @@
       "first_seen_at": "2026-05-04",
       "summary_zh": "國際海事組織海洋環境保護委員會第84次會議對淨零框架進行了廣泛討論，這是自2025年10月特別會議休會以來的首次機會。會議中對於關鍵議題存在不同立場。",
       "importance": "notice",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": [
+        "cii_ets"
+      ]
     },
     {
       "title": "Port State Control - Q1 2026 Detention review and other updates",
@@ -171,8 +184,11 @@
       ],
       "first_seen_at": "2026-04-29",
       "summary_zh": "港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。",
-      "importance": "action",
-      "category": "psc"
+      "importance": "notice",
+      "category": "psc",
+      "watch_topics": [
+        "psc_cic"
+      ]
     },
     {
       "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
@@ -188,7 +204,8 @@
       "first_seen_at": "2026-04-21",
       "summary_zh": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效。近期SCR指導方針的變更改變了NOx測量準確性的評估方式，原本的±5%準確度要求已被更靈活但不明確的「足夠準確度」概念取代，這使得應用者承擔了更大的責任。",
       "importance": "action",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Revised interpretation of requirements to permanent means of access (PMA)",
@@ -204,7 +221,8 @@
       "first_seen_at": "2026-04-08",
       "summary_zh": "新的IMO修訂明確了油輪和散貨船上永久通道（PMA）的檢查要求。這些變更旨在防止安全事故，並引入更嚴格的檢查和文件規則。船舶經營者必須更新程序和手冊，並在未來的檢查中審查修訂的記錄。",
       "importance": "action",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     }
   ]
 }

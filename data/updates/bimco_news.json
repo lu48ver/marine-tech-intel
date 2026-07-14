@@ -18,9 +18,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-14T10:33:55+08:00",
-      "summary_zh": "BIMCO正在徵求業界分享在操作人員配置及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗，因為疲勞管理和船員休息在國際法規議程中越來越受到重視。",
+      "summary_zh": "BIMCO 正在進行調查，徵求業界分享在操作人員配備及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗。隨著疲勞管理和船員休息越來越受到國際法規的重視，這項調查旨在收集相關意見。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "BIMCO Biofuel Clause for Time Charter Parties 2026: What owners and charterers need to know",
@@ -37,9 +38,12 @@
         "cii_ets"
       ],
       "first_seen_at": "2026-07-14T10:33:55+08:00",
-      "summary_zh": "隨著航運業尋求脫碳的可行途徑，生物燃料成為一種即時可用的過渡選擇，通常可在不需或少量修改現有引擎和燃料系統的情況下使用。",
+      "summary_zh": "隨著航運業尋求脫碳的可行途徑，生質燃料已成為一個可立即使用的過渡選項，通常可以在不需或少量修改現有引擎和燃料系統的情況下使用。",
       "importance": "notice",
-      "category": "fuel"
+      "category": "fuel",
+      "watch_topics": [
+        "bio_fuel"
+      ]
     },
     {
       "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
@@ -53,9 +57,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:35+08:00",
-      "summary_zh": "英國已於2026年7月1日起將英國排放交易計劃（UK ETS）擴展至海運業。初步的海運階段預計將適用於國內海運活動，包括英國港口之間的航行及船舶在英國港口停泊時產生的排放。",
+      "summary_zh": "英國已將英國排放交易計劃（UK ETS）擴展至海事部門，將於2026年7月1日生效。初步的海事階段預計將適用於國內海事活動，包括英國港口之間的航行及船舶在英國港口（如停泊時）產生的排放。",
       "importance": "action",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Progress continues on WINDSEACON as subcommittee meets in person",
@@ -69,9 +74,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-08T10:46:46+08:00",
-      "summary_zh": "BIMCO的WINDSEACON合約正在持續進展，子委員會最近親自會議以推進草擬過程並建立早期里程碑。該項目旨在為海上風力發電機的運輸和安裝創建標準的時間租船合同。",
-      "importance": "notice",
-      "category": "industry"
+      "summary_zh": "BIMCO 的 WINDSEACON 合同進展持續，子委員會最近面對面會議以推進草擬過程並建立早期里程碑。該項目旨在為離岸風力發電機的運輸和安裝創建標準的時間租約。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "BMP Maritime Security updated with new guidance on managing activism at sea",
@@ -85,9 +91,10 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-06T22:56:26+08:00",
-      "summary_zh": "最新版本的BMP海事安全已更新，新增了一節專門針對管理船舶和海上設施遭遇活動人士登船事件的指導。這些指導反映了船舶操作員和船員對有組織抗議活動的準備需求日益增長。",
+      "summary_zh": "最新版本的BMP海事安全指南已更新，新增專門針對管理船舶及海上設施遭遇活動人士登船事件的部分。此指導反映了船舶操作員和船員對於有組織抗議活動的準備需求日益增加。",
       "importance": "notice",
-      "category": "safety"
+      "category": "safety",
+      "watch_topics": []
     },
     {
       "title": "Help shape a common standard for maritime emissions data reporting",
@@ -105,7 +112,8 @@
       "first_seen_at": "2026-06-30",
       "summary_zh": "邀請您對使用操作船舶數據（OVD）作為交換溫室氣體排放報告的日誌摘要和中午報告數據的共同標準提供反饋。",
       "importance": "notice",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -121,7 +129,8 @@
       "first_seen_at": "2026-06-30",
       "summary_zh": "在巴塞爾公約開放式工作組的最新會議中，各國政府和利益相關者持續參與，討論了船舶回收的法律和環境框架。此次會議是朝著釐清船舶回收相關問題的重要一步，但仍需進一步努力。",
       "importance": "notice",
-      "category": "regulation"
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "BIMCO commends the IMO Strait of Hormuz Evacuation Plan",
@@ -137,7 +146,8 @@
       "first_seen_at": "2026-06-24",
       "summary_zh": "國際海事組織（IMO）於2026年6月23日宣布了一項計劃，將對仍然滯留在波斯灣地區的超過11,000名海員進行撤離。BIMCO對該撤離計劃表示支持和讚揚。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Managing geopolitical cyber security risks",
@@ -153,7 +163,8 @@
       "first_seen_at": "2026-06-23",
       "summary_zh": "本研究論文探討如何在海事網絡安全中制定地緣政治策略。其目的是向船東提供指導，以了解國家網絡安全策略在地緣政治不穩定的背景下是否會對其業務構成風險。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Lack of details remain a concern in the Strait of Hormuz",
@@ -169,7 +180,8 @@
       "first_seen_at": "2026-06-18",
       "summary_zh": "霍爾木茲海峽的安全通行仍然是一個關注焦點。美國和伊朗之間的協議已經簽署，旨在結束敵對行為並確保商業航運的安全通行，但業界仍在等待進一步的澄清和細節。",
       "importance": "notice",
-      "category": "safety"
+      "category": "safety",
+      "watch_topics": []
     },
     {
       "title": "What's happening in ship recycling?",
@@ -185,7 +197,8 @@
       "first_seen_at": "2026-06-16",
       "summary_zh": "BIMCO船舶回收聯盟於2024年成立，旨在協調全球船舶回收和航運業的聲音。其主要目標是促進全球安全和環保的船舶回收實踐。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "BIMCO enters knowledge partnership with MACS to support members on plastics reduction",
@@ -201,7 +214,8 @@
       "first_seen_at": "2026-06-16",
       "summary_zh": "BIMCO 與海洋清潔海洋協會 (MACS) 建立知識合作夥伴關係，以加強對會員在減少船上塑料和改善廢物處理方面的支持。此合作旨在為會員提供額外的專業知識和見解。",
       "importance": "reference",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Harmonising maritime digital interfaces: From alignment to action",
@@ -217,7 +231,8 @@
       "first_seen_at": "2026-06-16",
       "summary_zh": "BIMCO 與 ITS Norway 及 DYNAPORT 項目密切合作，在哥本哈根舉辦為期兩天的行業研討會，探討如何加速海事領域內船舶與岸上利益相關者之間數位介面的統一。此次研討會聚集了來自航運公司的 45 位代表。",
       "importance": "notice",
-      "category": "industry"
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Global shipping industry associations condemn recent attacks on seafarers",
@@ -233,7 +248,8 @@
       "first_seen_at": "2026-06-12",
       "summary_zh": "全球航運業協會一致譴責近期在霍爾木茲海峽及其周邊對海員和商業航運的攻擊。根據國際海事組織的資料，該組織已確認46起對國際航運的攻擊事件。",
       "importance": "notice",
-      "category": "safety"
+      "category": "safety",
+      "watch_topics": []
     },
     {
       "title": "Somali piracy structures are strengthening",
@@ -249,7 +265,8 @@
       "first_seen_at": "2026-06-11",
       "summary_zh": "索馬利亞海盜活動在2026年有所增加，記錄到七起劫持事件，涉及貨船、漁船和油輪。截至六月初，三艘船隻及其船員被扣押，停靠在索馬利亞沿岸。",
       "importance": "notice",
-      "category": "safety"
+      "category": "safety",
+      "watch_topics": []
     }
   ]
 }

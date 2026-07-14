@@ -1331,7 +1331,12 @@
     "summary_zh": "巴黎公約於2025年7月1日發布2024年年報，該報告概述了2024年的活動和統計數據。2024年的扣留率為4.03%，較2023年的3.81%有所上升，顯示出過去幾年持續高企的扣留百分比趨勢。巴黎公約將在未來幾年密切監測此趨勢以評估其影響。",
     "model": "gpt-4o-mini",
     "source_kind": "html",
-    "generated_at": "2026-07-03T11:22:10+08:00"
+    "generated_at": "2026-07-03T11:22:10+08:00",
+    "importance": "notice",
+    "category": "psc",
+    "watch_topics": [
+      "psc_cic"
+    ]
   },
   "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/": {
     "summary_zh": "國際海事組織海洋環境保護委員會第84次會議對淨零框架進行了廣泛討論，這是自2025年10月特別會議休會以來的首次機會。會議中對於關鍵議題存在不同立場。",
@@ -1406,5 +1411,178 @@
     "source_kind": "summary",
     "generated_at": "2026-07-06T19:11:33+08:00",
     "watch_topics": []
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/13-crew-survey/": {
+    "summary_zh": "BIMCO 正在進行調查，徵求業界分享在操作人員配備及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗。隨著疲勞管理和船員休息越來越受到國際法規的重視，這項調查旨在收集相關意見。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/13-biofuel/": {
+    "summary_zh": "隨著航運業尋求脫碳的可行途徑，生質燃料已成為一個可立即使用的過渡選項，通常可以在不需或少量修改現有引擎和燃料系統的情況下使用。",
+    "importance": "notice",
+    "category": "fuel",
+    "watch_topics": [
+      "bio_fuel"
+    ],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/": {
+    "summary_zh": "英國已將英國排放交易計劃（UK ETS）擴展至海事部門，將於2026年7月1日生效。初步的海事階段預計將適用於國內海事活動，包括英國港口之間的航行及船舶在英國港口（如停泊時）產生的排放。",
+    "importance": "action",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/06-windseacon/": {
+    "summary_zh": "BIMCO 的 WINDSEACON 合同進展持續，子委員會最近面對面會議以推進草擬過程並建立早期里程碑。該項目旨在為離岸風力發電機的運輸和安裝創建標準的時間租約。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/06-bmp/": {
+    "summary_zh": "最新版本的BMP海事安全指南已更新，新增專門針對管理船舶及海上設施遭遇活動人士登船事件的部分。此指導反映了船舶操作員和船員對於有組織抗議活動的準備需求日益增加。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://www.dnv.com/news/2026/boiler-tube-plugging-class-requirements/": {
+    "summary_zh": "鍋爐管在熱傳遞和維持海洋鍋爐壓力完整性方面扮演關鍵角色。當發生洩漏時，需要仔細評估以防止次級損壞。此技術新聞提供了關於修復的類別接受標準的指導。",
+    "importance": "notice",
+    "category": "machinery",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/emergency-power-system-in-blackout/": {
+    "summary_zh": "東京公約組織與國際船級社的研究顯示，常規測試可能無法真實反映緊急電力系統在主電力失效時的表現。不充分的測試可能使關鍵系統未經證實，並在關鍵時刻讓船員產生錯誤的準備感。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/exciting-start-to-career-at-sea/": {
+    "summary_zh": "學員計畫是開始海上職業的好方法，Gard 最新贊助的學員 Harriet Harding 加入了皇家研究船 Sir David Attenborough，開始她的學員海上階段。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/polar-code-on-psc-agenda/": {
+    "summary_zh": "巴黎公約組織啟動了一項檢查活動，以驗證對極地規範的遵守情況。該活動將分為兩個檢查期間，第一個檢查期從2022年6月13日開始，持續到7月1日，第二個檢查期將於2022年8月1日至19日進行。",
+    "importance": "action",
+    "category": "psc",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/face-masks-are-effective-transmission-barriers-against-infections/": {
+    "summary_zh": "佩戴口罩是有效的感染控制策略，能有效阻止呼吸道病毒的傳播，減少重大疾病及死亡的風險。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/marine-plastic-pollution-are-nurdles-special-case-for-regulation/": {
+    "summary_zh": "國際海事組織污染防治與應對小組將於4月4日至8日召開會議，議程中將討論對預生產塑膠顆粒（即「nurdles」）運輸的規範提案。",
+    "importance": "notice",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/feeling-unwell-report-recover-but-don-t-pass-it-to-others/": {
+    "summary_zh": "任何人都可能感染病毒，應該服用醫生開的藥物並儘量避免與家人和朋友接觸，直到康復，這是我們的社會責任。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/singapore-bunkers-presence-chlorinated-hydrocarbons/": {
+    "summary_zh": "Gard 會員和客戶報告在2022年第一季度於新加坡加油的重油（HSFO）可能受到污染，導致操作問題。",
+    "importance": "notice",
+    "category": "fuel",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/does-your-onboard-hygiene-management-cover-high-touch-surfaces/": {
+    "summary_zh": "雖然肉眼看不見，但細菌存在於我們周圍。它們更可能存在於人們經常用手觸摸的表面，這些被稱為「高接觸表面」。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/ukrainian-seafarer-repatriation/": {
+    "summary_zh": "隨著烏克蘭衝突持續，許多會員和客戶在遣返烏克蘭船員方面遇到困難。一些船員可能希望延長合約，而另一些則希望提前終止合約。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/one-is-loneliest-number-enduring-practice-on-board-bill-lading/": {
+    "summary_zh": "在船上攜帶的原始提單對於所有權的證明沒有實際價值，且由於難以驗證哪一方有權擁有貨物，這種做法本質上存在風險。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://gard.no/en/insights/export-season-for-brazilian-soya-beans-is-underway-reminder-for-recommended-precautions/": {
+    "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://parismou.org/index%2Ephp/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris": {
+    "summary_zh": "巴黎公約於2026年7月1日發布2025年年度報告，顯示拒絕進入的次數上升至19次，拘留率達到4.18%。報告指出，火災安全、結構及電氣元件和健康保障等領域的合規性持續存在問題，特別是防火門和海員雇用協議的非合規情況仍然突出。",
+    "importance": "notice",
+    "category": "psc",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "html",
+    "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://parismou.org/index%2Ephp/2026/06/paris-mou-59th-committee-meets-glasgow-united-kingdom": {
+    "summary_zh": "巴黎公約在格拉斯哥成功召開第59屆委員會會議，討論了加強海事安全、環境保護及海員福利的進展。會議決定啟動針對24米以上漁船的統一自願性港口國控制方法的開發，並強調了加強國際合作以應對欺詐性海事行為的必要性。",
+    "importance": "notice",
+    "category": "psc",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "html",
+    "generated_at": "2026-07-14T17:09:22+08:00"
   }
 }
