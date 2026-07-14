@@ -2,8 +2,8 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-14T10:33:55+08:00",
-  "last_success_at": "2026-07-14T10:33:55+08:00",
+  "last_crawled_at": "2026-07-14T17:11:23+08:00",
+  "last_success_at": "2026-07-14T17:11:23+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -34,8 +34,7 @@
         "regulatory"
       ],
       "topic_ids": [
-        "bio_fuel",
-        "cii_ets"
+        "bio_fuel"
       ],
       "first_seen_at": "2026-07-14T10:33:55+08:00",
       "summary_zh": "隨著航運業尋求脫碳的可行途徑，生質燃料已成為一個可立即使用的過渡選項，通常可以在不需或少量修改現有引擎和燃料系統的情況下使用。",
@@ -55,7 +54,9 @@
         "industry",
         "regulatory"
       ],
-      "topic_ids": [],
+      "topic_ids": [
+        "cii_ets"
+      ],
       "first_seen_at": "2026-07-09T11:23:35+08:00",
       "summary_zh": "英國已將英國排放交易計劃（UK ETS）擴展至海事部門，將於2026年7月1日生效。初步的海事階段預計將適用於國內海事活動，包括英國港口之間的航行及船舶在英國港口（如停泊時）產生的排放。",
       "importance": "action",
@@ -106,9 +107,7 @@
         "industry",
         "regulatory"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2026-06-30",
       "summary_zh": "邀請您對使用操作船舶數據（OVD）作為交換溫室氣體排放報告的日誌摘要和中午報告數據的共同標準提供反饋。",
       "importance": "notice",

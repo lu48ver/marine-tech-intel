@@ -1584,5 +1584,14 @@
     "model": "gpt-4o-mini",
     "source_kind": "html",
     "generated_at": "2026-07-14T17:09:22+08:00"
+  },
+  "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/latest-fobas-fuel-quality-report-finds-iso-compliant-fuels-are-increasingly-causing-operational-problems/": {
+    "summary_zh": "最新分析顯示，燃油品質風險不再僅限於不符合規格的燃油。",
+    "importance": "notice",
+    "category": "fuel",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-14T17:11:29+08:00"
   }
 }

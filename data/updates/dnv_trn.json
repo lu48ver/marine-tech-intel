@@ -2,8 +2,8 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-07-14T10:33:54+08:00",
-  "last_success_at": "2026-07-14T10:33:54+08:00",
+  "last_crawled_at": "2026-07-14T17:11:22+08:00",
+  "last_success_at": "2026-07-14T17:11:22+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -84,9 +84,7 @@
         "class",
         "regulatory"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2026-06-17",
       "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。",
       "importance": "action",
@@ -180,7 +178,7 @@
         "regulatory"
       ],
       "topic_ids": [
-        "cic_2026"
+        "psc_cic"
       ],
       "first_seen_at": "2026-04-29",
       "summary_zh": "港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。",

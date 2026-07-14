@@ -2,10 +2,27 @@
   "source_id": "lr_fobas",
   "source_name": "LR FOBAS",
   "source_url": "https://www.lr.org/en/knowledge/press-room/",
-  "last_crawled_at": "2026-07-14T10:33:39+08:00",
-  "last_success_at": "2026-07-14T10:33:39+08:00",
+  "last_crawled_at": "2026-07-14T17:11:09+08:00",
+  "last_success_at": "2026-07-14T17:11:09+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Latest FOBAS Fuel Quality Report finds ISO-compliant fuels are increasingly causing operational problems",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/latest-fobas-fuel-quality-report-finds-iso-compliant-fuels-are-increasingly-causing-operational-problems/",
+      "published_at": "2026-07-14",
+      "summary": "New analysis reveals that the biggest fuel quality risks are no longer confined to off-specification fuels.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-14T17:11:09+08:00",
+      "summary_zh": "最新分析顯示，燃油品質風險不再僅限於不符合規格的燃油。",
+      "importance": "notice",
+      "category": "fuel",
+      "watch_topics": []
+    },
     {
       "title": "FOBAS report warns of late year surge in marine fuel quality failures",
       "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
@@ -51,8 +68,7 @@
         "press release"
       ],
       "topic_ids": [
-        "bio_fuel",
-        "cii_ets"
+        "bio_fuel"
       ],
       "first_seen_at": "2025-09-24",
       "summary_zh": "生物燃料正成為減少航運溫室氣體排放的最可靠替代燃料選項之一。",
@@ -73,8 +89,7 @@
         "press release"
       ],
       "topic_ids": [
-        "bio_fuel",
-        "cii_ets"
+        "bio_fuel"
       ],
       "first_seen_at": "2025-09-16",
       "summary_zh": "LR推出生物燃料諮詢服務，旨在協助航運業安全有效地採用生物燃料，以減少溫室氣體排放。",
@@ -158,8 +173,7 @@
         "press release"
       ],
       "topic_ids": [
-        "bio_fuel",
-        "cii_ets"
+        "bio_fuel"
       ],
       "first_seen_at": "2025-02-28",
       "summary_zh": "最新的FOBAS燃料洞察報告指出，生物燃料的使用顯著增加，並持續存在不符合規格的燃料問題，以及新法規措施的影響。",
@@ -179,9 +193,7 @@
         "fuel",
         "class news"
       ],
-      "topic_ids": [
-        "oil_sampling"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-10-23",
       "summary_zh": "國際海事組織（IMO）發布了聯合通函，更新了燃油取樣指導方針，以便符合MARPOL附錄VI和SOLAS第II-2章的合規驗證要求。",
       "importance": "action",
@@ -369,23 +381,6 @@
       "first_seen_at": "2018-07-26",
       "summary_zh": "BLOC宣布成立示範聯盟，將展示區塊鏈在船舶燃料供應鏈中的應用。此技術旨在提高透明度和可追溯性。",
       "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Guardian Marine Testing acquisition.",
-      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2015/guardian-marine-testing-acquisition/",
-      "published_at": "2015-10-14",
-      "summary": "Acquisition combines Lloyd’s Register’s deep technical expertise with Guardian Marine Testing’s swift and efficient fuel testing operation",
-      "tags": [
-        "fobas",
-        "fuel",
-        "press release"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2015-10-14",
-      "summary_zh": "收購將勞埃德註冊公司的深厚技術專長與Guardian Marine Testing迅速高效的燃料測試運營結合在一起。",
-      "importance": "reference",
       "category": "industry",
       "watch_topics": []
     }

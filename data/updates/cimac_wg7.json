@@ -2,8 +2,8 @@
   "source_id": "cimac_wg7",
   "source_name": "CIMAC WG7 Fuels",
   "source_url": "https://www.cimac.com/working-groups/wg7-fuels/index.html",
-  "last_crawled_at": "2026-07-14T10:33:43+08:00",
-  "last_success_at": "2026-07-14T10:33:43+08:00",
+  "last_crawled_at": "2026-07-14T17:11:12+08:00",
+  "last_success_at": "2026-07-14T17:11:12+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -33,9 +33,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [
-        "bio_fuel"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-09-01",
       "summary_zh": "CIMAC 指南提供了設計和操作柴油引擎燃料清潔系統的關鍵考量，包括當前燃料的特性、燃料系統設計及操作實踐。安全處理燃料需要四個關鍵要素，包括正確選擇 ISO 8217 燃料等級、靈活的燃料系統設計、供應點燃料特性資訊以及受過良好訓練的工程師。該指南僅供參考，並不構成具體建議或保證。",
       "importance": "notice",
@@ -52,9 +50,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [
-        "bio_fuel"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-06-01",
       "summary_zh": "CIMAC 指南提供了如何評估和解釋 ISO 8217:2024 中殘餘海洋燃料的沉積物測試結果的概述。該文件強調了三種沉積物測試方法的應用，並新增了兩個表格，要求報告潛在總沉積物（TSP）、加速總沉積物（TSA）和現存總沉積物（TSE）的內容。這些測試結果有助於優化燃料的儲存、處理和使用。",
       "importance": "notice",
@@ -92,9 +88,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [
-        "bio_fuel"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-06-01",
       "summary_zh": "CIMAC WG7發布的ISO 8217:2024指導文件提供了有關最新海洋燃料規範的常見問題解答。該文件僅供參考，並不構成法律建議或推薦，CIMAC對其內容的準確性不承擔任何責任。新標準包括四個表格，並涵蓋了生物燃料的相關規定，對於燃料的組成和性質有明確的要求。",
       "importance": "notice",
@@ -113,9 +107,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [
-        "bio_fuel"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-03-01",
       "summary_zh": "ISO 6583:2024 是首個針對甲醇作為海洋應用燃料的國際標準，提供了相關的要求和規範。該指南旨在回答與此標準相關的常見問題，並不構成法律建議或推薦。CIMAC 對於所提供信息的準確性和完整性不承擔任何責任。",
       "importance": "notice",
@@ -132,9 +124,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [
-        "bio_fuel"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-01-01",
       "summary_zh": "CIMAC WG7發布的《海洋燃料分析測試結果解釋指導》旨在提供海洋燃料分析結果的解釋概述，並不構成具體建議或保證。該指導的第二版於2024年4月獲得批准，涵蓋了ISO 8217中海洋燃料特性的測試方法及其解釋，並包含了最新的測試數據和方法。",
       "importance": "notice",
@@ -219,9 +209,7 @@
         "fuel",
         "guideline"
       ],
-      "topic_ids": [
-        "bio_fuel"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2017-01-01",
       "summary_zh": "本指導文件提供有關ISO 8217:2017的常見問題解答，旨在幫助業界理解最新的海洋燃料規範。該版本相比於之前的版本，增加了對於冷操作性問題的要求，並引入了含生物柴油的DF等級，以改善燃料油的可用性。文件強調，所有內容僅供參考，並不構成法律建議或保證。",
       "importance": "reference",

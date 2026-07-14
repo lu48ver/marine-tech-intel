@@ -2,8 +2,8 @@
   "source_id": "classnk",
   "source_name": "ClassNK Topics",
   "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
-  "last_crawled_at": "2026-07-14T10:33:42+08:00",
-  "last_success_at": "2026-07-14T10:33:42+08:00",
+  "last_crawled_at": "2026-07-14T17:11:11+08:00",
+  "last_success_at": "2026-07-14T17:11:11+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -35,9 +35,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2026-05-01",
       "summary_zh": "國際海事組織（IMO）第84屆海洋環境保護委員會（MEPC 84）於2026年4月27日至5月1日召開，重點討論減少船舶溫室氣體（GHG）排放的中期措施及相關指導方針。會議決定於2026年9月和11月舉行工作小組會議，以解決目前草案修訂的剩餘問題，並計劃在2026年12月的MEPC 85會議後恢復特殊會議。會議中也強調了燃料全生命週期的GHG排放計算方法的重要性。",
       "importance": "notice",
@@ -57,9 +55,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2025-10-01",
       "summary_zh": "國際海事組織（IMO）海洋環境保護委員會（MEPC）於2025年10月14日至17日召開了特別會議，主要討論了修訂的MARPOL附錄VI。會議中，對減少溫室氣體排放的中期措施進行了討論，但各國代表對修訂的採納未能達成共識，因此會議決定將討論延後一年。",
       "importance": "notice",
@@ -95,9 +91,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2025-04-01",
       "summary_zh": "國際海事組織（IMO）在2025年4月舉行的第83屆海洋環境保護委員會（MEPC 83）會議上，批准了減少船舶溫室氣體（GHG）排放的中期措施草案，並計劃於2028年實施。這些措施包括對國際航行的5000 GT及以上船舶的GHG燃料強度進行監管，並設立IMO淨零基金以促進去碳化。若船舶未達成目標，將需向該基金支付相應的費用。",
       "importance": "action",
@@ -135,9 +129,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-10-01",
       "summary_zh": "在國際海事組織（IMO）海洋環境保護委員會（MEPC 82）會議中，討論了減少國際航運溫室氣體（GHG）排放的中期措施，並計劃於2027年生效。會議中確認了需要進一步評估短期措施（如EEXI和CII）的有效性，並將於2026年完成相關審查。與會代表對運輸成本對食品安全的影響表示擔憂，並同意進一步研究此議題。",
       "importance": "action",
@@ -175,9 +167,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2024-03-01",
       "summary_zh": "國際海事組織（IMO）海洋環境保護委員會（MEPC 81）於2024年3月召開，討論了減少船舶溫室氣體（GHG）排放的措施，包括對燃油消耗數據收集系統的修訂和能源效率現有船舶指數（EEXI）規範的指導方針。會議通過了針對重載運輸船的MARPOL附錄VI的統一解釋，並開始制定中期減排措施，計劃於2027年生效。",
       "importance": "action",
@@ -197,9 +187,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2023-07-01",
       "summary_zh": "在2023年國際海事組織（IMO）海洋環境保護委員會（MEPC 80）會議中，通過了2023年IMO減少船舶溫室氣體（GHG）排放的策略，設定了2030年和2040年的指標檢查點，以達成2050年淨零GHG排放的目標。此外，會議還通過了海洋燃料生命周期GHG強度的指導方針，並同意進一步發展中期減排措施，包括技術和經濟元素的組合。",
       "importance": "action",
@@ -237,9 +225,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2022-12-01",
       "summary_zh": "MEPC 79於2022年12月召開，討論減少船舶溫室氣體排放的措施，包括修訂EEDI計算指南和CII評級機制。會議通過了對新船EEDI計算方法的修訂，並決定在未來會議中繼續討論EEDI第四階段的引入及船上碳捕集系統的相關提案。MEPC 79還批准了與CII和DCS相關的統一解釋，以指導船舶的碳強度評估。",
       "importance": "notice",
@@ -277,9 +263,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2022-06-01",
       "summary_zh": "第七十八屆海洋環境保護委員會（MEPC 78）於2022年6月6日至10日召開，討論了減少國際航運溫室氣體（GHG）排放的措施。會議通過了短期和中長期的減排目標，包括到2030年提高運輸效率至少40%及到2050年減少70%的二氧化碳排放。會議還同意建立工作小組，開發海洋燃料的生命周期溫室氣體和碳強度指導方針，以促進未來低碳燃料的使用。",
       "importance": "notice",
@@ -317,9 +301,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2021-11-01",
       "summary_zh": "在第77屆海洋環境保護委員會（MEPC 77）會議中，討論了減少國際航運溫室氣體（GHG）排放的措施，包括短期目標到2030年提高運輸效率至少40%。會議同意繼續考慮中長期減排措施，並計劃在2023年春季的MEPC 80會議上完成初步IMO策略的修訂。此外，會議批准了對於風輔助推進系統在EEDI/EEXI計算中的影響進行修訂的建議。",
       "importance": "notice",
@@ -357,9 +339,7 @@
         "regulatory",
         "mepc"
       ],
-      "topic_ids": [
-        "cii_ets"
-      ],
+      "topic_ids": [],
       "first_seen_at": "2021-06-01",
       "summary_zh": "MEPC 76於2021年6月舉行，討論了減少國際航運溫室氣體排放的措施，並通過了對MARPOL附錄VI的修訂，以實施能源效率現有船舶指數（EEXI）和碳強度指標（CII）。EEXI要求所有400 GT及以上的現有船舶達到與新船相同的能源效率，並在2023年後的首次檢查中進行驗證。CII則基於船舶的運營燃料消耗數據進行評級，並要求每艘5,000 GT及以上的船舶每年計算其CII。",
       "importance": "action",

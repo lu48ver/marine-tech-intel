@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-14T10:33:46+08:00",
-  "last_success_at": "2026-07-14T10:33:46+08:00",
+  "last_crawled_at": "2026-07-14T17:11:15+08:00",
+  "last_success_at": "2026-07-14T17:11:15+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -102,7 +102,7 @@
         "insight"
       ],
       "topic_ids": [
-        "cic_2026"
+        "psc_cic"
       ],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
       "summary_zh": "巴黎公約組織啟動了一項檢查活動，以驗證對極地規範的遵守情況。該活動將分為兩個檢查期間，第一個檢查期從2022年6月13日開始，持續到7月1日，第二個檢查期將於2022年8月1日至19日進行。",
