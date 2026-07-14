@@ -19,7 +19,8 @@
       "first_seen_at": "2026-07-13T10:52:51+08:00",
       "summary_zh": "巴黎公約於2026年7月1日發布2025年年報，顯示拒絕進入的案例增加至19例，拘留率上升至4.18%。主要不合規範的問題包括火災安全、結構和電氣元件，以及健康保護等，火災門和海員就業協議是突出的不合規範領域。",
       "importance": "notice",
-      "category": "psc"
+      "category": "psc",
+      "watch_topics": []
     },
     {
       "title": "Paris MoU 59th Committee meets in Glasgow, United Kingdom",
@@ -34,7 +35,8 @@
       "first_seen_at": "2026-07-13T10:52:51+08:00",
       "summary_zh": "巴黎公約的第59次委員會會議在格拉斯哥成功舉行，討論了加強海事安全、環境保護和海員福利的進展。會議決定啟動針對24米及以上漁船的統一自願港口國控制方法的開發，並強調了加強國際合作和信息交流的必要性。",
       "importance": "notice",
-      "category": "psc"
+      "category": "psc",
+      "watch_topics": []
     },
     {
       "title": "Joint concentrated inspection campaign on Ballast Water Management",
@@ -51,7 +53,10 @@
       "first_seen_at": "2025-08-01",
       "summary_zh": "東京和巴黎港口國控制備忘錄的成員機構將啟動一項關於壓載水管理的聯合集中檢查活動。此活動旨在確定船舶是否符合2004年國際船舶壓載水及沉積物控制與管理公約的要求，檢查將涵蓋壓載水管理計劃的批准、船員熟悉度及壓載水記錄等方面。檢查活動將於2025年9月1日至11月30日進行，期間每艘船僅接受一次檢查，結果將在相關網站上公布。",
       "importance": "action",
-      "category": "psc"
+      "category": "psc",
+      "watch_topics": [
+        "psc_cic"
+      ]
     },
     {
       "title": "2024 Paris MoU Annual Report “Progress and performance; highlights of the Paris MoU 2024\"",
@@ -66,7 +71,8 @@
       "first_seen_at": "2026-07-13T10:52:51+08:00",
       "summary_zh": "巴黎公約於2025年7月1日發布2024年年報，該報告概述了2024年的活動和統計數據。2024年的扣留率為4.03%，較2023年的3.81%有所上升，顯示出過去幾年持續高企的扣留百分比趨勢。巴黎公約將在未來幾年密切監測此趨勢以評估其影響。",
       "importance": "notice",
-      "category": "psc"
+      "category": "psc",
+      "watch_topics": []
     },
     {
       "title": "Paris MoU 58th Committee meets in Malmö, Sweden",
@@ -81,7 +87,10 @@
       "first_seen_at": "2025-06-10",
       "summary_zh": "巴黎公約港口國控制備忘錄（Paris MoU）於2025年5月26日至30日在瑞典馬爾默成功召開第58屆委員會會議，會議重點在於提升海事安全、環境保護及海員福祉。會議回顧了2024年進行的集中檢查活動，強調行業需更加重視遵守海事勞工公約的要求，特別是在草擬海員雇用合約時。委員會還確認了與東京公約的聯合檢查活動計劃，並決定繼續進行針對環境污染的檢查活動。",
       "importance": "notice",
-      "category": "psc"
+      "category": "psc",
+      "watch_topics": [
+        "psc_cic"
+      ]
     }
   ]
 }

@@ -95,28 +95,53 @@ IMPORTANCE_RUBRIC = (
     "market news with no direct technical-management impact."
 )
 
-SYSTEM_PROMPT = (
-    "You are a maritime technical analyst writing for a ship engineering "
-    "superintendent (工務監督). Summarize the SOURCE TEXT into Traditional "
-    "Chinese (繁體中文) as 2 to 4 short, practical key-point sentences. "
-    "Use ONLY facts stated in the source text; never invent regulation "
-    "numbers, dates, or figures.\n\n" + IMPORTANCE_RUBRIC + "\n\n"
-    + CATEGORY_RUBRIC + "\n\n"
-    "Respond in JSON only: {\"summary_zh\": \"<the summary>\", "
-    "\"importance\": \"action|notice|reference\", "
-    "\"category\": \"regulation|fuel|psc|machinery|safety|industry\"}. "
-    "If the source text is too short or irrelevant to summarize, use "
-    "{\"summary_zh\": \"\", \"importance\": \"reference\", "
-    "\"category\": \"industry\"}."
-)
+def load_watchlist() -> list[dict]:
+    """Tracked topics from data/topics.json (the user's watchlist)."""
+    return json.loads((DATA_DIR / "topics.json").read_text(encoding="utf-8"))
 
-CLASSIFY_PROMPT = (
-    "You are a maritime technical analyst.\n\n" + IMPORTANCE_RUBRIC + "\n\n"
-    + CATEGORY_RUBRIC + "\n\n"
-    "You are given an article title and its existing Chinese summary. "
-    "Respond in JSON only: {\"importance\": \"action|notice|reference\", "
-    "\"category\": \"regulation|fuel|psc|machinery|safety|industry\"}."
-)
+
+def watchlist_rubric(watchlist: list[dict]) -> str:
+    """Prompt fragment: assign the article to tracked topics by DEFINITION.
+
+    This replaces brittle keyword-substring matching as the primary topic
+    assignment; keywords remain only as a fallback when the AI hasn't run.
+    """
+    lines = [
+        "Additionally, assign the article to every TRACKED TOPIC it clearly "
+        "belongs to (zero or more). Be strict — when in doubt, leave it out:"
+    ]
+    for t in watchlist:
+        lines.append(f'- "{t["id"]}" ({t["name"]}): {t["summary"]}')
+    return "\n".join(lines)
+
+
+def build_prompts(watchlist: list[dict]) -> tuple[str, str]:
+    """Return (summarize system prompt, classify-only system prompt)."""
+    rubric = watchlist_rubric(watchlist)
+    system = (
+        "You are a maritime technical analyst writing for a ship engineering "
+        "superintendent (工務監督). Summarize the SOURCE TEXT into Traditional "
+        "Chinese (繁體中文) as 2 to 4 short, practical key-point sentences. "
+        "Use ONLY facts stated in the source text; never invent regulation "
+        "numbers, dates, or figures.\n\n" + IMPORTANCE_RUBRIC + "\n\n"
+        + CATEGORY_RUBRIC + "\n\n" + rubric + "\n\n"
+        "Respond in JSON only: {\"summary_zh\": \"<the summary>\", "
+        "\"importance\": \"action|notice|reference\", "
+        "\"category\": \"regulation|fuel|psc|machinery|safety|industry\", "
+        "\"watch_topics\": [\"<tracked topic ids, [] when none>\"]}. "
+        "If the source text is too short or irrelevant to summarize, use "
+        "{\"summary_zh\": \"\", \"importance\": \"reference\", "
+        "\"category\": \"industry\", \"watch_topics\": []}."
+    )
+    classify = (
+        "You are a maritime technical analyst.\n\n" + IMPORTANCE_RUBRIC + "\n\n"
+        + CATEGORY_RUBRIC + "\n\n" + rubric + "\n\n"
+        "You are given an article title and its existing Chinese summary. "
+        "Respond in JSON only: {\"importance\": \"action|notice|reference\", "
+        "\"category\": \"regulation|fuel|psc|machinery|safety|industry\", "
+        "\"watch_topics\": [\"<tracked topic ids, [] when none>\"]}."
+    )
+    return system, classify
 
 logger = logging.getLogger("summarize")
 
@@ -201,49 +226,62 @@ def _normalize_category(value: object) -> str:
     return value if value in CATEGORY_IDS else "industry"
 
 
-def summarize_text(client, title: str, text: str) -> tuple[str, str, str]:
-    """Call the LLM; return (summary_zh, importance, category)."""
+def _normalize_watch_topics(value: object, valid_ids: set[str]) -> list[str]:
+    """Keep only known tracked-topic ids, in stable order."""
+    if not isinstance(value, list):
+        return []
+    return [v for v in value if isinstance(v, str) and v in valid_ids]
+
+
+def _parse_classification(data: dict, valid_ids: set[str]) -> dict:
+    return {
+        "importance": _normalize_importance(data.get("importance")),
+        "category": _normalize_category(data.get("category")),
+        "watch_topics": _normalize_watch_topics(data.get("watch_topics"), valid_ids),
+    }
+
+
+def summarize_text(client, system_prompt: str, valid_ids: set[str],
+                   title: str, text: str) -> tuple[str, dict]:
+    """Call the LLM; return (summary_zh, classification). Empty summary = declined."""
     resp = client.chat.completions.create(
         model=DEFAULT_MODEL,
         temperature=0.2,
         max_tokens=400,
         response_format={"type": "json_object"},
         messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"TITLE: {title}\n\nSOURCE TEXT:\n{text}"},
         ],
     )
     try:
         data = json.loads(resp.choices[0].message.content or "{}")
     except json.JSONDecodeError:
-        return "", "notice", "industry"
+        data = {}
     summary = (data.get("summary_zh") or "").strip()
     if "NO_SUMMARY" in summary:
         summary = ""
-    return (
-        summary,
-        _normalize_importance(data.get("importance")),
-        _normalize_category(data.get("category")),
-    )
+    return summary, _parse_classification(data, valid_ids)
 
 
-def classify_only(client, title: str, summary_zh: str) -> tuple[str, str]:
-    """Backfill (importance, category) for an already-summarized item."""
+def classify_only(client, classify_prompt: str, valid_ids: set[str],
+                  title: str, summary_zh: str) -> dict:
+    """Backfill classification for an already-summarized item (no re-fetch)."""
     resp = client.chat.completions.create(
         model=DEFAULT_MODEL,
         temperature=0,
-        max_tokens=30,
+        max_tokens=60,
         response_format={"type": "json_object"},
         messages=[
-            {"role": "system", "content": CLASSIFY_PROMPT},
+            {"role": "system", "content": classify_prompt},
             {"role": "user", "content": f"TITLE: {title}\n\nSUMMARY:\n{summary_zh}"},
         ],
     )
     try:
         data = json.loads(resp.choices[0].message.content or "{}")
     except json.JSONDecodeError:
-        return "notice", "industry"
-    return _normalize_importance(data.get("importance")), _normalize_category(data.get("category"))
+        data = {}
+    return _parse_classification(data, valid_ids)
 
 
 def main() -> int:
@@ -275,6 +313,10 @@ def main() -> int:
             return 1
         client = OpenAI(api_key=api_key)
 
+    watchlist = load_watchlist()
+    valid_ids = {t["id"] for t in watchlist}
+    system_prompt, classify_prompt = build_prompts(watchlist)
+
     calls = 0
     stats = {
         "cached": 0,
@@ -296,25 +338,32 @@ def main() -> int:
             if url in cache:  # already summarized in a previous run
                 record = cache[url]
                 item["summary_zh"] = record["summary_zh"]
-                if not record.get("importance") or not record.get("category"):
-                    # Cache entry predates the rating/category fields:
+                if (
+                    not record.get("importance")
+                    or not record.get("category")
+                    or "watch_topics" not in record
+                ):
+                    # Cache entry predates one of the classification fields:
                     # cheap classify-only backfill (no source re-fetch)
                     if args.dry_run:
                         stats["would_backfill"] += 1
                     elif not args.limit or calls < args.limit:
-                        record["importance"], record["category"] = classify_only(
-                            client, item.get("title", ""), record["summary_zh"]
-                        )
+                        record.update(classify_only(
+                            client, classify_prompt, valid_ids,
+                            item.get("title", ""), record["summary_zh"],
+                        ))
                         calls += 1
                         stats["backfilled"] += 1
                         logger.info(
-                            "backfilled importance=%s category=%s %s",
+                            "backfilled importance=%s category=%s topics=%s %s",
                             record["importance"], record["category"],
-                            item.get("title", "")[:60],
+                            record["watch_topics"], item.get("title", "")[:60],
                         )
                 for field in ("importance", "category"):
                     if record.get(field):
                         item[field] = record[field]
+                if "watch_topics" in record:
+                    item["watch_topics"] = record["watch_topics"]
                 stats["cached"] += 1
                 changed = True
                 continue
@@ -332,7 +381,9 @@ def main() -> int:
             if args.limit and calls >= args.limit:
                 continue
 
-            summary_zh, importance, category = summarize_text(client, item.get("title", ""), text)
+            summary_zh, cls = summarize_text(
+                client, system_prompt, valid_ids, item.get("title", ""), text
+            )
             calls += 1
             if not summary_zh:
                 stats["skipped"] += 1
@@ -340,19 +391,19 @@ def main() -> int:
 
             cache[url] = {
                 "summary_zh": summary_zh,
-                "importance": importance,
-                "category": category,
+                **cls,
                 "model": DEFAULT_MODEL,
                 "source_kind": kind,
                 "generated_at": now,
             }
             item["summary_zh"] = summary_zh
-            item["importance"] = importance
-            item["category"] = category
+            item.update(cls)
             stats["summarized"] += 1
             changed = True
             logger.info(
-                "summarized (%s, %s, %s) %s", kind, importance, category, item.get("title", "")[:60]
+                "summarized (%s, %s, %s, topics=%s) %s",
+                kind, cls["importance"], cls["category"], cls["watch_topics"],
+                item.get("title", "")[:60],
             )
 
         if changed and not args.dry_run:

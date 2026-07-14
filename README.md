@@ -202,7 +202,10 @@ if __name__ == "__main__":
     run_from_cli(ExampleCrawler)
 ```
 
-`topic_ids` 不用自己填 —— `BaseCrawler` 會用 `topics.json` 的關鍵字自動歸類。
+`topic_ids` 不用自己填 —— AI 摘要時會依 `topics.json` 的議題**定義**歸類
+(`watch_topics`,準確度高);沒跑 AI 的文章退回關鍵字比對。議題卡的現況
+描述由 `digest.py` 每日依該議題近期文章自動更新(`digest.json` 的
+`topic_status`),沒有現況時顯示 topics.json 的靜態 summary。
 
 ### 2. 在 `data/sources.json` 加一筆
 
@@ -263,7 +266,8 @@ python scripts/build_site.py        # 確認網站能建置
       "topic_ids": ["bio_fuel"],
       "summary_zh": "AI 中文摘要 (summarize.py 產生,選用)",
       "importance": "action | notice | reference (AI 重要性分級,選用)",
-      "category": "regulation | fuel | psc | machinery | safety | industry (AI 粗分類,選用)"
+      "category": "regulation | fuel | psc | machinery | safety | industry (AI 粗分類,選用)",
+      "watch_topics": ["psc_cic (AI 依 topics.json 議題定義歸入的追蹤議題,選用)"]
     }
   ]
 }

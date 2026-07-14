@@ -134,6 +134,15 @@ def match_topics(item: dict, topics: list[dict]) -> list[str]:
     return [t["id"] for t in topics if any(kw.lower() in haystack for kw in t.get("keywords", []))]
 
 
+def resolve_topic_ids(item: dict, topics: list[dict]) -> list[str]:
+    """Tracked-topic assignment: the AI's judgement (watch_topics, assigned by
+    definition in summarize.py) wins; keyword-substring matching remains only
+    as the fallback for items the AI hasn't processed."""
+    if "watch_topics" in item:
+        return item["watch_topics"]
+    return match_topics(item, topics)
+
+
 def load_source_data(topics: list[dict], now: datetime) -> list[dict]:
     """Load each enabled source's crawled JSON, in sources.json order.
 
@@ -161,8 +170,10 @@ def load_source_data(topics: list[dict], now: datetime) -> list[dict]:
                 for field in ("importance", "category"):
                     if not item.get(field) and cached.get(field):
                         item[field] = cached[field]
+                if "watch_topics" not in item and "watch_topics" in cached:
+                    item["watch_topics"] = cached["watch_topics"]
             item["is_new"] = is_new(item, now)
-            item["topic_ids"] = match_topics(item, topics)
+            item["topic_ids"] = resolve_topic_ids(item, topics)
         out.append(data)
     return out
 
@@ -356,6 +367,12 @@ def main() -> int:
         "categories": build_categories_view(sources, now),
         "digest": digest,
     }
+
+    # AI-written current-status per tracked topic (scripts/digest.py); the
+    # template falls back to the static description when absent.
+    topic_status = digest.get("topic_status", {}) if isinstance(digest, dict) else {}
+    for topic in context["topics"]:
+        topic["ai_status"] = topic_status.get(topic["id"], "")
 
     env = make_env()
     html = env.get_template("index.html").render(**context)

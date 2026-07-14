@@ -3,29 +3,15 @@
     "id": "bio_fuel",
     "name": "BIO FUEL Bunkering",
     "priority": "high",
-    "summary": "生質燃油 (FAME 摻配 B24/B30) 加油實務與品質管理:ISO 8217:2024 已納入生質燃油規格,須注意氧化安定性、微生物滋生、長期儲存與滑油相容性問題。各主要加油港 (新加坡、鹿特丹) 供應量持續擴大。",
-    "keywords": ["biofuel", "bio-fuel", "bio fuel", "fame", "b24", "b30", "b100", "iso 8217", "blended fuel", "ucome", "methanol", "alternative fuel", "生質燃油", "生物燃料", "摻配", "甲醇"]
+    "summary": "生質燃油 (FAME 摻配 B24/B30) 加油實務與品質管理:規格 (ISO 8217)、氧化安定性、微生物滋生、長期儲存與滑油相容性,以及主要加油港的供應動態。",
+    "keywords": ["biofuel", "bio-fuel", "bio fuel", "fame", "b24", "b30", "b100", "blended fuel", "ucome", "生質燃油", "生物燃料", "摻配"]
   },
   {
-    "id": "cic_2026",
-    "name": "PSC CIC 2026 — Cargo Securing",
+    "id": "psc_cic",
+    "name": "PSC 集中檢查 (CIC)",
     "priority": "high",
-    "summary": "Tokyo MoU / Paris MoU 年度集中檢查活動 (CIC):確認本年度主題、檢查表 (questionnaire) 與常見缺失項目,提前讓船隊完成自查,避免滯留 (detention)。",
-    "keywords": ["cic", "concentrated inspection campaign", "cargo securing", "inspection campaign", "集中檢查", "檢查活動", "貨物繫固"]
-  },
-  {
-    "id": "oil_sampling",
-    "name": "Oil Sampling Point",
-    "priority": "watch",
-    "summary": "MARPOL Annex VI 燃油取樣點 (in-use / onboard sampling point) 指定與標示要求:既有船須在指定檢驗前完成取樣點設置並更新文件,留意各船級社的核可流程。",
-    "keywords": ["sampling point", "fuel sampling", "oil sampling", "fuel oil sampling", "sampling guideline", "sample point", "in-use sample", "onboard sample", "marpol annex vi sampling", "取樣", "採樣", "燃油取樣"]
-  },
-  {
-    "id": "biofouling",
-    "name": "Biofouling Management Plan",
-    "priority": "watch",
-    "summary": "IMO 生物污損管理指南 (MEPC.378(80)) 與紐澳等國的強制申報要求:船上須備妥 Biofouling Management Plan 與 Record Book,留意水下清洗 (in-water cleaning) 的港口國規定。",
-    "keywords": ["biofouling", "bio-fouling", "hull fouling", "fouling", "antifouling", "anti-fouling", "in-water cleaning", "hull cleaning", "invasive aquatic species", "生物附著", "生物污損", "船體清洗", "水下清洗"]
+    "summary": "Tokyo MoU / Paris MoU 年度集中檢查活動 (CIC):每年主題輪換,追蹤本年度主題公告、檢查表 (questionnaire)、初步與最終結果,提前完成船隊自查、避免滯留。",
+    "keywords": ["cic", "concentrated inspection campaign", "inspection campaign", "集中檢查", "檢查活動"]
   },
   {
     "id": "gas_detector",
@@ -38,7 +24,7 @@
     "id": "cii_ets",
     "name": "CII / SEEMP / Net-Zero Framework",
     "priority": "reg",
-    "summary": "IMO 減碳法規動態:CII 評級與修正案、SEEMP Part III 稽核、EU ETS / FuelEU Maritime 申報義務,以及 IMO Net-Zero Framework (全球燃油標準與碳定價) 的談判進度。",
-    "keywords": ["cii", "seemp", "eexi", "eedi", "eu ets", "fueleu", "net-zero", "net zero", "ghg", "greenhouse gas", "decarboni", "carbon intensity", "mepc", "碳強度", "減碳", "脫碳", "溫室氣體", "淨零"]
+    "summary": "船隊減碳合規義務:CII 評級與修正案、SEEMP Part III 稽核、EU ETS / UK ETS / FuelEU Maritime 申報,以及 IMO Net-Zero Framework (全球燃油標準與碳定價) 的實質進展。不含一般環保新聞。",
+    "keywords": ["cii", "seemp", "eexi", "eedi", "eu ets", "uk ets", "fueleu", "net-zero", "net zero", "carbon intensity", "emissions trading", "碳強度", "淨零", "碳定價"]
   }
 ]

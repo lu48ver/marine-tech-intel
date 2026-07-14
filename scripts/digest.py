@@ -53,20 +53,85 @@ SYSTEM_PROMPT = (
 )
 
 
-def load_recent_items() -> list[dict]:
-    """Newest items across all sources, with source name attached."""
+def load_all_items() -> list[dict]:
+    """Every item across all sources, newest first, with source name attached."""
     items = []
     for path in glob.glob(str(UPDATES_DIR / "*.json")):
         data = json.loads(Path(path).read_text(encoding="utf-8"))
         for it in data.get("items", []):
             items.append({**it, "source": data.get("source_name", "")})
     items.sort(key=lambda x: x.get("published_at", ""), reverse=True)
-    return items[:RECENT_ITEMS]
+    return items
 
 
-def load_tracked_topics() -> list[str]:
-    topics = json.loads((DATA_DIR / "topics.json").read_text(encoding="utf-8"))
-    return [t["name"] for t in topics]
+def load_recent_items() -> list[dict]:
+    """Newest RECENT_ITEMS across all sources (input for theme discovery)."""
+    return load_all_items()[:RECENT_ITEMS]
+
+
+def load_topics() -> list[dict]:
+    return json.loads((DATA_DIR / "topics.json").read_text(encoding="utf-8"))
+
+
+TOPIC_STATUS_PROMPT = (
+    "You are the editor of a maritime technical intelligence brief for ship "
+    "engineering superintendents. For each TRACKED TOPIC below you are given "
+    "its recent articles. Write a 2-3 sentence Traditional Chinese status "
+    "update (現況) per topic: what concretely happened lately and what it "
+    "means for fleet technical management. Cite facts from the articles "
+    "(dates, instrument names, figures) — no generic filler like 愈加重要/"
+    "構成挑戰. Respond in JSON only: {\"<topic_id>\": \"<status>\", ...}. "
+    "Only include topics you were given."
+)
+
+TOPIC_STATUS_WINDOW_DAYS = 365
+TOPIC_STATUS_MAX_ARTICLES = 8
+
+
+def build_topic_status(client, topics: list[dict], items: list[dict]) -> dict:
+    """One LLM call: per-tracked-topic current-status paragraphs.
+
+    Groups articles by the AI-assigned watch_topics field (summarize.py);
+    topics with no recent articles are skipped — the site then falls back to
+    the static description.
+    """
+    cutoff = (datetime.now(TAIPEI_TZ) - timedelta(days=TOPIC_STATUS_WINDOW_DAYS)).date().isoformat()
+    groups: dict[str, list[dict]] = {}
+    for it in items:
+        if it.get("published_at", "") < cutoff:
+            continue
+        for tid in it.get("watch_topics", []):
+            groups.setdefault(tid, []).append(it)
+
+    blocks = []
+    for topic in topics:
+        arts = groups.get(topic["id"], [])[:TOPIC_STATUS_MAX_ARTICLES]
+        if not arts:
+            continue
+        lines = [f'TOPIC "{topic["id"]}" ({topic["name"]}): {topic["summary"]}']
+        for a in arts:
+            summary = (a.get("summary_zh") or a.get("summary") or "")[:140]
+            lines.append(f'- ({a.get("published_at", "")}) {a.get("title", "")} — {summary}')
+        blocks.append("\n".join(lines))
+    if not blocks:
+        return {}
+
+    resp = client.chat.completions.create(
+        model=DEFAULT_MODEL,
+        temperature=0.3,
+        response_format={"type": "json_object"},
+        messages=[
+            {"role": "system", "content": TOPIC_STATUS_PROMPT},
+            {"role": "user", "content": "\n\n".join(blocks)},
+        ],
+    )
+    try:
+        data = json.loads(resp.choices[0].message.content or "{}")
+    except json.JSONDecodeError:
+        return {}
+    valid = {t["id"] for t in topics}
+    return {k: v.strip() for k, v in data.items()
+            if k in valid and isinstance(v, str) and v.strip()}
 
 
 def build_client():
@@ -88,11 +153,13 @@ def main() -> int:
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
-    items = load_recent_items()
+    all_items = load_all_items()
+    items = all_items[:RECENT_ITEMS]
     if not items:
         logger.error("no items found — run crawlers first")
         return 1
-    tracked = load_tracked_topics()
+    topics = load_topics()
+    tracked = [t["name"] for t in topics]
 
     # Number the articles so the model can cite them by index
     lines = [
@@ -139,13 +206,24 @@ def main() -> int:
             themes.append({"name": theme["name"].strip(), "why": (theme.get("why") or "").strip(),
                            "articles": refs})
 
+    # Second call: per-tracked-topic status paragraphs for the watchlist view
+    topic_status = {}
+    try:
+        topic_status = build_topic_status(client, topics, all_items)
+    except Exception:
+        logger.exception("topic status generation failed — keeping themes only")
+
     out = {
         "generated_at": datetime.now(TAIPEI_TZ).isoformat(timespec="seconds"),
         "model": DEFAULT_MODEL,
         "themes": themes,
+        "topic_status": topic_status,
     }
     DIGEST_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    logger.info("digest: %d themes from %d recent articles", len(themes), len(items))
+    logger.info(
+        "digest: %d themes, %d topic status from %d recent articles",
+        len(themes), len(topic_status), len(items),
+    )
     return 0
 
 

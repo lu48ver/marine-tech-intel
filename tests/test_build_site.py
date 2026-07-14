@@ -61,6 +61,20 @@ def test_match_topics_no_match():
     assert bs.match_topics({"title": "unrelated"}, topics) == []
 
 
+def test_resolve_topic_ids_prefers_ai_assignment():
+    topics = [{"id": "cii", "keywords": ["cii"]}]
+    # AI said no topics — keyword hit in the title must NOT override it
+    item = {"title": "cii rating", "watch_topics": []}
+    assert bs.resolve_topic_ids(item, topics) == []
+    item = {"title": "unrelated", "watch_topics": ["cii"]}
+    assert bs.resolve_topic_ids(item, topics) == ["cii"]
+
+
+def test_resolve_topic_ids_falls_back_to_keywords():
+    topics = [{"id": "cii", "keywords": ["cii"]}]
+    assert bs.resolve_topic_ids({"title": "New CII rules"}, topics) == ["cii"]
+
+
 # ---------- is_new ----------
 
 def test_is_new_within_window():

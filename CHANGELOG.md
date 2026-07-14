@@ -2,6 +2,26 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-07-07 (資訊架構重構:四分頁 + 議題升級)
+
+### 分頁架構
+- 五分頁收斂為四分頁,每頁回答一個問題:**BRIEF**(今天看什麼)/
+  **追蹤議題**(我追的事進展如何,原 HOT TOPICS + AI RADAR 併入為底部
+  「AI 雷達」區塊)/ **全部瀏覽**(找東西,原 CATEGORY 改名)/ **SOURCES**。
+  舊 hash `#radar`→`#topics`、`#category`→`#browse` 自動導向。
+
+### Schema 變動
+- item 與 summaries 快取新增 **`watch_topics`**:AI 依 topics.json 的議題
+  **定義**(非關鍵字)歸入追蹤議題,取代 substring 比對成為主要歸類方式
+  (關鍵字保留為 AI 未跑時的 fallback)。cii_ets 從 9 篇雜訊降到 3 篇正中。
+- `digest.json` 新增 **`topic_status`**:AI 每日依各議題近期文章寫 2-3 句
+  現況,議題卡描述從靜態文字變成活的 mini-brief(無現況時退回靜態)。
+
+### 議題盤點
+- 退役 `oil_sampling`、`biofouling`(近 12 個月 0 篇);`cic_2026` 改為
+  不綁年度主題的 `psc_cic`「PSC 集中檢查 (CIC)」;`cii_ets` 關鍵字收緊
+  (移除裸 mepc/ghg/decarboni 等大網)。
+
 ## 2026-07-06 (Obsidian 全歸檔 TechNews)
 
 ### 新增

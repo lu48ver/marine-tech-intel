@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-07-14T10:34:18+08:00",
+  "generated_at": "2026-07-14T17:01:51+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "英國排放交易計劃擴展",
-      "why": "英國排放交易計劃（UK ETS）將於2026年7月1日擴展至海運業，這將影響船舶的溫室氣體排放管理，並要求船東及經營者適應新的合規要求，以避免潛在的經濟損失。",
-      "articles": [
-        {
-          "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/",
-          "source": "BIMCO News",
-          "published_at": "2026-07-08"
-        },
-        {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
-        }
-      ]
-    },
-    {
-      "name": "船舶回收法規進展",
-      "why": "巴塞爾公約開放式工作組的會議推進了船舶回收的法律和環境框架，這將影響船舶經營者在船舶退役時的合規義務，促進更安全和環保的回收實踐。",
+      "name": "船舶回收法律框架",
+      "why": "巴塞爾公約開放式工作組的會議推進了船舶回收的法律和環境框架，雖然仍需進一步努力，但這一進展將促進全球安全和環保的船舶回收實踐，影響船舶經營者的回收策略和合規性。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -39,8 +21,8 @@
       ]
     },
     {
-      "name": "海事自主水面船舶（MASS）法規",
-      "why": "IMO於2026年通過的新MASS法規標誌著對自主船舶的監管框架的重大進展，船舶經營者需開始考慮這些新規範對未來船舶設計和運營的影響。",
+      "name": "海事自主水面船舶（MASS）",
+      "why": "IMO於2026年通過了針對海事自主水面船舶的新法規，這標誌著監管框架的重大進展，將影響未來船舶設計、操作和安全管理，要求船東及經營者提前做好準備以符合新標準。",
       "articles": [
         {
           "title": "IMO MSC 111: New MASS Code adopted",
@@ -55,6 +37,48 @@
           "published_at": "2026-05-01"
         }
       ]
+    },
+    {
+      "name": "船舶燃料質量問題",
+      "why": "2025年下半年海洋燃料質量顯著惡化，這一趨勢可能導致更多燃料相關索賠，船東需加強對燃料質量的監控和管理，以減少潛在的經濟損失。",
+      "articles": [
+        {
+          "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
+          "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
+          "source": "Gard Insight",
+          "published_at": "2026-06-19"
+        },
+        {
+          "title": "FOBAS report warns of late year surge in marine fuel quality failures",
+          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
+          "source": "LR FOBAS",
+          "published_at": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "name": "海事網絡安全風險",
+      "why": "地緣政治因素對海事網絡安全的影響日益明顯，船東需制定相應的策略以應對潛在的網絡安全風險，保護其業務運營和數據安全。",
+      "articles": [
+        {
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
+        },
+        {
+          "title": "Global shipping industry associations condemn recent attacks on seafarers",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-12"
+        }
+      ]
     }
-  ]
+  ],
+  "topic_status": {
+    "bio_fuel": "根據2026年6月11日的報導，BIMCO已發布新的生物燃料條款以支援航運業向低碳燃料的轉型，顯示出生物燃料在未來航運中的法律和操作挑戰將成為重點。這意味著船隊技術管理需調整燃料策略以符合新規範。",
+    "psc_cic": "2026年5月1日的年度報告顯示，東京MOU在2025年進行了創紀錄的35,546次檢查，儘管拘留率下降，但仍未恢復到疫情前的水平。這提醒船舶經營者需加強自查以避免滯留，特別是在安全管理系統和火災安全準備方面。",
+    "gas_detector": "根據2026年4月8日的報導，國際海事組織於2025年6月27日採納了修訂的進入封閉空間的建議，強調了氣體偵測器在安全管理系統中的重要性。這要求船隊必須加強對氣體偵測器的配備和訓練，以符合新規範。",
+    "cii_ets": "2026年6月5日的消息指出，英國排放交易計劃將於2026年7月1日起擴展至海運業，這將影響船隊的碳排放管理。船舶經營者需密切關注此計劃的主要機制，以確保合規並有效管理溫室氣體排放。"
+  }
 }
