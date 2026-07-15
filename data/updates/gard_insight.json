@@ -2,10 +2,27 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-14T17:11:15+08:00",
-  "last_success_at": "2026-07-14T17:11:15+08:00",
+  "last_crawled_at": "2026-07-15T10:32:04+08:00",
+  "last_success_at": "2026-07-15T10:32:04+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "AIS-assisted collisions: The risks of over-reliance",
+      "url": "https://gard.no/en/insights/ais-assisted-collisions-overreliance-risk/",
+      "published_at": "2026-07-14",
+      "summary": "AIS has evolved into an important safety aid for situational awareness and even collision avoidance. However, this evolution also brings new risks, and over-reliance on AIS may, in some cases, contribute to incidents rather than prevent them.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-15T10:32:04+08:00",
+      "summary_zh": "AIS雖然已成為重要的安全輔助工具，但過度依賴AIS可能在某些情況下導致事故，而非預防事故。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
     {
       "title": "Emergency power system: Will it work in a blackout?",
       "url": "https://gard.no/en/insights/emergency-power-system-in-blackout/",
@@ -55,23 +72,6 @@
       "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
       "importance": "notice",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Beyond Specification: Bunker Claims Insights, Early 2026",
-      "url": "https://gard.no/en/insights/beyond-specification-bunker-claims-insights-early-2026/",
-      "published_at": "2026-06-19",
-      "summary": "Between January and May 2026, Gard handled over 70 bunker-related claims - a 50% increase on the same period last year. Almost all involved fuel quality, and the pattern has sharpened since the Middle East conflict escalated in late February.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-19",
-      "summary_zh": "在2026年1月至5月期間，Gard處理了超過70宗與燃料相關的索賠，較去年同期增加了50%。幾乎所有索賠均涉及燃料質量，自2月底中東衝突升級以來，這一趨勢更加明顯。",
-      "importance": "notice",
-      "category": "fuel",
       "watch_topics": []
     },
     {

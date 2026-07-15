@@ -1593,5 +1593,23 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-14T17:11:29+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/14-sms-methanol/": {
+    "summary_zh": "隨著甲醇作為海洋燃料的普及，海事技術論壇（MTF）發布了新指導方針，幫助公司為甲醇燃料船舶開發或調整安全管理系統。這些指導方針是與BIMCO及其他主要利益相關者合作制定的。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-15T10:32:15+08:00"
+  },
+  "https://gard.no/en/insights/ais-assisted-collisions-overreliance-risk/": {
+    "summary_zh": "AIS雖然已成為重要的安全輔助工具，但過度依賴AIS可能在某些情況下導致事故，而非預防事故。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-15T10:32:15+08:00"
   }
 }

@@ -2,10 +2,27 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-14T17:11:23+08:00",
-  "last_success_at": "2026-07-14T17:11:23+08:00",
+  "last_crawled_at": "2026-07-15T10:32:11+08:00",
+  "last_success_at": "2026-07-15T10:32:11+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Navigating alternative fuels: new industry guidelines for methanol Safety Management Systems",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-sms-methanol/",
+      "published_at": "2026-07-14",
+      "summary": "As methanol gains ground as a marine fuel, the Maritime Technologies Forum (MTF) has published new guidelines to help companies develop or adapt Safety Management Systems for methanol-fuelled ships. Developed in collaboration with BIMCO and other key stakeholders, the guidance translates methanol-sp",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-15T10:32:11+08:00",
+      "summary_zh": "隨著甲醇作為海洋燃料的普及，海事技術論壇（MTF）發布了新指導方針，幫助公司為甲醇燃料船舶開發或調整安全管理系統。這些指導方針是與BIMCO及其他主要利益相關者合作制定的。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
     {
       "title": "New BIMCO survey explores challenges and best practices in operational crewing and rest hour compliance",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/13-crew-survey/",
@@ -246,23 +263,6 @@
       "topic_ids": [],
       "first_seen_at": "2026-06-12",
       "summary_zh": "全球航運業協會一致譴責近期在霍爾木茲海峽及其周邊對海員和商業航運的攻擊。根據國際海事組織的資料，該組織已確認46起對國際航運的攻擊事件。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "Somali piracy structures are strengthening",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/11-somali-piracy/",
-      "published_at": "2026-06-11",
-      "summary": "In a recent meeting with representatives from EU Naval Forces, it was noted that 2026 has seen an uptick in Somali piracy, with seven hijacks recorded involving cargo dhows, fishing dhows, and tankers. As of early June, three ships and their crews are anchored off the Somali coast and are being held",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-11",
-      "summary_zh": "索馬利亞海盜活動在2026年有所增加，記錄到七起劫持事件，涉及貨船、漁船和油輪。截至六月初，三艘船隻及其船員被扣押，停靠在索馬利亞沿岸。",
       "importance": "notice",
       "category": "safety",
       "watch_topics": []

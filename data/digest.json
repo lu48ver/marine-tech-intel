@@ -1,46 +1,10 @@
 {
-  "generated_at": "2026-07-14T17:11:43+08:00",
+  "generated_at": "2026-07-15T10:32:30+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "船員工資與就業協議",
-      "why": "東京MOU計劃於2024年進行針對船員工資和海員就業協議的集中檢查，顯示出對於船員權益的重視。這將影響船東在招聘和管理船員方面的合規性及成本控制。",
-      "articles": [
-        {
-          "title": "CIC on Crew Wages and Seafarer Employment Agreement (MLC, 2006) 2024",
-          "url": "https://www.tokyo-mou.org/cic-results/2025/11/19/cic-on-crew-wages-and-seafarer-employment-agreement-mlc-2006-2024/",
-          "source": "Tokyo MoU",
-          "published_at": "2025-11-19"
-        },
-        {
-          "title": "Tokyo MOU Port State Control Committee 36th Meeting in Hong Kong, China",
-          "url": "https://www.tokyo-mou.org/press-releases/2025/10/29/tokyo-mou-port-state-control-committee-36th-meeting-in-hong-kong-china/",
-          "source": "Tokyo MoU",
-          "published_at": "2025-10-29"
-        }
-      ]
-    },
-    {
-      "name": "海事自主水面船舶 (MASS) 法規",
-      "why": "IMO於2026年5月通過了針對海事自主水面船舶的新法規，這標誌著監管框架的重大變革，船東需準備適應這些新要求以確保合規。",
-      "articles": [
-        {
-          "title": "IMO MSC 111: New MASS Code adopted",
-          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-22"
-        },
-        {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
-        }
-      ]
-    },
-    {
       "name": "船舶回收法律框架",
-      "why": "巴塞爾公約開放式工作組的會議進一步推進了船舶回收的法律和環境框架，這將影響船東在船舶退役和回收過程中的合規性及責任。",
+      "why": "巴塞爾公約開放式工作組的會議進一步討論了船舶回收的法律和環境框架，這對於確保船舶回收過程的安全和環保至關重要，並可能影響船東的責任和合規要求。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -55,11 +19,47 @@
           "published_at": "2026-06-16"
         }
       ]
+    },
+    {
+      "name": "海事網絡安全",
+      "why": "隨著地緣政治不穩定，海事網絡安全的風險增加，船東需要制定相應的策略以應對潛在的網絡安全威脅，這對於保護船舶和業務運營至關重要。",
+      "articles": [
+        {
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
+        },
+        {
+          "title": "Global shipping industry associations condemn recent attacks on seafarers",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "name": "海事自主水面船舶法規",
+      "why": "IMO通過了針對海事自主水面船舶（MASS）的新法規，這標誌著監管框架的重大進展，船舶經營者需準備適應這些新要求以確保合規。",
+      "articles": [
+        {
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
+        },
+        {
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
+        }
+      ]
     }
   ],
   "topic_status": {
-    "bio_fuel": "根據2026年7月13日的報導，BIMCO已發布生質燃料條款，強調生質燃料作為航運業脫碳的過渡選項，無需大幅修改現有引擎和燃料系統。這意味著船隊在燃料選擇上可更靈活，並需加強對生質燃料的品質管理，以確保符合ISO 8217標準及其他相關要求。",
-    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU在2025年進行了創紀錄的35,546次檢查，雖然拘留率持續下降，但仍未恢復到疫情前水平。這提醒船隊需加強自查，特別是在安全管理系統和火災安全準備方面，以降低被檢查和拘留的風險。",
-    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船隊的碳排放管理和成本結構。隨著碳市場的增強，船隊需密切關注相關政策變化，並準備相應的合規措施以符合新規定。"
+    "bio_fuel": "根據2026年7月13日的報導，BIMCO已針對時間租船合同推出生質燃料條款，這顯示生質燃料成為航運業脫碳的重要過渡選項，且可在現有引擎和燃料系統上進行少量修改。這對船隊技術管理意味著需要調整燃料管理策略，以確保符合新規範並有效利用生質燃料的優勢。",
+    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU在2025年進行了創紀錄的35,546次檢查，儘管拘留率下降，但仍未回到疫情前的水平。這提醒船隊管理者需加強自查以避免滯留，尤其是在安全管理系統和火災安全準備方面。",
+    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理。船隊技術管理需要密切關注此變化，以確保符合新的排放標準並有效管理碳成本，特別是在即將到來的碳市場中。"
   }
 }
