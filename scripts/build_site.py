@@ -30,9 +30,10 @@ TAIPEI_TZ = timezone(timedelta(hours=8))
 WARN_AFTER_DAYS = 7
 CRIT_AFTER_DAYS = 30
 
-# Items first crawled within this window get a NEW badge, so a daily reader
-# can tell today's additions from yesterday's at a glance.
-NEW_WINDOW_HOURS = 48
+# Items first crawled within this window get a NEW badge, so a returning
+# reader can tell this update's additions at a glance. Matched to the crawl
+# cadence (every 3 days) so badges survive until the next update.
+NEW_WINDOW_HOURS = 72
 
 BRIEF_LIMIT = 10  # cross-source items on the front page
 BRIEF_WINDOW_DAYS = 60  # BRIEF only considers items published within this window

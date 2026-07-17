@@ -23,7 +23,7 @@
     <li class="brief-item">
       <div class="brief-date">{{ item.published_at }}</div>
       <div class="brief-body">
-        {% if item.is_new %}<span class="new-badge" title="48 小時內新收錄">NEW</span>{% endif %}{% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a class="brief-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        {% if item.is_new %}<span class="new-badge" title="72 小時內新收錄">NEW</span>{% endif %}{% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a class="brief-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
         {% if item.summary_zh %}
         <p class="brief-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>{{ item.summary_zh }}</p>
         {% elif item.summary %}
@@ -59,7 +59,7 @@
         <ul class="topic-items">
           {% for item in cat["items"] %}
           <li>
-            {% if item.is_new %}<span class="new-badge" title="48 小時內新收錄">NEW</span>{% endif %}{% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            {% if item.is_new %}<span class="new-badge" title="72 小時內新收錄">NEW</span>{% endif %}{% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
             <span class="item-meta">{{ item.source_name }} · {{ item.published_at }}</span>
             {% if item.summary_zh %}<p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>{{ item.summary_zh }}</p>{% endif %}
           </li>
@@ -99,7 +99,7 @@
       <ul class="source-items">
         {% for item in src["items"] %}
         <li>
-          {% if item.is_new %}<span class="new-badge" title="48 小時內新收錄">NEW</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+          {% if item.is_new %}<span class="new-badge" title="72 小時內新收錄">NEW</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
           <span class="item-date">{{ item.published_at }}</span>
         </li>
         {% endfor %}
@@ -138,7 +138,7 @@
         <ul class="topic-items">
           {% for item in topic["items"] %}
           <li>
-            {% if item.is_new %}<span class="new-badge" title="48 小時內新收錄">NEW</span>{% endif %}{% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            {% if item.is_new %}<span class="new-badge" title="72 小時內新收錄">NEW</span>{% endif %}{% if item.importance == 'action' %}<span class="imp-badge imp-action" title="AI 判定:有需採取行動或排程因應的事項,請以原文為準">須行動</span>{% endif %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
             <span class="item-meta">{{ item.source_name }} · {{ item.published_at }}</span>
             {% if item.summary_zh %}<p class="item-summary"><span class="ai-tag" title="由 AI 依原文自動摘要,僅供快速參考,請以原文為準">AI</span>{{ item.summary_zh }}</p>{% endif %}
           </li>
@@ -156,7 +156,7 @@
   {# -- AI radar: emerging themes NOT yet on the watchlist (candidates to promote) -- #}
   <div class="radar-section">
     <h3 class="radar-subhead">📡 AI 雷達 — 尚未追蹤的新主題 <span class="ai-tag" title="由 AI 從近期文章自動歸納,僅供參考,請以原文為準">AI</span></h3>
-    <p class="panel-desc">AI 從近期文章歸納出、不在上方追蹤清單裡的主題,每日刷新;覺得值得長期追就把它升格為正式議題。</p>
+    <p class="panel-desc">AI 從近期文章歸納出、不在上方追蹤清單裡的主題,隨每次更新刷新;覺得值得長期追就把它升格為正式議題。</p>
     {% if digest.themes %}
     <div class="radar-list">
       {% for theme in digest.themes %}

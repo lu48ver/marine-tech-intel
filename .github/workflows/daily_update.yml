@@ -4,8 +4,9 @@ name: Daily Update
 # main and publishes build/ to the gh-pages branch.
 on:
   schedule:
-    # 00:00 UTC == 08:00 Taiwan time, once per day
-    - cron: "0 0 * * *"
+    # 00:00 UTC == 08:00 Taiwan time, every 3 days (days 1,4,7,...,31 of the
+    # month — the 31st→1st gap is occasionally shorter, which is harmless)
+    - cron: "0 0 */3 * *"
   workflow_dispatch: {}  # allow manual "Run workflow" button
 
 # Needed to push data/ back to main and to publish gh-pages

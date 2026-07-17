@@ -82,7 +82,7 @@ def test_is_new_within_window():
 
 
 def test_is_new_outside_window_or_missing():
-    assert not bs.is_new({"first_seen_at": (NOW - timedelta(days=3)).isoformat()}, NOW)
+    assert not bs.is_new({"first_seen_at": (NOW - timedelta(days=5)).isoformat()}, NOW)
     assert not bs.is_new({}, NOW)
 
 
