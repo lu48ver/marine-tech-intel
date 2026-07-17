@@ -1611,5 +1611,23 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-15T10:32:15+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/14-ebl-survey/": {
+    "summary_zh": "如果您是越來越多成功採用電子提單的公司之一，是否願意分享您的經驗？BIMCO 和 FIT 聯盟希望展示這些經驗教訓，並已啟動調查以收集實際的電子提單經驗。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-17T10:43:02+08:00"
+  },
+  "https://gard.no/en/insights/argentina-formally-ratifies-nairobi-wreck-removal-convention/": {
+    "summary_zh": "阿根廷於2026年5月20日通過27,812號法案，正式批准了2007年奈洛比國際打撈公約。",
+    "importance": "notice",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-17T10:43:02+08:00"
   }
 }

@@ -2,10 +2,27 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-16T10:40:44+08:00",
-  "last_success_at": "2026-07-16T10:40:44+08:00",
+  "last_crawled_at": "2026-07-17T10:42:51+08:00",
+  "last_success_at": "2026-07-17T10:42:51+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
+      "url": "https://gard.no/en/insights/argentina-formally-ratifies-nairobi-wreck-removal-convention/",
+      "published_at": "2026-07-16",
+      "summary": "In a recent client newsletter shared in late June 2026, Gard's correspondent in Argentina, Simonsen, reports that Argentina has formally ratified the Nairobi International Convention on the Removal of Wrecks (2007), following the enactment of Law No. 27,812 on 20 May 2026. The ratification introduce",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-17T10:42:51+08:00",
+      "summary_zh": "阿根廷於2026年5月20日通過27,812號法案，正式批准了2007年奈洛比國際打撈公約。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
+    },
     {
       "title": "AIS-assisted collisions: The risks of over-reliance",
       "url": "https://gard.no/en/insights/ais-assisted-collisions-overreliance-risk/",
@@ -242,23 +259,6 @@
       "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00",
       "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Legal risks following quarantine of Yangtze River pilots",
-      "url": "https://gard.no/en/insights/legal-risks-following-quarantine-yangtze-river-pilots/",
-      "published_at": "2022-01-04",
-      "summary": "Navigation on parts of the Yangtze River by international-trading vessels has come to an abrupt halt following the Covid-19 quarantining of local pilots.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2022-01-04",
-      "summary_zh": "因新冠疫情，長江部分地區的國際貿易船舶航行已突然停止，因當地引航員被隔離。",
       "importance": "notice",
       "category": "industry",
       "watch_topics": []

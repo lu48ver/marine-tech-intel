@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T10:41:14+08:00",
+  "generated_at": "2026-07-17T10:43:21+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "船舶回收法規",
-      "why": "巴塞爾公約開放式工作組的會議正在推進船舶回收的法律和環境框架，這對於確保船舶回收過程的安全和環保至關重要。這將影響船舶經營者在船舶退役時的合規性和責任，特別是在2024年成立的BIMCO船舶回收聯盟背景下。",
+      "name": "船舶回收",
+      "why": "巴塞爾公約開放式工作組的會議進一步推進了船舶回收的法律和環境框架，這對於船東和經營者在船舶退役時的合規性和環保要求至關重要。隨著全球對可持續發展的重視，船舶回收的標準化和合規性將成為未來的重點。這一進程在2024年成立的BIMCO船舶回收聯盟中得到了強調，旨在促進安全和環保的船舶回收實踐。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -21,8 +21,62 @@
       ]
     },
     {
-      "name": "海事自主水面船舶（MASS）",
-      "why": "IMO於2026年5月通過了針對海事自主水面船舶的新法規，這標誌著對自動化技術的正式承認。這將影響船舶設計和運營，要求船東和管理者考慮新的合規要求和技術挑戰。",
+      "name": "電子提單",
+      "why": "隨著越來越多的公司採用電子提單，BIMCO和FIT聯盟啟動了調查以收集實際經驗，這顯示出電子化在航運業務流程中的增長潛力。電子提單的使用不僅提高了效率，還可能降低文書錯誤和相關成本，對於船東和經營者的運營管理具有實際意義。",
+      "articles": [
+        {
+          "title": "Have you used electronic bills of lading? We want to hear from you!",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-ebl-survey/",
+          "source": "BIMCO News",
+          "published_at": "2026-07-14"
+        },
+        {
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
+        }
+      ]
+    },
+    {
+      "name": "海事網絡安全",
+      "why": "在地緣政治不穩定的背景下，海事網絡安全的重要性日益增加。研究指出，船東需要制定相應的策略來應對潛在的網絡安全風險，這對於保護船舶和業務運營至關重要。隨著網絡攻擊的頻率上升，這一主題將成為船舶管理中的一個關鍵考量。",
+      "articles": [
+        {
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
+        },
+        {
+          "title": "BMP Maritime Security updated with new guidance on managing activism at sea",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/06-bmp/",
+          "source": "BIMCO News",
+          "published_at": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "name": "SCR系統要求",
+      "why": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效，這一變更將影響NOx排放的測量準確性，並要求船舶經營者承擔更大的責任。這對於符合環保標準和避免潛在的合規風險至關重要，船舶經營者需要及早適應這一變化。",
+      "articles": [
+        {
+          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
+          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-21"
+        },
+        {
+          "title": "North-east Atlantic joins the expanding network of ECAs",
+          "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "name": "海事自主水面船舶",
+      "why": "IMO於2026年5月通過了針對海事自主水面船舶（MASS）的新法規，這標誌著對未來航運技術的重大進展。這些新規範將影響船舶設計和運營，船東和經營者需要考慮如何整合這些技術以提高效率和安全性。",
       "articles": [
         {
           "title": "IMO MSC 111: New MASS Code adopted",
@@ -37,47 +91,11 @@
           "published_at": "2026-05-01"
         }
       ]
-    },
-    {
-      "name": "英國排放交易計劃（UK ETS）",
-      "why": "英國排放交易計劃將於2026年7月1日擴展至海事部門，這將對船舶的碳排放管理產生重大影響。船東需要準備應對新的排放報告和合規要求，以避免潛在的經濟損失。",
-      "articles": [
-        {
-          "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/",
-          "source": "BIMCO News",
-          "published_at": "2026-07-08"
-        },
-        {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
-        }
-      ]
-    },
-    {
-      "name": "船員工資和就業協議檢查",
-      "why": "東京MOU計劃進行針對船員工資和海員就業協議的集中檢查，這反映出對海員權益的日益重視。船東需要加強合規性，以避免因不符合要求而遭受檢查和處罰。",
-      "articles": [
-        {
-          "title": "CIC on Crew Wages and Seafarer Employment Agreement (MLC, 2006) 2024",
-          "url": "https://www.tokyo-mou.org/cic-results/2025/11/19/cic-on-crew-wages-and-seafarer-employment-agreement-mlc-2006-2024/",
-          "source": "Tokyo MoU",
-          "published_at": "2025-11-19"
-        },
-        {
-          "title": "Tokyo MOU Port State Control Committee 36th Meeting in Hong Kong, China",
-          "url": "https://www.tokyo-mou.org/press-releases/2025/10/29/tokyo-mou-port-state-control-committee-36th-meeting-in-hong-kong-china/",
-          "source": "Tokyo MoU",
-          "published_at": "2025-10-29"
-        }
-      ]
     }
   ],
   "topic_status": {
-    "bio_fuel": "根據2026年7月13日的報導，BIMCO已發布生質燃料條款，強調生質燃料作為航運業脫碳的過渡選項，能在不需或少量修改現有引擎的情況下使用。這意味著船隊在選擇燃料時可考慮生質燃料，並需加強對燃料品質的監控，以確保符合ISO 8217等標準。",
-    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU於2025年進行了35,546次檢查，創下歷史新高，雖然拘留率下降，但仍未恢復至疫情前水平。這提醒船隊需加強自查，特別是在安全管理系統和火災安全準備方面，以降低被檢查時的風險。",
-    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放定價和管理。船隊需提前了解該計劃的主要機制，以確保合規並有效管理未來的碳成本。"
+    "bio_fuel": "根據2026年7月13日的報導，BIMCO已針對時間租船合約推出生質燃料條款，這顯示出航運業對生質燃料的需求正在增長，特別是在減碳過渡期間。這對船隊技術管理意味著需要加強對生質燃料的理解與應用，以確保燃料系統的兼容性與安全性。",
+    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU在2025年進行了35,546次檢查，創下歷史新高，儘管拘留率下降，但仍未恢復到疫情前的水平。這提醒船隊管理者必須加強自查，特別是在安全管理系統和火災安全準備方面，以降低被檢查和扣留的風險。",
+    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將對船舶的溫室氣體排放管理產生重大影響。船隊技術管理需要提前準備，確保符合新規範，並加強對碳市場機制的理解，以有效應對即將到來的合規挑戰。"
   }
 }

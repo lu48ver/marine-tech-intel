@@ -2,8 +2,8 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-16T10:40:52+08:00",
-  "last_success_at": "2026-07-16T10:40:52+08:00",
+  "last_crawled_at": "2026-07-17T10:42:57+08:00",
+  "last_success_at": "2026-07-17T10:42:57+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -20,6 +20,23 @@
       "first_seen_at": "2026-07-15T10:32:11+08:00",
       "summary_zh": "隨著甲醇作為海洋燃料的普及，海事技術論壇（MTF）發布了新指導方針，幫助公司為甲醇燃料船舶開發或調整安全管理系統。這些指導方針是與BIMCO及其他主要利益相關者合作制定的。",
       "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "Have you used electronic bills of lading? We want to hear from you!",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-ebl-survey/",
+      "published_at": "2026-07-14",
+      "summary": "If you are you one of the growing number of companies who have successfully adopted eBLs, might you be willing to share your experiences?\nIf so, BIMCO and the FIT Alliance want to showcase the lessons learned along the way.\nTo support this, we have launched a survey to collect real-world eBL experie",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-17T10:42:57+08:00",
+      "summary_zh": "如果您是越來越多成功採用電子提單的公司之一，是否願意分享您的經驗？BIMCO 和 FIT 聯盟希望展示這些經驗教訓，並已啟動調查以收集實際的電子提單經驗。",
+      "importance": "reference",
       "category": "industry",
       "watch_topics": []
     },
@@ -248,23 +265,6 @@
       "summary_zh": "BIMCO 與 ITS Norway 及 DYNAPORT 項目密切合作，在哥本哈根舉辦為期兩天的行業研討會，探討如何加速海事領域內船舶與岸上利益相關者之間數位介面的統一。此次研討會聚集了來自航運公司的 45 位代表。",
       "importance": "notice",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Global shipping industry associations condemn recent attacks on seafarers",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/12-condemnation-of-attacks/",
-      "published_at": "2026-06-12",
-      "summary": "BIMCO, the International Chamber of Shipping (ICS), INTERCARGO and INTERTANKO unanimously condemn recent attacks on seafarers and commercial shipping in and around the Strait of Hormuz. \nAccording to the International Maritime Organization (IMO), the organisation has verified 46 attacks on internati",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-12",
-      "summary_zh": "全球航運業協會一致譴責近期在霍爾木茲海峽及其周邊對海員和商業航運的攻擊。根據國際海事組織的資料，該組織已確認46起對國際航運的攻擊事件。",
-      "importance": "notice",
-      "category": "safety",
       "watch_topics": []
     }
   ]
