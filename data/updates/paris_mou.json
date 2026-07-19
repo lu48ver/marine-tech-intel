@@ -2,13 +2,13 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications?field_news_category_target_id=2",
-  "last_crawled_at": "2026-07-17T17:27:37+08:00",
-  "last_success_at": "2026-07-17T17:27:37+08:00",
+  "last_crawled_at": "2026-07-19T11:31:42+08:00",
+  "last_success_at": "2026-07-19T11:31:42+08:00",
   "crawl_status": "success",
   "items": [
     {
       "title": "2025 Paris MoU Annual Report \"Port State Control; Progress and performance, highlights of the Paris MoU 2025\"",
-      "url": "https://parismou.org/index%2Ephp/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris",
+      "url": "https://parismou.org/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris",
       "published_at": "2026-07-01",
       "summary": "",
       "tags": [
@@ -16,8 +16,8 @@
         "paris-mou"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-17T10:42:50+08:00",
-      "summary_zh": "巴黎公約於2026年7月1日發布2025年年度報告，顯示拒絕進入的次數上升至19次，拘留率達到4.18%。報告指出，火災安全、結構及電氣元件和健康保障等領域的合規性持續存在問題，特別是防火門和海員雇用協議的非合規情況仍然突出。",
+      "first_seen_at": "2026-07-19T11:31:42+08:00",
+      "summary_zh": "巴黎公約於2026年7月1日發布2025年年度報告，概述了該年度的活動和統計數據。2025年拒絕進入的次數增加至19次，拘留率上升至4.18%。主要不合規的問題包括火災安全、結構和電氣元件，以及健康保護等領域，火災門和海員就業協議是突出的不合規項目。",
       "importance": "notice",
       "category": "psc",
       "watch_topics": []
