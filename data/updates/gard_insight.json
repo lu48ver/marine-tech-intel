@@ -2,10 +2,27 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-19T11:31:43+08:00",
-  "last_success_at": "2026-07-19T11:31:43+08:00",
+  "last_crawled_at": "2026-07-22T11:22:27+08:00",
+  "last_success_at": "2026-07-22T11:22:27+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "The risk of taking over a vessel without its history",
+      "url": "https://gard.no/en/insights/risk-of-taking-over-vessel-without-its-history/",
+      "published_at": "2026-07-21",
+      "summary": "A vessel may change technical management overnight, but it takes far longer for incoming managers and crew to become familiar with its machinery and technical condition. If maintenance records do not follow the vessel, they may lack the information needed to assess machinery condition, identify over",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-22T11:22:27+08:00",
+      "summary_zh": "接管一艘船隻後，新的管理團隊和船員需要時間熟悉其機械和技術狀況。如果維護記錄未隨船隻轉移，將缺乏評估機械狀況和識別過度磨損所需的信息。",
+      "importance": "notice",
+      "category": "machinery",
+      "watch_topics": []
+    },
     {
       "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
       "url": "https://gard.no/en/insights/argentina-formally-ratifies-nairobi-wreck-removal-convention/",
@@ -58,27 +75,10 @@
       "watch_topics": []
     },
     {
-      "title": "Rise in fishery claims in South Korea waters",
-      "url": "https://gard.no/en/insights/fishery-claims-rise-south-korea-waters/",
-      "published_at": "2026-07-06",
-      "summary": "Gard has observed a rise in navigation incidents involving fishing nets over the past year. Our correspondent, KOMOS, reports that issues with offshore stow nets remain persistent, largely due to minimal restrictions on where this gear can be installed outside of designated anchorages and prohibited",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-06",
-      "summary_zh": "Gard觀察到過去一年在南韓水域涉及漁網的航行事故有所增加。KOMOS報告指出，離岸儲網的問題仍然持續，主要是因為對於這些設備安裝地點的限制較少，除了指定的錨地和禁止區域外。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
       "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
       "published_at": "2026-06-30",
-      "summary": "Recent decisions from the Southern District of New York, affirmed by the Second Circuit, suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA).\n\nBy giving effect to express package definitions in bills of lading, the courts may",
+      "summary": "Recent decisions from the Southern District of New York, affirmed by the Second Circuit, suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA). By giving effect to express package definitions in bills of lading, the courts may ",
       "tags": [
         "gard",
         "p&i",
@@ -92,19 +92,19 @@
       "watch_topics": []
     },
     {
-      "title": "An exciting start to a career at sea",
-      "url": "https://gard.no/en/insights/exciting-start-to-career-at-sea/",
-      "published_at": "2023-07-25",
-      "summary": "Cadetship is a great way to start your career at sea and for Gard’s latest sponsored cadet, Harriet Harding, it was even more so as she joined the Royal Research Ship Sir David Attenborough for the first sea phase of her cadetship.",
+      "title": "Harassment on board: A trauma-informed approach",
+      "url": "https://gard.no/en/insights/harassment-on-board-a-trauma-informed-approach/",
+      "published_at": "2025-09-24",
+      "summary": "Our Members sometimes face difficult situations involving their crew – sexual assault cases being one of the most challenging examples. While such incidents may be borderline for insurance coverage, we may still get involved to provide support and advice. A key question is whether the risk of long-t",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "學員計畫是開始海上職業的好方法，Gard 最新贊助的學員 Harriet Harding 加入了皇家研究船 Sir David Attenborough，開始她的學員海上階段。",
-      "importance": "reference",
+      "first_seen_at": "2026-07-22T11:22:27+08:00",
+      "summary_zh": "我們的會員有時會面臨與船員相關的困難情況，例如性侵案件。儘管這類事件可能在保險理賠範圍邊緣，我們仍然可以提供支持和建議。",
+      "importance": "notice",
       "category": "industry",
       "watch_topics": []
     },

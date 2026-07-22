@@ -1629,5 +1629,23 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-17T10:43:02+08:00"
+  },
+  "https://gard.no/en/insights/risk-of-taking-over-vessel-without-its-history/": {
+    "summary_zh": "接管一艘船隻後，新的管理團隊和船員需要時間熟悉其機械和技術狀況。如果維護記錄未隨船隻轉移，將缺乏評估機械狀況和識別過度磨損所需的信息。",
+    "importance": "notice",
+    "category": "machinery",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-22T11:22:37+08:00"
+  },
+  "https://gard.no/en/insights/harassment-on-board-a-trauma-informed-approach/": {
+    "summary_zh": "我們的會員有時會面臨與船員相關的困難情況，例如性侵案件。儘管這類事件可能在保險理賠範圍邊緣，我們仍然可以提供支持和建議。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-22T11:22:37+08:00"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-19T11:32:06+08:00",
+  "generated_at": "2026-07-22T11:22:52+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
       "name": "船舶回收法律框架",
-      "why": "巴塞爾公約開放式工作組的會議進一步明確了船舶回收的法律和環境框架，這對於船東和經營者在船舶退役和回收過程中遵守相關法規至關重要，特別是在環保要求日益嚴格的背景下。這一進展顯示出全球對於安全和環保的船舶回收實踐的重視。",
+      "why": "在巴塞爾公約開放式工作組的會議中，各國政府和利益相關者討論了船舶回收的法律和環境框架，這是朝著釐清船舶回收相關問題的重要一步，顯示出行業對於安全和環保回收實踐的需求日益增加。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -21,8 +21,8 @@
       ]
     },
     {
-      "name": "海事自主水面船舶（MASS）",
-      "why": "IMO於2026年通過了針對海事自主水面船舶的新法規，這將影響未來船舶的設計和運營，要求船東和管理者考慮如何適應這些新規範，以確保合規性和安全性。",
+      "name": "海事自主水面船舶 (MASS) 法規",
+      "why": "國際海事組織於2026年通過了針對海事自主水面船舶的新法規，這標誌著對自動化技術的監管框架的重大進展，將影響未來船舶設計和操作的合規性。",
       "articles": [
         {
           "title": "IMO MSC 111: New MASS Code adopted",
@@ -39,26 +39,8 @@
       ]
     },
     {
-      "name": "緊急電力系統測試",
-      "why": "研究顯示，傳統的緊急電力系統測試可能無法準確反映系統在主電力失效時的實際表現，這要求船舶經營者重新評估其測試程序，以確保在關鍵時刻系統能夠正常運作，從而保障船員安全。",
-      "articles": [
-        {
-          "title": "Emergency power system: Will it work in a blackout?",
-          "url": "https://gard.no/en/insights/emergency-power-system-in-blackout/",
-          "source": "Gard Insight",
-          "published_at": "2026-07-09"
-        },
-        {
-          "title": "Port State Control - Q1 2026 Detention review and other updates",
-          "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-04-29"
-        }
-      ]
-    },
-    {
-      "name": "英國排放交易計劃（ETS）擴展",
-      "why": "英國排放交易計劃將於2026年擴展至海事部門，這將影響船舶的運營成本和排放管理，船東需提前準備以應對新規範帶來的財務和合規挑戰。",
+      "name": "英國排放交易計劃擴展",
+      "why": "英國排放交易計劃將於2026年7月1日起擴展至海事部門，這將影響船舶的碳排放管理，並要求船東及時調整其運營策略以符合新的排放規範。",
       "articles": [
         {
           "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
@@ -75,27 +57,45 @@
       ]
     },
     {
-      "name": "燃油質量問題",
-      "why": "最新的燃油質量報告指出，合規燃油也可能導致操作問題，這提醒船舶經營者在選擇和監控燃油供應時需更加謹慎，以防止因燃油質量問題導致的運營中斷。",
+      "name": "選擇性催化還原 (SCR) 系統要求",
+      "why": "新的SCR系統要求將於2026年5月1日生效，這改變了NOx測量的準確性評估方式，船舶經營者需承擔更大的責任以確保合規，進一步影響其運營成本和技術管理。",
       "articles": [
         {
-          "title": "Latest FOBAS Fuel Quality Report finds ISO-compliant fuels are increasingly causing operational problems",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/latest-fobas-fuel-quality-report-finds-iso-compliant-fuels-are-increasingly-causing-operational-problems/",
-          "source": "LR FOBAS",
-          "published_at": "2026-07-14"
+          "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
+          "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-21"
         },
         {
-          "title": "FOBAS report warns of late year surge in marine fuel quality failures",
-          "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-fobas-report-warns-of-late-year-surge-in-marine-fuel-quality-failures/",
-          "source": "LR FOBAS",
-          "published_at": "2026-02-12"
+          "title": "Revised interpretation of requirements to permanent means of access (PMA)",
+          "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-08"
+        }
+      ]
+    },
+    {
+      "name": "船員工資和就業協議檢查",
+      "why": "東京MOU進行了針對船員工資和海員就業協議的集中檢查活動，顯示出對於船員權益和合規性的重視，這將影響船東在船員管理和合約方面的策略。",
+      "articles": [
+        {
+          "title": "CIC on Crew Wages and Seafarer Employment Agreement (MLC, 2006) 2024",
+          "url": "https://www.tokyo-mou.org/cic-results/2025/11/19/cic-on-crew-wages-and-seafarer-employment-agreement-mlc-2006-2024/",
+          "source": "Tokyo MoU",
+          "published_at": "2025-11-19"
+        },
+        {
+          "title": "Tokyo MOU Port State Control Committee 36th Meeting in Hong Kong, China",
+          "url": "https://www.tokyo-mou.org/press-releases/2025/10/29/tokyo-mou-port-state-control-committee-36th-meeting-in-hong-kong-china/",
+          "source": "Tokyo MoU",
+          "published_at": "2025-10-29"
         }
       ]
     }
   ],
   "topic_status": {
-    "bio_fuel": "根據2026年7月13日的報導，BIMCO已推出生質燃料條款，為船東和租船人提供指導，顯示生質燃料作為航運業脫碳的過渡選項越來越受到重視。這意味著船隊在燃料選擇和合規性方面需加強對生質燃料的了解和應用，以確保符合新標準。",
-    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU於2025年進行了35,546次檢查，創下新高，儘管拘留率下降，但仍未恢復到疫情前水平。這提醒船隊需加強自查，特別是在安全管理系統和火災安全準備方面，以降低被檢查扣留的風險。",
-    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船隊的碳排放管理和成本結構。隨著碳市場的增強，船隊需密切關注其影響，以確保符合新的減碳合規義務。"
+    "bio_fuel": "根據2026年7月13日的報導，BIMCO已發布生質燃料條款，這將促進航運業在不需大幅修改現有引擎的情況下採用生質燃料，對於船隊技術管理而言，這意味著需要加強對生質燃料品質和儲存的監控，確保符合ISO 8217標準。",
+    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU於2025年進行了35,546次檢查，創下歷史新高，儘管拘留率下降，但低效能船舶的增加仍需引起重視，船隊應提前進行自查以降低滯留風險。",
+    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理，船隊需密切關注該計劃的主要機制，以確保合規並減少潛在的經濟影響。"
   }
 }
