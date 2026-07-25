@@ -2,8 +2,8 @@
   "source_id": "classnk",
   "source_name": "ClassNK Topics",
   "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
-  "last_crawled_at": "2026-07-22T11:22:23+08:00",
-  "last_success_at": "2026-07-22T11:22:23+08:00",
+  "last_crawled_at": "2026-07-25T11:21:59+08:00",
+  "last_success_at": "2026-07-25T11:21:59+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -25,8 +25,8 @@
       "watch_topics": []
     },
     {
-      "title": "Preliminary Report of MEPC84 (May 2026)",
-      "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MEPC84_sumE.pdf",
+      "title": "Outcome of MEPC84 (May 2026)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1378e.pdf",
       "published_at": "2026-05-01",
       "summary": "",
       "tags": [
@@ -36,8 +36,8 @@
         "mepc"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-01",
-      "summary_zh": "國際海事組織（IMO）第84屆海洋環境保護委員會（MEPC 84）於2026年4月27日至5月1日召開，重點討論減少船舶溫室氣體（GHG）排放的中期措施及相關指導方針。會議決定於2026年9月和11月舉行工作小組會議，以解決目前草案修訂的剩餘問題，並計劃在2026年12月的MEPC 85會議後恢復特殊會議。會議中也強調了燃料全生命週期的GHG排放計算方法的重要性。",
+      "first_seen_at": "2026-07-25T11:21:59+08:00",
+      "summary_zh": "國際海事組織（IMO）在2026年5月召開的第84屆海洋環境保護委員會（MEPC 84）會議中，繼續討論減少船舶溫室氣體（GHG）排放的中期措施，並計劃於2026年9月和11月召開工作小組會議以解決現行草案修訂的問題。此外，會議中還討論了與中期措施實施相關的指導方針的發展。",
       "importance": "notice",
       "category": "regulation",
       "watch_topics": [

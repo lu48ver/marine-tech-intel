@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-22T11:22:52+08:00",
+  "generated_at": "2026-07-25T11:22:36+08:00",
   "model": "gpt-4o-mini",
   "themes": [
     {
-      "name": "船舶回收法律框架",
-      "why": "在巴塞爾公約開放式工作組的會議中，各國政府和利益相關者討論了船舶回收的法律和環境框架，這是朝著釐清船舶回收相關問題的重要一步，顯示出行業對於安全和環保回收實踐的需求日益增加。",
+      "name": "船舶回收",
+      "why": "巴塞爾公約開放式工作組的會議推進了船舶回收的法律和環境框架，這對於船東和經營者在船舶退役時的合規性和環保要求提出了新的挑戰。會議強調了需要進一步努力以確保回收過程的安全和環保，這將影響未來的船舶設計和運營策略。",
       "articles": [
         {
           "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -21,44 +21,62 @@
       ]
     },
     {
-      "name": "海事自主水面船舶 (MASS) 法規",
-      "why": "國際海事組織於2026年通過了針對海事自主水面船舶的新法規，這標誌著對自動化技術的監管框架的重大進展，將影響未來船舶設計和操作的合規性。",
+      "name": "電子提單",
+      "why": "隨著電子提單的採用日益增長，BIMCO和FIT聯盟正在收集業界的實際經驗，以促進這一技術的進一步發展。這將有助於提高運輸效率並減少文書工作，對於船東和貨主的操作流程將產生深遠影響。",
       "articles": [
         {
-          "title": "IMO MSC 111: New MASS Code adopted",
-          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-05-22"
-        },
-        {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
-        }
-      ]
-    },
-    {
-      "name": "英國排放交易計劃擴展",
-      "why": "英國排放交易計劃將於2026年7月1日起擴展至海事部門，這將影響船舶的碳排放管理，並要求船東及時調整其運營策略以符合新的排放規範。",
-      "articles": [
-        {
-          "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/",
+          "title": "Have you used electronic bills of lading? We want to hear from you!",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-ebl-survey/",
           "source": "BIMCO News",
-          "published_at": "2026-07-08"
+          "published_at": "2026-07-14"
         },
         {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
         }
       ]
     },
     {
-      "name": "選擇性催化還原 (SCR) 系統要求",
-      "why": "新的SCR系統要求將於2026年5月1日生效，這改變了NOx測量的準確性評估方式，船舶經營者需承擔更大的責任以確保合規，進一步影響其運營成本和技術管理。",
+      "name": "緊急電力系統",
+      "why": "研究顯示，常規測試可能無法真實反映緊急電力系統在主電力失效時的表現，這對船舶的安全運營構成風險。船東需重新評估其測試程序，以確保在關鍵時刻系統能夠正常運作。",
+      "articles": [
+        {
+          "title": "Emergency power system: Will it work in a blackout?",
+          "url": "https://gard.no/en/insights/emergency-power-system-in-blackout/",
+          "source": "Gard Insight",
+          "published_at": "2026-07-09"
+        },
+        {
+          "title": "Boiler tube plugging – class requirements",
+          "url": "https://www.dnv.com/news/2026/boiler-tube-plugging-class-requirements/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "name": "海事網絡安全",
+      "why": "在地緣政治不穩定的背景下，船東需要制定網絡安全策略以應對潛在的風險。這一需求的增加反映了對於海事網絡安全的重視，並促使船東在技術和管理上進行相應的調整。",
+      "articles": [
+        {
+          "title": "Managing geopolitical cyber security risks",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
+          "source": "BIMCO News",
+          "published_at": "2026-06-23"
+        },
+        {
+          "title": "Port State Control - Q1 2026 Detention review and other updates",
+          "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-04-29"
+        }
+      ]
+    },
+    {
+      "name": "SCR系統要求",
+      "why": "新的選擇性催化還原（SCR）系統要求將於2026年生效，改變了NOx測量的準確性評估方式，這將使船舶經營者承擔更大的責任，並可能影響運營成本和合規策略。",
       "articles": [
         {
           "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
@@ -73,29 +91,11 @@
           "published_at": "2026-04-08"
         }
       ]
-    },
-    {
-      "name": "船員工資和就業協議檢查",
-      "why": "東京MOU進行了針對船員工資和海員就業協議的集中檢查活動，顯示出對於船員權益和合規性的重視，這將影響船東在船員管理和合約方面的策略。",
-      "articles": [
-        {
-          "title": "CIC on Crew Wages and Seafarer Employment Agreement (MLC, 2006) 2024",
-          "url": "https://www.tokyo-mou.org/cic-results/2025/11/19/cic-on-crew-wages-and-seafarer-employment-agreement-mlc-2006-2024/",
-          "source": "Tokyo MoU",
-          "published_at": "2025-11-19"
-        },
-        {
-          "title": "Tokyo MOU Port State Control Committee 36th Meeting in Hong Kong, China",
-          "url": "https://www.tokyo-mou.org/press-releases/2025/10/29/tokyo-mou-port-state-control-committee-36th-meeting-in-hong-kong-china/",
-          "source": "Tokyo MoU",
-          "published_at": "2025-10-29"
-        }
-      ]
     }
   ],
   "topic_status": {
-    "bio_fuel": "根據2026年7月13日的報導，BIMCO已發布生質燃料條款，這將促進航運業在不需大幅修改現有引擎的情況下採用生質燃料，對於船隊技術管理而言，這意味著需要加強對生質燃料品質和儲存的監控，確保符合ISO 8217標準。",
-    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU於2025年進行了35,546次檢查，創下歷史新高，儘管拘留率下降，但低效能船舶的增加仍需引起重視，船隊應提前進行自查以降低滯留風險。",
-    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理，船隊需密切關注該計劃的主要機制，以確保合規並減少潛在的經濟影響。"
+    "bio_fuel": "根據2026年7月13日的報導，BIMCO已推出生質燃料條款，以促進航運業的脫碳過程，這意味著船東和租船人需要了解如何在不大幅改動現有系統的情況下使用生質燃料。隨著生質燃料的需求增加，船隊技術管理需加強對燃料品質及其相容性的監控，特別是在主要加油港的供應動態上。",
+    "psc_cic": "2025年亞太地區港口國控制年報顯示，東京MOU在2025年進行了35,546次檢查，創下歷史新高，儘管拘留率下降，但低效能船舶的增加仍需關注。船隊應提前完成自查，以避免在即將到來的集中檢查中遭遇滯留，特別是在安全管理系統和火災安全準備方面。",
+    "cii_ets": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業，這將影響船舶的碳排放管理和定價。隨著IMO MEPC 84會議的進行，對於減少船舶溫室氣體排放的中期措施討論仍在持續，船隊需密切關注這些政策變化，以確保合規並制定相應的減碳策略。"
   }
 }

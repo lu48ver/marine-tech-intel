@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-22T11:22:27+08:00",
-  "last_success_at": "2026-07-22T11:22:27+08:00",
+  "last_crawled_at": "2026-07-25T11:22:03+08:00",
+  "last_success_at": "2026-07-25T11:22:03+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -88,6 +88,23 @@
       "first_seen_at": "2026-06-30",
       "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
       "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "High claims risk persists for soya beans test",
+      "url": "https://gard.no/en/insights/high-claims-risk-persists-for-soya-beans/",
+      "published_at": "2026-04-22",
+      "summary": "Although Brazilian soya bean exports are rebounding, ongoing phytosanitary scrutiny in China is keeping claims risk elevated.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-25T11:22:03+08:00",
+      "summary_zh": "儘管巴西大豆出口正在回升，但中國持續的植物檢疫監管使得索賠風險仍然高企。",
+      "importance": "reference",
       "category": "industry",
       "watch_topics": []
     },
@@ -196,57 +213,6 @@
       "watch_topics": []
     },
     {
-      "title": "Does your onboard hygiene management cover high touch surfaces?",
-      "url": "https://gard.no/en/insights/does-your-onboard-hygiene-management-cover-high-touch-surfaces/",
-      "published_at": "2022-03-21",
-      "summary": "Although not visible to the naked eye, germs live among us. They are more likely to be present on surfaces which people touch quite frequently with their hands. These are known as as ‘high touch surfaces’.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "雖然肉眼看不見，但細菌存在於我們周圍。它們更可能存在於人們經常用手觸摸的表面，這些被稱為「高接觸表面」。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Ukrainian seafarer repatriation",
-      "url": "https://gard.no/en/insights/ukrainian-seafarer-repatriation/",
-      "published_at": "2022-03-02",
-      "summary": "As the conflict in Ukraine continues, many Members and clients are having difficulties repatriating Ukrainian crew. Some crew members may want to extend their contracts given the turbulence and uncertainty of the situation; others will want to terminate their contracts earlier than intended in order",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "隨著烏克蘭衝突持續，許多會員和客戶在遣返烏克蘭船員方面遇到困難。一些船員可能希望延長合約，而另一些則希望提前終止合約。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "One is the loneliest number – the enduring practice of the “on board bill of lading”",
-      "url": "https://gard.no/en/insights/one-is-loneliest-number-enduring-practice-on-board-bill-lading/",
-      "published_at": "2022-03-01",
-      "summary": "An original bill which has been carried on board has no practical value as evidence of title and the practice remains inherently risky because of the difficulty in verifying which party is entitled to possession of the cargo if none of the negotiated bills are available.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "在船上攜帶的原始提單對於所有權的證明沒有實際價值，且由於難以驗證哪一方有權擁有貨物，這種做法本質上存在風險。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
       "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
       "url": "https://gard.no/en/insights/export-season-for-brazilian-soya-beans-is-underway-reminder-for-recommended-precautions/",
       "published_at": "2022-02-23",
@@ -260,6 +226,40 @@
       "first_seen_at": "2026-07-09T11:23:26+08:00",
       "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
       "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "Soybean claims again on the rise",
+      "url": "https://gard.no/en/insights/soybean-claims-again-on-rise/",
+      "published_at": "2021-06-02",
+      "summary": "Gard’s correspondent, [Proinde, reported in March](https://proinde.com.br/news/brazil-soya-bean-exports-boom-despite-a-slow-start/) that despite a slow start, the Brazilian soybean production this season is set for another record at 135.5 mmt accounting for more than 37% of the world production.  Th",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-25T11:22:03+08:00",
+      "summary_zh": "巴西大豆生產在本季預計將達到135.5百萬公噸的紀錄，佔全球生產的37%以上。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "Master’s checklists for loading and carriage of soya beans",
+      "url": "https://gard.no/en/insights/masters-checklists-for-loading-and-carriage-of-soya-beans/",
+      "published_at": "2021-03-10",
+      "summary": "The checklists identify the type of evidence that should ideally be gathered to best demonstrate that there was no lack of cargo care on the part of the Master and crew.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-25T11:22:03+08:00",
+      "summary_zh": "檢查清單確定應收集的證據類型，以最佳方式證明船長和船員在貨物護理方面沒有疏忽。",
+      "importance": "reference",
       "category": "industry",
       "watch_topics": []
     }
