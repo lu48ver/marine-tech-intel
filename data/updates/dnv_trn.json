@@ -2,10 +2,46 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-07-28T11:15:17+08:00",
-  "last_success_at": "2026-07-28T11:15:17+08:00",
+  "last_crawled_at": "2026-07-31T11:34:18+08:00",
+  "last_success_at": "2026-07-31T11:34:18+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "The 2026 PSC CIC on cargo securing – be prepared",
+      "url": "https://www.dnv.com/news/2026/the-2026-psc-cic-on-cargo-securing/",
+      "published_at": "2026-07-29",
+      "summary": "This year’s Port State Control Concentrated Inspection Campaign (PSC CIC), running from 1 September to 30 November 2026, will focus on cargo securing. This news summarizes the upcoming CIC.",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "psc_cic"
+      ],
+      "first_seen_at": "2026-07-31T11:34:18+08:00",
+      "summary_zh": "2026年的港口國家控制集中檢查活動將於9月1日至11月30日進行，重點將放在貨物固定上。請做好準備。",
+      "importance": "action",
+      "category": "psc",
+      "watch_topics": []
+    },
+    {
+      "title": "IMO III 12: Initiation of ISM implementation guidelines revision and progression of survey requirements revision",
+      "url": "https://www.dnv.com/news/2026/imo-iii-12-initiation-of-ism-implementation-guidelines-revision-and-progression-of-survey-requirements-revision/",
+      "published_at": "2026-07-27",
+      "summary": "The 12th session of the IMO Sub-Committee on Implementation of IMO Instruments (III 12) took place on 20–24 July 2026. The Sub-Committee initiated the comprehensive revision of the guidelines on the implementation of the ISM Code by Administrations and companies, continued updates to the “Survey Gui",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-31T11:34:18+08:00",
+      "summary_zh": "IMO 第三屆實施工具小組第12次會議於2026年7月20日至24日召開，啟動了對ISM準則的全面修訂，並持續更新檢查指導方針。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
+    },
     {
       "title": "Boiler tube plugging – class requirements",
       "url": "https://www.dnv.com/news/2026/boiler-tube-plugging-class-requirements/",
@@ -187,40 +223,6 @@
       "watch_topics": [
         "psc_cic"
       ]
-    },
-    {
-      "title": "New requirement for selective catalytic reduction (SCR) systems enters into force on 1 May 2026",
-      "url": "https://www.dnv.com/news/2026/new-requirement-for-selective-catalytic-reduction-scr-systems-enters-into-force-on-1-may-2026/",
-      "published_at": "2026-04-21",
-      "summary": "Recent changes to the SCR Guidelines have altered how NOx measurement accuracy is assessed for catalyst monitoring. The former ±5% accuracy requirement has been replaced by a more flexible but less clearly defined concept of “sufficient accuracy”. This update places greater responsibility on applica",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-04-21",
-      "summary_zh": "新的選擇性催化還原（SCR）系統要求將於2026年5月1日生效。近期SCR指導方針的變更改變了NOx測量準確性的評估方式，原本的±5%準確度要求已被更靈活但不明確的「足夠準確度」概念取代，這使得應用者承擔了更大的責任。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "Revised interpretation of requirements to permanent means of access (PMA)",
-      "url": "https://www.dnv.com/news/2026/revised-interpretation-of-requirements-to-permanent-means-of-access-pma/",
-      "published_at": "2026-04-08",
-      "summary": "New IMO amendments clarify inspection requirements for PMA on tankers and bulk carriers.\nThe changes aim to prevent safety incidents and introduce stricter inspection and documentation rules. Ship operators must update procedures and manuals, and revised records must be reviewed during future survey",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-04-08",
-      "summary_zh": "新的IMO修訂明確了油輪和散貨船上永久通道（PMA）的檢查要求。這些變更旨在防止安全事故，並引入更嚴格的檢查和文件規則。船舶經營者必須更新程序和手冊，並在未來的檢查中審查修訂的記錄。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
     }
   ]
 }

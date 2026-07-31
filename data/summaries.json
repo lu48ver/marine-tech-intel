@@ -1679,5 +1679,32 @@
     "model": "gpt-4o-mini",
     "source_kind": "summary",
     "generated_at": "2026-07-25T11:22:15+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/07/29-eu-recycling-yards/": {
+    "summary_zh": "歐盟委員會已向成員國提出提議，將兩個印度船舶回收設施納入其批准的船廠名單。如果獲得批准，這將是印度船廠首次根據歐盟船舶回收法規獲得認可，標誌著一個重要里程碑。",
+    "importance": "notice",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-31T11:34:23+08:00"
+  },
+  "https://www.dnv.com/news/2026/the-2026-psc-cic-on-cargo-securing/": {
+    "summary_zh": "2026年的港口國家控制集中檢查活動將於9月1日至11月30日進行，重點將放在貨物固定上。請做好準備。",
+    "importance": "action",
+    "category": "psc",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-31T11:34:23+08:00"
+  },
+  "https://www.dnv.com/news/2026/imo-iii-12-initiation-of-ism-implementation-guidelines-revision-and-progression-of-survey-requirements-revision/": {
+    "summary_zh": "IMO 第三屆實施工具小組第12次會議於2026年7月20日至24日召開，啟動了對ISM準則的全面修訂，並持續更新檢查指導方針。",
+    "importance": "notice",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "gpt-4o-mini",
+    "source_kind": "summary",
+    "generated_at": "2026-07-31T11:34:23+08:00"
   }
 }

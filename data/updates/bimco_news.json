@@ -2,10 +2,27 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-07-28T11:15:17+08:00",
-  "last_success_at": "2026-07-28T11:15:17+08:00",
+  "last_crawled_at": "2026-07-31T11:34:19+08:00",
+  "last_success_at": "2026-07-31T11:34:19+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "BIMCO welcomes proposal to include Indian ship recycling yards on EU list",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/29-eu-recycling-yards/",
+      "published_at": "2026-07-29",
+      "summary": "The EU Commission has launched a proposal to EU member states to add two Indian ship recycling facilities to its list of approved yards. If approved, this would mark the first time that Indian yards have been recognised under the EU Ship Recycling Regulation (EU SRR), representing a milestone for a ",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-07-31T11:34:19+08:00",
+      "summary_zh": "歐盟委員會已向成員國提出提議，將兩個印度船舶回收設施納入其批准的船廠名單。如果獲得批准，這將是印度船廠首次根據歐盟船舶回收法規獲得認可，標誌著一個重要里程碑。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
+    },
     {
       "title": "Navigating alternative fuels: new industry guidelines for methanol Safety Management Systems",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-sms-methanol/",
@@ -247,23 +264,6 @@
       "first_seen_at": "2026-06-16",
       "summary_zh": "BIMCO 與海洋清潔海洋協會 (MACS) 建立知識合作夥伴關係，以加強對會員在減少船上塑料和改善廢物處理方面的支持。此合作旨在為會員提供額外的專業知識和見解。",
       "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Harmonising maritime digital interfaces: From alignment to action",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-harmonisation/",
-      "published_at": "2026-06-16",
-      "summary": "BIMCO, in close collaboration with ITS Norway and the DYNAPORT project, convened a two‑day industry workshop in Copenhagen to explore how the maritime sector can accelerate the harmonisation of digital interfaces across ship to shore stakeholders.\nBringing together 45 representatives from shipping c",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-16",
-      "summary_zh": "BIMCO 與 ITS Norway 及 DYNAPORT 項目密切合作，在哥本哈根舉辦為期兩天的行業研討會，探討如何加速海事領域內船舶與岸上利益相關者之間數位介面的統一。此次研討會聚集了來自航運公司的 45 位代表。",
-      "importance": "notice",
       "category": "industry",
       "watch_topics": []
     }
