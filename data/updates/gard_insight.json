@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-07-31T11:34:13+08:00",
-  "last_success_at": "2026-07-31T11:34:13+08:00",
+  "last_crawled_at": "2026-08-01T11:33:48+08:00",
+  "last_success_at": "2026-08-01T11:33:48+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -72,6 +72,23 @@
       "summary_zh": "東京公約組織與國際船級社的研究顯示，常規測試可能無法真實反映緊急電力系統在主電力失效時的表現。不充分的測試可能使關鍵系統未經證實，並在關鍵時刻讓船員產生錯誤的準備感。",
       "importance": "notice",
       "category": "safety",
+      "watch_topics": []
+    },
+    {
+      "title": "Rise in fishery claims in South Korea waters",
+      "url": "https://gard.no/en/insights/fishery-claims-rise-south-korea-waters/",
+      "published_at": "2026-07-06",
+      "summary": "Gard has observed a rise in navigation incidents involving fishing nets over the past year. Our correspondent, KOMOS, reports that issues with offshore stow nets remain persistent, largely due to minimal restrictions on where this gear can be installed outside of designated anchorages and prohibited",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-01T11:33:48+08:00",
+      "summary_zh": "Gard觀察到過去一年在南韓水域涉及漁網的航行事故有所增加。KOMOS報告指出，離岸儲網的問題仍然持續，主要是因為對於這些設備安裝地點的限制較少，除了指定的錨地和禁止區域外。",
+      "importance": "reference",
+      "category": "industry",
       "watch_topics": []
     },
     {
@@ -193,23 +210,6 @@
       "summary_zh": "任何人都可能感染病毒，應該服用醫生開的藥物並儘量避免與家人和朋友接觸，直到康復，這是我們的社會責任。",
       "importance": "reference",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Singapore bunkers - presence of chlorinated hydrocarbons",
-      "url": "https://gard.no/en/insights/singapore-bunkers-presence-chlorinated-hydrocarbons/",
-      "published_at": "2022-03-29",
-      "summary": "Gard Members and clients are reporting operational problems that may be caused by contaminated bunkers, mostly HSFO, stemmed in Singapore in the first quarter of 2022.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "Gard 會員和客戶報告在2022年第一季度於新加坡加油的重油（HSFO）可能受到污染，導致操作問題。",
-      "importance": "notice",
-      "category": "fuel",
       "watch_topics": []
     },
     {
