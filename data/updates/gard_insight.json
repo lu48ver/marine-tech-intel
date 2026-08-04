@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-08-01T11:33:48+08:00",
-  "last_success_at": "2026-08-01T11:33:48+08:00",
+  "last_crawled_at": "2026-08-04T11:19:25+08:00",
+  "last_success_at": "2026-08-04T11:19:25+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -17,11 +17,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-22T11:22:27+08:00",
-      "summary_zh": "接管一艘船隻後，新的管理團隊和船員需要時間熟悉其機械和技術狀況。如果維護記錄未隨船隻轉移，將缺乏評估機械狀況和識別過度磨損所需的信息。",
-      "importance": "notice",
-      "category": "machinery",
-      "watch_topics": []
+      "first_seen_at": "2026-07-22T11:22:27+08:00"
     },
     {
       "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
@@ -34,11 +30,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-17T10:42:51+08:00",
-      "summary_zh": "阿根廷於2026年5月20日通過27,812號法案，正式批准了2007年奈洛比國際打撈公約。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-07-17T10:42:51+08:00"
     },
     {
       "title": "AIS-assisted collisions: The risks of over-reliance",
@@ -51,11 +43,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-15T10:32:04+08:00",
-      "summary_zh": "AIS雖然已成為重要的安全輔助工具，但過度依賴AIS可能在某些情況下導致事故，而非預防事故。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
+      "first_seen_at": "2026-07-15T10:32:04+08:00"
     },
     {
       "title": "Emergency power system: Will it work in a blackout?",
@@ -68,11 +56,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-10T11:25:56+08:00",
-      "summary_zh": "東京公約組織與國際船級社的研究顯示，常規測試可能無法真實反映緊急電力系統在主電力失效時的表現。不充分的測試可能使關鍵系統未經證實，並在關鍵時刻讓船員產生錯誤的準備感。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
+      "first_seen_at": "2026-07-10T11:25:56+08:00"
     },
     {
       "title": "Rise in fishery claims in South Korea waters",
@@ -85,11 +69,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-01T11:33:48+08:00",
-      "summary_zh": "Gard觀察到過去一年在南韓水域涉及漁網的航行事故有所增加。KOMOS報告指出，離岸儲網的問題仍然持續，主要是因為對於這些設備安裝地點的限制較少，除了指定的錨地和禁止區域外。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-08-01T11:33:48+08:00"
     },
     {
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
@@ -102,11 +82,20 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-06-30",
-      "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-06-30"
+    },
+    {
+      "title": "The New China Maritime Code: key cargo issues for carriers",
+      "url": "https://gard.no/en/insights/new-china-maritime-code-key-cargo-issues-for-carriers/",
+      "published_at": "2026-06-25",
+      "summary": "On 1 May 2026, a comprehensively revised China Maritime Code (CMC) entered into force, replacing a framework that had remained largely unchanged for over three decades. Several amendments are likely to have practical implications for carriers, terminal operators and their insurers. This article high",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-04T11:19:25+08:00"
     },
     {
       "title": "High claims risk persists for soya beans test",
@@ -119,11 +108,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-25T11:22:03+08:00",
-      "summary_zh": "儘管巴西大豆出口正在回升，但中國持續的植物檢疫監管使得索賠風險仍然高企。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-25T11:22:03+08:00"
     },
     {
       "title": "Harassment on board: A trauma-informed approach",
@@ -136,11 +121,20 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-22T11:22:27+08:00",
-      "summary_zh": "我們的會員有時會面臨與船員相關的困難情況，例如性侵案件。儘管這類事件可能在保險理賠範圍邊緣，我們仍然可以提供支持和建議。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-22T11:22:27+08:00"
+    },
+    {
+      "title": "Onboard blending and commingling from a P&I perspective",
+      "url": "https://gard.no/en/insights/onboard-blending-and-commingling-from-a-p-and-i-perspective/",
+      "published_at": "2025-04-10",
+      "summary": "Onboard blending and commingling of liquid cargoes are common requests, but it is not done without risk.  This article looks at how these operations work, the potential pitfalls, and what they mean for P&I cover for both shipowners and charterers.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-04T11:19:25+08:00"
     },
     {
       "title": "Polar Code on the PSC agenda",
@@ -155,11 +149,7 @@
       "topic_ids": [
         "psc_cic"
       ],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "巴黎公約組織啟動了一項檢查活動，以驗證對極地規範的遵守情況。該活動將分為兩個檢查期間，第一個檢查期從2022年6月13日開始，持續到7月1日，第二個檢查期將於2022年8月1日至19日進行。",
-      "importance": "action",
-      "category": "psc",
-      "watch_topics": []
+      "first_seen_at": "2026-07-09T11:23:26+08:00"
     },
     {
       "title": "Face masks are effective transmission barriers against infections",
@@ -172,45 +162,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "佩戴口罩是有效的感染控制策略，能有效阻止呼吸道病毒的傳播，減少重大疾病及死亡的風險。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Marine plastic pollution - are nurdles a special case for regulation?",
-      "url": "https://gard.no/en/insights/marine-plastic-pollution-are-nurdles-special-case-for-regulation/",
-      "published_at": "2022-04-03",
-      "summary": "The IMO Pollution Prevention and Response Sub-Committee (PPR) will meet on 4-8 April.  Proposals to regulate the carriage of pre-production plastic pellets, so called “nurdles”, are on the agenda. Our authors discuss the cause and effect of nurdle spills and the specifics of the proposals on the age",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "國際海事組織污染防治與應對小組將於4月4日至8日召開會議，議程中將討論對預生產塑膠顆粒（即「nurdles」）運輸的規範提案。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "Feeling unwell? Report and recover but don’t pass it to others",
-      "url": "https://gard.no/en/insights/feeling-unwell-report-recover-but-don-t-pass-it-to-others/",
-      "published_at": "2022-03-30",
-      "summary": "Any one of us can fall sick with a viral infection. What do we do? We take prescribed medicines and try to stay away from our family and friends until we have recovered. This is us being ‘socially responsible’.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "任何人都可能感染病毒，應該服用醫生開的藥物並儘量避免與家人和朋友接觸，直到康復，這是我們的社會責任。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-09T11:23:26+08:00"
     },
     {
       "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
@@ -223,11 +175,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00",
-      "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-09T11:23:26+08:00"
     },
     {
       "title": "Soybean claims again on the rise",
@@ -240,11 +188,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-25T11:22:03+08:00",
-      "summary_zh": "巴西大豆生產在本季預計將達到135.5百萬公噸的紀錄，佔全球生產的37%以上。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-25T11:22:03+08:00"
     },
     {
       "title": "Master’s checklists for loading and carriage of soya beans",
@@ -257,11 +201,7 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-25T11:22:03+08:00",
-      "summary_zh": "檢查清單確定應收集的證據類型，以最佳方式證明船長和船員在貨物護理方面沒有疏忽。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-25T11:22:03+08:00"
     }
   ]
 }
