@@ -2,10 +2,62 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-08-04T11:19:32+08:00",
-  "last_success_at": "2026-08-04T11:19:32+08:00",
+  "last_crawled_at": "2026-08-07T10:56:37+08:00",
+  "last_success_at": "2026-08-07T10:56:37+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "New member benefit: weekly freight market assessments from Platts S&P Global Energy",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/06-platts/",
+      "published_at": "2026-08-06",
+      "summary": "If you are a BIMCO member, you can now access weekly freight market assessments from Platts S&P Global Energy on our website.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-07T10:56:37+08:00"
+    },
+    {
+      "title": "Revised PRC Maritime Code: Key considerations for managing contractual risk",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-maritime-code-prc/",
+      "published_at": "2026-08-05",
+      "summary": "China occupies a pivotal position in global shipping and is home to many of the world’s busiest ports.  Consequently, a significant proportion of international trade involves cargo that is loaded, discharged or transhipped through Chinese ports. \nAgainst this backdrop, the revised Maritime Code of t",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-07T10:56:37+08:00"
+    },
+    {
+      "title": "BIMCO launches surveys to support practical biofouling management",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-biofouling-surveys/",
+      "published_at": "2026-08-05",
+      "summary": "As the International Maritime Organization considers the details of future mandatory measures to manage ships’ biofouling, industry input is essential to ensure any requirements are practical and effective. BIMCO has launched two surveys covering inspection and cleaning service in ports with a third",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-07T10:56:37+08:00"
+    },
+    {
+      "title": "AI-generated contracts and clauses: why the human element still matters",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-ai/",
+      "published_at": "2026-08-05",
+      "summary": "Artificial intelligence is rapidly becoming part of everyday work in commercial shipping, including how contracts and clauses are drafted, reviewed and compared. From document review and clause comparison to drafting assistance, AI is already changing how contractual work is carried out across the s",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-07T10:56:37+08:00"
+    },
     {
       "title": "BIMCO welcomes proposal to include Indian ship recycling yards on EU list",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/29-eu-recycling-yards/",
@@ -17,11 +69,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-31T11:34:19+08:00",
-      "summary_zh": "歐盟委員會已向成員國提出提議，將兩個印度船舶回收設施納入其批准的船廠名單。如果獲得批准，這將是印度船廠首次根據歐盟船舶回收法規獲得認可，標誌著一個重要里程碑。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-07-31T11:34:19+08:00"
     },
     {
       "title": "Navigating alternative fuels: new industry guidelines for methanol Safety Management Systems",
@@ -34,11 +82,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-15T10:32:11+08:00",
-      "summary_zh": "隨著甲醇作為海洋燃料的普及，海事技術論壇（MTF）發布了新指導方針，幫助公司為甲醇燃料船舶開發或調整安全管理系統。這些指導方針是與BIMCO及其他主要利益相關者合作制定的。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-15T10:32:11+08:00"
     },
     {
       "title": "Have you used electronic bills of lading? We want to hear from you!",
@@ -51,11 +95,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-17T10:42:57+08:00",
-      "summary_zh": "如果您是越來越多成功採用電子提單的公司之一，是否願意分享您的經驗？BIMCO 和 FIT 聯盟希望展示這些經驗教訓，並已啟動調查以收集實際的電子提單經驗。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-17T10:42:57+08:00"
     },
     {
       "title": "New BIMCO survey explores challenges and best practices in operational crewing and rest hour compliance",
@@ -68,11 +108,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-14T10:33:55+08:00",
-      "summary_zh": "BIMCO 正在進行調查，徵求業界分享在操作人員配備及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗。隨著疲勞管理和船員休息越來越受到國際法規的重視，這項調查旨在收集相關意見。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-14T10:33:55+08:00"
     },
     {
       "title": "BIMCO Biofuel Clause for Time Charter Parties 2026: What owners and charterers need to know",
@@ -87,13 +123,7 @@
       "topic_ids": [
         "bio_fuel"
       ],
-      "first_seen_at": "2026-07-14T10:33:55+08:00",
-      "summary_zh": "隨著航運業尋求脫碳的可行途徑，生質燃料已成為一個可立即使用的過渡選項，通常可以在不需或少量修改現有引擎和燃料系統的情況下使用。",
-      "importance": "notice",
-      "category": "fuel",
-      "watch_topics": [
-        "bio_fuel"
-      ]
+      "first_seen_at": "2026-07-14T10:33:55+08:00"
     },
     {
       "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
@@ -108,11 +138,7 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "first_seen_at": "2026-07-09T11:23:35+08:00",
-      "summary_zh": "英國已將英國排放交易計劃（UK ETS）擴展至海事部門，將於2026年7月1日生效。初步的海事階段預計將適用於國內海事活動，包括英國港口之間的航行及船舶在英國港口（如停泊時）產生的排放。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-07-09T11:23:35+08:00"
     },
     {
       "title": "Progress continues on WINDSEACON as subcommittee meets in person",
@@ -125,11 +151,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-08T10:46:46+08:00",
-      "summary_zh": "BIMCO 的 WINDSEACON 合同進展持續，子委員會最近面對面會議以推進草擬過程並建立早期里程碑。該項目旨在為離岸風力發電機的運輸和安裝創建標準的時間租約。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-07-08T10:46:46+08:00"
     },
     {
       "title": "BMP Maritime Security updated with new guidance on managing activism at sea",
@@ -142,11 +164,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-06T22:56:26+08:00",
-      "summary_zh": "最新版本的BMP海事安全指南已更新，新增專門針對管理船舶及海上設施遭遇活動人士登船事件的部分。此指導反映了船舶操作員和船員對於有組織抗議活動的準備需求日益增加。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
+      "first_seen_at": "2026-07-06T22:56:26+08:00"
     },
     {
       "title": "Help shape a common standard for maritime emissions data reporting",
@@ -159,11 +177,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-06-30",
-      "summary_zh": "邀請您對使用操作船舶數據（OVD）作為交換溫室氣體排放報告的日誌摘要和中午報告數據的共同標準提供反饋。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-06-30"
     },
     {
       "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
@@ -176,11 +190,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-06-30",
-      "summary_zh": "在巴塞爾公約開放式工作組的最新會議中，各國政府和利益相關者持續參與，討論了船舶回收的法律和環境框架。此次會議是朝著釐清船舶回收相關問題的重要一步，但仍需進一步努力。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-06-30"
     },
     {
       "title": "BIMCO commends the IMO Strait of Hormuz Evacuation Plan",
@@ -193,79 +203,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-06-24",
-      "summary_zh": "國際海事組織（IMO）於2026年6月23日宣布了一項計劃，將對仍然滯留在波斯灣地區的超過11,000名海員進行撤離。BIMCO對該撤離計劃表示支持和讚揚。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Managing geopolitical cyber security risks",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/23-cybersecurity/",
-      "published_at": "2026-06-23",
-      "summary": "This research paper explores how to develop a Geopolitical Strategy in Maritime Cyber Security. The purpose is to give indications to shipowners whether national cyber security strategies can present a risk for their business in a context of geopolitical instability.\nThe paper was written by Aude Ch",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-23",
-      "summary_zh": "本研究論文探討如何在海事網絡安全中制定地緣政治策略。其目的是向船東提供指導，以了解國家網絡安全策略在地緣政治不穩定的背景下是否會對其業務構成風險。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Lack of details remain a concern in the Strait of Hormuz",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/18-hormuz/",
-      "published_at": "2026-06-18",
-      "summary": "This week began with announcements of a possible agreement between the US and Iran which would end hostilities and ensure safe passage through the Strait of Hormuz for commercial shipping. As the agreement has now been signed by both parties, our industry is waiting for clarification and details rel",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-18",
-      "summary_zh": "霍爾木茲海峽的安全通行仍然是一個關注焦點。美國和伊朗之間的協議已經簽署，旨在結束敵對行為並確保商業航運的安全通行，但業界仍在等待進一步的澄清和細節。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "What's happening in ship recycling?",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-ship-recycling/",
-      "published_at": "2026-06-16",
-      "summary": "The BIMCO Ship Recycling Alliance was established in 2024 to coordinate the global voice of the ship recycling and shipping industries. Its primary goal is to promote safe and environmentally sound ship recycling practices worldwide.   And a year has now passed since the entry into force of the Hong",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-16",
-      "summary_zh": "BIMCO船舶回收聯盟於2024年成立，旨在協調全球船舶回收和航運業的聲音。其主要目標是促進全球安全和環保的船舶回收實踐。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "BIMCO enters knowledge partnership with MACS to support members on plastics reduction",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/16-macs/",
-      "published_at": "2026-06-16",
-      "summary": "BIMCO has entered into a knowledge partnership with the Maritime Association for Clean Seas (MACS), strengthening its support to members working to reduce plastics onboard ships and improve waste practices. \nThe partnership aims to provide our members with access to additional expertise, insights an",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-16",
-      "summary_zh": "BIMCO 與海洋清潔海洋協會 (MACS) 建立知識合作夥伴關係，以加強對會員在減少船上塑料和改善廢物處理方面的支持。此合作旨在為會員提供額外的專業知識和見解。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
+      "first_seen_at": "2026-06-24"
     }
   ]
 }

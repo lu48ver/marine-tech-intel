@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-08-04T11:19:25+08:00",
-  "last_success_at": "2026-08-04T11:19:25+08:00",
+  "last_crawled_at": "2026-08-07T10:56:29+08:00",
+  "last_success_at": "2026-08-07T10:56:29+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -98,6 +98,19 @@
       "first_seen_at": "2026-08-04T11:19:25+08:00"
     },
     {
+      "title": "Heroic Idun: What we can learn from the landmark ITLOS ruling",
+      "url": "https://gard.no/en/insights/heroic-idun-learnings-from-landmark-itlos-ruling/",
+      "published_at": "2026-06-23",
+      "summary": "Following the International Tribunal for the Law of the Sea's judgment in the M/T Heroic Idun case, Gard looks back on a dispute that truly tested the fundamental principles of international maritime law. The ruling offers important lessons – on freedom of navigation, crew welfare, and the value of ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-07T10:56:29+08:00"
+    },
+    {
       "title": "High claims risk persists for soya beans test",
       "url": "https://gard.no/en/insights/high-claims-risk-persists-for-soya-beans/",
       "published_at": "2026-04-22",
@@ -149,19 +162,6 @@
       "topic_ids": [
         "psc_cic"
       ],
-      "first_seen_at": "2026-07-09T11:23:26+08:00"
-    },
-    {
-      "title": "Face masks are effective transmission barriers against infections",
-      "url": "https://gard.no/en/insights/face-masks-are-effective-transmission-barriers-against-infections/",
-      "published_at": "2022-04-05",
-      "summary": "Respiratory viruses can lead to significant illness and in some cases even death. One of the most effective infection control strategies is to wear a face mask.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
       "first_seen_at": "2026-07-09T11:23:26+08:00"
     },
     {

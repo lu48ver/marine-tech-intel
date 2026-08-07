@@ -2,10 +2,25 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-08-04T11:19:31+08:00",
-  "last_success_at": "2026-08-04T11:19:31+08:00",
+  "last_crawled_at": "2026-08-07T10:56:36+08:00",
+  "last_success_at": "2026-08-07T10:56:36+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Port State Control – CIC 2026 official questionnaire now published",
+      "url": "https://www.dnv.com/news/2026/port-state-control-cic-2026-official-questionnaire-now-published/",
+      "published_at": "2026-08-04",
+      "summary": "The Paris and Tokyo MoUs’ joint Concentrated Inspection Campaign (CIC) Cargo Securing will start on 1 September. The CIC questionnaire was published by the Paris MoU. This news is a followup of our news published on 29 July 2026.",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "psc_cic"
+      ],
+      "first_seen_at": "2026-08-07T10:56:36+08:00"
+    },
     {
       "title": "The 2026 PSC CIC on cargo securing – be prepared",
       "url": "https://www.dnv.com/news/2026/the-2026-psc-cic-on-cargo-securing/",
@@ -19,11 +34,7 @@
       "topic_ids": [
         "psc_cic"
       ],
-      "first_seen_at": "2026-07-31T11:34:18+08:00",
-      "summary_zh": "2026年的港口國家控制集中檢查活動將於9月1日至11月30日進行，重點將放在貨物固定上。請做好準備。",
-      "importance": "action",
-      "category": "psc",
-      "watch_topics": []
+      "first_seen_at": "2026-07-31T11:34:18+08:00"
     },
     {
       "title": "IMO III 12: Initiation of ISM implementation guidelines revision and progression of survey requirements revision",
@@ -36,11 +47,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-31T11:34:18+08:00",
-      "summary_zh": "IMO 第三屆實施工具小組第12次會議於2026年7月20日至24日召開，啟動了對ISM準則的全面修訂，並持續更新檢查指導方針。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-07-31T11:34:18+08:00"
     },
     {
       "title": "Boiler tube plugging – class requirements",
@@ -53,11 +60,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-08T10:46:45+08:00",
-      "summary_zh": "鍋爐管在熱傳遞和維持海洋鍋爐壓力完整性方面扮演關鍵角色。當發生洩漏時，需要仔細評估以防止次級損壞。此技術新聞提供了關於修復的類別接受標準的指導。",
-      "importance": "notice",
-      "category": "machinery",
-      "watch_topics": []
+      "first_seen_at": "2026-07-08T10:46:45+08:00"
     },
     {
       "title": "Now available: The July 2026 edition of the DNV class rules and standards for ship and offshore",
@@ -70,11 +73,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-06T19:11:21+08:00",
-      "summary_zh": "2026年7月版DNV船級規則和標準引入了新的船級標記及重大更新，旨在支持海事產業向更可持續和創新的方向轉型。",
-      "importance": "notice",
-      "category": "machinery",
-      "watch_topics": []
+      "first_seen_at": "2026-07-06T19:11:21+08:00"
     },
     {
       "title": "New IMO requirements for pilot transfer arrangements",
@@ -87,11 +86,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-06T19:11:21+08:00",
-      "summary_zh": "國際海事組織（IMO）在第13屆導航、通訊、搜尋與救援小組會議（NCSR 13）中，完成了下一代電子海圖顯示與資訊系統（ECDIS）的實施指導草案。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-07-06T19:11:21+08:00"
     },
     {
       "title": "The IMO sub-committee on navigation, communications, search and rescue (NCSR 13)",
@@ -104,11 +99,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-06T19:11:21+08:00",
-      "summary_zh": "國際海事組織導航、通訊、搜尋與救援小組委員會（NCSR 13）於2026年6月22日至26日召開，並完成了下一代電子海圖顯示與資訊系統（ECDIS）實施的草案指導。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-07-06T19:11:21+08:00"
     },
     {
       "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -121,11 +112,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-06-17",
-      "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-06-17"
     },
     {
       "title": "The UK ETS expands to maritime from 1 July 2026",
@@ -140,13 +127,7 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "first_seen_at": "2026-06-05",
-      "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": [
-        "cii_ets"
-      ]
+      "first_seen_at": "2026-06-05"
     },
     {
       "title": "IMO MSC 111: New MASS Code adopted",
@@ -159,11 +140,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-22",
-      "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-05-22"
     },
     {
       "title": "How to document PFOS-free fire-extinguishing foam on board",
@@ -176,11 +153,7 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-04",
-      "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-05-04"
     },
     {
       "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
@@ -195,34 +168,7 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "first_seen_at": "2026-05-04",
-      "summary_zh": "國際海事組織海洋環境保護委員會第84次會議對淨零框架進行了廣泛討論，這是自2025年10月特別會議休會以來的首次機會。會議中對於關鍵議題存在不同立場。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": [
-        "cii_ets"
-      ]
-    },
-    {
-      "title": "Port State Control - Q1 2026 Detention review and other updates",
-      "url": "https://www.dnv.com/news/2026/port-state-control-q1-2026-detention-review-and-other-updates/",
-      "published_at": "2026-04-29",
-      "summary": "Effectiveness of safety management systems and fire safety readiness are still in focus for Port State Control (PSC) authorities. Our Q1 2026 review highlights key detention concerns, upcoming inspection campaigns, new procedures for PSC, and what ship operators should be addressing to reduce risk.",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "psc_cic"
-      ],
-      "first_seen_at": "2026-04-29",
-      "summary_zh": "港口國控制（PSC）當局仍然關注安全管理系統的有效性和火災安全準備。2026年第一季的檢討強調了主要的扣留問題、即將進行的檢查活動、新的PSC程序，以及船舶經營者應該關注的事項以降低風險。",
-      "importance": "notice",
-      "category": "psc",
-      "watch_topics": [
-        "psc_cic"
-      ]
+      "first_seen_at": "2026-05-04"
     }
   ]
 }
