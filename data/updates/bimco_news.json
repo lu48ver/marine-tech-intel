@@ -1,6 +1,24 @@
 {
-  "last_success_at": "2026-08-07T10:56:37+08:00",
+  "source_id": "bimco_news",
+  "source_name": "BIMCO News",
+  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
+  "last_crawled_at": "2026-08-13T10:28:39+08:00",
+  "last_success_at": "2026-08-13T10:28:39+08:00",
+  "crawl_status": "success",
   "items": [
+    {
+      "title": "Leadership Perspective: BIMCO Strategy 2026",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/10-leadership-perspective/",
+      "published_at": "2026-08-10",
+      "summary": "This article by BIMCO Secretary General and CEO David Loosley was originally sent to the CEOs of all BIMCO member companies and organisations on 29 July 2026.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-13T10:28:39+08:00"
+    },
     {
       "title": "New member benefit: weekly freight market assessments from Platts S&P Global Energy",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/06-platts/",
@@ -186,25 +204,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-06-30"
-    },
-    {
-      "title": "BIMCO commends the IMO Strait of Hormuz Evacuation Plan",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/24-imo-hormuz/",
-      "published_at": "2026-06-24",
-      "summary": "On Tuesday 23 June 2026, the International Maritime Organization (IMO) announced a plan to implement an evacuation of over 11,000 seafarers on vessels still stranded in the Persian Gulf region. BIMCO supports and commends the evacuation plan.  \nThe exit plan announced by the IMO draws on existing ro",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-24"
     }
-  ],
-  "source_id": "bimco_news",
-  "source_name": "BIMCO News",
-  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-08-10T10:18:51+08:00",
-  "crawl_status": "error",
-  "error_message": "fetch() returned 0 items — page structure may have changed"
+  ]
 }
