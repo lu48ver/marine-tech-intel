@@ -2,10 +2,23 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-08-13T10:28:39+08:00",
-  "last_success_at": "2026-08-13T10:28:39+08:00",
+  "last_crawled_at": "2026-08-16T09:44:55+08:00",
+  "last_success_at": "2026-08-16T09:44:55+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "HNS Convention set to enter into force in November 2027",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/11-hns-convention/",
+      "published_at": "2026-08-11",
+      "summary": "The international maritime regime for liability and compensation following incidents involving hazardous and noxious substances is set to change when the International Convention on Liability and Compensation for Damage in connection with the Carriage of Hazardous and Noxious Substances by Sea enter",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-16T09:44:55+08:00"
+    },
     {
       "title": "Leadership Perspective: BIMCO Strategy 2026",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/10-leadership-perspective/",
@@ -184,19 +197,6 @@
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-ovd-consultation/",
       "published_at": "2026-06-30",
       "summary": "You are invited to provide feedback on the use of Operational Vessel Data (OVD) as a common standard for exchanging log abstract and noon report data for greenhouse gas emissions reporting.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-30"
-    },
-    {
-      "title": "Basel OEWG outcome brings ship recycling clarity closer, but more work is needed",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-basel/",
-      "published_at": "2026-06-30",
-      "summary": "We welcome the continued engagement by governments and stakeholders at the latest meeting of the Basel Convention Open-ended Working Group (OEWG), where discussions focused on the complex legal and environmental framework for ship recycling.\nThe meeting was an important step towards clarifying how i",
       "tags": [
         "bimco",
         "industry",

@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-08-13T10:28:30+08:00",
-  "last_success_at": "2026-08-13T10:28:30+08:00",
+  "last_crawled_at": "2026-08-16T09:44:45+08:00",
+  "last_success_at": "2026-08-16T09:44:45+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Cargo securing on the PSC agenda",
+      "url": "https://gard.no/en/insights/cargo-securing-psc-agenda/",
+      "published_at": "2026-08-14",
+      "summary": "As port state control authorities prepare to step up inspections of cargo securing arrangements, ship operators should ensure that manuals and procedures are in line with IMO requirements and guidance, that securing equipment is in good working order, and that crews are properly trained.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
     {
       "title": "Sulphur-related bunker claims on the rise amid increased China MSA enforcement",
       "url": "https://gard.no/en/insights/sulphur-related-bunker-claims-on-the-rise-increased-china-msa-enforcement/",
@@ -33,45 +46,6 @@
       "first_seen_at": "2026-08-13T10:28:30+08:00"
     },
     {
-      "title": "The risk of taking over a vessel without its history",
-      "url": "https://gard.no/en/insights/risk-of-taking-over-vessel-without-its-history/",
-      "published_at": "2026-07-21",
-      "summary": "A vessel may change technical management overnight, but it takes far longer for incoming managers and crew to become familiar with its machinery and technical condition. If maintenance records do not follow the vessel, they may lack the information needed to assess machinery condition, identify over",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-22T11:22:27+08:00"
-    },
-    {
-      "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
-      "url": "https://gard.no/en/insights/argentina-formally-ratifies-nairobi-wreck-removal-convention/",
-      "published_at": "2026-07-16",
-      "summary": "In a recent client newsletter shared in late June 2026, Gard's correspondent in Argentina, Simonsen, reports that Argentina has formally ratified the Nairobi International Convention on the Removal of Wrecks (2007), following the enactment of Law No. 27,812 on 20 May 2026. The ratification introduce",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-17T10:42:51+08:00"
-    },
-    {
-      "title": "Rise in fishery claims in South Korea waters",
-      "url": "https://gard.no/en/insights/fishery-claims-rise-south-korea-waters/",
-      "published_at": "2026-07-06",
-      "summary": "Gard has observed a rise in navigation incidents involving fishing nets over the past year. Our correspondent, KOMOS, reports that issues with offshore stow nets remain persistent, largely due to minimal restrictions on where this gear can be installed outside of designated anchorages and prohibited",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-01T11:33:48+08:00"
-    },
-    {
       "title": "General Average: Managing the process and protecting the recovery",
       "url": "https://gard.no/en/insights/general-average-managing-process-protecting-recovery/",
       "published_at": "2026-07-02",
@@ -83,19 +57,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-08-13T10:28:30+08:00"
-    },
-    {
-      "title": "US courts signal shift in the interpretation of “package” under COGSA",
-      "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
-      "published_at": "2026-06-30",
-      "summary": "Recent decisions from the Southern District of New York, affirmed by the Second Circuit, suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA). By giving effect to express package definitions in bills of lading, the courts may ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-30"
     },
     {
       "title": "The New China Maritime Code: key cargo issues for carriers",
@@ -124,32 +85,6 @@
       "first_seen_at": "2026-08-07T10:56:29+08:00"
     },
     {
-      "title": "High claims risk persists for soya beans test",
-      "url": "https://gard.no/en/insights/high-claims-risk-persists-for-soya-beans/",
-      "published_at": "2026-04-22",
-      "summary": "Although Brazilian soya bean exports are rebounding, ongoing phytosanitary scrutiny in China is keeping claims risk elevated.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-25T11:22:03+08:00"
-    },
-    {
-      "title": "Harassment on board: A trauma-informed approach",
-      "url": "https://gard.no/en/insights/harassment-on-board-a-trauma-informed-approach/",
-      "published_at": "2025-09-24",
-      "summary": "Our Members sometimes face difficult situations involving their crew – sexual assault cases being one of the most challenging examples. While such incidents may be borderline for insurance coverage, we may still get involved to provide support and advice. A key question is whether the risk of long-t",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-22T11:22:27+08:00"
-    },
-    {
       "title": "Onboard blending and commingling from a P&I perspective",
       "url": "https://gard.no/en/insights/onboard-blending-and-commingling-from-a-p-and-i-perspective/",
       "published_at": "2025-04-10",
@@ -163,43 +98,112 @@
       "first_seen_at": "2026-08-04T11:19:25+08:00"
     },
     {
-      "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
-      "url": "https://gard.no/en/insights/export-season-for-brazilian-soya-beans-is-underway-reminder-for-recommended-precautions/",
-      "published_at": "2022-02-23",
-      "summary": "The Brazilian soya bean export season is underway with the bulk of the beans scheduled for export in March, April and May.  The long voyage time to Chinese ports together with pandemic related delay in discharge increase the risk of natural deterioration and cargo claims.  Documentation of care of t",
+      "title": "The IMO’s unified interpretations of the LLMC and CLC Conventions clarify the right to limit liability",
+      "url": "https://gard.no/en/insights/imo-s-unified-interpretations-llmc-clc-conventions-clarify-right-to-limit-liability/",
+      "published_at": "2023-01-31",
+      "summary": "A challenge for shipowners and their insurers engaged in international trade is to ensure that a common set of guidelines or standards for ship related liabilities apply across the different trading nations. Several IMO liability and compensation conventions require the shipowner and their insurers ",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-09T11:23:26+08:00"
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
     },
     {
-      "title": "Soybean claims again on the rise",
-      "url": "https://gard.no/en/insights/soybean-claims-again-on-rise/",
-      "published_at": "2021-06-02",
-      "summary": "Gard’s correspondent, [Proinde, reported in March](https://proinde.com.br/news/brazil-soya-bean-exports-boom-despite-a-slow-start/) that despite a slow start, the Brazilian soybean production this season is set for another record at 135.5 mmt accounting for more than 37% of the world production.  Th",
+      "title": "The burden on ships and crew of a world in turmoil – will it ever change?",
+      "url": "https://gard.no/en/insights/burden-on-ships-crew-world-turmoil-will-it-ever-change/",
+      "published_at": "2022-12-21",
+      "summary": "When you are enjoying the holiday season with your family spare a thought for those at sea.  We are all well aware that the sea is unpredictable and that seafaring can be a dangerous and stressful occupation. There are some things such as bad weather or sea conditions that are difficult to avoid but",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-25T11:22:03+08:00"
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
     },
     {
-      "title": "Master’s checklists for loading and carriage of soya beans",
-      "url": "https://gard.no/en/insights/masters-checklists-for-loading-and-carriage-of-soya-beans/",
-      "published_at": "2021-03-10",
-      "summary": "The checklists identify the type of evidence that should ideally be gathered to best demonstrate that there was no lack of cargo care on the part of the Master and crew.",
+      "title": "The EU Emission Trading System - are you ready?",
+      "url": "https://gard.no/en/insights/the-eu-emission-trading-system-are-you-ready/",
+      "published_at": "2022-12-07",
+      "summary": "There has been increasing interest in expanding existing domestic emission trading schemes to also cover international shipping. There is now agreement in the EU on how the EU’s emission trading system will be applied to shipping from 2024. Owners and charterers should start to think about how they ",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-25T11:22:03+08:00"
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "The challenges of CII compliance – Cooperation is key",
+      "url": "https://gard.no/en/insights/the-challenges-of-cii-compliance-cooperation-is-key/",
+      "published_at": "2022-11-25",
+      "summary": "IMO’s Carbon Intensity Indicator (CII) rating system for vessels is coming into force next year. It will be used to assess the efficiency with which a ship operates in terms of its CO2 emissions. The CII regulation is likely to alter the traditional division of responsibilities between owners and ti",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "Type 2 diabetes – Know your risk factors",
+      "url": "https://gard.no/en/insights/type-2-diabetes-know-your-risk-factors/",
+      "published_at": "2022-11-14",
+      "summary": "The number of people with diabetes has nearly quadrupled since 1980 and the numbers grow year by year. According to the WHO, a large proportion of Type 2 diabetes can be prevented by a healthy diet, regular physical activity, maintaining a normal body weight and avoiding tobacco use. Prevalence of t",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "The GENCON 2022 Charterparty",
+      "url": "https://gard.no/en/insights/gencon-2022-charterparty/",
+      "published_at": "2022-11-08",
+      "summary": "BIMCO has published a revamped version of the popular GENCON charterparty.  Our author, Helena Biggs, was a member of the drafting committee. She highlights the changes and the reasons behind them.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "Ship recycling – Norwegian Appeals Court explores the limits of individual shipowner responsibility",
+      "url": "https://gard.no/en/insights/ship-recycling-norwegian-appeals-court-explores-limits-individual-shipowner-responsibility/",
+      "published_at": "2022-07-06",
+      "summary": "Illegal scrap of vessels can result in criminal liability which may be applicable not only to the ship owning company, but also to shipyards, brokers, insurance companies, banks and other entities enabling the transaction. In 2020, Norway saw its first case  ̶  TIDE CARRIER  ̶  exemplifying the proh",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "Under the lens - BIMCO’s EEXI transition clause for time charterparties",
+      "url": "https://gard.no/en/insights/under-lens-bimco-s-eexi-transition-clause-for-time-charterparties/",
+      "published_at": "2022-03-15",
+      "summary": "The deadline for compliance with the IMO’s Energy Efficiency Existing Ship Index (EEXI) is looming. Are charterparties flexible enough for the transition phase? How should parties approach the new time charterparties which they are entering into to cater for the vessel’s EEXI compliance? Gard takes ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "first_seen_at": "2026-08-16T09:44:45+08:00"
     }
   ]
 }
