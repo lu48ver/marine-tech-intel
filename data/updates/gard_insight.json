@@ -2,10 +2,25 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-08-16T09:44:45+08:00",
-  "last_success_at": "2026-08-16T09:44:45+08:00",
+  "last_crawled_at": "2026-08-19T09:40:09+08:00",
+  "last_success_at": "2026-08-19T09:40:09+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "UK extends emissions trading to shipping",
+      "url": "https://gard.no/en/insights/uk-extends-emissions-trading-to-shipping/",
+      "published_at": "2026-08-17",
+      "summary": "Since 1 July 2026, ships operating on domestic UK voyages have been subject to the UK Emissions Trading Scheme (UK ETS). While many owners and charterers are already familiar with the EU ETS, the UK’s new regime adds another layer to an increasingly complex regulatory landscape.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "first_seen_at": "2026-08-19T09:40:09+08:00"
+    },
     {
       "title": "Cargo securing on the PSC agenda",
       "url": "https://gard.no/en/insights/cargo-securing-psc-agenda/",
@@ -20,82 +35,19 @@
       "first_seen_at": "2026-08-16T09:44:45+08:00"
     },
     {
-      "title": "Sulphur-related bunker claims on the rise amid increased China MSA enforcement",
-      "url": "https://gard.no/en/insights/sulphur-related-bunker-claims-on-the-rise-increased-china-msa-enforcement/",
-      "published_at": "2026-08-12",
-      "summary": "Claims involving excessive sulphur content in marine fuels have seen an upward trend recently. At the same time, we are seeing a heightened focus on sulphur compliance driven by stricter inspections by the China MSA, with a distinct concentration of enforcement activity in the Bohai Sea.",
+      "title": "Improved safety recommendations for entering enclosed spaces onboard ships",
+      "url": "https://gard.no/en/insights/improved-safety-recommendations-for-entering-enclosed-spaces-onboard-ships/",
+      "published_at": "2025-01-15",
+      "summary": "Every year, a significant number of people die in enclosed shipboard spaces due to hazardous atmospheres. The IMO now calls for a more structured approach to identifying and assessing enclosed space risks, emphasising the need for both crew and shore personnel to fully understand the nature of any h",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-13T10:28:30+08:00"
-    },
-    {
-      "title": "Amazon River low water levels: Increased navigational risk during the 2026 dry season",
-      "url": "https://gard.no/en/insights/amazon-river-low-water-levels-navigational-risk-dry-season-2026/",
-      "published_at": "2026-08-10",
-      "summary": "Recent forecasts indicate that parts of the Amazon basin may experience exceptionally low water levels during the 2026 dry season, potentially resulting in navigation restrictions, reduced vessel drafts and operational disruption across key waterways serving Brazil's Northern Arc trade corridor. Aut",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
+      "topic_ids": [
+        "gas_detector"
       ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-13T10:28:30+08:00"
-    },
-    {
-      "title": "General Average: Managing the process and protecting the recovery",
-      "url": "https://gard.no/en/insights/general-average-managing-process-protecting-recovery/",
-      "published_at": "2026-07-02",
-      "summary": "General Average is one of the oldest principles of maritime law. It is an equitable doctrine that shares among property owners of the assets involved in maritime adventures the cost of extraordinary sacrifices or expenses incurred to avert a peril threatening the whole voyage. This article explains ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-13T10:28:30+08:00"
-    },
-    {
-      "title": "The New China Maritime Code: key cargo issues for carriers",
-      "url": "https://gard.no/en/insights/new-china-maritime-code-key-cargo-issues-for-carriers/",
-      "published_at": "2026-06-25",
-      "summary": "On 1 May 2026, a comprehensively revised China Maritime Code (CMC) entered into force, replacing a framework that had remained largely unchanged for over three decades. Several amendments are likely to have practical implications for carriers, terminal operators and their insurers. This article high",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-04T11:19:25+08:00"
-    },
-    {
-      "title": "Heroic Idun: What we can learn from the landmark ITLOS ruling",
-      "url": "https://gard.no/en/insights/heroic-idun-learnings-from-landmark-itlos-ruling/",
-      "published_at": "2026-06-23",
-      "summary": "Following the International Tribunal for the Law of the Sea's judgment in the M/T Heroic Idun case, Gard looks back on a dispute that truly tested the fundamental principles of international maritime law. The ruling offers important lessons – on freedom of navigation, crew welfare, and the value of ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:29+08:00"
-    },
-    {
-      "title": "Onboard blending and commingling from a P&I perspective",
-      "url": "https://gard.no/en/insights/onboard-blending-and-commingling-from-a-p-and-i-perspective/",
-      "published_at": "2025-04-10",
-      "summary": "Onboard blending and commingling of liquid cargoes are common requests, but it is not done without risk.  This article looks at how these operations work, the potential pitfalls, and what they mean for P&I cover for both shipowners and charterers.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-04T11:19:25+08:00"
+      "first_seen_at": "2026-08-19T09:40:09+08:00"
     },
     {
       "title": "The IMO’s unified interpretations of the LLMC and CLC Conventions clarify the right to limit liability",
@@ -191,6 +143,21 @@
       "first_seen_at": "2026-08-16T09:44:45+08:00"
     },
     {
+      "title": "Entry into enclosed spaces - are you prepared?",
+      "url": "https://gard.no/en/insights/entry-into-enclosed-spaces-are-you-prepared/",
+      "published_at": "2022-04-26",
+      "summary": "Recurring enclosed space incidents serve as a stark reminder that entry into such spaces without proper training or following procedures can result in seafarers being killed or seriously injured. Far too often, we also see that seafarers who die in enclosed spaces do so in the course of attempting t",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "first_seen_at": "2026-08-19T09:40:09+08:00"
+    },
+    {
       "title": "Under the lens - BIMCO’s EEXI transition clause for time charterparties",
       "url": "https://gard.no/en/insights/under-lens-bimco-s-eexi-transition-clause-for-time-charterparties/",
       "published_at": "2022-03-15",
@@ -204,6 +171,47 @@
         "cii_ets"
       ],
       "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
+      "url": "https://gard.no/en/insights/export-season-for-brazilian-soya-beans-is-underway-reminder-for-recommended-precautions/",
+      "published_at": "2022-02-23",
+      "summary": "The Brazilian soya bean export season is underway with the bulk of the beans scheduled for export in March, April and May.  The long voyage time to Chinese ports together with pandemic related delay in discharge increase the risk of natural deterioration and cargo claims.  Documentation of care of t",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-19T09:40:09+08:00"
+    },
+    {
+      "title": "Discharging soyabeans in China",
+      "url": "https://gard.no/en/insights/discharging-soyabeans-china/",
+      "published_at": "2021-03-17",
+      "summary": "We outline steps to be taken when vessels arrive with damaged soyabeans in China or when experiencing delays to discharge.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-19T09:40:09+08:00"
+    },
+    {
+      "title": "A surveyor's survival",
+      "url": "https://gard.no/en/insights/a-surveyors-survival/",
+      "published_at": "2005-08-01",
+      "summary": "A Gard surveyor writes about the dangers involved in entering enclosed spaces.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "first_seen_at": "2026-08-19T09:40:09+08:00"
     }
   ]
 }
