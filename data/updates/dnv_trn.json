@@ -2,10 +2,23 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-08-19T09:40:16+08:00",
-  "last_success_at": "2026-08-19T09:40:16+08:00",
+  "last_crawled_at": "2026-08-22T09:37:43+08:00",
+  "last_success_at": "2026-08-22T09:37:43+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Updated Implementing Regulation (EU) 2026/1434 amending the MED: In force from 31 August 2026",
+      "url": "https://www.dnv.com/news/2026/updated-implementing-regulation-med/",
+      "published_at": "2026-08-20",
+      "summary": "The 10th Implementing Regulation (EU) 2026/1434 from 30 June 2026 amends the Marine Equipment Directive (MED) 2014/90/EU, as was published in the Official Journal of the EU. It will come into force on 31 August 2026 and repeal the 9th Implementing Regulation (EU) 2025/1533.",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-22T09:37:43+08:00"
+    },
     {
       "title": "Port State Control – CIC 2026 official questionnaire now published",
       "url": "https://www.dnv.com/news/2026/port-state-control-cic-2026-official-questionnaire-now-published/",
@@ -153,21 +166,6 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-04"
-    },
-    {
-      "title": "IMO MEPC 84: Revisiting the Net-Zero Framework",
-      "url": "https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/",
-      "published_at": "2026-05-04",
-      "summary": "The 84th session of the IMO’s Marine Environment Protection Committee (MEPC 84) held extensive discussions on the Net-Zero Framework (NZF). This was the first opportunity to do so following the adjournment of the extraordinary session in October 2025. Although there were divergent positions on key e",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "cii_ets"
-      ],
       "first_seen_at": "2026-05-04"
     }
   ]

@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-08-19T09:40:09+08:00",
-  "last_success_at": "2026-08-19T09:40:09+08:00",
+  "last_crawled_at": "2026-08-22T09:37:37+08:00",
+  "last_success_at": "2026-08-22T09:37:37+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -33,6 +33,19 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
+      "url": "https://gard.no/en/insights/argentina-formally-ratifies-nairobi-wreck-removal-convention/",
+      "published_at": "2026-07-16",
+      "summary": "In a recent client newsletter shared in late June 2026, Gard's correspondent in Argentina, Simonsen, reports that Argentina has formally ratified the Nairobi International Convention on the Removal of Wrecks (2007), following the enactment of Law No. 27,812 on 20 May 2026. The ratification introduce",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-22T09:37:37+08:00"
     },
     {
       "title": "Improved safety recommendations for entering enclosed spaces onboard ships",
@@ -121,19 +134,6 @@
       "url": "https://gard.no/en/insights/gencon-2022-charterparty/",
       "published_at": "2022-11-08",
       "summary": "BIMCO has published a revamped version of the popular GENCON charterparty.  Our author, Helena Biggs, was a member of the drafting committee. She highlights the changes and the reasons behind them.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
-    },
-    {
-      "title": "Ship recycling – Norwegian Appeals Court explores the limits of individual shipowner responsibility",
-      "url": "https://gard.no/en/insights/ship-recycling-norwegian-appeals-court-explores-limits-individual-shipowner-responsibility/",
-      "published_at": "2022-07-06",
-      "summary": "Illegal scrap of vessels can result in criminal liability which may be applicable not only to the ship owning company, but also to shipyards, brokers, insurance companies, banks and other entities enabling the transaction. In 2020, Norway saw its first case  ̶  TIDE CARRIER  ̶  exemplifying the proh",
       "tags": [
         "gard",
         "p&i",

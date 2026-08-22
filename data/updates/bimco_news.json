@@ -2,10 +2,36 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-08-19T09:40:17+08:00",
-  "last_success_at": "2026-08-19T09:40:17+08:00",
+  "last_crawled_at": "2026-08-22T09:37:44+08:00",
+  "last_success_at": "2026-08-22T09:37:44+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Your input needed on new Virtual Notice of Readiness Clause for Voyage Charter Parties",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-virtual-nor/",
+      "published_at": "2026-08-21",
+      "summary": "We are developing a new Virtual Notice of Readiness and Just in Time Arrival Clause for Voyage Charter Parties aimed at supporting more efficient voyage execution while addressing some of the legal and commercial barriers to Just in Time (JIT) operations. \nWe are looking to provide a contractual fra",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-22T09:37:44+08:00"
+    },
+    {
+      "title": "BIMCO seeks industry input on contractual gaps from Gulf disruption",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-gulf-contracts/",
+      "published_at": "2026-08-21",
+      "summary": "For months, ships and their crews have been facing extremely difficult and challenging circumstances in the Persian Gulf. Following the outbreak of hostilities in late February 2026 and the subsequent severe drop in traffic through the Strait of Hormuz, many ships already inside the Gulf have been u",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-22T09:37:44+08:00"
+    },
     {
       "title": "HNS Convention set to enter into force in November 2027",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/11-hns-convention/",
@@ -178,32 +204,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-07-08T10:46:46+08:00"
-    },
-    {
-      "title": "BMP Maritime Security updated with new guidance on managing activism at sea",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/06-bmp/",
-      "published_at": "2026-07-06",
-      "summary": "The latest edition of BMP Maritime Security (BMP MS) has been updated to include a new section dedicated to managing incidents involving activist boardings of ships and offshore installations. The guidance reflects the growing need for vessel operators and crews to be prepared for organised protest ",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-06T22:56:26+08:00"
-    },
-    {
-      "title": "Help shape a common standard for maritime emissions data reporting",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/06/30-ovd-consultation/",
-      "published_at": "2026-06-30",
-      "summary": "You are invited to provide feedback on the use of Operational Vessel Data (OVD) as a common standard for exchanging log abstract and noon report data for greenhouse gas emissions reporting.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-30"
     }
   ]
 }
