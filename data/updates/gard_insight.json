@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-08-25T09:39:19+08:00",
-  "last_success_at": "2026-08-25T09:39:19+08:00",
+  "last_crawled_at": "2026-08-28T18:57:37+08:00",
+  "last_success_at": "2026-08-28T18:57:37+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -33,6 +33,19 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-08-16T09:44:45+08:00"
+    },
+    {
+      "title": "Amazon River low water levels: Increased navigational risk during the 2026 dry season",
+      "url": "https://gard.no/en/insights/amazon-river-low-water-levels-navigational-risk-dry-season-2026/",
+      "published_at": "2026-08-10",
+      "summary": "Recent forecasts indicate that parts of the Amazon basin may experience exceptionally low water levels during the 2026 dry season, potentially resulting in navigation restrictions, reduced vessel drafts and operational disruption across key waterways serving Brazil's Northern Arc trade corridor. Aut",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-28T18:57:37+08:00"
     },
     {
       "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
@@ -67,32 +80,6 @@
       "url": "https://gard.no/en/insights/imo-s-unified-interpretations-llmc-clc-conventions-clarify-right-to-limit-liability/",
       "published_at": "2023-01-31",
       "summary": "A challenge for shipowners and their insurers engaged in international trade is to ensure that a common set of guidelines or standards for ship related liabilities apply across the different trading nations. Several IMO liability and compensation conventions require the shipowner and their insurers ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
-    },
-    {
-      "title": "The burden on ships and crew of a world in turmoil – will it ever change?",
-      "url": "https://gard.no/en/insights/burden-on-ships-crew-world-turmoil-will-it-ever-change/",
-      "published_at": "2022-12-21",
-      "summary": "When you are enjoying the holiday season with your family spare a thought for those at sea.  We are all well aware that the sea is unpredictable and that seafaring can be a dangerous and stressful occupation. There are some things such as bad weather or sea conditions that are difficult to avoid but",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
-    },
-    {
-      "title": "The EU Emission Trading System - are you ready?",
-      "url": "https://gard.no/en/insights/the-eu-emission-trading-system-are-you-ready/",
-      "published_at": "2022-12-07",
-      "summary": "There has been increasing interest in expanding existing domestic emission trading schemes to also cover international shipping. There is now agreement in the EU on how the EU’s emission trading system will be applied to shipping from 2024. Owners and charterers should start to think about how they ",
       "tags": [
         "gard",
         "p&i",
@@ -197,6 +184,19 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-08-19T09:40:09+08:00"
+    },
+    {
+      "title": "Nigeria – charterers request Letters of Comfort",
+      "url": "https://gard.no/en/insights/nigeria-charterers-request-letters-comfort/",
+      "published_at": "2015-10-04",
+      "summary": "Some charterers have requested that tanker owners sign Letters of Comfort addressed to the charterers themselves or the Nigerian National Petroleum Corporation.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-08-28T18:57:37+08:00"
     },
     {
       "title": "A surveyor's survival",
