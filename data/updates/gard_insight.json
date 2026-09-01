@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-08-31T13:00:58+08:00",
-  "last_success_at": "2026-08-31T13:00:58+08:00",
+  "last_crawled_at": "2026-09-01T12:39:45+08:00",
+  "last_success_at": "2026-09-01T12:39:45+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -74,19 +74,6 @@
         "gas_detector"
       ],
       "first_seen_at": "2026-08-19T09:40:09+08:00"
-    },
-    {
-      "title": "The IMO’s unified interpretations of the LLMC and CLC Conventions clarify the right to limit liability",
-      "url": "https://gard.no/en/insights/imo-s-unified-interpretations-llmc-clc-conventions-clarify-right-to-limit-liability/",
-      "published_at": "2023-01-31",
-      "summary": "A challenge for shipowners and their insurers engaged in international trade is to ensure that a common set of guidelines or standards for ship related liabilities apply across the different trading nations. Several IMO liability and compensation conventions require the shipowner and their insurers ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
     },
     {
       "title": "The challenges of CII compliance – Cooperation is key",
@@ -184,6 +171,19 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-08-19T09:40:09+08:00"
+    },
+    {
+      "title": "Cyber security amid a global pandemic",
+      "url": "https://gard.no/en/insights/cyber-security-amid-global-pandemic/",
+      "published_at": "2020-04-05",
+      "summary": "While the IMO has given shipowners and operators until 2021 to incorporate cyber risk into ships’ safety management systems, cyber criminals are already at work. Crises like the COVID-19 pandemic often lead malicious cyber actors to take advantage through various malicious methods.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-01T12:39:45+08:00"
     },
     {
       "title": "Nigeria – charterers request Letters of Comfort",
