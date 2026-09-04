@@ -1,5 +1,10 @@
 {
-  "last_success_at": "2026-09-04T14:48:55+08:00",
+  "source_id": "paris_mou",
+  "source_name": "Paris MoU",
+  "source_url": "https://parismou.org/publications",
+  "last_crawled_at": "2026-09-04T14:54:47+08:00",
+  "last_success_at": "2026-09-04T14:54:47+08:00",
+  "crawl_status": "success",
   "items": [
     {
       "title": "Register for Seminar 80",
@@ -75,11 +80,5 @@
       "topic_ids": [],
       "first_seen_at": "2026-09-04T14:48:38+08:00"
     }
-  ],
-  "source_id": "paris_mou",
-  "source_name": "Paris MoU",
-  "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-09-04T14:52:11+08:00",
-  "crawl_status": "error",
-  "error_message": "HTTPSConnectionPool(host='parismou.org', port=443): Max retries exceeded with url: /publications (Caused by ConnectTimeoutError(<HTTPSConnection(host='parismou.org', port=443) at 0x7f41f274f650>, 'Connection to parismou.org timed out. (connect timeout=30)'))"
+  ]
 }
