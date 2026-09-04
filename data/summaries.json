@@ -1994,5 +1994,14 @@
     "model": "z-ai/glm-5.2:free",
     "source_kind": "pdf",
     "generated_at": "2026-09-04T16:23:55+08:00"
+  },
+  "https://parismou.org/register-for-seminar-80-in-hamburg/": {
+    "summary_zh": "巴黎備忘錄（Paris MoU）透過港口國監督（PSC）檢查外國船舶，確認其船況、設備、配員與營運符合國際法規，以打擊低標準船舶。Paris MoU 提供數位數據工具，可即時掌握船舶合規與風險資訊，並定期發布年度績效名單及拒絕進港船舶公告。該組織與觀察員及海事夥伴保持密切合作與數據交換。",
+    "importance": "reference",
+    "category": "psc",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "html",
+    "generated_at": "2026-09-04T16:52:22+08:00"
   }
 }

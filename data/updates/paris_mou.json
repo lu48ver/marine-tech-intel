@@ -2,8 +2,8 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-09-04T16:23:45+08:00",
-  "last_success_at": "2026-09-04T16:23:45+08:00",
+  "last_crawled_at": "2026-09-04T16:52:12+08:00",
+  "last_success_at": "2026-09-04T16:52:12+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -16,7 +16,11 @@
         "paris-mou"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-04T14:48:38+08:00"
+      "first_seen_at": "2026-09-04T14:48:38+08:00",
+      "summary_zh": "巴黎備忘錄（Paris MoU）透過港口國監督（PSC）檢查外國船舶，確認其船況、設備、配員與營運符合國際法規，以打擊低標準船舶。Paris MoU 提供數位數據工具，可即時掌握船舶合規與風險資訊，並定期發布年度績效名單及拒絕進港船舶公告。該組織與觀察員及海事夥伴保持密切合作與數據交換。",
+      "importance": "reference",
+      "category": "psc",
+      "watch_topics": []
     },
     {
       "title": "Register for The Human Element Training",
