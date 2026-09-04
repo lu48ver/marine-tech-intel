@@ -10,10 +10,10 @@ Supports two providers, picked automatically from whichever key is present:
 OpenRouter speaks the OpenAI API, so the same SDK is used for both; only the
 base_url and model differ. OpenRouter is preferred when both keys exist.
 
-Free models come and go, so the OpenRouter path takes a CHAIN of models and
-falls through to the next one when a model is missing or has no provider
-capacity. Whichever model answered is returned to the caller so it can be
-recorded in the summary cache.
+Free models come and go — and share capacity, so any one of them is often
+busy — so the OpenRouter path takes a CHAIN of models and rotates to the next
+one whenever a model is missing, busy, or out of capacity. Whichever model
+answered is returned to the caller so it can be recorded in the summary cache.
 
 Robustness the callers rely on:
   * requests are throttled to stay under the per-minute cap;
@@ -46,10 +46,10 @@ OPENROUTER_FREE_MODELS = [
 ]
 OPENAI_DEFAULT_MODEL = "gpt-4o-mini"
 
-# Free tier allows 20 requests/minute, but in practice per-model limits bite
-# sooner, so start conservatively and let _widen_interval() back off further.
-OPENROUTER_MIN_INTERVAL_SEC = 6.0
-MAX_INTERVAL_SEC = 30.0
+# Free tier allows 20 requests/minute. Congestion is handled by rotating
+# models rather than by waiting, so the spacing stays modest.
+OPENROUTER_MIN_INTERVAL_SEC = 4.0
+MAX_INTERVAL_SEC = 12.0
 
 logger = logging.getLogger("llm")
 
@@ -193,15 +193,24 @@ def chat_json(
 ) -> tuple[dict, str]:
     """Ask for a JSON object; return (parsed_dict, model_that_answered).
 
+    Free models share capacity, so a 429 usually means "this model is busy
+    right now", not "you are going too fast": each round tries every model in
+    the chain before sleeping, and only when the whole chain is busy does it
+    back off and widen the spacing. Sitting out a backoff on one congested
+    model while three idle ones are available just wastes minutes.
+
     Raises LLMUnavailable when no model can serve the request (auth failure,
-    daily quota exhausted, or every model in the chain failing).
+    daily quota exhausted, or every model failing in every round).
     """
     from openai import APIStatusError, APIConnectionError
 
+    models = provider["models"]
+    plain_text_models: set[str] = set()  # models that reject response_format
     last_error = "no model attempted"
-    for model in provider["models"]:
-        use_json_mode = True
-        for attempt in range(1, retries + 1):
+
+    for round_no in range(1, retries + 1):
+        for model in models:
+            use_json_mode = model not in plain_text_models
             kwargs = {
                 "model": model,
                 "temperature": temperature,
@@ -221,40 +230,34 @@ def chat_json(
                 status = getattr(exc, "status_code", None)
                 if status in (401, 403):
                     raise LLMUnavailable(f"authentication failed: {message[:200]}") from exc
-                if status == 429:
-                    if _is_daily_quota(message):
-                        raise LLMUnavailable(f"quota exhausted: {message[:200]}") from exc
-                    _widen_interval(provider)
-                    backoff = 20 * attempt
-                    logger.warning("rate limited, waiting %ds (%s)", backoff, model)
-                    time.sleep(backoff)
-                    last_error = message
-                    continue
+                if status == 429 and _is_daily_quota(message):
+                    raise LLMUnavailable(f"quota exhausted: {message[:200]}") from exc
                 if status == 400 and "response_format" in message.lower() and use_json_mode:
-                    logger.info("%s rejects response_format — retrying without it", model)
-                    use_json_mode = False
-                    last_error = message
-                    continue
-                # 404 (unknown model) / 502 / 503 (no capacity): try next model
-                logger.warning("model %s failed (%s): %s", model, status, message[:150])
+                    logger.info("%s rejects response_format — will use plain text", model)
+                    plain_text_models.add(model)
+                # 429 (busy) / 404 (gone) / 5xx (no capacity): straight to the
+                # next model, no sleeping
+                logger.warning("model %s unavailable (%s): %s", model, status, message[:120])
                 last_error = message
-                break
+                continue
             except APIConnectionError as exc:
                 last_error = str(exc)
-                logger.warning("connection error on %s: %s", model, last_error[:150])
-                time.sleep(5 * attempt)
+                logger.warning("connection error on %s: %s", model, last_error[:120])
                 continue
 
             content = (resp.choices[0].message.content or "") if resp.choices else ""
             parsed = parse_json_loose(content)
             if parsed:
                 return parsed, model
-            # Empty/garbled reply: once without JSON mode, then give up on it
             logger.warning("model %s returned unparseable output", model)
             last_error = f"unparseable output from {model}"
-            if use_json_mode:
-                use_json_mode = False
-                continue
-            break
+            plain_text_models.add(model)  # JSON mode is not helping this model
+
+        # Every model in the chain was busy: now it is worth waiting
+        if round_no < retries:
+            _widen_interval(provider)
+            backoff = 20 * round_no
+            logger.warning("whole model chain busy — waiting %ds", backoff)
+            time.sleep(backoff)
 
     raise LLMUnavailable(f"all models failed — last error: {last_error[:250]}")

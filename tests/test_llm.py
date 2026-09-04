@@ -1,6 +1,11 @@
-"""Tests for the shared LLM client: provider selection and lenient JSON parsing."""
+"""Tests for the shared LLM client: provider selection, JSON parsing, rotation."""
 
+import json
+import types
+
+import httpx
 import pytest
+from openai import APIStatusError
 
 from scripts import llm
 
@@ -84,3 +89,85 @@ def test_daily_quota_detected():
 
 def test_per_minute_rate_limit_not_treated_as_quota():
     assert not llm._is_daily_quota("Rate limit exceeded: 20 requests per minute")
+
+
+# ---------- model rotation ----------
+
+def _status_error(status: int, message: str) -> APIStatusError:
+    request = httpx.Request("POST", "https://openrouter.ai/api/v1/chat/completions")
+    response = httpx.Response(status, request=request)
+    return APIStatusError(message, response=response, body=None)
+
+
+def _fake_client(behaviour: dict):
+    """Client whose reply depends on the requested model: str -> reply or exc."""
+    calls = []
+
+    def create(**kwargs):
+        model = kwargs["model"]
+        calls.append(model)
+        outcome = behaviour[model]
+        if isinstance(outcome, Exception):
+            raise outcome
+        message = types.SimpleNamespace(content=outcome)
+        return types.SimpleNamespace(choices=[types.SimpleNamespace(message=message)])
+
+    client = types.SimpleNamespace(
+        chat=types.SimpleNamespace(completions=types.SimpleNamespace(create=create))
+    )
+    return client, calls
+
+
+@pytest.fixture
+def provider():
+    return {"name": "openrouter", "models": ["busy/one", "good/two"], "min_interval": 0.0}
+
+
+def test_busy_model_rotates_to_next_without_waiting(provider, monkeypatch):
+    monkeypatch.setattr(llm.time, "sleep", lambda s: pytest.fail("should not sleep"))
+    client, calls = _fake_client({
+        "busy/one": _status_error(429, "temporarily rate-limited upstream"),
+        "good/two": json.dumps({"ok": True}),
+    })
+    data, model = llm.chat_json(client, provider, "sys", "user")
+    assert data == {"ok": True}
+    assert model == "good/two"
+    assert calls == ["busy/one", "good/two"]
+
+
+def test_daily_quota_stops_immediately(provider):
+    client, calls = _fake_client({
+        "busy/one": _status_error(429, "Rate limit exceeded: free-models-per-day"),
+        "good/two": json.dumps({"ok": True}),
+    })
+    with pytest.raises(llm.LLMUnavailable):
+        llm.chat_json(client, provider, "sys", "user")
+    assert calls == ["busy/one"]  # no point trying other free models today
+
+
+def test_auth_failure_stops_immediately(provider):
+    client, calls = _fake_client({
+        "busy/one": _status_error(401, "invalid api key"),
+        "good/two": json.dumps({"ok": True}),
+    })
+    with pytest.raises(llm.LLMUnavailable):
+        llm.chat_json(client, provider, "sys", "user")
+    assert calls == ["busy/one"]
+
+
+def test_all_models_failing_raises_after_rounds(provider, monkeypatch):
+    monkeypatch.setattr(llm.time, "sleep", lambda s: None)
+    client, calls = _fake_client({
+        "busy/one": _status_error(429, "busy"),
+        "good/two": _status_error(503, "no capacity"),
+    })
+    with pytest.raises(llm.LLMUnavailable):
+        llm.chat_json(client, provider, "sys", "user", retries=2)
+    assert calls == ["busy/one", "good/two"] * 2  # every model, every round
+
+
+def test_prose_wrapped_reply_is_accepted(provider):
+    client, _ = _fake_client({"busy/one": 'Here you go:\n```json\n{"a": 2}\n```'})
+    provider["models"] = ["busy/one"]
+    data, _ = llm.chat_json(client, provider, "sys", "user")
+    assert data == {"a": 2}
