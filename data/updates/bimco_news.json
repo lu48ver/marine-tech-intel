@@ -2,8 +2,8 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-04T14:54:56+08:00",
-  "last_success_at": "2026-09-04T14:54:56+08:00",
+  "last_crawled_at": "2026-09-04T15:24:21+08:00",
+  "last_success_at": "2026-09-04T15:24:21+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -17,7 +17,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-04T12:02:45+08:00"
+      "first_seen_at": "2026-09-04T12:02:45+08:00",
+      "summary_zh": "BIMCO 正在蒐集業界對 2023 年 IMO 生物附著管理指南實務經驗的回饋，作為 IMO 研議制定具強制力公約之依據。本次調查涵蓋執行現況、有效性及作業面挑戰，並屬於 BIMCO 整體證據蒐集工作的一部分。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Your input needed on new Virtual Notice of Readiness Clause for Voyage Charter Parties",
@@ -30,7 +34,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-22T09:37:44+08:00"
+      "first_seen_at": "2026-08-22T09:37:44+08:00",
+      "summary_zh": "相關機構正研擬新的航次租船合約「虛擬備便通知 (Virtual NOR)」與「準時抵達 (JIT)」條款，旨在提升航次執行效率並解決 JIT 作業的法律與商業障礙。目前正徵詢業界對此合約框架之意見。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "BIMCO seeks industry input on contractual gaps from Gulf disruption",
@@ -43,7 +51,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-22T09:37:44+08:00"
+      "first_seen_at": "2026-08-22T09:37:44+08:00",
+      "summary_zh": "波斯灣衝突於 2026 年 2 月下旬爆發後，荷莫兹海峽通行量大幅下降，許多滯留於波斯灣內的船舶面臨嚴峻情況。為此 BIMCO 正就現行契約條款在戰爭風險與航行中斷情境下的適用性徵集業界意見，探討是否需要在標準合約中新增或修訂條款來因應此類區域性衝突所衍生的合約空隙。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "HNS Convention set to enter into force in November 2027",
@@ -56,7 +68,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:55+08:00"
+      "first_seen_at": "2026-08-16T09:44:55+08:00",
+      "summary_zh": "《1996 年國際海上運輸有害及有毒物質造成損害之責任與賠償公約》(HNS 公約) 預定於 2027 年 11 月生效。該公約規範危險及有毒物質 (HNS) 海上運輸造成損害時的責任與賠償制度,生效後將對裝載 HNS 貨物的船舶及營運人產生新的法律與保險義務。船東需提前檢視船舶是否裝載 HNS 貨物、準備相關文件,並評估對責任險與強制保險要求的影響。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Leadership Perspective: BIMCO Strategy 2026",
@@ -82,7 +98,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00"
+      "first_seen_at": "2026-08-07T10:56:37+08:00",
+      "summary_zh": "BIMCO 會員現在可在其網站上取得 Platts S&P Global Energy 每週貨運市場評估資料。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Revised PRC Maritime Code: Key considerations for managing contractual risk",
@@ -95,7 +115,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00"
+      "first_seen_at": "2026-08-07T10:56:37+08:00",
+      "summary_zh": "中國《海商法》修訂對國際航運契約風險管理產生重要影響，涉及貨物裝卸、轉運及相關合約條款。修法內容與全球主要港口及貿易活動密切相關，業者需關注其對責任歸屬與爭議解決的潛在變化。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "BIMCO launches surveys to support practical biofouling management",
@@ -108,7 +132,13 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00"
+      "first_seen_at": "2026-08-07T10:56:37+08:00",
+      "summary_zh": "BIMCO 推出三項關於生物附著（biofouling）管理的問卷調查，涵蓋檢查、港口清洗服務及船東實務經驗，旨在蒐集業界意見，作為 IMO 制訂未來強制性生物附著管理措施時的參考依據。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": [
+        "bio_fuel"
+      ]
     },
     {
       "title": "AI-generated contracts and clauses: why the human element still matters",
@@ -121,7 +151,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00"
+      "first_seen_at": "2026-08-07T10:56:37+08:00",
+      "summary_zh": "AI正快速進入商業航運合約與條款的起草、審閱及比對流程。儘管AI可協助文件審閱、條款比較與起草,但人類專業判斷在合約工作中仍不可取代。對航運公司而言,AI工具可提升合約作業效率,但不應完全取代人為審核。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "BIMCO welcomes proposal to include Indian ship recycling yards on EU list",

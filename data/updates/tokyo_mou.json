@@ -1,10 +1,5 @@
 {
-  "source_id": "tokyo_mou",
-  "source_name": "Tokyo MoU",
-  "source_url": "https://www.tokyo-mou.org/publications/",
-  "last_crawled_at": "2026-09-04T14:54:44+08:00",
   "last_success_at": "2026-09-04T14:54:44+08:00",
-  "crawl_status": "success",
   "items": [
     {
       "title": "Joint Press Release on the Concentrated Inspection Campaign on Cargo Securing",
@@ -182,5 +177,11 @@
         "psc_cic"
       ]
     }
-  ]
+  ],
+  "source_id": "tokyo_mou",
+  "source_name": "Tokyo MoU",
+  "source_url": "https://www.tokyo-mou.org/publications/",
+  "last_crawled_at": "2026-09-04T15:23:41+08:00",
+  "crawl_status": "error",
+  "error_message": "HTTPSConnectionPool(host='www.tokyo-mou.org', port=443): Max retries exceeded with url: /publications/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tokyo-mou.org', port=443) at 0x7fadb482dc50>, 'Connection to www.tokyo-mou.org timed out. (connect timeout=30)'))"
 }

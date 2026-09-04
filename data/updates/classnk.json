@@ -2,8 +2,8 @@
   "source_id": "classnk",
   "source_name": "ClassNK Topics",
   "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
-  "last_crawled_at": "2026-09-04T14:54:45+08:00",
-  "last_success_at": "2026-09-04T14:54:45+08:00",
+  "last_crawled_at": "2026-09-04T15:24:11+08:00",
+  "last_success_at": "2026-09-04T15:24:11+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -36,7 +36,11 @@
         "mepc"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-04T14:48:10+08:00"
+      "first_seen_at": "2026-09-04T14:48:10+08:00",
+      "summary_zh": "日本政府於2024年6月30日部分修訂船舶分艙及相關法規，適用於日本旗「旅客輸送船」等（即非客船但從事旅客運送之貨船）。適用船舶可能需額外符合浸水計算、進水警報裝置、救生筏及AIS等要求。船東須自行確認各船是否屬於「旅客輸送船」等，ClassNK無法代為判定。建議工務部門儘速盤點船隊適用性並安排相關設備與計算之符合作業。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Preliminary Report of IMO MEPC Extraordinary Session (Oct. 2025)",

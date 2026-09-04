@@ -2,8 +2,8 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-09-04T14:54:55+08:00",
-  "last_success_at": "2026-09-04T14:54:55+08:00",
+  "last_crawled_at": "2026-09-04T15:24:20+08:00",
+  "last_success_at": "2026-09-04T15:24:20+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -17,7 +17,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-22T09:37:43+08:00"
+      "first_seen_at": "2026-08-22T09:37:43+08:00",
+      "summary_zh": "歐盟發布第10號實施細則 (EU) 2026/1434，修訂《海洋設備指令》(MED) 2014/90/EU，並於2026年8月31日生效，取代第9號實施細則 (EU) 2025/1534。船隊應確認船上海洋設備的型式認可與合規狀態是否符合新版 MED 要求。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Port State Control – CIC 2026 official questionnaire now published",
@@ -32,7 +36,13 @@
       "topic_ids": [
         "psc_cic"
       ],
-      "first_seen_at": "2026-08-07T10:56:36+08:00"
+      "first_seen_at": "2026-08-07T10:56:36+08:00",
+      "summary_zh": "Paris 與 Tokyo MoU 聯合貨物繫固 (Cargo Securing) 集中檢查 (CIC) 將於 9 月 1 日正式啟動。Paris MoU 已公布本次 CIC 的官方檢查問卷，船隊應提前準備以應對檢查。",
+      "importance": "action",
+      "category": "psc",
+      "watch_topics": [
+        "psc_cic"
+      ]
     },
     {
       "title": "The 2026 PSC CIC on cargo securing – be prepared",

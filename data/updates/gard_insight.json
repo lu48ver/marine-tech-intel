@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-04T14:54:49+08:00",
-  "last_success_at": "2026-09-04T14:54:49+08:00",
+  "last_crawled_at": "2026-09-04T15:24:15+08:00",
+  "last_success_at": "2026-09-04T15:24:15+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -17,7 +17,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-04T12:02:37+08:00"
+      "first_seen_at": "2026-09-04T12:02:37+08:00",
+      "summary_zh": "Gard再次提醒會員注意散裝貨液化風險。近期一艘散貨船於孟加拉灣發生船員死亡事故，重新引發對東海岸港口裝載之鐵礦砂細粉運輸安全的關注。船舶裝載此類貨物時須嚴格遵守IMSBC規則中關於鐵礦砂細粉的運輸條件，特別是裝載前確認其流動水分點（FMP）試驗結果及貨艙含水量限制，避免裝載後因水分過高及振動導致貨物液化與船舶傾覆。建議加強裝載前檢查與船上監控，確保符合安全運輸要求。",
+      "importance": "action",
+      "category": "safety",
+      "watch_topics": []
     },
     {
       "title": "El Niño, Panama Canal restrictions, and routing off Cape Horn",
@@ -30,7 +34,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-04T12:02:37+08:00"
+      "first_seen_at": "2026-09-04T12:02:37+08:00",
+      "summary_zh": "聖嬰現象反覆造成巴拿馬運河流域缺水,巴拿馬運河管理局(ACP)因而實施船舶通行管制與限制,使部分船舶改航合恩角以維持船期。巴拿馬運河仍為大西洋與太平洋間貿易的首選航線,但乾旱風險持續,船隊應提前評估運河管制對航程與船期的影響。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "UK extends emissions trading to shipping",
@@ -45,7 +53,13 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00"
+      "first_seen_at": "2026-08-19T09:40:09+08:00",
+      "summary_zh": "英國自 2026 年 7 月 1 日起將英國排放交易機制 (UK ETS) 適用於英國沿海航行的船舶。雖然許多船東與租船人已熟悉 EU ETS,但英國新制度為日益複雜的法規環境再添一層要求。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": [
+        "cii_ets"
+      ]
     },
     {
       "title": "Cargo securing on the PSC agenda",
@@ -58,7 +72,13 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
+      "first_seen_at": "2026-08-16T09:44:45+08:00",
+      "summary_zh": "港口國管制當局將加強貨物繫固安排檢查，船東應確保繫固手冊與程序符合IMO要求與指引，繫固設備狀態良好，並對船員進行妥善訓練。",
+      "importance": "action",
+      "category": "psc",
+      "watch_topics": [
+        "psc_cic"
+      ]
     },
     {
       "title": "Amazon River low water levels: Increased navigational risk during the 2026 dry season",
@@ -71,7 +91,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-28T18:57:37+08:00"
+      "first_seen_at": "2026-08-28T18:57:37+08:00",
+      "summary_zh": "預測顯示2026年乾季亞馬遜河流域水位可能異常偏低，將導致航行限制與船舶吃水減少。此情況可能影響巴西北部弧形貿易走廊的關鍵水路營運。工務監督應留意後續水位預報與航道公告，提前評估對船舶裝載量與航程安排的影響。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
     },
     {
       "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
@@ -103,7 +127,13 @@
       "topic_ids": [
         "gas_detector"
       ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00"
+      "first_seen_at": "2026-08-19T09:40:09+08:00",
+      "summary_zh": "IMO呼籲對船上密閉空間風險採取更結構化的識別與評估方式，以減少每年因危險氣氛導致的傷亡事故。建議船員與岸上人員均須充分了解密閉空間的危害性質。工務監督應留意相關安全程序的更新與落實。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": [
+        "gas_detector"
+      ]
     },
     {
       "title": "Type 2 diabetes – Know your risk factors",
@@ -129,7 +159,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
+      "first_seen_at": "2026-08-16T09:44:45+08:00",
+      "summary_zh": "BIMCO 發布了新修訂版的 GENCON 2022 定期租船契約標準格式,由起草 committee 成員說明本次修訂的主要變更內容及其背景原因。該版本取代既有 GENCON 條款,供航運業界作為新訂租船契約之參考範本。此為合約範本更新,內容偏重商業條款層面,與船體機件技術管理關聯性低。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Entry into enclosed spaces - are you prepared?",
@@ -145,7 +179,12 @@
         "gas_detector"
       ],
       "first_seen_at": "2026-08-19T09:40:09+08:00",
-      "summary_zh": "進入封閉空間的事件時常發生，提醒我們未經適當訓練或不遵循程序進入此類空間可能導致海員死亡或重傷。許多海員在封閉空間內遇難，往往是在嘗試救助他人時發生的。"
+      "summary_zh": "進入封閉空間的事件時常發生，提醒我們未經適當訓練或不遵循程序進入此類空間可能導致海員死亡或重傷。許多海員在封閉空間內遇難，往往是在嘗試救助他人時發生的。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": [
+        "gas_detector"
+      ]
     },
     {
       "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
@@ -175,7 +214,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-19T09:40:09+08:00"
+      "first_seen_at": "2026-08-19T09:40:09+08:00",
+      "summary_zh": "本文概述船舶在中國卸載大豆時,面對貨物受損或卸貨延遲情況應採取的步驟。內容涵蓋到港後的因應措施與延遲情境的處置流程,屬於貨物作業實務指引。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Cyber security amid a global pandemic",
@@ -188,7 +231,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-01T12:39:45+08:00"
+      "first_seen_at": "2026-09-01T12:39:45+08:00",
+      "summary_zh": "IMO 要求船東與營運商於 2021 年前將網路風險納入船舶安全管理系統 (SMS)。COVID-19 等危機期間惡意網路攻擊活動增加,船舶營運商應提高警覺。工務監督應確認船隊 SMS 已完成網路安全整合並持續更新。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Nigeria – charterers request Letters of Comfort",
@@ -201,7 +248,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-28T18:57:37+08:00"
+      "first_seen_at": "2026-08-28T18:57:37+08:00",
+      "summary_zh": "部分油輪租船人請求船東簽署以租船人或奈及利亞國家石油公司（NNPC）為對象的擔保函（Letter of Comfort）。此屬商業/合約層面的要求，涉及租船人對船東的履約保障或風險分攤安排，目前未見明確監管或技術規範要求，僅需評估簽署後之合約責任與潛在法律風險。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "A surveyor's survival",
@@ -216,7 +267,13 @@
       "topic_ids": [
         "gas_detector"
       ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00"
+      "first_seen_at": "2026-08-19T09:40:09+08:00",
+      "summary_zh": "Gard 驗船師撰文分享進入密閉空間作業的危險性與實務經驗,提醒船上人員注意相關安全風險。內容為個人經驗分享,未涉及具體法規或設備新規定。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": [
+        "gas_detector"
+      ]
     }
   ]
 }
