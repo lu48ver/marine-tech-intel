@@ -1,5 +1,10 @@
 {
-  "last_success_at": "2026-07-28T11:15:08+08:00",
+  "source_id": "classnk",
+  "source_name": "ClassNK Topics",
+  "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
+  "last_crawled_at": "2026-09-04T14:48:51+08:00",
+  "last_success_at": "2026-09-04T14:48:51+08:00",
+  "crawl_status": "success",
   "items": [
     {
       "title": "Preliminary Report of MSC111 (May 2026)",
@@ -21,7 +26,7 @@
     },
     {
       "title": "Outcome of MEPC84 (May 2026)",
-      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1378e.pdf",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1368e.pdf",
       "published_at": "2026-05-01",
       "summary": "",
       "tags": [
@@ -31,16 +36,10 @@
         "mepc"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-25T11:21:59+08:00",
-      "summary_zh": "國際海事組織（IMO）在2026年5月召開的第84屆海洋環境保護委員會（MEPC 84）會議中，繼續討論減少船舶溫室氣體（GHG）排放的中期措施，並計劃於2026年9月和11月召開工作小組會議以解決現行草案修訂的問題。此外，會議中還討論了與中期措施實施相關的指導方針的發展。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": [
-        "cii_ets"
-      ]
+      "first_seen_at": "2026-09-04T14:48:10+08:00"
     },
     {
-      "title": "Preliminary Report of IMO MEPC Extraordinaty Session (October 2025)",
+      "title": "Preliminary Report of IMO MEPC Extraordinary Session (Oct. 2025)",
       "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MEPC ES2_sumE.pdf",
       "published_at": "2025-10-01",
       "summary": "",
@@ -58,7 +57,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MSC110 (June 2025)",
+      "title": "Outcome of MSC110 (Jun. 2025)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1363e.pdf",
       "published_at": "2025-06-01",
       "summary": "",
@@ -76,7 +75,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MEPC83 (April 2025)",
+      "title": "Outcome of MEPC83 (Apr. 2025)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1354e.pdf",
       "published_at": "2025-04-01",
       "summary": "",
@@ -96,7 +95,7 @@
       ]
     },
     {
-      "title": "Outcome of MSC109 (December 2024)",
+      "title": "Outcome of MSC109 (Dec. 2024)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1350e.pdf",
       "published_at": "2024-12-01",
       "summary": "",
@@ -114,7 +113,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MEPC82 (October 2024)",
+      "title": "Outcome of MEPC82 (Oct. 2024)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1343e.pdf",
       "published_at": "2024-10-01",
       "summary": "",
@@ -152,7 +151,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MEPC81 (March 2024)",
+      "title": "Outcome of MEPC81 (Mar. 2024)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1325e.pdf",
       "published_at": "2024-03-01",
       "summary": "",
@@ -172,7 +171,7 @@
       ]
     },
     {
-      "title": "Outcome of MEPC80 (July 2023)",
+      "title": "Outcome of MEPC80 (Jul. 2023)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1309e.pdf",
       "published_at": "2023-07-01",
       "summary": "",
@@ -192,7 +191,7 @@
       ]
     },
     {
-      "title": "Outcome of MSC107 (June 2023)",
+      "title": "Outcome of MSC107 (Jun. 2023)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1303e.pdf",
       "published_at": "2023-06-01",
       "summary": "",
@@ -210,7 +209,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MEPC79 (December 2022)",
+      "title": "Outcome of MEPC79 (Dec. 2022)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1293e.pdf",
       "published_at": "2022-12-01",
       "summary": "",
@@ -230,7 +229,7 @@
       ]
     },
     {
-      "title": "Outcome of MSC106 (November 2022)",
+      "title": "Outcome of MSC106 (Nov. 2022)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1287e.pdf",
       "published_at": "2022-11-01",
       "summary": "",
@@ -248,7 +247,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MEPC78 (June 2022)",
+      "title": "Outcome of MEPC78 (Jun. 2022)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1275e.pdf",
       "published_at": "2022-06-01",
       "summary": "",
@@ -268,7 +267,7 @@
       ]
     },
     {
-      "title": "Outcome of MSC105 (April 2022)",
+      "title": "Outcome of MSC105 (Apr. 2022)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1270e.pdf",
       "published_at": "2022-04-01",
       "summary": "",
@@ -286,7 +285,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MEPC77 (November 2021)",
+      "title": "Outcome of MEPC77 (Nov. 2021)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1259e.pdf",
       "published_at": "2021-11-01",
       "summary": "",
@@ -306,7 +305,7 @@
       ]
     },
     {
-      "title": "Outcome of MSC104 (October 2021)",
+      "title": "Outcome of MSC104 (Oct. 2021)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1251e.pdf",
       "published_at": "2021-10-01",
       "summary": "",
@@ -324,7 +323,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MEPC76 (June 2021)",
+      "title": "Outcome of MEPC76 (Jun. 2021)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1245e.pdf",
       "published_at": "2021-06-01",
       "summary": "",
@@ -362,7 +361,7 @@
       "watch_topics": []
     },
     {
-      "title": "Outcome of MSC102 (November 2020)",
+      "title": "Outcome of MSC102 (Nov. 2020)",
       "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1229e.pdf",
       "published_at": "2020-11-01",
       "summary": "",
@@ -379,11 +378,5 @@
       "category": "regulation",
       "watch_topics": []
     }
-  ],
-  "source_id": "classnk",
-  "source_name": "ClassNK Topics",
-  "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
-  "last_crawled_at": "2026-09-04T12:02:33+08:00",
-  "crawl_status": "error",
-  "error_message": "fetch() returned 0 items — page structure may have changed"
+  ]
 }

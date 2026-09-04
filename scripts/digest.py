@@ -182,16 +182,22 @@ def main() -> int:
         logger.error("no API key (set OPENAI_API_KEY or .openai_key)")
         return 1
 
-    resp = client.chat.completions.create(
-        model=DEFAULT_MODEL,
-        temperature=0.3,
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ],
-    )
-    data = json.loads(resp.choices[0].message.content)
+    try:
+        resp = client.chat.completions.create(
+            model=DEFAULT_MODEL,
+            temperature=0.3,
+            response_format={"type": "json_object"},
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
+        )
+        data = json.loads(resp.choices[0].message.content)
+    except Exception as exc:
+        # Quota exhausted / API down: keep the previous digest.json rather
+        # than crashing or overwriting good themes with nothing.
+        logger.error("digest generation failed, keeping previous digest: %s", str(exc)[:300])
+        return 2
 
     # Map cited indices back to real articles; drop invalid/empty themes
     themes = []

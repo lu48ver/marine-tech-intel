@@ -1,12 +1,11 @@
 """Paris MoU crawler.
 
-Crawls the Paris MoU "Press releases" publication category (committee
-meetings, CIC campaigns, annual reports, focused-inspection results) rather
-than the full /publications feed, which is dominated by per-ship banning
-notices of little daily value to a superintendent.
-
-Each listing row (.views-row) carries the title link and a date rendered with
-an ordinal, e.g. "2nd of June 2026", which we normalise to ISO.
+parismou.org moved from Drupal to WordPress around 2026-08: the listing is
+now /publications with <a class="blog-item"> rows (a .tagline date like
+"28 August 2026" and an <h4> title). The old "Press releases" category
+filter no longer exists, so per-ship banning notices ("M/V ... refused
+access ...") — deliberately excluded before, of little daily value to a
+superintendent — are filtered out by title instead.
 """
 
 import re
@@ -14,10 +13,10 @@ import re
 from crawlers.base import BaseCrawler, normalize_date, run_from_cli
 
 BASE_URL = "https://parismou.org"
-# field_news_category_target_id=2 == "Press releases"
-LISTING_URL = "https://parismou.org/publications?field_news_category_target_id=2"
+LISTING_URL = "https://parismou.org/publications"
 
-ORDINAL_RE = re.compile(r"(\d{1,2})(?:st|nd|rd|th)", re.I)
+# Per-ship banning notices, e.g. 'M/V "VULIN" - IMO no: 9015448 refused access'
+BANNING_RE = re.compile(r"refused access|^M/V\b", re.I)
 
 
 class ParisMouCrawler(BaseCrawler):
@@ -30,19 +29,22 @@ class ParisMouCrawler(BaseCrawler):
         items = []
         seen = set()
 
-        for row in soup.select(".views-row"):
-            link = row.find("a", href=True)
-            if not link:
+        for row in soup.select("a.blog-item[href]"):
+            url = row["href"]
+            if url.startswith("/"):
+                url = BASE_URL + url
+            title_el = row.find("h4")
+            date_el = row.select_one(".tagline")
+            if not (title_el and date_el):
                 continue
-            url = BASE_URL + link["href"] if link["href"].startswith("/") else link["href"]
-            title = " ".join(link.get_text(" ", strip=True).split())
-            if not title or url in seen:
+            title = " ".join(title_el.get_text(" ", strip=True).split())
+            if not title or url in seen or BANNING_RE.search(title):
                 continue
             seen.add(url)
 
-            date_el = row.select_one(".views-field-field-news-date")
-            published = self._parse_date(date_el.get_text(" ", strip=True)) if date_el else ""
-            if not published:
+            try:
+                published = normalize_date(date_el.get_text(" ", strip=True))
+            except (ValueError, OverflowError):
                 continue
 
             items.append(
@@ -57,15 +59,6 @@ class ParisMouCrawler(BaseCrawler):
 
         items.sort(key=lambda x: x["published_at"], reverse=True)
         return items
-
-    @staticmethod
-    def _parse_date(raw: str) -> str:
-        """'2nd of June 2026' -> '2026-06-02'. '' if unparseable."""
-        cleaned = ORDINAL_RE.sub(r"\1", raw).replace(" of ", " ").strip()
-        try:
-            return normalize_date(cleaned)
-        except (ValueError, OverflowError):
-            return ""
 
 
 if __name__ == "__main__":

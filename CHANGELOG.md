@@ -2,6 +2,26 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-09-04 (修復:ClassNK / Paris MoU 改版 + AI 額度用盡的容錯)
+
+### 爬蟲修復
+- **ClassNK**(7/28 起失敗):網站改版,報告列表改為結構化列
+  `<a class="p-imo-result__item">`(欄位:category / title / type / date)。
+  改為逐欄解析,標題重組為原格式 `Outcome of MEPC84 (May 2026)` 以沿用既有
+  摘要快取;保留舊版解析為 fallback。
+- **Paris MoU**(8/16 起失敗):整站從 Drupal 搬到 WordPress,`.views-row`
+  消失、`?field_news_category_target_id=2` 分類過濾也不存在了。改抓
+  `a.blog-item`(`.tagline` 日期 + `h4` 標題),並以標題過濾掉個別船舶的
+  banning notices(原本靠分類參數排除)。
+
+### 容錯
+- `summarize.py`:OpenAI 額度用盡/金鑰失效時不再整支崩潰(先前會導致該次
+  之後的文章全部沒摘要)。改為偵測到致命 API 錯誤就停止呼叫、**保存已完成
+  的摘要與快取**、以 exit code 2 回報,新增 `blocked` 統計。
+- `digest.py`:同類錯誤改為保留前一版 `digest.json`,不覆蓋成空的。
+- `check_crawler_health.py`:除爬蟲狀態外,加報 **AI 中文摘要涵蓋率**,
+  缺摘要時在 Actions run summary 提示可能是額度用盡或金鑰失效。
+
 ## 2026-07-07 (排程改為每 3 天)
 
 - 自動更新從每日改為**每 3 天**(cron `0 0 */3 * *`,每月 1、4、7…31 日

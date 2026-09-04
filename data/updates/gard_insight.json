@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-04T12:02:37+08:00",
-  "last_success_at": "2026-09-04T12:02:37+08:00",
+  "last_crawled_at": "2026-09-04T14:48:58+08:00",
+  "last_success_at": "2026-09-04T14:48:58+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -84,7 +84,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-22T09:37:37+08:00"
+      "first_seen_at": "2026-08-22T09:37:37+08:00",
+      "summary_zh": "阿根廷於2026年5月20日通過27,812號法案，正式批准了2007年奈洛比國際打撈公約。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Improved safety recommendations for entering enclosed spaces onboard ships",
@@ -140,7 +144,8 @@
       "topic_ids": [
         "gas_detector"
       ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00"
+      "first_seen_at": "2026-08-19T09:40:09+08:00",
+      "summary_zh": "進入封閉空間的事件時常發生，提醒我們未經適當訓練或不遵循程序進入此類空間可能導致海員死亡或重傷。許多海員在封閉空間內遇難，往往是在嘗試救助他人時發生的。"
     },
     {
       "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
@@ -153,7 +158,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-19T09:40:09+08:00"
+      "first_seen_at": "2026-08-19T09:40:09+08:00",
+      "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Discharging soyabeans in China",

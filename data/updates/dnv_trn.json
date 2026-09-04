@@ -2,8 +2,8 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-09-04T12:02:44+08:00",
-  "last_success_at": "2026-09-04T12:02:44+08:00",
+  "last_crawled_at": "2026-09-04T14:49:09+08:00",
+  "last_success_at": "2026-09-04T14:49:09+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -47,7 +47,11 @@
       "topic_ids": [
         "psc_cic"
       ],
-      "first_seen_at": "2026-07-31T11:34:18+08:00"
+      "first_seen_at": "2026-07-31T11:34:18+08:00",
+      "summary_zh": "2026年的港口國家控制集中檢查活動將於9月1日至11月30日進行，重點將放在貨物固定上。請做好準備。",
+      "importance": "action",
+      "category": "psc",
+      "watch_topics": []
     },
     {
       "title": "IMO III 12: Initiation of ISM implementation guidelines revision and progression of survey requirements revision",
@@ -60,7 +64,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-31T11:34:18+08:00"
+      "first_seen_at": "2026-07-31T11:34:18+08:00",
+      "summary_zh": "IMO 第三屆實施工具小組第12次會議於2026年7月20日至24日召開，啟動了對ISM準則的全面修訂，並持續更新檢查指導方針。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Boiler tube plugging – class requirements",
@@ -73,7 +81,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-08T10:46:45+08:00"
+      "first_seen_at": "2026-07-08T10:46:45+08:00",
+      "summary_zh": "鍋爐管在熱傳遞和維持海洋鍋爐壓力完整性方面扮演關鍵角色。當發生洩漏時，需要仔細評估以防止次級損壞。此技術新聞提供了關於修復的類別接受標準的指導。",
+      "importance": "notice",
+      "category": "machinery",
+      "watch_topics": []
     },
     {
       "title": "Now available: The July 2026 edition of the DNV class rules and standards for ship and offshore",
@@ -86,7 +98,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-06T19:11:21+08:00"
+      "first_seen_at": "2026-07-06T19:11:21+08:00",
+      "summary_zh": "2026年7月版DNV船級規則和標準引入了新的船級標記及重大更新，旨在支持海事產業向更可持續和創新的方向轉型。",
+      "importance": "notice",
+      "category": "machinery",
+      "watch_topics": []
     },
     {
       "title": "New IMO requirements for pilot transfer arrangements",
@@ -99,7 +115,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-06T19:11:21+08:00"
+      "first_seen_at": "2026-07-06T19:11:21+08:00",
+      "summary_zh": "國際海事組織（IMO）在第13屆導航、通訊、搜尋與救援小組會議（NCSR 13）中，完成了下一代電子海圖顯示與資訊系統（ECDIS）的實施指導草案。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "The IMO sub-committee on navigation, communications, search and rescue (NCSR 13)",
@@ -112,7 +132,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-06T19:11:21+08:00"
+      "first_seen_at": "2026-07-06T19:11:21+08:00",
+      "summary_zh": "國際海事組織導航、通訊、搜尋與救援小組委員會（NCSR 13）於2026年6月22日至26日召開，並完成了下一代電子海圖顯示與資訊系統（ECDIS）實施的草案指導。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "North-east Atlantic joins the expanding network of ECAs",
@@ -125,7 +149,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-06-17"
+      "first_seen_at": "2026-06-17",
+      "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "The UK ETS expands to maritime from 1 July 2026",
@@ -140,7 +168,13 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "first_seen_at": "2026-06-05"
+      "first_seen_at": "2026-06-05",
+      "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": [
+        "cii_ets"
+      ]
     },
     {
       "title": "IMO MSC 111: New MASS Code adopted",
@@ -153,7 +187,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-22"
+      "first_seen_at": "2026-05-22",
+      "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "How to document PFOS-free fire-extinguishing foam on board",
@@ -166,7 +204,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-04"
+      "first_seen_at": "2026-05-04",
+      "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": []
     }
   ]
 }

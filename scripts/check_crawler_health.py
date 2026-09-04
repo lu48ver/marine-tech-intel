@@ -70,6 +70,27 @@ def check() -> tuple[list[dict], list[str]]:
     return rows, failures
 
 
+def check_summaries() -> tuple[int, int]:
+    """Return (items missing a Chinese summary, total items) across sources.
+
+    A crawl can succeed while the AI step silently degrades (quota exhausted,
+    key revoked), leaving articles with no 中文摘要 — worth surfacing in the
+    run summary alongside crawl status.
+    """
+    missing = total = 0
+    for path in UPDATES_DIR.glob("*.json"):
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        for item in data.get("items", []):
+            total += 1
+            if not item.get("summary_zh"):
+                missing += 1
+    return missing, total
+
+
 def write_github_summary(rows: list[dict], failures: list[str]) -> None:
     """Append a markdown table to the Actions run summary, if running in CI."""
     summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
@@ -84,6 +105,16 @@ def write_github_summary(rows: list[dict], failures: list[str]) -> None:
             f"| {r['id']} | {icon} {r['status']} | {r['items']} "
             f"| {r['last_success']} | {r['note']} |"
         )
+    missing, total = check_summaries()
+    if total:
+        pct = 100 * (total - missing) // total
+        lines += ["", f"AI 中文摘要涵蓋率: {total - missing}/{total} ({pct}%)"]
+        if missing:
+            lines.append("")
+            lines.append(
+                f"⚠️ {missing} 篇沒有中文摘要 — 若比例偏高,多半是 OpenAI 額度用盡或"
+                "金鑰失效,請檢查 summarize 步驟的日誌。"
+            )
     if failures:
         lines += ["", f"**{len(failures)} source(s) failing** — the site was "
                       "still deployed with the last-known-good data."]
@@ -97,6 +128,10 @@ def main() -> int:
     for r in rows:
         print(f"{r['id']:14s} {r['status']:8s} {r['items']:3d} items  "
               f"{r['last_success']}  {r['note']}")
+    missing, total = check_summaries()
+    if total:
+        print(f"\nAI 中文摘要: {total - missing}/{total} 篇有摘要"
+              + (f" ({missing} 篇缺少)" if missing else ""))
     if failures:
         print(f"\nFAIL: {len(failures)} source(s) not healthy:", file=sys.stderr)
         for msg in failures:

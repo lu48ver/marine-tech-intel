@@ -2,8 +2,8 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-04T12:02:45+08:00",
-  "last_success_at": "2026-09-04T12:02:45+08:00",
+  "last_crawled_at": "2026-09-04T14:49:10+08:00",
+  "last_success_at": "2026-09-04T14:49:10+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -134,7 +134,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-31T11:34:19+08:00"
+      "first_seen_at": "2026-07-31T11:34:19+08:00",
+      "summary_zh": "歐盟委員會已向成員國提出提議，將兩個印度船舶回收設施納入其批准的船廠名單。如果獲得批准，這將是印度船廠首次根據歐盟船舶回收法規獲得認可，標誌著一個重要里程碑。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Navigating alternative fuels: new industry guidelines for methanol Safety Management Systems",
@@ -147,7 +151,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-15T10:32:11+08:00"
+      "first_seen_at": "2026-07-15T10:32:11+08:00",
+      "summary_zh": "隨著甲醇作為海洋燃料的普及，海事技術論壇（MTF）發布了新指導方針，幫助公司為甲醇燃料船舶開發或調整安全管理系統。這些指導方針是與BIMCO及其他主要利益相關者合作制定的。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "Have you used electronic bills of lading? We want to hear from you!",
@@ -160,7 +168,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-17T10:42:57+08:00"
+      "first_seen_at": "2026-07-17T10:42:57+08:00",
+      "summary_zh": "如果您是越來越多成功採用電子提單的公司之一，是否願意分享您的經驗？BIMCO 和 FIT 聯盟希望展示這些經驗教訓，並已啟動調查以收集實際的電子提單經驗。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "New BIMCO survey explores challenges and best practices in operational crewing and rest hour compliance",
@@ -173,7 +185,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-14T10:33:55+08:00"
+      "first_seen_at": "2026-07-14T10:33:55+08:00",
+      "summary_zh": "BIMCO 正在進行調查，徵求業界分享在操作人員配備及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗。隨著疲勞管理和船員休息越來越受到國際法規的重視，這項調查旨在收集相關意見。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "BIMCO Biofuel Clause for Time Charter Parties 2026: What owners and charterers need to know",
@@ -188,7 +204,13 @@
       "topic_ids": [
         "bio_fuel"
       ],
-      "first_seen_at": "2026-07-14T10:33:55+08:00"
+      "first_seen_at": "2026-07-14T10:33:55+08:00",
+      "summary_zh": "隨著航運業尋求脫碳的可行途徑，生質燃料已成為一個可立即使用的過渡選項，通常可以在不需或少量修改現有引擎和燃料系統的情況下使用。",
+      "importance": "notice",
+      "category": "fuel",
+      "watch_topics": [
+        "bio_fuel"
+      ]
     },
     {
       "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
@@ -203,7 +225,11 @@
       "topic_ids": [
         "cii_ets"
       ],
-      "first_seen_at": "2026-07-09T11:23:35+08:00"
+      "first_seen_at": "2026-07-09T11:23:35+08:00",
+      "summary_zh": "英國已將英國排放交易計劃（UK ETS）擴展至海事部門，將於2026年7月1日生效。初步的海事階段預計將適用於國內海事活動，包括英國港口之間的航行及船舶在英國港口（如停泊時）產生的排放。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": []
     }
   ]
 }

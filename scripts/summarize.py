@@ -61,6 +61,22 @@ HEADERS = {
     )
 }
 
+def _fatal_api_errors() -> tuple:
+    """Errors that will affect every subsequent call (no point retrying).
+
+    Quota exhaustion, a bad/revoked key, or a persistent rate limit — the run
+    should stop calling, save what it has, and report, not crash mid-way and
+    lose the summaries it already paid for.
+    """
+    try:
+        from openai import APIStatusError, APIConnectionError
+    except ImportError:  # openai not installed (e.g. --dry-run environments)
+        return ()
+    return (APIStatusError, APIConnectionError)
+
+
+FATAL_API_ERRORS = _fatal_api_errors()
+
 IMPORTANCE_LEVELS = ("action", "notice", "reference")
 
 # Broad content categories — every article gets exactly one, so nothing falls
@@ -317,12 +333,18 @@ def main() -> int:
     valid_ids = {t["id"] for t in watchlist}
     system_prompt, classify_prompt = build_prompts(watchlist)
 
+    # A quota/auth failure applies to every remaining call, so stop making
+    # them — but still write out what was already summarized (and let the
+    # rest of the pipeline run) instead of crashing the whole step.
+    api_down = ""
+
     calls = 0
     stats = {
         "cached": 0,
         "summarized": 0,
         "backfilled": 0,
         "skipped": 0,
+        "blocked": 0,  # left unsummarized because the API became unavailable
         "would_summarize": 0,
         "would_backfill": 0,
     }
@@ -347,18 +369,23 @@ def main() -> int:
                     # cheap classify-only backfill (no source re-fetch)
                     if args.dry_run:
                         stats["would_backfill"] += 1
-                    elif not args.limit or calls < args.limit:
-                        record.update(classify_only(
-                            client, classify_prompt, valid_ids,
-                            item.get("title", ""), record["summary_zh"],
-                        ))
-                        calls += 1
-                        stats["backfilled"] += 1
-                        logger.info(
-                            "backfilled importance=%s category=%s topics=%s %s",
-                            record["importance"], record["category"],
-                            record["watch_topics"], item.get("title", "")[:60],
-                        )
+                    elif not api_down and (not args.limit or calls < args.limit):
+                        try:
+                            record.update(classify_only(
+                                client, classify_prompt, valid_ids,
+                                item.get("title", ""), record["summary_zh"],
+                            ))
+                        except FATAL_API_ERRORS as exc:
+                            api_down = str(exc)
+                            logger.error("API unavailable — stopping calls: %s", api_down[:200])
+                        else:
+                            calls += 1
+                            stats["backfilled"] += 1
+                            logger.info(
+                                "backfilled importance=%s category=%s topics=%s %s",
+                                record["importance"], record["category"],
+                                record["watch_topics"], item.get("title", "")[:60],
+                            )
                 for field in ("importance", "category"):
                     if record.get(field):
                         item[field] = record[field]
@@ -366,6 +393,10 @@ def main() -> int:
                     item["watch_topics"] = record["watch_topics"]
                 stats["cached"] += 1
                 changed = True
+                continue
+
+            if api_down:  # no point fetching source text we cannot summarize
+                stats["blocked"] += 1
                 continue
 
             text, kind = gather_source_text(item)
@@ -381,9 +412,15 @@ def main() -> int:
             if args.limit and calls >= args.limit:
                 continue
 
-            summary_zh, cls = summarize_text(
-                client, system_prompt, valid_ids, item.get("title", ""), text
-            )
+            try:
+                summary_zh, cls = summarize_text(
+                    client, system_prompt, valid_ids, item.get("title", ""), text
+                )
+            except FATAL_API_ERRORS as exc:
+                api_down = str(exc)
+                logger.error("API unavailable — stopping calls: %s", api_down[:200])
+                stats["blocked"] += 1
+                continue
             calls += 1
             if not summary_zh:
                 stats["skipped"] += 1
@@ -415,6 +452,15 @@ def main() -> int:
         save_cache(cache)
 
     logger.info("done: %s", stats)
+    if api_down:
+        # Everything summarized before the failure is saved; flag the run so
+        # the problem is visible (the workflow step is continue-on-error, so
+        # the site still builds and deploys with what we have).
+        logger.error(
+            "%d item(s) left unsummarized — API unavailable: %s",
+            stats["blocked"], api_down[:300],
+        )
+        return 2
     return 0
 
 

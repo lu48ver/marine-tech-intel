@@ -1,9 +1,38 @@
 {
-  "last_success_at": "2026-08-16T09:44:44+08:00",
+  "source_id": "paris_mou",
+  "source_name": "Paris MoU",
+  "source_url": "https://parismou.org/publications",
+  "last_crawled_at": "2026-09-04T14:48:55+08:00",
+  "last_success_at": "2026-09-04T14:48:55+08:00",
+  "crawl_status": "success",
   "items": [
     {
-      "title": "Concentrated Inspection Campaign on Cargo Securing 2026",
-      "url": "https://parismou.org/2026/08/concentrated-inspection-campaign-cargo-securing",
+      "title": "Register for Seminar 80",
+      "url": "https://parismou.org/register-for-seminar-80-in-hamburg/",
+      "published_at": "2026-08-28",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-04T14:48:38+08:00"
+    },
+    {
+      "title": "Register for The Human Element Training",
+      "url": "https://parismou.org/register-for-the-human-element-training/",
+      "published_at": "2026-08-03",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-04T14:48:38+08:00"
+    },
+    {
+      "title": "Paris and Tokyo MoUs launch 2026 Concentrated Inspection Campaign on Cargo Securing",
+      "url": "https://parismou.org/paris-and-tokyo-mous-launch-2026-concentrated-inspection-campaign-on-cargo-securing/",
       "published_at": "2026-08-03",
       "summary": "",
       "tags": [
@@ -13,11 +42,35 @@
       "topic_ids": [
         "psc_cic"
       ],
-      "first_seen_at": "2026-08-04T11:19:24+08:00"
+      "first_seen_at": "2026-09-04T14:48:38+08:00"
     },
     {
-      "title": "2025 Paris MoU Annual Report \"Port State Control; Progress and performance, highlights of the Paris MoU 2025\"",
-      "url": "https://parismou.org/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris",
+      "title": "Paris MoU publishes the Annual Report of 2025",
+      "url": "https://parismou.org/paris-mou-publishes-the-annual-report-of-2025/",
+      "published_at": "2026-07-03",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-04T14:48:38+08:00"
+    },
+    {
+      "title": "Paris MoU publishes its 2025 Performance Lists",
+      "url": "https://parismou.org/2025-performance-lists/",
+      "published_at": "2026-07-02",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-04T14:48:38+08:00"
+    },
+    {
+      "title": "Paris MoU 59th Committee meets in Glasgow, United Kingdom",
+      "url": "https://parismou.org/paris-mou-59th-committee-meets-in-glasgow-united-kingdom/",
       "published_at": "2026-07-01",
       "summary": "",
       "tags": [
@@ -25,51 +78,7 @@
         "paris-mou"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-07-19T11:31:42+08:00"
-    },
-    {
-      "title": "Paris MoU 59th Committee meets in Glasgow, United Kingdom",
-      "url": "https://parismou.org/2026/06/paris-mou-59th-committee-meets-glasgow-united-kingdom",
-      "published_at": "2026-06-02",
-      "summary": "",
-      "tags": [
-        "psc",
-        "paris-mou"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-16T10:40:42+08:00"
-    },
-    {
-      "title": "Joint concentrated inspection campaign on Ballast Water Management",
-      "url": "https://parismou.org/2025/08/joint-concentrated-inspection-campaign-ballast-water-management",
-      "published_at": "2025-08-01",
-      "summary": "",
-      "tags": [
-        "psc",
-        "paris-mou"
-      ],
-      "topic_ids": [
-        "psc_cic"
-      ],
-      "first_seen_at": "2025-08-01"
-    },
-    {
-      "title": "2024 Paris MoU Annual Report “Progress and performance; highlights of the Paris MoU 2024\"",
-      "url": "https://parismou.org/2025/07/2024-paris-mou-annual-report-progress-and-performance-highlights-paris-mou-2024",
-      "published_at": "2025-07-01",
-      "summary": "",
-      "tags": [
-        "psc",
-        "paris-mou"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-16T10:40:42+08:00"
+      "first_seen_at": "2026-09-04T14:48:38+08:00"
     }
-  ],
-  "source_id": "paris_mou",
-  "source_name": "Paris MoU",
-  "source_url": "https://parismou.org/publications?field_news_category_target_id=2",
-  "last_crawled_at": "2026-09-04T12:02:36+08:00",
-  "crawl_status": "error",
-  "error_message": "fetch() returned 0 items — page structure may have changed"
+  ]
 }
