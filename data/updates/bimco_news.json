@@ -2,10 +2,23 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-01T12:39:52+08:00",
-  "last_success_at": "2026-09-01T12:39:52+08:00",
+  "last_crawled_at": "2026-09-04T12:02:45+08:00",
+  "last_success_at": "2026-09-04T12:02:45+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Help BIMCO Shape the Future of Biofouling Management",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/03-biofouling-survey/",
+      "published_at": "2026-09-03",
+      "summary": "BIMCO is seeking industry feedback on practical experience with the 2023 IMO Biofouling Guidelines as the IMO considers details of a mandatory Convention. The survey gathers insights on implementation, effectiveness and operational challenges and forms part of a wider BIMCO evidence-gathering initia",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-04T12:02:45+08:00"
+    },
     {
       "title": "Your input needed on new Virtual Notice of Readiness Clause for Voyage Charter Parties",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-virtual-nor/",
@@ -88,7 +101,7 @@
       "title": "BIMCO launches surveys to support practical biofouling management",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-biofouling-surveys/",
       "published_at": "2026-08-05",
-      "summary": "As the International Maritime Organization considers the details of future mandatory measures to manage ships’ biofouling, industry input is essential to ensure any requirements are practical and effective. BIMCO has launched two surveys covering inspection and cleaning service in ports with a third",
+      "summary": "As the International Maritime Organization considers the details of future mandatory measures to manage ships’ biofouling, industry input is essential to ensure any requirements are practical and effective. BIMCO has launched three surveys covering inspection, cleaning service in ports and shipowner",
       "tags": [
         "bimco",
         "industry",
@@ -191,19 +204,6 @@
         "cii_ets"
       ],
       "first_seen_at": "2026-07-09T11:23:35+08:00"
-    },
-    {
-      "title": "Progress continues on WINDSEACON as subcommittee meets in person",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/06-windseacon/",
-      "published_at": "2026-07-06",
-      "summary": "Work on BIMCO’s WINDSEACON contract continues to move forward, with the subcommittee recently meeting in person to advance the drafting process and build on earlier milestones. The project aims to create a standard time charter party for the transport and installation of offshore wind turbines, supp",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-08T10:46:46+08:00"
     }
   ]
 }

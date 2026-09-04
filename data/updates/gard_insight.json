@@ -2,10 +2,36 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-01T12:39:45+08:00",
-  "last_success_at": "2026-09-01T12:39:45+08:00",
+  "last_crawled_at": "2026-09-04T12:02:37+08:00",
+  "last_success_at": "2026-09-04T12:02:37+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Precautions against liquefaction when loading iron ore fines in India",
+      "url": "https://gard.no/en/insights/precautions-against-liquefaction-loading-iron-ore-fines-india/",
+      "published_at": "2026-09-02",
+      "summary": "Gard once again alerts Members and clients to the significant risks associated with bulk cargo liquefaction. The recent tragic loss of life of crew on a bulk carrier in the Bay of Bengal has renewed concerns regarding the safety of some iron ore fines shipments, particularly from ports on the east c",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-04T12:02:37+08:00"
+    },
+    {
+      "title": "El Niño, Panama Canal restrictions, and routing off Cape Horn",
+      "url": "https://gard.no/en/insights/el-nino-panama-canal-restrictions-routing-off-cape-horn/",
+      "published_at": "2026-09-01",
+      "summary": "The Panama Canal remains the preferred route for vessels trading between the Atlantic and Pacific Oceans. However, recurring drought conditions associated with the El Niño phenomenon have repeatedly reduced water availability in the Canal's watershed, forcing the Panama Canal Authority (ACP) to intr",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-04T12:02:37+08:00"
+    },
     {
       "title": "UK extends emissions trading to shipping",
       "url": "https://gard.no/en/insights/uk-extends-emissions-trading-to-shipping/",
@@ -76,21 +102,6 @@
       "first_seen_at": "2026-08-19T09:40:09+08:00"
     },
     {
-      "title": "The challenges of CII compliance – Cooperation is key",
-      "url": "https://gard.no/en/insights/the-challenges-of-cii-compliance-cooperation-is-key/",
-      "published_at": "2022-11-25",
-      "summary": "IMO’s Carbon Intensity Indicator (CII) rating system for vessels is coming into force next year. It will be used to assess the efficiency with which a ship operates in terms of its CO2 emissions. The CII regulation is likely to alter the traditional division of responsibilities between owners and ti",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [
-        "cii_ets"
-      ],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
-    },
-    {
       "title": "Type 2 diabetes – Know your risk factors",
       "url": "https://gard.no/en/insights/type-2-diabetes-know-your-risk-factors/",
       "published_at": "2022-11-14",
@@ -130,21 +141,6 @@
         "gas_detector"
       ],
       "first_seen_at": "2026-08-19T09:40:09+08:00"
-    },
-    {
-      "title": "Under the lens - BIMCO’s EEXI transition clause for time charterparties",
-      "url": "https://gard.no/en/insights/under-lens-bimco-s-eexi-transition-clause-for-time-charterparties/",
-      "published_at": "2022-03-15",
-      "summary": "The deadline for compliance with the IMO’s Energy Efficiency Existing Ship Index (EEXI) is looming. Are charterparties flexible enough for the transition phase? How should parties approach the new time charterparties which they are entering into to cater for the vessel’s EEXI compliance? Gard takes ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [
-        "cii_ets"
-      ],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
     },
     {
       "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
