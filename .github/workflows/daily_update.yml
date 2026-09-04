@@ -46,29 +46,32 @@ jobs:
         run: python scripts/run_all_crawlers.py
 
       - name: Summarize new items (AI)
-        # Optional: only runs if the OPENAI_API_KEY secret is set. Caching means
-        # only newly-crawled items cost anything. Never blocks the deploy.
+        # Optional: runs if OPENROUTER_API_KEY (free models, preferred) or
+        # OPENAI_API_KEY is set. Caching means only newly-crawled items cost
+        # anything. Never blocks the deploy.
         continue-on-error: true
         env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          if [ -n "$OPENAI_API_KEY" ]; then
+          if [ -n "$OPENROUTER_API_KEY" ] || [ -n "$OPENAI_API_KEY" ]; then
             python scripts/summarize.py
           else
-            echo "OPENAI_API_KEY not set — skipping AI summaries"
+            echo "no LLM key set — skipping AI summaries"
           fi
 
       - name: AI digest — emerging themes (選題)
-        # Optional: only runs if the OPENAI_API_KEY secret is set. One LLM call
-        # per run; refreshes the "AI RADAR" themes. Never blocks the deploy.
+        # Optional: two LLM calls per run (emerging themes + per-topic status).
+        # Never blocks the deploy.
         continue-on-error: true
         env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          if [ -n "$OPENAI_API_KEY" ]; then
+          if [ -n "$OPENROUTER_API_KEY" ] || [ -n "$OPENAI_API_KEY" ]; then
             python scripts/digest.py
           else
-            echo "OPENAI_API_KEY not set — skipping AI digest"
+            echo "no LLM key set — skipping AI digest"
           fi
 
       - name: Build site

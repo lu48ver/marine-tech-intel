@@ -124,19 +124,40 @@ python -m crawlers.lr_fobas      # 或 tokyo_mou / classnk
 並同時評定對工務的重要性 (`importance`:須行動/須知悉/參考,供 BRIEF 排序) 與
 粗分類 (`category`,供 CATEGORY 分頁瀏覽)。
 摘要只根據抓回的原文,抓不到內文就跳過、不會瞎掰;結果快取在 `data/summaries.json`,
-同一篇文章只摘要一次,之後幾乎零成本。預設模型 `gpt-4o-mini`,50 篇約 US$0.03。
+同一篇文章只摘要一次,之後幾乎零成本。
+
+### 用哪家 AI (供應商選擇)
+
+`scripts/llm.py` 依「哪把金鑰存在」自動選,**OpenRouter 優先**:
+
+| 供應商 | 金鑰 | 模型 | 費用與限制 |
+|---|---|---|---|
+| **OpenRouter** (預設) | `OPENROUTER_API_KEY` 或 `.openrouter_key` | 免費模型 (`:free`) | **免費**,不需綁卡。每分鐘 20 次、**每天 50 次**(曾儲值 $10 以上則每天 1000 次) |
+| OpenAI | `OPENAI_API_KEY` 或 `.openai_key` | `gpt-4o-mini` | 付費,50 篇約 US$0.03 |
+
+每天 50 次對本專案夠用:每 3 天更新一次,通常只有幾篇新文章要摘要。
+若某次超過上限,腳本會停下並保留已完成的部分,下次執行自動接續(有快取)。
+
+免費模型會不定期更換,所以 `llm.py` 內建**模型備援鏈**(GLM → MiniMax →
+Gemma → Nemotron),前一個掛掉自動換下一個。要指定模型用 `LLM_MODEL`
+環境變數(可用逗號分隔多個當備援鏈),清單見
+<https://openrouter.ai/models?q=free>。
+
+### 申請 OpenRouter 金鑰 (免費)
+
+1. 到 <https://openrouter.ai> 用 Google/GitHub 註冊(免費,不需信用卡)
+2. 右上頭像 → **Keys** → **Create Key** → 複製產生的金鑰
 
 ### 本機測試
 
-在專案根目錄建立 `.openai_key`,裡面只放一行 OpenAI 金鑰 (此檔已 gitignore,不會上傳):
+在專案根目錄建立 `.openrouter_key`,裡面只放一行金鑰 (已 gitignore,不會上傳):
 
 ```powershell
-Set-Content -Path .openai_key -Value "sk-你的金鑰" -NoNewline -Encoding ascii
-python scripts/summarize.py --dry-run   # 先看會摘要哪些,不花錢
-python scripts/summarize.py             # 實際摘要
+Set-Content -Path .openrouter_key -Value "sk-or-v1-你的金鑰" -NoNewline -Encoding ascii
+python scripts/summarize.py --dry-run   # 先看會摘要哪些,不呼叫 API
+python scripts/summarize.py --limit 3   # 先試 3 篇
+python scripts/summarize.py             # 全部
 ```
-
-可用 `--limit 3` 只摘要 3 篇試水溫,或 `OPENAI_MODEL` 環境變數換模型。
 
 ### 讓 GitHub 自動摘要
 
@@ -144,12 +165,13 @@ python scripts/summarize.py             # 實際摘要
 
 1. **Settings** → 左側 **Secrets and variables** → **Actions**
 2. **New repository secret**
-3. **Name** 填 `OPENAI_API_KEY`,**Secret** 貼你的金鑰 → **Add secret**
+3. **Name** 填 `OPENROUTER_API_KEY`,**Secret** 貼你的金鑰 → **Add secret**
 
-設好後,每次自動排程就會在抓完資料後自動產生摘要。**沒設這個 Secret 也沒關係** ——
+設好後,每次自動排程就會在抓完資料後自動產生摘要。**沒設也沒關係** ——
 摘要步驟會自動跳過,網站照常部署,只是沒有 AI 摘要。
 
-> 想停用 AI 摘要:把這個 Secret 刪掉即可。
+> 想改回 OpenAI:設 `OPENAI_API_KEY` 並把 `OPENROUTER_API_KEY` 刪掉即可
+> (兩個都設時以 OpenRouter 為準)。
 
 ---
 

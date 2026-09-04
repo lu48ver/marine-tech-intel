@@ -9,17 +9,20 @@ Grounding: the model is given the real articles (numbered) and must cite the
 indices it used; we map those back to real articles and drop anything invalid,
 so the digest never references an article that doesn't exist.
 
-Env: OPENAI_API_KEY (or local .openai_key), OPENAI_MODEL (default gpt-4o-mini).
+Env: OPENROUTER_API_KEY (free models) or OPENAI_API_KEY — see scripts/llm.py.
 """
 
 import argparse
 import glob
 import json
 import logging
-import os
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from scripts.llm import build_client, chat_json  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
@@ -27,7 +30,6 @@ UPDATES_DIR = DATA_DIR / "updates"
 DIGEST_PATH = DATA_DIR / "digest.json"
 
 TAIPEI_TZ = timezone(timedelta(hours=8))
-DEFAULT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 RECENT_ITEMS = 45  # number of newest articles to analyze
 
 logger = logging.getLogger("digest")
@@ -88,7 +90,7 @@ TOPIC_STATUS_WINDOW_DAYS = 365
 TOPIC_STATUS_MAX_ARTICLES = 8
 
 
-def build_topic_status(client, topics: list[dict], items: list[dict]) -> dict:
+def build_topic_status(client, provider: dict, topics: list[dict], items: list[dict]) -> dict:
     """One LLM call: per-tracked-topic current-status paragraphs.
 
     Groups articles by the AI-assigned watch_topics field (summarize.py);
@@ -116,35 +118,13 @@ def build_topic_status(client, topics: list[dict], items: list[dict]) -> dict:
     if not blocks:
         return {}
 
-    resp = client.chat.completions.create(
-        model=DEFAULT_MODEL,
-        temperature=0.3,
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": TOPIC_STATUS_PROMPT},
-            {"role": "user", "content": "\n\n".join(blocks)},
-        ],
+    data, _ = chat_json(
+        client, provider, TOPIC_STATUS_PROMPT, "\n\n".join(blocks),
+        temperature=0.3, max_tokens=1500,
     )
-    try:
-        data = json.loads(resp.choices[0].message.content or "{}")
-    except json.JSONDecodeError:
-        return {}
     valid = {t["id"] for t in topics}
     return {k: v.strip() for k, v in data.items()
             if k in valid and isinstance(v, str) and v.strip()}
-
-
-def build_client():
-    from openai import OpenAI
-
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        key_file = PROJECT_ROOT / ".openai_key"
-        if key_file.exists():
-            api_key = key_file.read_text(encoding="utf-8").strip()
-    if not api_key:
-        return None
-    return OpenAI(api_key=api_key)
 
 
 def main() -> int:
@@ -177,23 +157,21 @@ def main() -> int:
         print(user_prompt[:2000])
         return 0
 
-    client = build_client()
+    client, provider = build_client()
     if client is None:
-        logger.error("no API key (set OPENAI_API_KEY or .openai_key)")
+        logger.error(
+            "no API key: set OPENROUTER_API_KEY (free models) or OPENAI_API_KEY, "
+            "or create .openrouter_key / .openai_key"
+        )
         return 1
 
+    model_used = provider["models"][0]
     try:
-        resp = client.chat.completions.create(
-            model=DEFAULT_MODEL,
-            temperature=0.3,
-            response_format={"type": "json_object"},
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": user_prompt},
-            ],
+        data, model_used = chat_json(
+            client, provider, SYSTEM_PROMPT, user_prompt,
+            temperature=0.3, max_tokens=2000,
         )
-        data = json.loads(resp.choices[0].message.content)
-    except Exception as exc:
+    except Exception as exc:  # incl. LLMUnavailable (quota/auth/model failures)
         # Quota exhausted / API down: keep the previous digest.json rather
         # than crashing or overwriting good themes with nothing.
         logger.error("digest generation failed, keeping previous digest: %s", str(exc)[:300])
@@ -215,13 +193,13 @@ def main() -> int:
     # Second call: per-tracked-topic status paragraphs for the watchlist view
     topic_status = {}
     try:
-        topic_status = build_topic_status(client, topics, all_items)
+        topic_status = build_topic_status(client, provider, topics, all_items)
     except Exception:
         logger.exception("topic status generation failed — keeping themes only")
 
     out = {
         "generated_at": datetime.now(TAIPEI_TZ).isoformat(timespec="seconds"),
-        "model": DEFAULT_MODEL,
+        "model": model_used,
         "themes": themes,
         "topic_status": topic_status,
     }

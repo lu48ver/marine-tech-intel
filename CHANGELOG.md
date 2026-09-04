@@ -2,6 +2,27 @@
 
 本檔記錄 schema 變動、新增來源、與重要架構調整。日期為台灣時間 (UTC+8)。
 
+## 2026-09-04 (改用 OpenRouter 免費模型)
+
+### 新增
+- `scripts/llm.py`:共用 LLM client,依金鑰自動選供應商(**OpenRouter 優先**,
+  無則 OpenAI)。OpenRouter 走 OpenAI 相容 API,只差 base_url 與模型名。
+  - **模型備援鏈**:免費模型會不定期下架,預設依序嘗試 GLM → MiniMax →
+    Gemma → Nemotron,前一個 404/無容量就換下一個;`LLM_MODEL` 可覆寫。
+  - **節流與重試**:自動控制在每分鐘 20 次以內;每分鐘限流的 429 退避重試,
+    每日額度用盡的 429 則丟 `LLMUnavailable` 讓呼叫端乾淨收工(下次接續)。
+  - **寬鬆 JSON 解析**:免費模型常把 JSON 包在 ```json 圍籬或前後加廢話,
+    一律容錯解析;不支援 `response_format` 的模型自動改用純文字模式重試。
+- `summarize.py` / `digest.py` 改用共用 client,刪掉各自重複的建 client 與
+  JSON 解析;快取的 `model` 欄位改記「實際回答的模型」。
+- workflow 兩個 AI 步驟改為 `OPENROUTER_API_KEY` 或 `OPENAI_API_KEY` 任一存在
+  即執行;`.openrouter_key` 加入 .gitignore。
+- 測試 +12(供應商選擇、金鑰檔讀取、模型鏈覆寫、寬鬆 JSON、429 分類),共 39 條。
+
+### 額度
+- OpenRouter 免費層:每分鐘 20 次、每天 50 次(儲值 $10 以上則 1000 次/天)。
+  本專案每 3 天更新、每次通常只有數篇新文章,免費層足夠。
+
 ## 2026-09-04 (修復:ClassNK / Paris MoU 改版 + AI 額度用盡的容錯)
 
 ### 爬蟲修復

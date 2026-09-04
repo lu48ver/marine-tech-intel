@@ -21,9 +21,10 @@ same article is never paid for twice across daily runs. Cached entries from
 before the importance field existed are backfilled with a cheap
 classify-only call (title + cached summary, no re-fetch).
 
-Env:
-  OPENAI_API_KEY   required unless --dry-run
-  OPENAI_MODEL     optional, default "gpt-4o-mini"
+Env (see scripts/llm.py for provider selection):
+  OPENROUTER_API_KEY  free models — preferred; or .openrouter_key
+  OPENAI_API_KEY      paid fallback; or .openai_key
+  LLM_MODEL           optional model override (comma-separated chain)
 
 Usage:
   python scripts/summarize.py             # summarize new items, write back
@@ -36,7 +37,6 @@ import glob
 import io
 import json
 import logging
-import os
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -44,13 +44,16 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from scripts.llm import LLMUnavailable, build_client, chat_json  # noqa: E402
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 UPDATES_DIR = DATA_DIR / "updates"
 CACHE_PATH = DATA_DIR / "summaries.json"
 
 TAIPEI_TZ = timezone(timedelta(hours=8))
-DEFAULT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 MIN_SOURCE_CHARS = 40   # below this, an existing summary is treated as "missing"
 MAX_SOURCE_CHARS = 6000  # truncate long PDFs/pages to control token cost
 
@@ -60,22 +63,6 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     )
 }
-
-def _fatal_api_errors() -> tuple:
-    """Errors that will affect every subsequent call (no point retrying).
-
-    Quota exhaustion, a bad/revoked key, or a persistent rate limit — the run
-    should stop calling, save what it has, and report, not crash mid-way and
-    lose the summaries it already paid for.
-    """
-    try:
-        from openai import APIStatusError, APIConnectionError
-    except ImportError:  # openai not installed (e.g. --dry-run environments)
-        return ()
-    return (APIStatusError, APIConnectionError)
-
-
-FATAL_API_ERRORS = _fatal_api_errors()
 
 IMPORTANCE_LEVELS = ("action", "notice", "reference")
 
@@ -257,46 +244,28 @@ def _parse_classification(data: dict, valid_ids: set[str]) -> dict:
     }
 
 
-def summarize_text(client, system_prompt: str, valid_ids: set[str],
-                   title: str, text: str) -> tuple[str, dict]:
-    """Call the LLM; return (summary_zh, classification). Empty summary = declined."""
-    resp = client.chat.completions.create(
-        model=DEFAULT_MODEL,
-        temperature=0.2,
-        max_tokens=400,
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"TITLE: {title}\n\nSOURCE TEXT:\n{text}"},
-        ],
+def summarize_text(client, provider: dict, system_prompt: str, valid_ids: set[str],
+                   title: str, text: str) -> tuple[str, dict, str]:
+    """Call the LLM; return (summary_zh, classification, model). "" = declined."""
+    data, model = chat_json(
+        client, provider, system_prompt,
+        f"TITLE: {title}\n\nSOURCE TEXT:\n{text}",
+        temperature=0.2, max_tokens=800,
     )
-    try:
-        data = json.loads(resp.choices[0].message.content or "{}")
-    except json.JSONDecodeError:
-        data = {}
     summary = (data.get("summary_zh") or "").strip()
     if "NO_SUMMARY" in summary:
         summary = ""
-    return summary, _parse_classification(data, valid_ids)
+    return summary, _parse_classification(data, valid_ids), model
 
 
-def classify_only(client, classify_prompt: str, valid_ids: set[str],
+def classify_only(client, provider: dict, classify_prompt: str, valid_ids: set[str],
                   title: str, summary_zh: str) -> dict:
     """Backfill classification for an already-summarized item (no re-fetch)."""
-    resp = client.chat.completions.create(
-        model=DEFAULT_MODEL,
-        temperature=0,
-        max_tokens=60,
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": classify_prompt},
-            {"role": "user", "content": f"TITLE: {title}\n\nSUMMARY:\n{summary_zh}"},
-        ],
+    data, _ = chat_json(
+        client, provider, classify_prompt,
+        f"TITLE: {title}\n\nSUMMARY:\n{summary_zh}",
+        temperature=0, max_tokens=300,
     )
-    try:
-        data = json.loads(resp.choices[0].message.content or "{}")
-    except json.JSONDecodeError:
-        data = {}
     return _parse_classification(data, valid_ids)
 
 
@@ -310,24 +279,16 @@ def main() -> int:
     cache = load_cache()
     now = datetime.now(TAIPEI_TZ).isoformat(timespec="seconds")
 
-    client = None
+    client = provider = None
     if not args.dry_run:
-        from openai import OpenAI
-
-        # Key from env (GitHub Actions secret) or a local gitignored file
-        # (.openai_key) for local testing without exposing it on the command line.
-        api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            key_file = PROJECT_ROOT / ".openai_key"
-            if key_file.exists():
-                api_key = key_file.read_text(encoding="utf-8").strip()
-        if not api_key:
+        client, provider = build_client()
+        if client is None:
             logger.error(
-                "no API key: set OPENAI_API_KEY or create .openai_key "
+                "no API key: set OPENROUTER_API_KEY (free models) or "
+                "OPENAI_API_KEY, or create .openrouter_key / .openai_key "
                 "(use --dry-run to test without a key)"
             )
             return 1
-        client = OpenAI(api_key=api_key)
 
     watchlist = load_watchlist()
     valid_ids = {t["id"] for t in watchlist}
@@ -372,10 +333,10 @@ def main() -> int:
                     elif not api_down and (not args.limit or calls < args.limit):
                         try:
                             record.update(classify_only(
-                                client, classify_prompt, valid_ids,
+                                client, provider, classify_prompt, valid_ids,
                                 item.get("title", ""), record["summary_zh"],
                             ))
-                        except FATAL_API_ERRORS as exc:
+                        except LLMUnavailable as exc:
                             api_down = str(exc)
                             logger.error("API unavailable — stopping calls: %s", api_down[:200])
                         else:
@@ -413,10 +374,10 @@ def main() -> int:
                 continue
 
             try:
-                summary_zh, cls = summarize_text(
-                    client, system_prompt, valid_ids, item.get("title", ""), text
+                summary_zh, cls, model = summarize_text(
+                    client, provider, system_prompt, valid_ids, item.get("title", ""), text
                 )
-            except FATAL_API_ERRORS as exc:
+            except LLMUnavailable as exc:
                 api_down = str(exc)
                 logger.error("API unavailable — stopping calls: %s", api_down[:200])
                 stats["blocked"] += 1
@@ -429,7 +390,7 @@ def main() -> int:
             cache[url] = {
                 "summary_zh": summary_zh,
                 **cls,
-                "model": DEFAULT_MODEL,
+                "model": model,
                 "source_kind": kind,
                 "generated_at": now,
             }
