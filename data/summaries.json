@@ -1921,5 +1921,78 @@
     "model": "minimax/minimax-m3:free",
     "source_kind": "summary",
     "generated_at": "2026-09-04T15:24:26+08:00"
+  },
+  "https://gard.no/en/insights/type-2-diabetes-know-your-risk-factors/": {
+    "summary_zh": "此文章並非航運或船舶工程相關內容,僅涉及第二型糖尿病的風險因子與預防建議,與船隊技術管理無關。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "minimax/minimax-m3:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-04T16:23:55+08:00"
+  },
+  "https://parismou.org/register-for-the-human-element-training/": {
+    "summary_zh": "巴黎備忘錄（Paris MoU）介紹其港口國管制（PSC）制度，透過檢查外籍船舶的狀況、設備、船員編制與操作，確認其符合國際海事法規，並提供資料工具與年度表現名單等最新資訊。本文內容為巴黎備忘錄的整體說明與訓練課程註冊宣傳，未涉及具體新規或檢查重點。",
+    "importance": "reference",
+    "category": "psc",
+    "watch_topics": [
+      "psc_cic"
+    ],
+    "model": "minimax/minimax-m3:free",
+    "source_kind": "html",
+    "generated_at": "2026-09-04T16:23:55+08:00"
+  },
+  "https://parismou.org/paris-and-tokyo-mous-launch-2026-concentrated-inspection-campaign-on-cargo-securing/": {
+    "summary_zh": "巴黎MoU與東京MoU將於2026年9月1日至11月30日針對貨物綑綁（貨物單元與貨物運輸單元）實施2026年集中檢查（CIC），與例行PSC檢查合併執行，每艘船舶於該期間僅受檢一次。PSCO將使用兩MoU共同制定的問檢表，查核是否符合SOLAS有關裝載、堆積與綑綁之現行要求；查得之缺失可由港口國記錄缺失甚至扣船。檢查結果將送交IMO及兩MoU治理機構。建議及早完成船隊貨物綑綁自查與相關文件準備。",
+    "importance": "action",
+    "category": "psc",
+    "watch_topics": [
+      "psc_cic"
+    ],
+    "model": "minimax/minimax-m3:free",
+    "source_kind": "html",
+    "generated_at": "2026-09-04T16:23:55+08:00"
+  },
+  "https://parismou.org/paris-mou-publishes-the-annual-report-of-2025/": {
+    "summary_zh": "Paris MoU 於 2026 年 7 月 1 日發布 2025 年度報告。2025 年拒入港口禁令升至 19 件,滯留率升至 4.18%(2024 年為 4.03%),顯示持續偏高趨勢。缺失分析未顯示單一公約領域惡化,但重複違規集中在消防安全(SOLAS Ch. II-2 占 16.8%)、結構與電氣(SOLAS Ch. II-1 占 11.6%)及海員健康醫療與福利(MLC Title IV 占 10.0%)。具體缺失以防火門(3.1%)、海員僱傭合約(1.3%)及 ISM 相關缺失(4.5%)最為突出。",
+    "importance": "notice",
+    "category": "psc",
+    "watch_topics": [
+      "psc_cic"
+    ],
+    "model": "minimax/minimax-m3:free",
+    "source_kind": "html",
+    "generated_at": "2026-09-04T16:23:55+08:00"
+  },
+  "https://parismou.org/2025-performance-lists/": {
+    "summary_zh": "Paris MoU 於第59次會議通過2025年檢查結果，並發布新的船旗國與受認可組織績效清單。新清單將自2026年7月1日起適用。白灰黑名單依據3年滾動期間內至少30次檢查的船旗國之檢查與滯留紀錄進行評級。",
+    "importance": "notice",
+    "category": "psc",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "html",
+    "generated_at": "2026-09-04T16:23:55+08:00"
+  },
+  "https://parismou.org/paris-mou-59th-committee-meets-in-glasgow-united-kingdom/": {
+    "summary_zh": "巴黎備忘錄第59次委員會於2026年5月18至22日在格拉斯哥舉行,重點進展包括:滯留率連續上升至2025年4.18%,委員會推進與2027年7月6日生效的歐盟PSC指令修正案同步實施,將更新船旗國與認可機構績效計算及船舶風險檔案中的環保參數。委員會亦針對虛假登記與證書船舶制定實務指引,並決定啟動24米及以上漁船自願性PSC查驗的協調機制。",
+    "importance": "notice",
+    "category": "psc",
+    "watch_topics": [
+      "psc_cic"
+    ],
+    "model": "minimax/minimax-m3:free",
+    "source_kind": "html",
+    "generated_at": "2026-09-04T16:23:55+08:00"
+  },
+  "https://www.tokyo-mou.org/press-releases/2026/08/03/joint-press-release-on-the-concentrated-inspection-campaign-on-cargo-securing/": {
+    "summary_zh": "Tokyo MoU 與 Paris MoU 將於 2026 年 9 月 1 日至 11 月 30 日聯合執行「貨物繫固」集中檢查活動 (CIC)，配合例行港口國檢查進行。PSCO 將使用特定問卷查核船舶是否符合 SOLAS 對貨物裝載、堆疊與繫固的規定。船方需確保備有經認可的貨物繫固手冊 (CSM)、貨物安全通道計畫 (CSAP)，且固定與便攜式繫固設備狀況良好並符合手冊維護要求。檢查發現的缺失可能導致記錄缺陷甚至船舶滯留，建議船隊提前依問卷項目完成自查。",
+    "importance": "action",
+    "category": "psc",
+    "watch_topics": [
+      "psc_cic"
+    ],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "pdf",
+    "generated_at": "2026-09-04T16:23:55+08:00"
   }
 }

@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-04T15:24:15+08:00",
-  "last_success_at": "2026-09-04T15:24:15+08:00",
+  "last_crawled_at": "2026-09-04T16:23:46+08:00",
+  "last_success_at": "2026-09-04T16:23:46+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -146,7 +146,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00"
+      "first_seen_at": "2026-08-16T09:44:45+08:00",
+      "summary_zh": "此文章並非航運或船舶工程相關內容,僅涉及第二型糖尿病的風險因子與預防建議,與船隊技術管理無關。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "The GENCON 2022 Charterparty",

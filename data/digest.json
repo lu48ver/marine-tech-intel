@@ -1,28 +1,46 @@
 {
-  "generated_at": "2026-09-04T16:17:54+08:00",
-  "model": "z-ai/glm-5.2:free",
+  "generated_at": "2026-09-04T16:49:33+08:00",
+  "model": "minimax/minimax-m3:free",
   "themes": [
     {
-      "name": "生物附著管理強制化趨勢",
-      "why": "BIMCO 推出三項問卷調查，蒐集業界對 2023 年 IMO 生物附著管理指南的實務經驗，作為 IMO 研議制定具強制力公約之依據；船隊應關注未來生物附著管理從志願性指南轉為強制要求的走向，並提前評估水下清洗與維護程序的合規準備。",
+      "name": "貨物繫固集中檢查 (Cargo Securing CIC)",
+      "why": "Paris MoU 與 Tokyo MoU 將於 2026 年 9 月 1 日至 11 月 30 日聯合實施貨物繫固集中檢查，PSCO 將依 SOLAS 裝載與堆積規範並以共同問卷查核；船隊須立即盤點繫固手冊、設備狀態及船員訓練紀錄，以避免於 9 月起被滯留或開立缺失。",
       "articles": [
         {
-          "title": "Help BIMCO Shape the Future of Biofouling Management",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/03-biofouling-survey/",
-          "source": "BIMCO News",
-          "published_at": "2026-09-03"
+          "title": "Cargo securing on the PSC agenda",
+          "url": "https://gard.no/en/insights/cargo-securing-psc-agenda/",
+          "source": "Gard Insight",
+          "published_at": "2026-08-14"
         },
         {
-          "title": "BIMCO launches surveys to support practical biofouling management",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-biofouling-surveys/",
-          "source": "BIMCO News",
-          "published_at": "2026-08-05"
+          "title": "Port State Control – CIC 2026 official questionnaire now published",
+          "url": "https://www.dnv.com/news/2026/port-state-control-cic-2026-official-questionnaire-now-published/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-08-04"
+        },
+        {
+          "title": "Joint Press Release on the Concentrated Inspection Campaign on Cargo Securing",
+          "url": "https://www.tokyo-mou.org/press-releases/2026/08/03/joint-press-release-on-the-concentrated-inspection-campaign-on-cargo-securing/",
+          "source": "Tokyo MoU",
+          "published_at": "2026-08-03"
+        },
+        {
+          "title": "Paris and Tokyo MoUs launch 2026 Concentrated Inspection Campaign on Cargo Securing",
+          "url": "https://parismou.org/paris-and-tokyo-mous-launch-2026-concentrated-inspection-campaign-on-cargo-securing/",
+          "source": "Paris MoU",
+          "published_at": "2026-08-03"
+        },
+        {
+          "title": "The 2026 PSC CIC on cargo securing – be prepared",
+          "url": "https://www.dnv.com/news/2026/the-2026-psc-cic-on-cargo-securing/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-07-29"
         }
       ]
     },
     {
-      "name": "英國 ETS 擴及海運業",
-      "why": "英國自 2026 年 7 月 1 日起將 UK ETS 適用於英國港口間航行及停泊排放，船隊須在熟悉 EU ETS 之外另行建立 UK ETS 的排放監測、報告與配額管理機制，增加雙重碳定價體系的行政負擔。",
+      "name": "英國 ETS 海事化",
+      "why": "英國排放交易機制自 2026 年 7 月 1 日起擴展至海事部門，涵蓋英國港口間航行與停泊排放，使原本熟悉 EU ETS 的船東再添一層合規與碳定價義務，需檢視航線與停泊報表以準備監測與繳款。",
       "articles": [
         {
           "title": "UK extends emissions trading to shipping",
@@ -45,8 +63,68 @@
       ]
     },
     {
-      "name": "乾旱導致關鍵水道航行限制",
-      "why": "聖嬰現象反覆造成巴拿馬運河流域缺水，ACP 實施通行管制迫使部分船舶改航合恩角；同時 2026 年乾季亞馬遜河流域水位預測異常偏低，將限制船舶吃水與裝載量，工務監督須將氣候驅動的航道限制納入航程規劃與載貨計算。",
+      "name": "IMO 強制法規近期生效 (MED、HNS、PFOS、MASS)",
+      "why": "歐盟 MED 實施細則 (EU) 2026/1434 於 2026 年 8 月 31 日生效取代第 9 號細則；《1996 年 HNS 公約》預定 2027 年 11 月生效，裝載危險及有毒物質之船舶將新增責任與保險義務；MSC 111 通過 MASS 目標導向法規，並批准氫與氨作為燃料之臨時準則；另船上滅火泡沫須於 2026 年 1 月 1 日後首次安全設備檢查時驗證為 PFOS-free，多項規範交織使船隊須同步更新設備型式認可、保險安排及安全管理系統。",
+      "articles": [
+        {
+          "title": "Updated Implementing Regulation (EU) 2026/1434 amending the MED: In force from 31 August 2026",
+          "url": "https://www.dnv.com/news/2026/updated-implementing-regulation-med/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-08-20"
+        },
+        {
+          "title": "HNS Convention set to enter into force in November 2027",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/11-hns-convention/",
+          "source": "BIMCO News",
+          "published_at": "2026-08-11"
+        },
+        {
+          "title": "IMO MSC 111: New MASS Code adopted",
+          "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-22"
+        },
+        {
+          "title": "How to document PFOS-free fire-extinguishing foam on board",
+          "url": "https://www.dnv.com/news/2026/how-to-document-pfos-free-fire-extinguishing-foam-on-board/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-05-04"
+        },
+        {
+          "title": "Preliminary Report of MSC111 (May 2026)",
+          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+          "source": "ClassNK Topics",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "name": "PSC 績效趨嚴與名單更新",
+      "why": "Paris MoU 2025 年滯留率升至 4.18%（2024 年為 4.03%），拒入港口禁令升至 19 件，缺失集中於 SOLAS Ch. II-2 消防安全；新船旗國及認可機構績效名單自 2026 年 7 月 1 日起適用，並預告與 2027 年 7 月 6 日 EU PSC 指令修訂同步更新環保參與計算，技術管理須特別強化防火與證書合規。",
+      "articles": [
+        {
+          "title": "Paris MoU publishes the Annual Report of 2025",
+          "url": "https://parismou.org/paris-mou-publishes-the-annual-report-of-2025/",
+          "source": "Paris MoU",
+          "published_at": "2026-07-03"
+        },
+        {
+          "title": "Paris MoU publishes its 2025 Performance Lists",
+          "url": "https://parismou.org/2025-performance-lists/",
+          "source": "Paris MoU",
+          "published_at": "2026-07-02"
+        },
+        {
+          "title": "Paris MoU 59th Committee meets in Glasgow, United Kingdom",
+          "url": "https://parismou.org/paris-mou-59th-committee-meets-in-glasgow-united-kingdom/",
+          "source": "Paris MoU",
+          "published_at": "2026-07-01"
+        }
+      ]
+    },
+    {
+      "name": "水文異常對航運之衝擊",
+      "why": "聖嬰現象使巴拿馬運河管理局 (ACP) 持續實施通行管制，部分船舶改航合恩角影響船期；亞馬遜河 2026 年乾季預測水位偏低，將限制巴西北部弧形航道之船舶吃水與裝載量，工務監督須提前評估替代航線與壓載調整。",
       "articles": [
         {
           "title": "El Niño, Panama Canal restrictions, and routing off Cape Horn",
@@ -63,63 +141,39 @@
       ]
     },
     {
-      "name": "海事自主水面船舶 (MASS) 法規",
-      "why": "IMO MSC 111 通過針對 MASS 的新目標導向法規，標誌自主航運監管框架邁入實質階段；船隊技術管理部門須開始評估 MASS 法規對船舶設計、系統整合及營運程序的影響。",
+      "name": "HNS 與貨物/海事自主新法 (MASS) 對船隊之合約與技術準備",
+      "why": "BIMCO 正因應波斯灣衝突於 2026 年 2 月下旬爆發後荷莫兹海峽通行下降，徵集業界對戰爭風險與航行中斷條款空隙之意見；同時擬議新版航次租船「虛擬 NOR」與「JIT」條款；MSC 111 通過之 MASS 法規將逐步落地；中國《海商法》修訂亦影響裝卸、轉運與爭議解決。上述均要求技術與商務團隊在合約審閱上更緊密協作。",
       "articles": [
+        {
+          "title": "Your input needed on new Virtual Notice of Readiness Clause for Voyage Charter Parties",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-virtual-nor/",
+          "source": "BIMCO News",
+          "published_at": "2026-08-21"
+        },
+        {
+          "title": "BIMCO seeks industry input on contractual gaps from Gulf disruption",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-gulf-contracts/",
+          "source": "BIMCO News",
+          "published_at": "2026-08-21"
+        },
+        {
+          "title": "Revised PRC Maritime Code: Key considerations for managing contractual risk",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-maritime-code-prc/",
+          "source": "BIMCO News",
+          "published_at": "2026-08-05"
+        },
         {
           "title": "IMO MSC 111: New MASS Code adopted",
           "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
           "source": "DNV Technical & Regulatory News",
           "published_at": "2026-05-22"
-        },
-        {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
-        }
-      ]
-    },
-    {
-      "name": "次世代 ECDIS 實施指導",
-      "why": "IMO NCSR 13 會議完成下一代 ECDIS 實施草案指導，船隊須追蹤 ECDIS 硬體與軟體升級時程，確保導航設備符合新版標準並規劃船員培訓。",
-      "articles": [
-        {
-          "title": "New IMO requirements for pilot transfer arrangements",
-          "url": "https://www.dnv.com/news/2026/New-IMO-requirements-for-pilot-transfer-arrangements/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-07-01"
-        },
-        {
-          "title": "The IMO sub-committee on navigation, communications, search and rescue (NCSR 13)",
-          "url": "https://www.dnv.com/news/2026/the-imo-sub-committee-on-navigation-communications-search-and-rescue-ncsr13/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "name": "替代燃料安全管理系統指導",
-      "why": "海事技術論壇 (MTF) 發布甲醇燃料船舶安全管理系統新指導方針，IMO MSC 111 同時批准氫氣與氨作為燃料的臨時指導方針；船隊採用這些替代燃料時須據此開發或調整 SMS，涵蓋燃料儲存、洩漏偵測與緊急應變程序。",
-      "articles": [
-        {
-          "title": "Navigating alternative fuels: new industry guidelines for methanol Safety Management Systems",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-sms-methanol/",
-          "source": "BIMCO News",
-          "published_at": "2026-07-14"
-        },
-        {
-          "title": "Preliminary Report of MSC111 (May 2026)",
-          "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
-          "source": "ClassNK Topics",
-          "published_at": "2026-05-01"
         }
       ]
     }
   ],
   "topic_status": {
-    "bio_fuel": "BIMCO於2026年7月發布2026年版定期租船生物燃料條款（Biofuel Clause for Time Charter Parties 2026），為船東與租船人在生質燃料採購與使用責任分擔上提供合約框架；LR亦於2025年9月推出生物燃料諮詢服務（Biofuel Advisory），協助船隊評估FAME摻配燃料對引擎與燃料系統的影響。對船隊技術管理而言，生質燃料可在少量或無需修改現有設備的情況下直接使用，但仍須嚴格管控氧化安定性、滑油相容性及長期儲存期間的微生物滋生風險。",
-    "psc_cic": "Paris與Tokyo MoU聯合貨物繫固（Cargo Securing）集中檢查（CIC）將於2026年9月1日啟動，Paris MoU已於8月4日公布官方檢查問卷，船隊應立即完成自查，確保繫固手冊符合IMO要求、設備狀態良好且船員訓練到位。回顧2025年壓載水管理CIC，9,244次檢查中有184艘船舶被扣留（扣留率2.66%），其中30艘因CIC相關缺陷被扣留，顯示壓載水系統運作與維護仍為高風險項目，可供本次CIC準備借鏡。",
-    "cii_ets": "英國自2026年7月1日起將UK ETS擴展至英國沿海航行船舶，在既有EU ETS之外新增一層碳排放交易合規義務，船隊技術管理須同步建立UK ETS的排放監測、報告與核查（MRV）流程。船東與租船人應儘速釐清UK ETS與EU ETS在適用範圍、配額分配及罰則上的差異，避免因雙軌制申報疏漏而產生合規風險。"
+    "bio_fuel": "BIMCO 於 2026 年 7 月發布了新的定期租船合約生質燃料條款 (Biofuel Clause for Time Charter Parties 2026)，為船東與租船人提供使用生質燃料的合約框架。LR 也推出了生物燃料諮詢服務，協助船隊在不大幅修改現有引擎和燃料系統的情況下安全採用生質燃料，船隊技術管理應關注合約條款與燃料相容性評估。",
+    "psc_cic": "Paris 與 Tokyo MoU 已公布 2026 年「貨物繫固」集中檢查 (CIC) 官方問卷，將於 9 月 1 日至 11 月 30 日聯合執行，PSCO 將查核船舶是否符合 SOLAS 貨物裝載、堆疊與繫固規定。此外，Paris MoU 2025 年報顯示滯留率升至 4.18%，船隊應提前完成繫固手冊與設備自查並加強船員訓練，以避免在此次 CIC 期間遭滯留。",
+    "cii_ets": "英國已確認自 2026 年 7 月 1 日起將英國排放交易機制 (UK ETS) 擴展至英國沿海航行的船舶，為現有的 EU ETS 再添一層合規要求。船隊技術管理需針對英國海域航線建立額外的碳排放監測與申報機制，以應對日益複雜的碳定價法規環境。"
   }
 }
