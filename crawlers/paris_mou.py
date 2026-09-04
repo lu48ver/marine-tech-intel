@@ -29,7 +29,25 @@ class ParisMouCrawler(BaseCrawler):
     timeout = 60
 
     def fetch(self) -> list[dict]:
-        soup = self._get_soup_with_retry(self.source_url)
+        """Fetch and parse, retrying when the page comes back without rows.
+
+        From CI the site sometimes answers 200 with a page that carries no
+        listing rows at all (bot challenge / partial render), which BaseCrawler
+        would otherwise record as "page structure may have changed".
+        """
+        for attempt in range(1, self.max_attempts + 1):
+            items = self._parse_listing()
+            if items:
+                return items
+            self.logger.warning(
+                "listing had no rows (attempt %d/%d)", attempt, self.max_attempts
+            )
+            if attempt < self.max_attempts:
+                time.sleep(self.retry_backoff_sec * attempt)
+        return []
+
+    def _parse_listing(self) -> list[dict]:
+        soup = self.get_soup(self.source_url)
         items = []
         seen = set()
 
@@ -63,20 +81,6 @@ class ParisMouCrawler(BaseCrawler):
 
         items.sort(key=lambda x: x["published_at"], reverse=True)
         return items
-
-    def _get_soup_with_retry(self, url: str, attempts: int = 3):
-        """GET with retries — the host intermittently times out from CI."""
-        last_exc = None
-        for attempt in range(1, attempts + 1):
-            try:
-                return self.get_soup(url)
-            except Exception as exc:
-                last_exc = exc
-                self.logger.warning("attempt %d/%d failed: %s", attempt, attempts, exc)
-                if attempt < attempts:
-                    time.sleep(5 * attempt)
-        raise last_exc
-
 
 if __name__ == "__main__":
     run_from_cli(ParisMouCrawler)

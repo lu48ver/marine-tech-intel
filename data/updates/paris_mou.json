@@ -1,5 +1,10 @@
 {
-  "last_success_at": "2026-09-04T14:54:47+08:00",
+  "source_id": "paris_mou",
+  "source_name": "Paris MoU",
+  "source_url": "https://parismou.org/publications",
+  "last_crawled_at": "2026-09-04T16:22:34+08:00",
+  "last_success_at": "2026-09-04T16:22:34+08:00",
+  "crawl_status": "success",
   "items": [
     {
       "title": "Register for Seminar 80",
@@ -75,11 +80,5 @@
       "topic_ids": [],
       "first_seen_at": "2026-09-04T14:48:38+08:00"
     }
-  ],
-  "source_id": "paris_mou",
-  "source_name": "Paris MoU",
-  "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-09-04T15:24:14+08:00",
-  "crawl_status": "error",
-  "error_message": "fetch() returned 0 items — page structure may have changed"
+  ]
 }

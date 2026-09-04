@@ -11,6 +11,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import json
 import logging
+import time
 
 import requests
 from bs4 import BeautifulSoup
@@ -65,6 +66,8 @@ class BaseCrawler(ABC):
     source_url: str
     timeout: int = 30
     max_items: int = 20  # cap items per source to keep JSON small
+    max_attempts: int = 3  # HTTP retries for transient network failures
+    retry_backoff_sec: int = 5
 
     def __init__(self) -> None:
         self.session = requests.Session()
@@ -75,10 +78,31 @@ class BaseCrawler(ABC):
     # ---------- HTTP helpers ----------
 
     def get(self, url: str, **kwargs) -> requests.Response:
-        """GET a URL with timeout and raise on HTTP errors."""
-        resp = self.session.get(url, timeout=self.timeout, **kwargs)
-        resp.raise_for_status()
-        return resp
+        """GET a URL with timeout, retrying transient failures.
+
+        Source sites intermittently drop or stall connections from CI runner
+        IPs; one bad TCP handshake should not cost a day's data. Client errors
+        (4xx other than 429) are not retried — they will not fix themselves.
+        """
+        last_exc = None
+        for attempt in range(1, self.max_attempts + 1):
+            try:
+                resp = self.session.get(url, timeout=self.timeout, **kwargs)
+                resp.raise_for_status()
+                return resp
+            except Exception as exc:
+                status = getattr(getattr(exc, "response", None), "status_code", None)
+                if status is not None and 400 <= status < 500 and status != 429:
+                    raise
+                last_exc = exc
+                if attempt < self.max_attempts:
+                    delay = self.retry_backoff_sec * attempt
+                    self.logger.warning(
+                        "GET %s failed (attempt %d/%d): %s — retrying in %ds",
+                        url, attempt, self.max_attempts, exc, delay,
+                    )
+                    time.sleep(delay)
+        raise last_exc
 
     def get_soup(self, url: str, **kwargs) -> BeautifulSoup:
         """GET a URL and parse the HTML with lxml."""

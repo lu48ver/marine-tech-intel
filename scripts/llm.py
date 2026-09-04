@@ -46,8 +46,10 @@ OPENROUTER_FREE_MODELS = [
 ]
 OPENAI_DEFAULT_MODEL = "gpt-4o-mini"
 
-# Free tier allows 20 requests/minute; leave a margin.
-OPENROUTER_MIN_INTERVAL_SEC = 3.5
+# Free tier allows 20 requests/minute, but in practice per-model limits bite
+# sooner, so start conservatively and let _widen_interval() back off further.
+OPENROUTER_MIN_INTERVAL_SEC = 6.0
+MAX_INTERVAL_SEC = 30.0
 
 logger = logging.getLogger("llm")
 
@@ -167,6 +169,18 @@ def _throttle(min_interval: float) -> None:
     _last_call_at = time.monotonic()
 
 
+def _widen_interval(provider: dict) -> None:
+    """Slow down permanently after a rate limit, so one run self-tunes.
+
+    Hitting 429 repeatedly wastes minutes in backoff; each hit stretches the
+    spacing between calls for the rest of the run.
+    """
+    if provider["min_interval"] <= 0:
+        return
+    provider["min_interval"] = min(provider["min_interval"] * 1.5, MAX_INTERVAL_SEC)
+    logger.info("slowing to %.1fs between calls", provider["min_interval"])
+
+
 def chat_json(
     client,
     provider: dict,
@@ -210,6 +224,7 @@ def chat_json(
                 if status == 429:
                     if _is_daily_quota(message):
                         raise LLMUnavailable(f"quota exhausted: {message[:200]}") from exc
+                    _widen_interval(provider)
                     backoff = 20 * attempt
                     logger.warning("rate limited, waiting %ds (%s)", backoff, model)
                     time.sleep(backoff)

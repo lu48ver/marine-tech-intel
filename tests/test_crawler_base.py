@@ -73,6 +73,63 @@ def test_empty_fetch_is_treated_as_failure(updates_dir):
     assert result["items"]  # previous items kept
 
 
+class _Resp:
+    def __init__(self, status=200):
+        self.status_code = status
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            err = Exception(f"HTTP {self.status_code}")
+            err.response = self
+            raise err
+
+
+def test_get_retries_transient_failure(updates_dir, monkeypatch):
+    monkeypatch.setattr(base.time, "sleep", lambda s: None)
+    crawler = DummyCrawler([ITEM])
+    calls = []
+
+    def flaky_get(url, **kwargs):
+        calls.append(url)
+        if len(calls) < 3:
+            raise ConnectionError("connection reset")
+        return _Resp()
+
+    monkeypatch.setattr(crawler.session, "get", flaky_get)
+    assert crawler.get("https://example.com").status_code == 200
+    assert len(calls) == 3  # two failures, then success
+
+
+def test_get_does_not_retry_client_error(updates_dir, monkeypatch):
+    monkeypatch.setattr(base.time, "sleep", lambda s: None)
+    crawler = DummyCrawler([ITEM])
+    calls = []
+
+    def not_found(url, **kwargs):
+        calls.append(url)
+        return _Resp(404)
+
+    monkeypatch.setattr(crawler.session, "get", not_found)
+    with pytest.raises(Exception):
+        crawler.get("https://example.com/missing")
+    assert len(calls) == 1  # a 404 will not fix itself
+
+
+def test_get_gives_up_after_max_attempts(updates_dir, monkeypatch):
+    monkeypatch.setattr(base.time, "sleep", lambda s: None)
+    crawler = DummyCrawler([ITEM])
+    calls = []
+
+    def always_fail(url, **kwargs):
+        calls.append(url)
+        raise TimeoutError("timed out")
+
+    monkeypatch.setattr(crawler.session, "get", always_fail)
+    with pytest.raises(TimeoutError):
+        crawler.get("https://example.com")
+    assert len(calls) == crawler.max_attempts
+
+
 def test_normalize_date():
     assert base.normalize_date("12 June 2026") == "2026-06-12"
     assert base.normalize_date("2026/06/12") == "2026-06-12"
