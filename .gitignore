@@ -24,3 +24,6 @@ _probe*
 # Local API key for testing (never commit secrets)
 .openai_key
 .env
+
+# Debug logs pulled from CI
+run.log
