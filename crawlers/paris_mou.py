@@ -9,6 +9,7 @@ superintendent — are filtered out by title instead.
 """
 
 import re
+import time
 
 from crawlers.base import BaseCrawler, normalize_date, run_from_cli
 
@@ -23,9 +24,12 @@ class ParisMouCrawler(BaseCrawler):
     source_id = "paris_mou"
     source_name = "Paris MoU"
     source_url = LISTING_URL
+    # parismou.org is slow to answer from GitHub's runner IPs and sometimes
+    # drops the first connection outright, so allow longer and retry.
+    timeout = 60
 
     def fetch(self) -> list[dict]:
-        soup = self.get_soup(self.source_url)
+        soup = self._get_soup_with_retry(self.source_url)
         items = []
         seen = set()
 
@@ -59,6 +63,19 @@ class ParisMouCrawler(BaseCrawler):
 
         items.sort(key=lambda x: x["published_at"], reverse=True)
         return items
+
+    def _get_soup_with_retry(self, url: str, attempts: int = 3):
+        """GET with retries — the host intermittently times out from CI."""
+        last_exc = None
+        for attempt in range(1, attempts + 1):
+            try:
+                return self.get_soup(url)
+            except Exception as exc:
+                last_exc = exc
+                self.logger.warning("attempt %d/%d failed: %s", attempt, attempts, exc)
+                if attempt < attempts:
+                    time.sleep(5 * attempt)
+        raise last_exc
 
 
 if __name__ == "__main__":
