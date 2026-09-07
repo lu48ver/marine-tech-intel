@@ -2003,5 +2003,23 @@
     "model": "z-ai/glm-5.2:free",
     "source_kind": "html",
     "generated_at": "2026-09-04T16:52:22+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/08/10-leadership-perspective/": {
+    "summary_zh": "BIMCO 秘書長兼執行長 David Loosley 於 2026 年 7 月 29 日向所有 BIMCO 會員公司與組織的執行長發送 BIMCO 2026 策略展望文章。內容聚焦協會層級的策略方向與領導階層觀點。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "minimax/minimax-m3:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-07T12:05:24+08:00"
+  },
+  "https://gard.no/en/insights/loss-of-bridge-control-calling-on-back-up-modes/": {
+    "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "minimax/minimax-m3:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-07T12:05:24+08:00"
   }
 }

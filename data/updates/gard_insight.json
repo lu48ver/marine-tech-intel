@@ -2,10 +2,27 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-04T16:52:13+08:00",
-  "last_success_at": "2026-09-04T16:52:13+08:00",
+  "last_crawled_at": "2026-09-07T12:05:12+08:00",
+  "last_success_at": "2026-09-07T12:05:12+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Loss of bridge control: Calling on back-up modes",
+      "url": "https://gard.no/en/insights/loss-of-bridge-control-calling-on-back-up-modes/",
+      "published_at": "2026-09-04",
+      "summary": "A loss of bridge control, typically of steering, can have severe consequences for people, property and the environment. In confined or congested waters, where immediate hazards, such as shallows, other vessels and objects are in close proximity, crew response time and measures are critical. Seconds ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-07T12:05:12+08:00",
+      "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
     {
       "title": "Precautions against liquefaction when loading iron ore fines in India",
       "url": "https://gard.no/en/insights/precautions-against-liquefaction-loading-iron-ore-fines-india/",
@@ -134,23 +151,6 @@
       "watch_topics": [
         "gas_detector"
       ]
-    },
-    {
-      "title": "Type 2 diabetes – Know your risk factors",
-      "url": "https://gard.no/en/insights/type-2-diabetes-know-your-risk-factors/",
-      "published_at": "2022-11-14",
-      "summary": "The number of people with diabetes has nearly quadrupled since 1980 and the numbers grow year by year. According to the WHO, a large proportion of Type 2 diabetes can be prevented by a healthy diet, regular physical activity, maintaining a normal body weight and avoiding tobacco use. Prevalence of t",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00",
-      "summary_zh": "此文章並非航運或船舶工程相關內容,僅涉及第二型糖尿病的風險因子與預防建議,與船隊技術管理無關。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
     },
     {
       "title": "The GENCON 2022 Charterparty",

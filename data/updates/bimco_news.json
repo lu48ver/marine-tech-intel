@@ -2,8 +2,8 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-04T16:52:17+08:00",
-  "last_success_at": "2026-09-04T16:52:17+08:00",
+  "last_crawled_at": "2026-09-07T12:05:18+08:00",
+  "last_success_at": "2026-09-07T12:05:18+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -85,7 +85,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-13T10:28:39+08:00"
+      "first_seen_at": "2026-08-13T10:28:39+08:00",
+      "summary_zh": "BIMCO 秘書長兼執行長 David Loosley 於 2026 年 7 月 29 日向所有 BIMCO 會員公司與組織的執行長發送 BIMCO 2026 策略展望文章。內容聚焦協會層級的策略方向與領導階層觀點。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
     },
     {
       "title": "New member benefit: weekly freight market assessments from Platts S&P Global Energy",
