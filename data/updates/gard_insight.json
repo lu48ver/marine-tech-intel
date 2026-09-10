@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-07T12:05:12+08:00",
-  "last_success_at": "2026-09-07T12:05:12+08:00",
+  "last_crawled_at": "2026-09-10T12:14:14+08:00",
+  "last_success_at": "2026-09-10T12:14:14+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Bearing failures: When normal readings hide the risk",
+      "url": "https://gard.no/en/insights/bearing-failures-when-normal-readings-hide-the-risk/",
+      "published_at": "2026-09-07",
+      "summary": "A serious engine-room incident shows how quickly a local bearing failure can escalate – even when standard temperature and pressure readings appear to be normal.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-10T12:14:14+08:00"
+    },
     {
       "title": "Loss of bridge control: Calling on back-up modes",
       "url": "https://gard.no/en/insights/loss-of-bridge-control-calling-on-back-up-modes/",
@@ -151,23 +164,6 @@
       "watch_topics": [
         "gas_detector"
       ]
-    },
-    {
-      "title": "The GENCON 2022 Charterparty",
-      "url": "https://gard.no/en/insights/gencon-2022-charterparty/",
-      "published_at": "2022-11-08",
-      "summary": "BIMCO has published a revamped version of the popular GENCON charterparty.  Our author, Helena Biggs, was a member of the drafting committee. She highlights the changes and the reasons behind them.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00",
-      "summary_zh": "BIMCO 發布了新修訂版的 GENCON 2022 定期租船契約標準格式,由起草 committee 成員說明本次修訂的主要變更內容及其背景原因。該版本取代既有 GENCON 條款,供航運業界作為新訂租船契約之參考範本。此為合約範本更新,內容偏重商業條款層面,與船體機件技術管理關聯性低。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
     },
     {
       "title": "Entry into enclosed spaces - are you prepared?",

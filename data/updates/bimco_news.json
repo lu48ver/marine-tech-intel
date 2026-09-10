@@ -2,10 +2,27 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-07T12:05:18+08:00",
-  "last_success_at": "2026-09-07T12:05:18+08:00",
+  "last_crawled_at": "2026-09-10T12:14:20+08:00",
+  "last_success_at": "2026-09-10T12:14:20+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Global Shipping Business Network appoints BIMCO to its board",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/07-gsbn/",
+      "published_at": "2026-09-07",
+      "summary": "Global Shipping Business Network (GSBN) is a neutral, not-for-profit consortium enabling paperless, accessible and sustainable global trade.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-10T12:14:20+08:00",
+      "summary_zh": "Global Shipping Business Network (GSBN) 是一個中立、非營利的 consortium。其目標是推動無紙化、便利且永續的全球貿易。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
+    },
     {
       "title": "Help BIMCO Shape the Future of Biofouling Management",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/03-biofouling-survey/",
@@ -249,25 +266,6 @@
       "watch_topics": [
         "bio_fuel"
       ]
-    },
-    {
-      "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/",
-      "published_at": "2026-07-08",
-      "summary": "The United Kingdom has expanded the UK Emissions Trading Scheme (UK ETS) to the maritime sector from 1 July 2026. The initial maritime phase is expected to apply to domestic maritime activity, including voyages between UK ports and emissions generated while vessels are in UK ports, such as at berth ",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "cii_ets"
-      ],
-      "first_seen_at": "2026-07-09T11:23:35+08:00",
-      "summary_zh": "英國已將英國排放交易計劃（UK ETS）擴展至海事部門，將於2026年7月1日生效。初步的海事階段預計將適用於國內海事活動，包括英國港口之間的航行及船舶在英國港口（如停泊時）產生的排放。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
     }
   ]
 }

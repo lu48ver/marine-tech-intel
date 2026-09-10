@@ -1,10 +1,5 @@
 {
-  "source_id": "paris_mou",
-  "source_name": "Paris MoU",
-  "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-09-07T12:05:10+08:00",
   "last_success_at": "2026-09-07T12:05:10+08:00",
-  "crawl_status": "success",
   "items": [
     {
       "title": "Register for Seminar 80",
@@ -112,5 +107,11 @@
         "psc_cic"
       ]
     }
-  ]
+  ],
+  "source_id": "paris_mou",
+  "source_name": "Paris MoU",
+  "source_url": "https://parismou.org/publications",
+  "last_crawled_at": "2026-09-10T12:10:59+08:00",
+  "crawl_status": "error",
+  "error_message": "HTTPSConnectionPool(host='parismou.org', port=443): Max retries exceeded with url: /publications (Caused by ConnectTimeoutError(<HTTPSConnection(host='parismou.org', port=443) at 0x7f9756e56250>, 'Connection to parismou.org timed out. (connect timeout=60)'))"
 }
