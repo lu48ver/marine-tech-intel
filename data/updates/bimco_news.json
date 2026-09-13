@@ -2,10 +2,46 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-10T12:14:20+08:00",
-  "last_success_at": "2026-09-10T12:14:20+08:00",
+  "last_crawled_at": "2026-09-13T12:21:42+08:00",
+  "last_success_at": "2026-09-13T12:21:42+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "BIMCO clauses now available directly within Sea's contract workflow",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/10-sea-contracts/",
+      "published_at": "2026-09-10",
+      "summary": "Sea and BIMCO have expanded their collaboration to bring BIMCO's standard clauses directly into Sea's fixture workflow.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-13T12:21:42+08:00",
+      "summary_zh": "Sea 與 BIMCO 擴大合作。BIMCO 標準條款現在可直接於 Sea 的固定作業流程中使用。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "The IMO GHG working group – a BIMCO account",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/10-imo/",
+      "published_at": "2026-09-10",
+      "summary": "From 1-4 September 2026, the 22nd meeting of the intersessional working group on reduction of greenhouse gases from shipping took place at the IMO Headquarters in London. We were represented throughout the full week. Below is an account of the discussions, potential and hurdles following a week of i",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-13T12:21:42+08:00",
+      "summary_zh": "2026年9月1日至4日，第22次IMO溫室氣體減排工作組會議在倫敦IMO總部舉行。BIMCO全程參與。會議討論了船舶溫室氣體減減的潛力與挑戰。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": [
+        "cii_ets"
+      ]
+    },
     {
       "title": "Global Shipping Business Network appoints BIMCO to its board",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/07-gsbn/",
@@ -228,44 +264,6 @@
       "importance": "reference",
       "category": "industry",
       "watch_topics": []
-    },
-    {
-      "title": "New BIMCO survey explores challenges and best practices in operational crewing and rest hour compliance",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/13-crew-survey/",
-      "published_at": "2026-07-13",
-      "summary": "As fatigue management, crewing and seafarers rest feature increasingly on the international regulatory agenda, BIMCO is asking the industry to share practical experience on challenges and best practices related to operational crewing and compliance with work and rest hour requirements. The survey wi",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-14T10:33:55+08:00",
-      "summary_zh": "BIMCO 正在進行調查，徵求業界分享在操作人員配備及遵守工作與休息時間要求方面的挑戰與最佳實踐經驗。隨著疲勞管理和船員休息越來越受到國際法規的重視，這項調查旨在收集相關意見。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "BIMCO Biofuel Clause for Time Charter Parties 2026: What owners and charterers need to know",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/13-biofuel/",
-      "published_at": "2026-07-13",
-      "summary": "As the shipping industry continues its search for viable pathways towards decarbonisation, biofuels have emerged as one of the more immediately available transitional options. They can, in many cases, be used with little or no modification to existing engines and fuel systems, and they offer a pract",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "bio_fuel"
-      ],
-      "first_seen_at": "2026-07-14T10:33:55+08:00",
-      "summary_zh": "隨著航運業尋求脫碳的可行途徑，生質燃料已成為一個可立即使用的過渡選項，通常可以在不需或少量修改現有引擎和燃料系統的情況下使用。",
-      "importance": "notice",
-      "category": "fuel",
-      "watch_topics": [
-        "bio_fuel"
-      ]
     }
   ]
 }

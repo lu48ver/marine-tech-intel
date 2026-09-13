@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-10T12:14:14+08:00",
-  "last_success_at": "2026-09-10T12:14:14+08:00",
+  "last_crawled_at": "2026-09-13T12:21:36+08:00",
+  "last_success_at": "2026-09-13T12:21:36+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -17,7 +17,11 @@
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-10T12:14:14+08:00"
+      "first_seen_at": "2026-09-10T12:14:14+08:00",
+      "summary_zh": "引擎室發生嚴重事故，顯示局部軸承失效可能迅速惡化。即使常規的溫度與壓力讀數顯示正常，也無法排除潛在的危險。",
+      "importance": "notice",
+      "category": "machinery",
+      "watch_topics": []
     },
     {
       "title": "Loss of bridge control: Calling on back-up modes",

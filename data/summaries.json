@@ -2030,5 +2030,34 @@
     "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "source_kind": "summary",
     "generated_at": "2026-09-10T12:14:24+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/10-sea-contracts/": {
+    "summary_zh": "Sea 與 BIMCO 擴大合作。BIMCO 標準條款現在可直接於 Sea 的固定作業流程中使用。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-13T12:21:47+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/10-imo/": {
+    "summary_zh": "2026年9月1日至4日，第22次IMO溫室氣體減排工作組會議在倫敦IMO總部舉行。BIMCO全程參與。會議討論了船舶溫室氣體減減的潛力與挑戰。",
+    "importance": "notice",
+    "category": "regulation",
+    "watch_topics": [
+      "cii_ets"
+    ],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-13T12:21:47+08:00"
+  },
+  "https://gard.no/en/insights/bearing-failures-when-normal-readings-hide-the-risk/": {
+    "summary_zh": "引擎室發生嚴重事故，顯示局部軸承失效可能迅速惡化。即使常規的溫度與壓力讀數顯示正常，也無法排除潛在的危險。",
+    "importance": "notice",
+    "category": "machinery",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-13T12:21:47+08:00"
   }
 }
