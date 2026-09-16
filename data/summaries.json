@@ -715,7 +715,10 @@
     "summary_zh": "隨著全球風能部署的加速，運輸主要風力發電機組件（特別是葉片、塔架和機艙）的物流變得愈加複雜。根據Gard的索賠經驗，本文探討了在運輸風力發電機過程中最常見的損壞原因。",
     "model": "gpt-4o-mini",
     "source_kind": "summary",
-    "generated_at": "2026-06-16T16:44:03+08:00"
+    "generated_at": "2026-06-16T16:44:03+08:00",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": []
   },
   "https://gard.no/en/insights/scrubber-risks-lessons-from-six-years-of-claims/": {
     "summary_zh": "全球近7,000艘船舶已配備洗滌器，這項技術的採用持續上升。儘管該技術提供明顯的合規性和商業優勢，但六年的索賠數據顯示出腐蝕、火災和淹水的特定模式。",
@@ -727,7 +730,10 @@
     "summary_zh": "在海上航行中，船隻可能面臨持續或惡化的天氣條件。本文探討了可能導致重型天氣成為潛在事故的情境、決策點和操作壓力。",
     "model": "gpt-4o-mini",
     "source_kind": "summary",
-    "generated_at": "2026-06-16T16:44:03+08:00"
+    "generated_at": "2026-06-16T16:44:03+08:00",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": []
   },
   "https://gard.no/en/insights/bumper-brazilian-soya-bean-crop-means-more-claims-in-china/": {
     "summary_zh": "巴西的大豆產業預計在2025年將迎來創紀錄的一年，生產和出口水平將達到前所未有的高度。這可能會帶來物流壓力和更多的索賠。",
@@ -2059,5 +2065,79 @@
     "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "source_kind": "summary",
     "generated_at": "2026-09-13T12:21:47+08:00"
+  },
+  "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/": {
+    "summary_zh": "Gard理賠數據顯示，65起涉及漁船碰撞事故中有半數發生於中國水域。禁漁期結束後大量漁船同時出海，碰撞風險尤高。船隊航行於該區應提高警覺並加強瞭望與避碰措施。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://gard.no/en/insights/sulphur-related-bunker-claims-on-the-rise-increased-china-msa-enforcement/": {
+    "summary_zh": "近期船舶燃油硫含量超標索賠案件呈上升趨勢。中國海事局 (MSA) 加強硫含量合規檢查，執法行動主要集中在渤海海域。工務監督應提醒船隊於該區域加油後加強燃油品質管控與取樣保存。",
+    "importance": "action",
+    "category": "fuel",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://gard.no/en/insights/beware-of-in-transit-fumigation-risks/": {
+    "summary_zh": "IMO 雖已訂定在航穀物燻蒸的詳細安全建議，但事故調查仍持續發現船員在訓練、氣體監測與風險意識方面存在嚴重缺口。這些缺失使船員在在航燻蒸期間暴露於危及生命的危害中。工務監督應確認船上攜帶式氣體偵測器配備與校正符合規範，並加強燻蒸作業人員訓練。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [
+      "gas_detector"
+    ],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://gard.no/en/insights/panama-canal-disruption-charges/": {
+    "summary_zh": "自2023年1月1日起，巴拿馬運河管理局對有缺失的船舶徵收「中斷費用」，最高可達25萬美元。Gard會員已多次反映自實施以來被徵收此費用的案例。船東及船舶技術管理人員應確保船舶狀況良好，以避免產生此額外費用。",
+    "importance": "action",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://gard.no/en/insights/seafarer-mental-health-geopolitics/": {
+    "summary_zh": "IUMI 2022芝加哥論壇探討烏克蘭戰爭對海險與戰爭險之影響;Gard代表指出海員面臨地緣政治等心理健康挑戰。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://gard.no/en/insights/marpol-compliance-distances-from-nearest-land/": {
+    "summary_zh": "MARPOL 規定船舶距最近陸地 12 海里以上方可排放未處理廚餘，但各沿海國對「最近陸地邊界」的定義不一致，導致合規判斷存在差異。工務監督應留意各港口國對基線劃分的解釋，避免因距離認定不同而違規。",
+    "importance": "notice",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://gard.no/en/insights/reminder-danger-liquefaction-iron-ore-fines-loaded-sierra-leone/": {
+    "summary_zh": "西非獅子山 Pepel 港裝載鐵礦砂細粉時，存在貨載申報不實及託運人堅持雨天裝載的風險，恐導致貨物液化。工務監督應提醒船隊嚴格把關，確認貨物適運水分極限（TML）文件並監督裝載過程，防範液化危險。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://gard.no/en/insights/collision-avoidance-safeguarding-lives-livelihoods-fishermen/": {
+    "summary_zh": "商船與漁船碰撞事故已造成多人喪生，凸顯航行安全問題。文章探討事故成因及預防對策，以保障漁民生命與生計。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-16T12:24:27+08:00"
   }
 }

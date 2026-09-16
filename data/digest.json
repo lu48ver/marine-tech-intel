@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-07T12:06:21+08:00",
-  "model": "minimax/minimax-m3:free",
+  "generated_at": "2026-09-16T12:33:32+08:00",
+  "model": "z-ai/glm-5.2:free",
   "themes": [
     {
-      "name": "貨物繫固 PSC 集中檢查",
-      "why": "Paris MoU 與 Tokyo MoU 將於 2026 年 9 月 1 日至 11 月 30 日聯合執行貨物繫固 CIC，PSCO 將以共同問卷查核 SOLAS 裝載、堆疊與繫固規範；DNV 已公布官方檢查問卷，船隊需提前完成繫固手冊合規、設備保養與船員訓練備查。",
+      "name": "貨物繫固集中檢查",
+      "why": "Paris MoU 與 Tokyo MoU 將於2026年9月1日至11月30日聯合執行貨物繫固CIC，配合例行PSC檢查使用共同問卷查核SOLAS裝載、堆疊與繫固規定，船隊須確保繫固手冊經認可、設備狀態良好且船員完成訓練。",
       "articles": [
         {
           "title": "Cargo securing on the PSC agenda",
@@ -39,75 +39,46 @@
       ]
     },
     {
-      "name": "英國 ETS 擴展至海運",
-      "why": "英國自 2026 年 7 月 1 日起將 UK ETS 適用於英國沿海航行船舶，初步涵蓋英國港口間運輸及港口停泊排放，與 EU ETS 並存使碳合規負擔倍增，船東需同步建立雙重排放監測與報告機制。",
+      "name": "生物附著管理強制化趨勢",
+      "why": "BIMCO推出三項問卷蒐集業界對2023年IMO生物附著管理指南的實務經驗，作為IMO研議制定具強制力公約之依據，涵蓋檢查、港口清洗服務及船東作業挑戰，船隊應追蹤未來強制性措施的發展方向。",
       "articles": [
         {
-          "title": "UK extends emissions trading to shipping",
-          "url": "https://gard.no/en/insights/uk-extends-emissions-trading-to-shipping/",
-          "source": "Gard Insight",
-          "published_at": "2026-08-17"
-        },
-        {
-          "title": "UK ETS: Expansion into the Maritime sector from 1 July 2026",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/08-uk-ets/",
+          "title": "Help BIMCO Shape the Future of Biofouling Management",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/03-biofouling-survey/",
           "source": "BIMCO News",
-          "published_at": "2026-07-08"
+          "published_at": "2026-09-03"
         },
         {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
-        }
-      ]
-    },
-    {
-      "name": "航運合約數位化與 AI 應用",
-      "why": "BIMCO 與 FIT 聯盟徵詢業界電子提單實務經驗，同時針對航次租船「虛擬備便通知(Virtual NOR)」與「準時抵達(JIT)」新條款徵集意見；BIMCO 亦提醒 AI 雖加速合約起草與比對，仍須由人為最終審核以管控法律風險。",
-      "articles": [
-        {
-          "title": "Your input needed on new Virtual Notice of Readiness Clause for Voyage Charter Parties",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-virtual-nor/",
-          "source": "BIMCO News",
-          "published_at": "2026-08-21"
-        },
-        {
-          "title": "AI-generated contracts and clauses: why the human element still matters",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-ai/",
+          "title": "BIMCO launches surveys to support practical biofouling management",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-biofouling-surveys/",
           "source": "BIMCO News",
           "published_at": "2026-08-05"
-        },
-        {
-          "title": "Have you used electronic bills of lading? We want to hear from you!",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-ebl-survey/",
-          "source": "BIMCO News",
-          "published_at": "2026-07-14"
         }
       ]
     },
     {
-      "name": "HNS 公約與打撈公約生效整備",
-      "why": "《1996 年 HNS 公約》預定於 2027 年 11 月生效，裝載危險及有毒物質船舶及營運人將面臨新法律與保險義務；阿根廷亦於 2026 年 5 月 20 日以 27,812 號法案批准 2007 年奈洛比國際打撈公約，兩項公約相繼推進要求船隊及早盤點船舶適用性與保險安排。",
+      "name": "中國水域航行安全風險",
+      "why": "Gard理賠數據顯示65起涉及漁船碰撞事故中半數發生於中國水域，禁漁期結束後大量漁船同時出海碰撞風險尤高；同時中國海事局加強渤海海域燃油硫含量合規檢查，工務監督應提醒船隊加強瞭望避碰與燃油品質管控。",
       "articles": [
         {
-          "title": "HNS Convention set to enter into force in November 2027",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/11-hns-convention/",
-          "source": "BIMCO News",
-          "published_at": "2026-08-11"
+          "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
+          "url": "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/",
+          "source": "Gard Insight",
+          "published_at": "2026-09-14"
         },
         {
-          "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
-          "url": "https://gard.no/en/insights/argentina-formally-ratifies-nairobi-wreck-removal-convention/",
+          "title": "Sulphur-related bunker claims on the rise amid increased China MSA enforcement",
+          "url": "https://gard.no/en/insights/sulphur-related-bunker-claims-on-the-rise-increased-china-msa-enforcement/",
           "source": "Gard Insight",
-          "published_at": "2026-07-16"
+          "published_at": "2026-08-12"
         }
       ]
     }
   ],
   "topic_status": {
-    "bio_fuel": "BIMCO 於 2026 年 7 月 13 日發布《Biofuel Clause for Time Charter Parties 2026》,為以 FAME 為基礎的 B24/B30 生質燃油在租船合約中的加油實務與責任分擔提供標準化條款,有助船東與租船人降低因 ISO 8217 氧化安定性、微生物滋生及滑油相容性等品質爭議所引發的合約風險。LR 同年 9 月推出 Biofuel Advisory service,提供生質燃料採用與安全操作諮詢,協助船隊在不大幅改裝引擎與燃料系統前提下完成過渡。建議船隊在長期儲存管理上將氧化安定性監測、滑油相容性測試及合約條款檢視列為近期重點。",
-    "psc_cic": "Paris MoU 與 Tokyo MoU 已於 2026 年 8 月 3 日聯合公告,將於 2026 年 9 月 1 日至 11 月 30 日實施「貨物繫固」集中檢查 (CIC),每艘船舶於該期間僅受檢一次,PSCO 將依兩 MoU 共同制定的問卷查核 SOLAS 對裝載、堆疊與繫固的規定。Paris MoU 已於 8 月 4 日正式發布 CIC 2026 官方檢查問卷(Questionnaire),Tokyo MoU 預計近日同步公布,船隊應立即完成繫固手冊、繫固設備狀態及船員訓練紀錄的自查並備妥文件以避免滯留。背景風險方面,Paris MoU 2025 年滯留率已升至 4.18%(2024 年為 4.03%),且 2026 年 5 月第 59 次委員會決定自 2027 年 7 月 6 日起與歐盟 PSC 指令修正案同步實施,船旗國與認可機構績效計算及船舶風險檔案中的環保參數將更新,船隊應留意自身船旗與認可機構名單動向。",
-    "cii_ets": "英國自 2026 年 7 月 1 日起正式將 UK ETS 適用於英國沿海航行船舶,使在 EU 與 UK 港口間作業的船隊同時面臨 EU ETS 與 UK ETS 兩套申報與配額繳交義務,MRV 數據收集與排放帳分攤流程需立即檢視並依航次重新對應。雖然法規細節仍在快速演變,但對同時進出歐盟港口的船舶而言,UK ETS 並未取代 EU ETS,而是疊加一層獨立合規要求,船隊應及早完成雙重帳戶開設與內部責任劃分以避免重複繳納或漏報。"
+    "bio_fuel": "LR 於 2025 年 9 月 16 日推出 Biofuel Advisory 諮詢服務，協助船東評估 FAME 摻配燃油的採用風險與操作指引，顯示生質燃油正從試驗階段邁入常規營運準備。工務監督應關注 B24/B30 摻配比例下的 ISO 8217 規格符合性、氧化安定性及滑油相容性等技術議題，並追蹤主要加油港的供應動態以利艦隊調度。",
+    "psc_cic": "Paris MoU 與 Tokyo MoU 已於 2026 年 8 月 4 日公布聯合「貨物繫固」CIC 官方問卷，將於 9 月 1 日至 11 月 30 日配合例行 PSC 檢查執行，PSCO 將依 SOLAS 規定查核貨物裝載、堆疊與繫固安排。同時 Paris MoU 2025 年度報告顯示滯留率升至 4.18%、拒入禁令 19 件，船隊應立即完成繫固手冊、設備狀態及船員訓練的自查以避免滯留。",
+    "gas_detector": "IMO 在航穀物燻蒸安全建議已行之有年，但 2025 年 10 月 9 日的事故調查報告仍持續發現船員在氣體監測與訓練方面存在嚴重缺口，凸顯攜帶式氣體偵測器的配備、校正與密閉空間進入程序落實不足。工務監督應確認船上氣體偵測器校正紀錄完整且符合 SOLAS 與旗國要求，並將燻蒸作業納入密閉空間進入 PSC 檢查重點的預防性管理。",
+    "cii_ets": "英國 ETS 將於 2026 年 7 月 1 日起擴展至海運業，對英國港口進出船舶的溫室氣體排放進行定價，船隊須提前建立排放監測與申報機制。此外，第 22 次 IMO 溫室氣體減排工作組會議已於 2026 年 9 月 1 日至 4 日在倫敦召開，討論全球燃油標準與碳定價框架的實質條文，工務監督應追蹤 Net-Zero Framework 後續進展以預估合規成本。"
   }
 }

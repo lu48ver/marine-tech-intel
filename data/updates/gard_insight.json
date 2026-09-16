@@ -2,40 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-13T12:21:36+08:00",
-  "last_success_at": "2026-09-13T12:21:36+08:00",
+  "last_crawled_at": "2026-09-16T12:24:16+08:00",
+  "last_success_at": "2026-09-16T12:24:16+08:00",
   "crawl_status": "success",
   "items": [
     {
-      "title": "Bearing failures: When normal readings hide the risk",
-      "url": "https://gard.no/en/insights/bearing-failures-when-normal-readings-hide-the-risk/",
-      "published_at": "2026-09-07",
-      "summary": "A serious engine-room incident shows how quickly a local bearing failure can escalate – even when standard temperature and pressure readings appear to be normal.",
+      "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
+      "url": "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/",
+      "published_at": "2026-09-14",
+      "summary": "Gard’s claims data shows that half of 65 collisions involving fishing vessels occurred in Chinese waters. The risk is particularly high when seasonal fishing bans are lifted, and large numbers of fishing vessels return to sea.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-10T12:14:14+08:00",
-      "summary_zh": "引擎室發生嚴重事故，顯示局部軸承失效可能迅速惡化。即使常規的溫度與壓力讀數顯示正常，也無法排除潛在的危險。",
-      "importance": "notice",
-      "category": "machinery",
-      "watch_topics": []
-    },
-    {
-      "title": "Loss of bridge control: Calling on back-up modes",
-      "url": "https://gard.no/en/insights/loss-of-bridge-control-calling-on-back-up-modes/",
-      "published_at": "2026-09-04",
-      "summary": "A loss of bridge control, typically of steering, can have severe consequences for people, property and the environment. In confined or congested waters, where immediate hazards, such as shallows, other vessels and objects are in close proximity, crew response time and measures are critical. Seconds ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-07T12:05:12+08:00",
-      "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "Gard理賠數據顯示，65起涉及漁船碰撞事故中有半數發生於中國水域。禁漁期結束後大量漁船同時出海，碰撞風險尤高。船隊航行於該區應提高警覺並加強瞭望與避碰措施。",
       "importance": "notice",
       "category": "safety",
       "watch_topics": []
@@ -58,44 +41,6 @@
       "watch_topics": []
     },
     {
-      "title": "El Niño, Panama Canal restrictions, and routing off Cape Horn",
-      "url": "https://gard.no/en/insights/el-nino-panama-canal-restrictions-routing-off-cape-horn/",
-      "published_at": "2026-09-01",
-      "summary": "The Panama Canal remains the preferred route for vessels trading between the Atlantic and Pacific Oceans. However, recurring drought conditions associated with the El Niño phenomenon have repeatedly reduced water availability in the Canal's watershed, forcing the Panama Canal Authority (ACP) to intr",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-04T12:02:37+08:00",
-      "summary_zh": "聖嬰現象反覆造成巴拿馬運河流域缺水,巴拿馬運河管理局(ACP)因而實施船舶通行管制與限制,使部分船舶改航合恩角以維持船期。巴拿馬運河仍為大西洋與太平洋間貿易的首選航線,但乾旱風險持續,船隊應提前評估運河管制對航程與船期的影響。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "UK extends emissions trading to shipping",
-      "url": "https://gard.no/en/insights/uk-extends-emissions-trading-to-shipping/",
-      "published_at": "2026-08-17",
-      "summary": "Since 1 July 2026, ships operating on domestic UK voyages have been subject to the UK Emissions Trading Scheme (UK ETS). While many owners and charterers are already familiar with the EU ETS, the UK’s new regime adds another layer to an increasingly complex regulatory landscape.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [
-        "cii_ets"
-      ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00",
-      "summary_zh": "英國自 2026 年 7 月 1 日起將英國排放交易機制 (UK ETS) 適用於英國沿海航行的船舶。雖然許多船東與租船人已熟悉 EU ETS,但英國新制度為日益複雜的法規環境再添一層要求。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": [
-        "cii_ets"
-      ]
-    },
-    {
       "title": "Cargo securing on the PSC agenda",
       "url": "https://gard.no/en/insights/cargo-securing-psc-agenda/",
       "published_at": "2026-08-14",
@@ -115,169 +60,212 @@
       ]
     },
     {
-      "title": "Amazon River low water levels: Increased navigational risk during the 2026 dry season",
-      "url": "https://gard.no/en/insights/amazon-river-low-water-levels-navigational-risk-dry-season-2026/",
-      "published_at": "2026-08-10",
-      "summary": "Recent forecasts indicate that parts of the Amazon basin may experience exceptionally low water levels during the 2026 dry season, potentially resulting in navigation restrictions, reduced vessel drafts and operational disruption across key waterways serving Brazil's Northern Arc trade corridor. Aut",
+      "title": "Sulphur-related bunker claims on the rise amid increased China MSA enforcement",
+      "url": "https://gard.no/en/insights/sulphur-related-bunker-claims-on-the-rise-increased-china-msa-enforcement/",
+      "published_at": "2026-08-12",
+      "summary": "Claims involving excessive sulphur content in marine fuels have seen an upward trend recently. At the same time, we are seeing a heightened focus on sulphur compliance driven by stricter inspections by the China MSA, with a distinct concentration of enforcement activity in the Bohai Sea.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-28T18:57:37+08:00",
-      "summary_zh": "預測顯示2026年乾季亞馬遜河流域水位可能異常偏低，將導致航行限制與船舶吃水減少。此情況可能影響巴西北部弧形貿易走廊的關鍵水路營運。工務監督應留意後續水位預報與航道公告，提前評估對船舶裝載量與航程安排的影響。",
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "近期船舶燃油硫含量超標索賠案件呈上升趨勢。中國海事局 (MSA) 加強硫含量合規檢查，執法行動主要集中在渤海海域。工務監督應提醒船隊於該區域加油後加強燃油品質管控與取樣保存。",
+      "importance": "action",
+      "category": "fuel",
+      "watch_topics": []
+    },
+    {
+      "title": "AIS-assisted collisions: The risks of over-reliance",
+      "url": "https://gard.no/en/insights/ais-assisted-collisions-overreliance-risk/",
+      "published_at": "2026-07-14",
+      "summary": "AIS has evolved into an important safety aid for situational awareness and even collision avoidance. However, this evolution also brings new risks, and over-reliance on AIS may, in some cases, contribute to incidents rather than prevent them.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "AIS雖然已成為重要的安全輔助工具，但過度依賴AIS可能在某些情況下導致事故，而非預防事故。",
       "importance": "notice",
       "category": "safety",
       "watch_topics": []
     },
     {
-      "title": "Argentina formally ratifies the Nairobi Wreck Removal Convention",
-      "url": "https://gard.no/en/insights/argentina-formally-ratifies-nairobi-wreck-removal-convention/",
-      "published_at": "2026-07-16",
-      "summary": "In a recent client newsletter shared in late June 2026, Gard's correspondent in Argentina, Simonsen, reports that Argentina has formally ratified the Nairobi International Convention on the Removal of Wrecks (2007), following the enactment of Law No. 27,812 on 20 May 2026. The ratification introduce",
+      "title": "General Average: Managing the process and protecting the recovery",
+      "url": "https://gard.no/en/insights/general-average-managing-process-protecting-recovery/",
+      "published_at": "2026-07-02",
+      "summary": "General Average is one of the oldest principles of maritime law. It is an equitable doctrine that shares among property owners of the assets involved in maritime adventures the cost of extraordinary sacrifices or expenses incurred to avert a peril threatening the whole voyage. This article explains ",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-22T09:37:37+08:00",
-      "summary_zh": "阿根廷於2026年5月20日通過27,812號法案，正式批准了2007年奈洛比國際打撈公約。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "Improved safety recommendations for entering enclosed spaces onboard ships",
-      "url": "https://gard.no/en/insights/improved-safety-recommendations-for-entering-enclosed-spaces-onboard-ships/",
-      "published_at": "2025-01-15",
-      "summary": "Every year, a significant number of people die in enclosed shipboard spaces due to hazardous atmospheres. The IMO now calls for a more structured approach to identifying and assessing enclosed space risks, emphasising the need for both crew and shore personnel to fully understand the nature of any h",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [
-        "gas_detector"
-      ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00",
-      "summary_zh": "IMO呼籲對船上密閉空間風險採取更結構化的識別與評估方式，以減少每年因危險氣氛導致的傷亡事故。建議船員與岸上人員均須充分了解密閉空間的危害性質。工務監督應留意相關安全程序的更新與落實。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": [
-        "gas_detector"
-      ]
-    },
-    {
-      "title": "Entry into enclosed spaces - are you prepared?",
-      "url": "https://gard.no/en/insights/entry-into-enclosed-spaces-are-you-prepared/",
-      "published_at": "2022-04-26",
-      "summary": "Recurring enclosed space incidents serve as a stark reminder that entry into such spaces without proper training or following procedures can result in seafarers being killed or seriously injured. Far too often, we also see that seafarers who die in enclosed spaces do so in the course of attempting t",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [
-        "gas_detector"
-      ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00",
-      "summary_zh": "進入封閉空間的事件時常發生，提醒我們未經適當訓練或不遵循程序進入此類空間可能導致海員死亡或重傷。許多海員在封閉空間內遇難，往往是在嘗試救助他人時發生的。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": [
-        "gas_detector"
-      ]
-    },
-    {
-      "title": "Export season for Brazilian soya beans is underway – reminder for the recommended precautions",
-      "url": "https://gard.no/en/insights/export-season-for-brazilian-soya-beans-is-underway-reminder-for-recommended-precautions/",
-      "published_at": "2022-02-23",
-      "summary": "The Brazilian soya bean export season is underway with the bulk of the beans scheduled for export in March, April and May.  The long voyage time to Chinese ports together with pandemic related delay in discharge increase the risk of natural deterioration and cargo claims.  Documentation of care of t",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-19T09:40:09+08:00",
-      "summary_zh": "巴西大豆出口季節已開始，主要出口時間為三月、四月和五月。前往中國港口的長途航行及疫情相關的卸貨延遲，增加了自然劣變和貨物索賠的風險。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Discharging soyabeans in China",
-      "url": "https://gard.no/en/insights/discharging-soyabeans-china/",
-      "published_at": "2021-03-17",
-      "summary": "We outline steps to be taken when vessels arrive with damaged soyabeans in China or when experiencing delays to discharge.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-19T09:40:09+08:00",
-      "summary_zh": "本文概述船舶在中國卸載大豆時,面對貨物受損或卸貨延遲情況應採取的步驟。內容涵蓋到港後的因應措施與延遲情境的處置流程,屬於貨物作業實務指引。",
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "一般平均是海事法中最古老的原則之一。這是一項公平的法則，旨在在參與海上冒險的財產所有者之間分擔為避免整個航程面臨危險而產生的額外犧牲或費用。",
       "importance": "reference",
       "category": "industry",
       "watch_topics": []
     },
     {
-      "title": "Cyber security amid a global pandemic",
-      "url": "https://gard.no/en/insights/cyber-security-amid-global-pandemic/",
-      "published_at": "2020-04-05",
-      "summary": "While the IMO has given shipowners and operators until 2021 to incorporate cyber risk into ships’ safety management systems, cyber criminals are already at work. Crises like the COVID-19 pandemic often lead malicious cyber actors to take advantage through various malicious methods.",
+      "title": "US courts signal shift in the interpretation of “package” under COGSA",
+      "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
+      "published_at": "2026-06-30",
+      "summary": "Recent decisions from the Southern District of New York, affirmed by the Second Circuit, suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA). By giving effect to express package definitions in bills of lading, the courts may ",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-01T12:39:45+08:00",
-      "summary_zh": "IMO 要求船東與營運商於 2021 年前將網路風險納入船舶安全管理系統 (SMS)。COVID-19 等危機期間惡意網路攻擊活動增加,船舶營運商應提高警覺。工務監督應確認船隊 SMS 已完成網路安全整合並持續更新。",
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
       "importance": "notice",
-      "category": "regulation",
+      "category": "industry",
       "watch_topics": []
     },
     {
-      "title": "Nigeria – charterers request Letters of Comfort",
-      "url": "https://gard.no/en/insights/nigeria-charterers-request-letters-comfort/",
-      "published_at": "2015-10-04",
-      "summary": "Some charterers have requested that tanker owners sign Letters of Comfort addressed to the charterers themselves or the Nigerian National Petroleum Corporation.",
+      "title": "Harnessing the giants: safer wind turbine blade logistics",
+      "url": "https://gard.no/en/insights/harnessing-the-giants-safer-windmill-blade-logistics/",
+      "published_at": "2026-04-13",
+      "summary": "As wind‑energy deployment accelerates globally, the logistics of transporting major turbine components—particularly blades, towers, and nacelles—have become increasingly complex. Drawing on Gard’s claims experience, this article explores the most common causes of damage during the carriage of turbin",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-08-28T18:57:37+08:00",
-      "summary_zh": "部分油輪租船人請求船東簽署以租船人或奈及利亞國家石油公司（NNPC）為對象的擔保函（Letter of Comfort）。此屬商業/合約層面的要求，涉及租船人對船東的履約保障或風險分攤安排，目前未見明確監管或技術規範要求，僅需評估簽署後之合約責任與潛在法律風險。",
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "隨著全球風能部署的加速，運輸主要風力發電機組件（特別是葉片、塔架和機艙）的物流變得愈加複雜。根據Gard的索賠經驗，本文探討了在運輸風力發電機過程中最常見的損壞原因。",
       "importance": "reference",
       "category": "industry",
       "watch_topics": []
     },
     {
-      "title": "A surveyor's survival",
-      "url": "https://gard.no/en/insights/a-surveyors-survival/",
-      "published_at": "2005-08-01",
-      "summary": "A Gard surveyor writes about the dangers involved in entering enclosed spaces.",
+      "title": "Heavy weather at sea: managing risks on passage",
+      "url": "https://gard.no/en/insights/heavy-weather-at-sea-managing-risks-on-passage/",
+      "published_at": "2026-03-05",
+      "summary": "Continuing our series on heavy weather risks, this article turns to the sea passage, when vessels may be more exposed to sustained or deteriorating conditions. We examine scenarios, decision points and operational pressures  that can turn heavy weather into a potential casualty.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "在海上航行中，船隻可能面臨持續或惡化的天氣條件。本文探討了可能導致重型天氣成為潛在事故的情境、決策點和操作壓力。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
+    {
+      "title": "Beware of in-transit fumigation risks",
+      "url": "https://gard.no/en/insights/beware-of-in-transit-fumigation-risks/",
+      "published_at": "2025-10-09",
+      "summary": "Despite detailed IMO recommendations setting out safety precautions for fumigating vessels’ cargo holds, casualty investigations continue to reveal critical gaps in training, gas monitoring, and risk awareness - leaving crews exposed to life-threatening hazards during in-transit fumigation.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "IMO 雖已訂定在航穀物燻蒸的詳細安全建議，但事故調查仍持續發現船員在訓練、氣體監測與風險意識方面存在嚴重缺口。這些缺失使船員在在航燻蒸期間暴露於危及生命的危害中。工務監督應確認船上攜帶式氣體偵測器配備與校正符合規範，並加強燻蒸作業人員訓練。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": [
+        "gas_detector"
+      ]
+    },
+    {
+      "title": "Panama Canal Disruption Charges",
+      "url": "https://gard.no/en/insights/panama-canal-disruption-charges/",
+      "published_at": "2025-09-26",
+      "summary": "Since 1 January 2023, the Panama Canal Authority (PCA) has been imposing a \"Disruption Charge\" on vessels with deficiencies. These charges can be as high as USD 250,000 and Gard members have reported numerous cases of this charge being levied since its introduction.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "自2023年1月1日起，巴拿馬運河管理局對有缺失的船舶徵收「中斷費用」，最高可達25萬美元。Gard會員已多次反映自實施以來被徵收此費用的案例。船東及船舶技術管理人員應確保船舶狀況良好，以避免產生此額外費用。",
+      "importance": "action",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "Seafarer mental health and geopolitics",
+      "url": "https://gard.no/en/insights/seafarer-mental-health-geopolitics/",
+      "published_at": "2022-10-09",
+      "summary": "The IUMI 2022 Policy Forum Workshop in Chicago focused on the war in Ukraine and its impact on marine and war risk insurance.  At the workshop, Gard’s global head of People claims, Lene-Camilla Nordlie, turned her attention to seafarers and the challenges they face, not just due to the current geopo",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "IUMI 2022芝加哥論壇探討烏克蘭戰爭對海險與戰爭險之影響;Gard代表指出海員面臨地緣政治等心理健康挑戰。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "MARPOL compliance and distances ‘from the nearest land’",
+      "url": "https://gard.no/en/insights/marpol-compliance-distances-from-nearest-land/",
+      "published_at": "2022-09-27",
+      "summary": "MARPOL permits unprocessed food waste to be discharged into the sea from vessels proceeding at a distance not less than 12 nautical miles from the nearest land. Sounds straightforward? Unfortunately, it is not - all coastal states do not define their ‘nearest land boundary’ in the same way.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [
-        "gas_detector"
+        "cii_ets"
       ],
-      "first_seen_at": "2026-08-19T09:40:09+08:00",
-      "summary_zh": "Gard 驗船師撰文分享進入密閉空間作業的危險性與實務經驗,提醒船上人員注意相關安全風險。內容為個人經驗分享,未涉及具體法規或設備新規定。",
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "MARPOL 規定船舶距最近陸地 12 海里以上方可排放未處理廚餘，但各沿海國對「最近陸地邊界」的定義不一致，導致合規判斷存在差異。工務監督應留意各港口國對基線劃分的解釋，避免因距離認定不同而違規。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
+    },
+    {
+      "title": "Reminder – danger of liquefaction in iron ore fines loaded in Sierra Leone",
+      "url": "https://gard.no/en/insights/reminder-danger-liquefaction-iron-ore-fines-loaded-sierra-leone/",
+      "published_at": "2021-12-15",
+      "summary": "Inaccuracies in cargo declaration as well as shippers’ insistence on loading in rain are conditions found in Pepel, Sierra Leone and members are advised to be diligent in protecting against liquefaction.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "西非獅子山 Pepel 港裝載鐵礦砂細粉時，存在貨載申報不實及託運人堅持雨天裝載的風險，恐導致貨物液化。工務監督應提醒船隊嚴格把關，確認貨物適運水分極限（TML）文件並監督裝載過程，防範液化危險。",
       "importance": "notice",
       "category": "safety",
-      "watch_topics": [
-        "gas_detector"
-      ]
+      "watch_topics": []
+    },
+    {
+      "title": "Collision avoidance – safeguarding the lives and livelihoods of fishermen",
+      "url": "https://gard.no/en/insights/collision-avoidance-safeguarding-lives-livelihoods-fishermen/",
+      "published_at": "2021-06-07",
+      "summary": "Collisions between merchant vessels and fishing vessels have caused multiple and tragic loss of life. What are the causes and what can be done to prevent such accidents?",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-16T12:24:16+08:00",
+      "summary_zh": "商船與漁船碰撞事故已造成多人喪生，凸顯航行安全問題。文章探討事故成因及預防對策，以保障漁民生命與生計。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
     }
   ]
 }
