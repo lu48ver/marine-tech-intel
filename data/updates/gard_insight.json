@@ -2,10 +2,27 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-16T12:24:16+08:00",
-  "last_success_at": "2026-09-16T12:24:16+08:00",
+  "last_crawled_at": "2026-09-19T12:11:53+08:00",
+  "last_success_at": "2026-09-19T12:11:53+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Preventing auxiliary engine overspeed",
+      "url": "https://gard.no/en/insights/preventing-auxiliary-engine-overspeed/",
+      "published_at": "2026-09-16",
+      "summary": "Overspeed can occur within seconds, perhaps from a simple setup error or a seemingly minor mechanical fault. The result can be severe engine damage, costly repairs and weeks out of service. Here are some of the key steps to reduce the risk.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-19T12:11:53+08:00",
+      "summary_zh": "輔助機械過轉可能在數秒內發生，原因可能是簡單的設定錯誤或看似輕微的機械故障。後果可能導致嚴重的引擎損壞、高昂的維修費用以及數週的停航。文中建議採取一些關鍵步驟以降低此類風險。",
+      "importance": "notice",
+      "category": "machinery",
+      "watch_topics": []
+    },
     {
       "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
       "url": "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/",
@@ -94,23 +111,6 @@
       "watch_topics": []
     },
     {
-      "title": "General Average: Managing the process and protecting the recovery",
-      "url": "https://gard.no/en/insights/general-average-managing-process-protecting-recovery/",
-      "published_at": "2026-07-02",
-      "summary": "General Average is one of the oldest principles of maritime law. It is an equitable doctrine that shares among property owners of the assets involved in maritime adventures the cost of extraordinary sacrifices or expenses incurred to avert a peril threatening the whole voyage. This article explains ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "一般平均是海事法中最古老的原則之一。這是一項公平的法則，旨在在參與海上冒險的財產所有者之間分擔為避免整個航程面臨危險而產生的額外犧牲或費用。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
       "title": "US courts signal shift in the interpretation of “package” under COGSA",
       "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
       "published_at": "2026-06-30",
@@ -162,40 +162,34 @@
       "watch_topics": []
     },
     {
-      "title": "Beware of in-transit fumigation risks",
-      "url": "https://gard.no/en/insights/beware-of-in-transit-fumigation-risks/",
-      "published_at": "2025-10-09",
-      "summary": "Despite detailed IMO recommendations setting out safety precautions for fumigating vessels’ cargo holds, casualty investigations continue to reveal critical gaps in training, gas monitoring, and risk awareness - leaving crews exposed to life-threatening hazards during in-transit fumigation.",
+      "title": "Focus on seafarer wellbeing – a reflection on the “S” in “ESG”",
+      "url": "https://gard.no/en/insights/focus-on-seafarer-wellbeing-reflection-on-s-esg/",
+      "published_at": "2022-11-01",
+      "summary": "Christen Guddal, Gard’s global head of claims, recently gave a talk at the International Marine Claims Conference in Dublin titled “Putting the S in ESG”. We share some of his comments and observations.",
       "tags": [
         "gard",
         "p&i",
         "insight"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "IMO 雖已訂定在航穀物燻蒸的詳細安全建議，但事故調查仍持續發現船員在訓練、氣體監測與風險意識方面存在嚴重缺口。這些缺失使船員在在航燻蒸期間暴露於危及生命的危害中。工務監督應確認船上攜帶式氣體偵測器配備與校正符合規範，並加強燻蒸作業人員訓練。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": [
-        "gas_detector"
-      ]
-    },
-    {
-      "title": "Panama Canal Disruption Charges",
-      "url": "https://gard.no/en/insights/panama-canal-disruption-charges/",
-      "published_at": "2025-09-26",
-      "summary": "Since 1 January 2023, the Panama Canal Authority (PCA) has been imposing a \"Disruption Charge\" on vessels with deficiencies. These charges can be as high as USD 250,000 and Gard members have reported numerous cases of this charge being levied since its introduction.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "自2023年1月1日起，巴拿馬運河管理局對有缺失的船舶徵收「中斷費用」，最高可達25萬美元。Gard會員已多次反映自實施以來被徵收此費用的案例。船東及船舶技術管理人員應確保船舶狀況良好，以避免產生此額外費用。",
-      "importance": "action",
+      "first_seen_at": "2026-09-19T12:11:53+08:00",
+      "summary_zh": "Gard 全球理賠主管於國際海事理賠會議中以「ESG 中的 S」為題發表演說，探討海員福祉議題。本文分享其演講中的部分評論與觀察。",
+      "importance": "reference",
       "category": "industry",
       "watch_topics": []
+    },
+    {
+      "title": "Statsraad Lehmkuhl – the wind and the sails",
+      "url": "https://gard.no/en/insights/statsraad-lehmkuhl-wind-sails/",
+      "published_at": "2022-10-24",
+      "summary": "During a voyage from Ishigaki to Manila aboard the tall ship Statsraad Lehmkuhl, our author glimpsed what it means to have wind in our sails. He will take you on that voyage and what we can learn from the master and the crew; the ship and the sea; and the wind and the sails as well as some lessons t",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-19T12:11:53+08:00"
     },
     {
       "title": "Seafarer mental health and geopolitics",

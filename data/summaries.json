@@ -2139,5 +2139,44 @@
     "model": "z-ai/glm-5.2:free",
     "source_kind": "summary",
     "generated_at": "2026-09-16T12:24:27+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/19-ebl-sounding-board/": {
+    "summary_zh": "...",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-19T12:12:04+08:00"
+  },
+  "https://gard.no/en/insights/preventing-auxiliary-engine-overspeed/": {
+    "summary_zh": "輔助機械過轉可能在數秒內發生，原因可能是簡單的設定錯誤或看似輕微的機械故障。後果可能導致嚴重的引擎損壞、高昂的維修費用以及數週的停航。文中建議採取一些關鍵步驟以降低此類風險。",
+    "importance": "notice",
+    "category": "machinery",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-19T12:12:04+08:00"
+  },
+  "https://gard.no/en/insights/focus-on-seafarer-wellbeing-reflection-on-s-esg/": {
+    "summary_zh": "Gard 全球理賠主管於國際海事理賠會議中以「ESG 中的 S」為題發表演說，探討海員福祉議題。本文分享其演講中的部分評論與觀察。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-19T12:12:04+08:00"
+  },
+  "https://www.tokyo-mou.org/press-releases/2026/09/18/tokyo-mou-port-state-control-committee-37th-meeting-in-singapore/": {
+    "summary_zh": "東京備忘錄第37次委員會確認2026年9月起與巴黎備忘錄聯合執行貨物繫固CIC，2027年聯合執行密閉空間進入CIC，2028年執行航行安全（航程計畫）檢查活動；委員會關注績效不佳船舶及偽造登記船舶增加，將研擬更強措施與四層級處理架構。委員會通過船舶風險概況表修正案，自2028年1月1日生效，並批准自2027年1月1日起收集驗船機構數據以新方法計算其績效。",
+    "importance": "action",
+    "category": "psc",
+    "watch_topics": [
+      "psc_cic",
+      "gas_detector"
+    ],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "pdf",
+    "generated_at": "2026-09-19T12:12:04+08:00"
   }
 }
