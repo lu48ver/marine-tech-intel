@@ -2,10 +2,27 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-09-19T12:11:59+08:00",
-  "last_success_at": "2026-09-19T12:11:59+08:00",
+  "last_crawled_at": "2026-09-22T12:24:15+08:00",
+  "last_success_at": "2026-09-22T12:24:15+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "IMO CCC 12: Revised guidelines for methanol as fuel",
+      "url": "https://www.dnv.com/news/2026/imo-ccc-12/",
+      "published_at": "2026-09-21",
+      "summary": "The 12th session of the IMO Sub-Committee on Carriage of Cargoes and Containers (CCC 12) was held from 14 to 18 September 2026. CCC 12 finalized the revision of the interim guidelines for the use of methyl/ethyl alcohol as fuel, and added a harmonized performance standard for lashing software to sup",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-22T12:24:15+08:00",
+      "summary_zh": "IMO CCC 12 於 2026 年 9 月 14 日至 18 日舉行。會議完成甲醇/乙醇作為燃料之暫行指南的修訂。並新增了一項繫纜軟體的統一效能標準。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
+    },
     {
       "title": "Updated Implementing Regulation (EU) 2026/1434 amending the MED: In force from 31 August 2026",
       "url": "https://www.dnv.com/news/2026/updated-implementing-regulation-med/",
@@ -199,23 +216,6 @@
       "topic_ids": [],
       "first_seen_at": "2026-05-22",
       "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "How to document PFOS-free fire-extinguishing foam on board",
-      "url": "https://www.dnv.com/news/2026/how-to-document-pfos-free-fire-extinguishing-foam-on-board/",
-      "published_at": "2026-05-04",
-      "summary": "At the first safety equipment survey* after 1 January 2026, all fire-extinguishing foams on board must be PFOS-free, and this must be verified by the attending surveyor. Compliance will prevent part-held surveys and/or Conditions of Authority. Here is a short summary of how to document compliance. T",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-05-04",
-      "summary_zh": "在2026年1月1日後的第一次安全設備檢查中，所有船上使用的滅火泡沫必須無PFOS，並需由檢查員進行驗證。遵守此規定可避免部分持有檢查和/或權限條件。",
       "importance": "action",
       "category": "regulation",
       "watch_topics": []
