@@ -2196,5 +2196,32 @@
     "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "source_kind": "summary",
     "generated_at": "2026-09-22T12:26:02+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/24-security-symposium/": {
+    "summary_zh": "地緣政治緊張、區域衝突及日益複雜的犯罪網絡正在為國際航運創造相互關聯的安全風險。在 BIMCO 2026 年海事安全研討會上，與會者一致認為，做好準備、可信的資訊共享以及更緊密的合作是必須的。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-25T12:29:34+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/22-ebl-standard/": {
+    "summary_zh": "BIMCO 已更新其適用於散貨航運領域的電子提單 (eBL) 開源標準，以支援航運業從紙本文件轉向數位貿易文件的下一階段發展。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "summary",
+    "generated_at": "2026-09-25T12:29:34+08:00"
+  },
+  "https://parismou.org/register-for-teg40-in-poland/": {
+    "summary_zh": "1. Paris MoU 透過港口國監督 (PSC) 檢查外國船舶，確保其狀況、設備、配員與營運符合國際法規。\n2. Paris MoU 提供數位工具，即時掌握船舶合規與風險資訊。\n3. 最新消息包含年度績效名單與拒絕進港船舶公告，有助掌握區域 PSC 動態。",
+    "importance": "notice",
+    "category": "psc",
+    "watch_topics": [],
+    "model": "z-ai/glm-5.2:free",
+    "source_kind": "html",
+    "generated_at": "2026-09-25T12:29:34+08:00"
   }
 }

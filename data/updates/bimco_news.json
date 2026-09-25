@@ -1,6 +1,45 @@
 {
-  "last_success_at": "2026-09-19T12:12:00+08:00",
+  "source_id": "bimco_news",
+  "source_name": "BIMCO News",
+  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
+  "last_crawled_at": "2026-09-25T12:29:28+08:00",
+  "last_success_at": "2026-09-25T12:29:28+08:00",
+  "crawl_status": "success",
   "items": [
+    {
+      "title": "BIMCO Symposium highlights need for global maritime security co-operation",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/24-security-symposium/",
+      "published_at": "2026-09-24",
+      "summary": "Geopolitical tensions, regional conflicts and increasingly sophisticated criminal networks are creating connected security risks for international shipping. At BIMCO’s Maritime Security Symposium 2026, participants agreed that preparedness, trusted information sharing and closer co-operation are ess",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-25T12:29:28+08:00",
+      "summary_zh": "地緣政治緊張、區域衝突及日益複雜的犯罪網絡正在為國際航運創造相互關聯的安全風險。在 BIMCO 2026 年海事安全研討會上，與會者一致認為，做好準備、可信的資訊共享以及更緊密的合作是必須的。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
+    {
+      "title": "BIMCO updates its open source eBL Standard to support the next stage of digital trade",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/22-ebl-standard/",
+      "published_at": "2026-09-22",
+      "summary": "We have updated our electronic bill of lading standard (eBL Standard) for the bulk shipping sector, supporting the industry’s transition from paper to digital trade documentation.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-25T12:29:28+08:00",
+      "summary_zh": "BIMCO 已更新其適用於散貨航運領域的電子提單 (eBL) 開源標準，以支援航運業從紙本文件轉向數位貿易文件的下一階段發展。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
+    },
     {
       "title": "Join the sounding board for the revision of BIMCO's Electronic Bills of Lading Clause",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/19-ebl-sounding-board/",
@@ -225,46 +264,6 @@
       "importance": "reference",
       "category": "industry",
       "watch_topics": []
-    },
-    {
-      "title": "BIMCO welcomes proposal to include Indian ship recycling yards on EU list",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/29-eu-recycling-yards/",
-      "published_at": "2026-07-29",
-      "summary": "The EU Commission has launched a proposal to EU member states to add two Indian ship recycling facilities to its list of approved yards. If approved, this would mark the first time that Indian yards have been recognised under the EU Ship Recycling Regulation (EU SRR), representing a milestone for a ",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-31T11:34:19+08:00",
-      "summary_zh": "歐盟委員會已向成員國提出提議，將兩個印度船舶回收設施納入其批准的船廠名單。如果獲得批准，這將是印度船廠首次根據歐盟船舶回收法規獲得認可，標誌著一個重要里程碑。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "Navigating alternative fuels: new industry guidelines for methanol Safety Management Systems",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/07/14-sms-methanol/",
-      "published_at": "2026-07-14",
-      "summary": "As methanol gains ground as a marine fuel, the Maritime Technologies Forum (MTF) has published new guidelines to help companies develop or adapt Safety Management Systems for methanol-fuelled ships. Developed in collaboration with BIMCO and other key stakeholders, the guidance translates methanol-sp",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-07-15T10:32:11+08:00",
-      "summary_zh": "隨著甲醇作為海洋燃料的普及，海事技術論壇（MTF）發布了新指導方針，幫助公司為甲醇燃料船舶開發或調整安全管理系統。這些指導方針是與BIMCO及其他主要利益相關者合作制定的。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
     }
-  ],
-  "source_id": "bimco_news",
-  "source_name": "BIMCO News",
-  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-22T12:24:16+08:00",
-  "crawl_status": "error",
-  "error_message": "HTTPSConnectionPool(host='www.bimco.org', port=443): Read timed out. (read timeout=30)"
+  ]
 }

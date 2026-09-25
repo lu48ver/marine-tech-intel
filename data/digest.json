@@ -1,46 +1,52 @@
 {
-  "generated_at": "2026-09-16T12:33:32+08:00",
+  "generated_at": "2026-09-25T12:33:59+08:00",
   "model": "z-ai/glm-5.2:free",
   "themes": [
     {
-      "name": "貨物繫固集中檢查",
-      "why": "Paris MoU 與 Tokyo MoU 將於2026年9月1日至11月30日聯合執行貨物繫固CIC，配合例行PSC檢查使用共同問卷查核SOLAS裝載、堆疊與繫固規定，船隊須確保繫固手冊經認可、設備狀態良好且船員完成訓練。",
+      "name": "電子提單與數位貿易文件標準化",
+      "why": "BIMCO 更新其散貨航運電子提單開源標準並修訂 eBL 條款，同時 GSBN 等中立 consortium 推動無紙化全球貿易，船隊須準備將提單流程從紙本遷移至數位平台並確保合約條款與新標準接軌。",
       "articles": [
         {
-          "title": "Cargo securing on the PSC agenda",
-          "url": "https://gard.no/en/insights/cargo-securing-psc-agenda/",
-          "source": "Gard Insight",
-          "published_at": "2026-08-14"
+          "title": "BIMCO updates its open source eBL Standard to support the next stage of digital trade",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/22-ebl-standard/",
+          "source": "BIMCO News",
+          "published_at": "2026-09-22"
         },
         {
-          "title": "Port State Control – CIC 2026 official questionnaire now published",
-          "url": "https://www.dnv.com/news/2026/port-state-control-cic-2026-official-questionnaire-now-published/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-08-04"
+          "title": "Join the sounding board for the revision of BIMCO's Electronic Bills of Lading Clause",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/19-ebl-sounding-board/",
+          "source": "BIMCO News",
+          "published_at": "2026-09-19"
         },
         {
-          "title": "Joint Press Release on the Concentrated Inspection Campaign on Cargo Securing",
-          "url": "https://www.tokyo-mou.org/press-releases/2026/08/03/joint-press-release-on-the-concentrated-inspection-campaign-on-cargo-securing/",
-          "source": "Tokyo MoU",
-          "published_at": "2026-08-03"
-        },
-        {
-          "title": "Paris and Tokyo MoUs launch 2026 Concentrated Inspection Campaign on Cargo Securing",
-          "url": "https://parismou.org/paris-and-tokyo-mous-launch-2026-concentrated-inspection-campaign-on-cargo-securing/",
-          "source": "Paris MoU",
-          "published_at": "2026-08-03"
-        },
-        {
-          "title": "The 2026 PSC CIC on cargo securing – be prepared",
-          "url": "https://www.dnv.com/news/2026/the-2026-psc-cic-on-cargo-securing/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-07-29"
+          "title": "Global Shipping Business Network appoints BIMCO to its board",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/07-gsbn/",
+          "source": "BIMCO News",
+          "published_at": "2026-09-07"
         }
       ]
     },
     {
-      "name": "生物附著管理強制化趨勢",
-      "why": "BIMCO推出三項問卷蒐集業界對2023年IMO生物附著管理指南的實務經驗，作為IMO研議制定具強制力公約之依據，涵蓋檢查、港口清洗服務及船東作業挑戰，船隊應追蹤未來強制性措施的發展方向。",
+      "name": "波斯灣衝突與戰爭風險合約空隙",
+      "why": "2026 年 2 月下旬波斯灣衝突爆發後荷莫兹海峽通行量大幅下降，滯留船舶面臨現行標準合約在戰爭風險與航行中斷情境下的適用性問題，BIMCO 正徵集業界意見以研擬新增或修訂條款填補合約空隙。",
+      "articles": [
+        {
+          "title": "BIMCO Symposium highlights need for global maritime security co-operation",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/24-security-symposium/",
+          "source": "BIMCO News",
+          "published_at": "2026-09-24"
+        },
+        {
+          "title": "BIMCO seeks industry input on contractual gaps from Gulf disruption",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-gulf-contracts/",
+          "source": "BIMCO News",
+          "published_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "name": "生物附著管理邁向強制公約",
+      "why": "BIMCO 推出三項問卷調查蒐集業界對 2023 年 IMO 生物附著管理指南的實務經驗，作為 IMO 研議制定具強制力公約之依據，船隊應及早評估現行清洗與檢查作業能否符合未來強制要求。",
       "articles": [
         {
           "title": "Help BIMCO Shape the Future of Biofouling Management",
@@ -57,8 +63,8 @@
       ]
     },
     {
-      "name": "中國水域航行安全風險",
-      "why": "Gard理賠數據顯示65起涉及漁船碰撞事故中半數發生於中國水域，禁漁期結束後大量漁船同時出海碰撞風險尤高；同時中國海事局加強渤海海域燃油硫含量合規檢查，工務監督應提醒船隊加強瞭望避碰與燃油品質管控。",
+      "name": "中國水域航行安全與執法風險",
+      "why": "Gard 理賠數據顯示 65 起漁船碰撞事故中半數發生於中國水域，禁漁期結束後風險尤高；同時中國海事局加強渤海海域燃油硫含量合規檢查，工務監督須針對該區強化避碰措施與燃油品質管控。",
       "articles": [
         {
           "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
@@ -73,12 +79,29 @@
           "published_at": "2026-08-12"
         }
       ]
+    },
+    {
+      "name": "歐盟 MED 實施細則更新與英國 ETS 擴及海運",
+      "why": "歐盟第 10 號實施細則 (EU) 2026/1434 修訂海洋設備指令並於 2026 年 8 月 31 日生效，船隊須確認船上海洋設備型式認可符合新版要求；英國 ETS 於 2026 年 7 月 1 日擴展至海運業，營運人需將溫室氣體排放定價納入航次成本管理。",
+      "articles": [
+        {
+          "title": "Updated Implementing Regulation (EU) 2026/1434 amending the MED: In force from 31 August 2026",
+          "url": "https://www.dnv.com/news/2026/updated-implementing-regulation-med/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-08-20"
+        },
+        {
+          "title": "The UK ETS expands to maritime from 1 July 2026",
+          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-06-05"
+        }
+      ]
     }
   ],
   "topic_status": {
-    "bio_fuel": "LR 於 2025 年 9 月 16 日推出 Biofuel Advisory 諮詢服務，協助船東評估 FAME 摻配燃油的採用風險與操作指引，顯示生質燃油正從試驗階段邁入常規營運準備。工務監督應關注 B24/B30 摻配比例下的 ISO 8217 規格符合性、氧化安定性及滑油相容性等技術議題，並追蹤主要加油港的供應動態以利艦隊調度。",
-    "psc_cic": "Paris MoU 與 Tokyo MoU 已於 2026 年 8 月 4 日公布聯合「貨物繫固」CIC 官方問卷，將於 9 月 1 日至 11 月 30 日配合例行 PSC 檢查執行，PSCO 將依 SOLAS 規定查核貨物裝載、堆疊與繫固安排。同時 Paris MoU 2025 年度報告顯示滯留率升至 4.18%、拒入禁令 19 件，船隊應立即完成繫固手冊、設備狀態及船員訓練的自查以避免滯留。",
-    "gas_detector": "IMO 在航穀物燻蒸安全建議已行之有年，但 2025 年 10 月 9 日的事故調查報告仍持續發現船員在氣體監測與訓練方面存在嚴重缺口，凸顯攜帶式氣體偵測器的配備、校正與密閉空間進入程序落實不足。工務監督應確認船上氣體偵測器校正紀錄完整且符合 SOLAS 與旗國要求，並將燻蒸作業納入密閉空間進入 PSC 檢查重點的預防性管理。",
-    "cii_ets": "英國 ETS 將於 2026 年 7 月 1 日起擴展至海運業，對英國港口進出船舶的溫室氣體排放進行定價，船隊須提前建立排放監測與申報機制。此外，第 22 次 IMO 溫室氣體減排工作組會議已於 2026 年 9 月 1 日至 4 日在倫敦召開，討論全球燃油標準與碳定價框架的實質條文，工務監督應追蹤 Net-Zero Framework 後續進展以預估合規成本。"
+    "psc_cic": "巴黎MoU與東京MoU於2026年9月1日至11月30日聯合執行貨物繫固集中檢查（CIC），使用兩MoU共同制定的問卷，依據SOLAS關於裝載、堆積與繫固的規定檢查，每艘船舶在該期間僅受檢一次。東京MoU第37次委員會（2026-09-18）確認此項CIC自9月起實施，並宣佈將於2027年聯合執行密閉空間進入CIC、2028年執行航行安全（航程計畫）檢查，同時修訂船舶風險概況表，自2028年生效。",
+    "gas_detector": "東京MoU第37次委員會（2026-09-18）決議自2027年起與巴黎MoU聯合執行密閉空間進入集中檢查（CIC），重點檢查攜帶式氣體偵測器的配備、校正及船員訓練是否符合SOLAS及旗國要求。船隊需在此期間前確保氣體偵測器已依規定校正、記錄完整，並完成相關操作培訓，以避免在CIC中被列為不合格項目。",
+    "cii_ets": "IMO溫室氣體減排工作組第22次會議於2026年9月1日至4日在倫敦IMO總部舉行，討論船舶GHG減排潛力與挑戰。英國排放交易計劃（ETS）自2026年7月1日起擴展至海運業，要求船公司對在英國管轄水域航行的CO2排放額度進行配額交易與繳納。"
   }
 }

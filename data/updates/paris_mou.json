@@ -2,10 +2,26 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-09-22T12:24:08+08:00",
-  "last_success_at": "2026-09-22T12:24:08+08:00",
+  "last_crawled_at": "2026-09-25T12:29:21+08:00",
+  "last_success_at": "2026-09-25T12:29:21+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Register for TEG40 in Poland",
+      "url": "https://parismou.org/register-for-teg40-in-poland/",
+      "published_at": "2026-09-22",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-09-25T12:29:21+08:00",
+      "summary_zh": "1. Paris MoU 透過港口國監督 (PSC) 檢查外國船舶，確保其狀況、設備、配員與營運符合國際法規。\n2. Paris MoU 提供數位工具，即時掌握船舶合規與風險資訊。\n3. 最新消息包含年度績效名單與拒絕進港船舶公告，有助掌握區域 PSC 動態。",
+      "importance": "notice",
+      "category": "psc",
+      "watch_topics": []
+    },
     {
       "title": "Register for Seminar 80",
       "url": "https://parismou.org/register-for-seminar-80-in-hamburg/",
