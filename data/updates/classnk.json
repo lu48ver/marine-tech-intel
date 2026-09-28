@@ -2,13 +2,13 @@
   "source_id": "classnk",
   "source_name": "ClassNK Topics",
   "source_url": "https://www.classnk.com/hp/en/info_service/imo_and_iacs/index.html",
-  "last_crawled_at": "2026-09-25T12:29:18+08:00",
-  "last_success_at": "2026-09-25T12:29:18+08:00",
+  "last_crawled_at": "2026-09-28T12:54:23+08:00",
+  "last_success_at": "2026-09-28T12:54:23+08:00",
   "crawl_status": "success",
   "items": [
     {
-      "title": "Preliminary Report of MSC111 (May 2026)",
-      "url": "https://www.classnk.com/hp/pdf/info_service/imo_and_iacs/MSC111_sumE.pdf",
+      "title": "Outcome of MSC111 (May 2026)",
+      "url": "https://www.classnk.com/hp/pdf/tech_info/tech_img/T1380e.pdf",
       "published_at": "2026-05-01",
       "summary": "",
       "tags": [
@@ -18,11 +18,7 @@
         "msc"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-01",
-      "summary_zh": "IMO海事安全委員會（MSC 111）於2026年5月13日至22日在倫敦舉行，並通過了多項強制性要求，將於2028年1月1日生效，包括對LSA法規的修訂、2011年ESP法規的修訂，以及IP法規的修訂。會議還批准了使用氫氣和氨作為燃料的臨時指導方針，並討論了海事自主水面船舶（MASS）的相關要求，未來將考慮制定強制性MASS法規。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
+      "first_seen_at": "2026-09-28T12:54:23+08:00"
     },
     {
       "title": "Outcome of MEPC84 (May 2026)",
