@@ -2223,5 +2223,32 @@
     "model": "z-ai/glm-5.2:free",
     "source_kind": "html",
     "generated_at": "2026-09-25T12:29:34+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/30-us-china/": {
+    "summary_zh": "美國與中國的互惠港口費用措施可能維持暫停至2027年1月10日。若此情況得到確認，則原定於2026年11月重新實施的費用將不會出現。然而，長期情況仍存在不確定性。",
+    "importance": "reference",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-01T13:22:31+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/28-inhouse-training/": {
+    "summary_zh": "標準培訓課程未必能針對員工日常工作遇到的具體挑戰。BIMCO 提供客製化內部培訓，採取不同的方式。您可以與 BIMCO 合作，決定培訓目標與內容。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-01T13:22:31+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/09/28-data-sharing/": {
+    "summary_zh": "每艘船舶都會產生大量運營與性能數據。當具備適當安排時，這些數據可用於船舶性能監測、航程優化、氣象航線規劃及其他節能措施。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-01T13:22:31+08:00"
   }
 }

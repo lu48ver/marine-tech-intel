@@ -2,10 +2,61 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-09-28T12:54:33+08:00",
-  "last_success_at": "2026-09-28T12:54:33+08:00",
+  "last_crawled_at": "2026-10-01T13:22:24+08:00",
+  "last_success_at": "2026-10-01T13:22:24+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Remember the special BIMCO clauses for US and China port fees",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/30-us-china/",
+      "published_at": "2026-09-30",
+      "summary": "Recent reports indicate that the reciprocal port fee measures introduced by the United States and China may remain suspended until 10 January 2027. If confirmed, this would remove the immediate prospect of the fees being reintroduced in November 2026.\nHowever, uncertainty remains both as to the long",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-01T13:22:24+08:00",
+      "summary_zh": "美國與中國的互惠港口費用措施可能維持暫停至2027年1月10日。若此情況得到確認，則原定於2026年11月重新實施的費用將不會出現。然而，長期情況仍存在不確定性。",
+      "importance": "reference",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "Are skill gaps in your team costing you time and money?",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/28-inhouse-training/",
+      "published_at": "2026-09-28",
+      "summary": "Standard training courses do not always address the specific challenges your staff encounter in their day-to-day work.\nBIMCO’s customised inhouse training takes a different approach.\nRather than adapting your needs to an existing course, you can work with BIMCO to determine the objectives, topics, d",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-01T13:22:24+08:00",
+      "summary_zh": "標準培訓課程未必能針對員工日常工作遇到的具體挑戰。BIMCO 提供客製化內部培訓，採取不同的方式。您可以與 BIMCO 合作，決定培訓目標與內容。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "Unlocking the full value of vessel data: BIMCO's Energy Efficiency Data Sharing Clause 2025",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/28-data-sharing/",
+      "published_at": "2026-09-28",
+      "summary": "Every ship generates a significant amount of operational and performance data. When appropriate arrangements are in place, this data can support a range of activities, including vessel performance monitoring, voyage optimisation, weather routing, and other energy efficiency initiatives to the benefi",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-01T13:22:24+08:00",
+      "summary_zh": "每艘船舶都會產生大量運營與性能數據。當具備適當安排時，這些數據可用於船舶性能監測、航程優化、氣象航線規劃及其他節能措施。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
     {
       "title": "BIMCO Symposium highlights need for global maritime security co-operation",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/24-security-symposium/",
@@ -208,59 +259,6 @@
       "topic_ids": [],
       "first_seen_at": "2026-08-07T10:56:37+08:00",
       "summary_zh": "BIMCO 會員現在可在其網站上取得 Platts S&P Global Energy 每週貨運市場評估資料。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Revised PRC Maritime Code: Key considerations for managing contractual risk",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-maritime-code-prc/",
-      "published_at": "2026-08-05",
-      "summary": "China occupies a pivotal position in global shipping and is home to many of the world’s busiest ports.  Consequently, a significant proportion of international trade involves cargo that is loaded, discharged or transhipped through Chinese ports. \nAgainst this backdrop, the revised Maritime Code of t",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00",
-      "summary_zh": "中國《海商法》修訂對國際航運契約風險管理產生重要影響，涉及貨物裝卸、轉運及相關合約條款。修法內容與全球主要港口及貿易活動密切相關，業者需關注其對責任歸屬與爭議解決的潛在變化。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "BIMCO launches surveys to support practical biofouling management",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-biofouling-surveys/",
-      "published_at": "2026-08-05",
-      "summary": "As the International Maritime Organization considers the details of future mandatory measures to manage ships’ biofouling, industry input is essential to ensure any requirements are practical and effective. BIMCO has launched three surveys covering inspection, cleaning service in ports and shipowner",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00",
-      "summary_zh": "BIMCO 推出三項關於生物附著（biofouling）管理的問卷調查，涵蓋檢查、港口清洗服務及船東實務經驗，旨在蒐集業界意見，作為 IMO 制訂未來強制性生物附著管理措施時的參考依據。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": [
-        "bio_fuel"
-      ]
-    },
-    {
-      "title": "AI-generated contracts and clauses: why the human element still matters",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-ai/",
-      "published_at": "2026-08-05",
-      "summary": "Artificial intelligence is rapidly becoming part of everyday work in commercial shipping, including how contracts and clauses are drafted, reviewed and compared. From document review and clause comparison to drafting assistance, AI is already changing how contractual work is carried out across the s",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00",
-      "summary_zh": "AI正快速進入商業航運合約與條款的起草、審閱及比對流程。儘管AI可協助文件審閱、條款比較與起草,但人類專業判斷在合約工作中仍不可取代。對航運公司而言,AI工具可提升合約作業效率,但不應完全取代人為審核。",
       "importance": "reference",
       "category": "industry",
       "watch_topics": []

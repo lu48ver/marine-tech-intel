@@ -2,10 +2,36 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-09-28T12:54:26+08:00",
-  "last_success_at": "2026-09-28T12:54:26+08:00",
+  "last_crawled_at": "2026-10-01T13:22:17+08:00",
+  "last_success_at": "2026-10-01T13:22:17+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Loss of bridge control in functioning systems",
+      "url": "https://gard.no/en/insights/loss-of-bridge-control-in-functioning-systems/",
+      "published_at": "2026-09-28",
+      "summary": "Effective control of a vessel can sometimes be lost even when equipment is working. In this article, we see how control settings applied by the crew can lead to serious accidents. In an era of increasingly sophisticated bridges and integrated systems, the accidents serve as a stark reminder of risks",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-01T13:22:17+08:00"
+    },
+    {
+      "title": "Fish farm claims in China: lessons from a recent court judgement",
+      "url": "https://gard.no/en/insights/fish-farm-claims-in-china-lessons-from-a-recent-court-judgement/",
+      "published_at": "2026-09-28",
+      "summary": "Fish farm contact incidents remain a recurring issue for vessels trading to Chinese coastal waters. Traditionally, such claims can be difficult for owners to defend, particularly where liability is argued from the mere fact that a vessel entered an aquaculture area. A recent Chinese maritime court j",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-01T13:22:17+08:00"
+    },
     {
       "title": "Preventing auxiliary engine overspeed",
       "url": "https://gard.no/en/insights/preventing-auxiliary-engine-overspeed/",
@@ -21,23 +47,6 @@
       "summary_zh": "輔助機械過轉可能在數秒內發生，原因可能是簡單的設定錯誤或看似輕微的機械故障。後果可能導致嚴重的引擎損壞、高昂的維修費用以及數週的停航。文中建議採取一些關鍵步驟以降低此類風險。",
       "importance": "notice",
       "category": "machinery",
-      "watch_topics": []
-    },
-    {
-      "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
-      "url": "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/",
-      "published_at": "2026-09-14",
-      "summary": "Gard’s claims data shows that half of 65 collisions involving fishing vessels occurred in Chinese waters. The risk is particularly high when seasonal fishing bans are lifted, and large numbers of fishing vessels return to sea.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "Gard理賠數據顯示，65起涉及漁船碰撞事故中有半數發生於中國水域。禁漁期結束後大量漁船同時出海，碰撞風險尤高。船隊航行於該區應提高警覺並加強瞭望與避碰措施。",
-      "importance": "notice",
-      "category": "safety",
       "watch_topics": []
     },
     {
@@ -58,6 +67,23 @@
       "watch_topics": []
     },
     {
+      "title": "El Niño, Panama Canal restrictions, and routing off Cape Horn",
+      "url": "https://gard.no/en/insights/el-nino-panama-canal-restrictions-routing-off-cape-horn/",
+      "published_at": "2026-09-01",
+      "summary": "The Panama Canal remains the preferred route for vessels trading between the Atlantic and Pacific Oceans. However, recurring drought conditions associated with the El Niño phenomenon have repeatedly reduced water availability in the Canal's watershed, forcing the Panama Canal Authority (ACP) to intr",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-01T13:22:17+08:00",
+      "summary_zh": "聖嬰現象反覆造成巴拿馬運河流域缺水,巴拿馬運河管理局(ACP)因而實施船舶通行管制與限制,使部分船舶改航合恩角以維持船期。巴拿馬運河仍為大西洋與太平洋間貿易的首選航線,但乾旱風險持續,船隊應提前評估運河管制對航程與船期的影響。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
       "title": "Cargo securing on the PSC agenda",
       "url": "https://gard.no/en/insights/cargo-securing-psc-agenda/",
       "published_at": "2026-08-14",
@@ -75,23 +101,6 @@
       "watch_topics": [
         "psc_cic"
       ]
-    },
-    {
-      "title": "Sulphur-related bunker claims on the rise amid increased China MSA enforcement",
-      "url": "https://gard.no/en/insights/sulphur-related-bunker-claims-on-the-rise-increased-china-msa-enforcement/",
-      "published_at": "2026-08-12",
-      "summary": "Claims involving excessive sulphur content in marine fuels have seen an upward trend recently. At the same time, we are seeing a heightened focus on sulphur compliance driven by stricter inspections by the China MSA, with a distinct concentration of enforcement activity in the Bohai Sea.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "近期船舶燃油硫含量超標索賠案件呈上升趨勢。中國海事局 (MSA) 加強硫含量合規檢查，執法行動主要集中在渤海海域。工務監督應提醒船隊於該區域加油後加強燃油品質管控與取樣保存。",
-      "importance": "action",
-      "category": "fuel",
-      "watch_topics": []
     },
     {
       "title": "AIS-assisted collisions: The risks of over-reliance",
@@ -125,40 +134,6 @@
       "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
       "importance": "notice",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Harnessing the giants: safer wind turbine blade logistics",
-      "url": "https://gard.no/en/insights/harnessing-the-giants-safer-windmill-blade-logistics/",
-      "published_at": "2026-04-13",
-      "summary": "As wind‑energy deployment accelerates globally, the logistics of transporting major turbine components—particularly blades, towers, and nacelles—have become increasingly complex. Drawing on Gard’s claims experience, this article explores the most common causes of damage during the carriage of turbin",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "隨著全球風能部署的加速，運輸主要風力發電機組件（特別是葉片、塔架和機艙）的物流變得愈加複雜。根據Gard的索賠經驗，本文探討了在運輸風力發電機過程中最常見的損壞原因。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Heavy weather at sea: managing risks on passage",
-      "url": "https://gard.no/en/insights/heavy-weather-at-sea-managing-risks-on-passage/",
-      "published_at": "2026-03-05",
-      "summary": "Continuing our series on heavy weather risks, this article turns to the sea passage, when vessels may be more exposed to sustained or deteriorating conditions. We examine scenarios, decision points and operational pressures  that can turn heavy weather into a potential casualty.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "在海上航行中，船隻可能面臨持續或惡化的天氣條件。本文探討了可能導致重型天氣成為潛在事故的情境、決策點和操作壓力。",
-      "importance": "notice",
-      "category": "safety",
       "watch_topics": []
     },
     {
@@ -229,6 +204,23 @@
       "summary_zh": "MARPOL 規定船舶距最近陸地 12 海里以上方可排放未處理廚餘，但各沿海國對「最近陸地邊界」的定義不一致，導致合規判斷存在差異。工務監督應留意各港口國對基線劃分的解釋，避免因距離認定不同而違規。",
       "importance": "notice",
       "category": "regulation",
+      "watch_topics": []
+    },
+    {
+      "title": "War in Ukraine – impact on the maritime situation",
+      "url": "https://gard.no/en/insights/war-ukraine-impact-on-maritime-situation/",
+      "published_at": "2022-03-28",
+      "summary": "The security situation in the Black Sea remains unstable, with commercial shipping facing an increased risk of attack. All transits and port calls should therefore be assessed individually, taking account of current threats, available guidance and appropriate mitigating measures.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-01T13:22:17+08:00",
+      "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。",
+      "importance": "notice",
+      "category": "industry",
       "watch_topics": []
     },
     {
