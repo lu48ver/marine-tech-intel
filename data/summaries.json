@@ -2250,5 +2250,23 @@
     "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "source_kind": "summary",
     "generated_at": "2026-10-01T13:22:31+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/01-mec-mssc/": {
+    "summary_zh": "BIMCO 的 Maritime Safety & Security Committee 與 Marine Environment Committee 於 9 月 30 日及 10 月 1 日舉行會議。會議主要討論了霍爾muz 海峽、黑海與紅海的安全情況。環境議題亦為會議重點。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-04T13:25:50+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/01-biofouling/": {
+    "summary_zh": "IMO 成員國正在談判將成為首個具有法律約束力的全球性生物污防管理公約。目前的決策將可能影響船舶未來多年的操作、檢驗、清潔與維護方式。因此，業界必須發表意見，以參與塑造該公約的最終內容。",
+    "importance": "notice",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-04T13:25:50+08:00"
   }
 }

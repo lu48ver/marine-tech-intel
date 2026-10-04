@@ -2,10 +2,44 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-01T13:22:24+08:00",
-  "last_success_at": "2026-10-01T13:22:24+08:00",
+  "last_crawled_at": "2026-10-04T13:25:44+08:00",
+  "last_success_at": "2026-10-04T13:25:44+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Strait of Hormuz security, decarbonisation among key issues discussed by BIMCO committees",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/01-mec-mssc/",
+      "published_at": "2026-10-01",
+      "summary": "The security situation in the Strait of Hormuz and the Black and Red Seas, as well as environmental topics, were among the key issues discussed when BIMCO’s Maritime Safety & Security Committee (MSSC) and Marine Environment Committee (MEC) met on 30 September and 1 October.\nMembers considered the im",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-04T13:25:44+08:00",
+      "summary_zh": "BIMCO 的 Maritime Safety & Security Committee 與 Marine Environment Committee 於 9 月 30 日及 10 月 1 日舉行會議。會議主要討論了霍爾muz 海峽、黑海與紅海的安全情況。環境議題亦為會議重點。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
+    {
+      "title": "An urgent appeal to help shape the future IMO Biofouling Convention",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/01-biofouling/",
+      "published_at": "2026-10-01",
+      "summary": "IMO member states are negotiating what will become the first legally binding global Convention on biofouling management. The decisions being made now could affect how ships are operated, inspected, cleaned and maintained for years to come.\nThe industry therefore needs to make its voice heard, and we",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-04T13:25:44+08:00",
+      "summary_zh": "IMO 成員國正在談判將成為首個具有法律約束力的全球性生物污防管理公約。目前的決策將可能影響船舶未來多年的操作、檢驗、清潔與維護方式。因此，業界必須發表意見，以參與塑造該公約的最終內容。",
+      "importance": "notice",
+      "category": "regulation",
+      "watch_topics": []
+    },
     {
       "title": "Remember the special BIMCO clauses for US and China port fees",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/30-us-china/",
@@ -227,40 +261,6 @@
       "summary_zh": "《1996 年國際海上運輸有害及有毒物質造成損害之責任與賠償公約》(HNS 公約) 預定於 2027 年 11 月生效。該公約規範危險及有毒物質 (HNS) 海上運輸造成損害時的責任與賠償制度,生效後將對裝載 HNS 貨物的船舶及營運人產生新的法律與保險義務。船東需提前檢視船舶是否裝載 HNS 貨物、準備相關文件,並評估對責任險與強制保險要求的影響。",
       "importance": "notice",
       "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "Leadership Perspective: BIMCO Strategy 2026",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/10-leadership-perspective/",
-      "published_at": "2026-08-10",
-      "summary": "This article by BIMCO Secretary General and CEO David Loosley was originally sent to the CEOs of all BIMCO member companies and organisations on 29 July 2026.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-13T10:28:39+08:00",
-      "summary_zh": "BIMCO 秘書長兼執行長 David Loosley 於 2026 年 7 月 29 日向所有 BIMCO 會員公司與組織的執行長發送 BIMCO 2026 策略展望文章。內容聚焦協會層級的策略方向與領導階層觀點。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "New member benefit: weekly freight market assessments from Platts S&P Global Energy",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/06-platts/",
-      "published_at": "2026-08-06",
-      "summary": "If you are a BIMCO member, you can now access weekly freight market assessments from Platts S&P Global Energy on our website.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-07T10:56:37+08:00",
-      "summary_zh": "BIMCO 會員現在可在其網站上取得 Platts S&P Global Energy 每週貨運市場評估資料。",
-      "importance": "reference",
-      "category": "industry",
       "watch_topics": []
     }
   ]
