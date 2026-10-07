@@ -2,10 +2,36 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-10-04T13:25:35+08:00",
-  "last_success_at": "2026-10-04T13:25:35+08:00",
+  "last_crawled_at": "2026-10-07T13:28:16+08:00",
+  "last_success_at": "2026-10-07T13:28:16+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Malaysia introduces new regulated sea areas",
+      "url": "https://gard.no/en/insights/malaysia-introduces-new-regulated-sea-areas/",
+      "published_at": "2026-10-06",
+      "summary": "Malaysia has introduced two new regulated sea areas near the eastern approaches to the Traffic Separation Scheme in the Straits of Malacca and Singapore. The regulations affect routing, anchoring, speed, cargo transfer and bunkering operations.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-07T13:28:16+08:00"
+    },
+    {
+      "title": "Cyber security controls for existing ships",
+      "url": "https://gard.no/en/insights/cyber-security-controls-for-existing-ships/",
+      "published_at": "2026-10-05",
+      "summary": "While mandatory cyber resilience requirements primarily apply to newbuilds, cyber threats affect ships regardless of age. IACS Recommendation No. 194 provides a practical baseline for strengthening cyber security controls across existing fleets.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-07T13:28:16+08:00"
+    },
     {
       "title": "Loss of bridge control in functioning systems",
       "url": "https://gard.no/en/insights/loss-of-bridge-control-in-functioning-systems/",
@@ -120,23 +146,6 @@
       "watch_topics": []
     },
     {
-      "title": "US courts signal shift in the interpretation of “package” under COGSA",
-      "url": "https://gard.no/en/insights/us-courts-cogsa-package-interpretation/",
-      "published_at": "2026-06-30",
-      "summary": "Recent decisions from the Southern District of New York, affirmed by the Second Circuit, suggest a more contractual approach to determining what constitutes a “package” under the Carriage of Goods by Sea Act (COGSA). By giving effect to express package definitions in bills of lading, the courts may ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "美國法院，特別是第二巡迴法院（紐約），最近的判決顯示出對《海上貨物運送法》（COGSA）中“包裹”定義的解釋將更具契約性。法院可能會依據提單中的明確包裹定義來進行裁決。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
       "title": "Focus on seafarer wellbeing – a reflection on the “S” in “ESG”",
       "url": "https://gard.no/en/insights/focus-on-seafarer-wellbeing-reflection-on-s-esg/",
       "published_at": "2022-11-01",
@@ -221,23 +230,6 @@
       "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。",
       "importance": "notice",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Reminder – danger of liquefaction in iron ore fines loaded in Sierra Leone",
-      "url": "https://gard.no/en/insights/reminder-danger-liquefaction-iron-ore-fines-loaded-sierra-leone/",
-      "published_at": "2021-12-15",
-      "summary": "Inaccuracies in cargo declaration as well as shippers’ insistence on loading in rain are conditions found in Pepel, Sierra Leone and members are advised to be diligent in protecting against liquefaction.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "西非獅子山 Pepel 港裝載鐵礦砂細粉時，存在貨載申報不實及託運人堅持雨天裝載的風險，恐導致貨物液化。工務監督應提醒船隊嚴格把關，確認貨物適運水分極限（TML）文件並監督裝載過程，防範液化危險。",
-      "importance": "notice",
-      "category": "safety",
       "watch_topics": []
     },
     {

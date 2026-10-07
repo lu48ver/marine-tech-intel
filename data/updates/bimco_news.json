@@ -1,10 +1,5 @@
 {
-  "source_id": "bimco_news",
-  "source_name": "BIMCO News",
-  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-04T13:25:44+08:00",
   "last_success_at": "2026-10-04T13:25:44+08:00",
-  "crawl_status": "success",
   "items": [
     {
       "title": "Strait of Hormuz security, decarbonisation among key issues discussed by BIMCO committees",
@@ -263,5 +258,11 @@
       "category": "regulation",
       "watch_topics": []
     }
-  ]
+  ],
+  "source_id": "bimco_news",
+  "source_name": "BIMCO News",
+  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
+  "last_crawled_at": "2026-10-07T13:28:21+08:00",
+  "crawl_status": "error",
+  "error_message": "HTTPSConnectionPool(host='www.bimco.org', port=443): Read timed out. (read timeout=30)"
 }

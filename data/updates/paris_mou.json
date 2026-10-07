@@ -2,8 +2,8 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-10-04T13:25:34+08:00",
-  "last_success_at": "2026-10-04T13:25:34+08:00",
+  "last_crawled_at": "2026-10-07T13:28:15+08:00",
+  "last_success_at": "2026-10-07T13:28:15+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -21,6 +21,18 @@
       "importance": "notice",
       "category": "psc",
       "watch_topics": []
+    },
+    {
+      "title": "Lifting of Refusal of Acces of M/V “EVEREST” – IMO no: 8411633",
+      "url": "https://parismou.org/lifting-of-refusal-of-acces-of-m-v-everest-imo-no-8411633/",
+      "published_at": "2026-08-31",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-07T13:28:15+08:00"
     },
     {
       "title": "Register for Seminar 80",
