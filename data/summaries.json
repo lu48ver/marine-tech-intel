@@ -2268,5 +2268,32 @@
     "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "source_kind": "summary",
     "generated_at": "2026-10-04T13:25:50+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/08-sagarmanthan/": {
+    "summary_zh": "威脅航行自由將影響全球貿易與維持貿易運行的海員。\n此為BIMCO秘書長兼執行長David Loosley在新德里舉辦的Sagarmanthan：Great Oceans Dialogue中發表的明確訊息。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-10T13:25:01+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/08-retrofit/": {
+    "summary_zh": "BIMCO 發布 2026 年節能裝置改裝附加條款，為船東與租船人提供在定期租船期間共擔節能技術安裝成本與效益的機制。該附加條款旨在解決雙方在能源節約改裝上成本分擔的難題。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-10T13:25:01+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/06-sma-panel/": {
+    "summary_zh": "女性僅佔船員的1.2%。顯示航運業擁有擴大人才庫的重大機遇。BIMCO船舶管理諮詢小組於2026年9月25日會議中討論了女性船員的招募，並將其與另一項緊迫的勞動力議題併討論。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-10T13:25:01+08:00"
   }
 }

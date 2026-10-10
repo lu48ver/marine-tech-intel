@@ -1,6 +1,62 @@
 {
-  "last_success_at": "2026-10-04T13:25:44+08:00",
+  "source_id": "bimco_news",
+  "source_name": "BIMCO News",
+  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
+  "last_crawled_at": "2026-10-10T13:24:55+08:00",
+  "last_success_at": "2026-10-10T13:24:55+08:00",
+  "crawl_status": "success",
   "items": [
+    {
+      "title": "Supporting seafarers",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/08-sagarmanthan/",
+      "published_at": "2026-10-08",
+      "summary": "“Threats to freedom of navigation affect both global trade and the people who keep it moving.”\nThat was the clear message from BIMCO Secretary General & CEO, David Loosley to Sagarmanthan: The Great Oceans Dialogue in New Delhi this week.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-10T13:24:55+08:00",
+      "summary_zh": "威脅航行自由將影響全球貿易與維持貿易運行的海員。\n此為BIMCO秘書長兼執行長David Loosley在新德里舉辦的Sagarmanthan：Great Oceans Dialogue中發表的明確訊息。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
+    {
+      "title": "New addendum helps unlock investment in energy-saving retrofits",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/08-retrofit/",
+      "published_at": "2026-10-08",
+      "summary": "A new BIMCO addendum gives owners and charterers a practical way to agree how they will share the costs and benefits of installing energy-saving technology during a time charter.\nThe BIMCO Energy Saving Device Retrofit Addendum 2026 is designed to help overcome this challenge.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-10T13:24:55+08:00",
+      "summary_zh": "BIMCO 發布 2026 年節能裝置改裝附加條款，為船東與租船人提供在定期租船期間共擔節能技術安裝成本與效益的機制。該附加條款旨在解決雙方在能源節約改裝上成本分擔的難題。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
+    {
+      "title": "Shipping can tap into a wider seafaring talent pool by including more women, BIMCO panel hears",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/06-sma-panel/",
+      "published_at": "2026-10-06",
+      "summary": "With women making up only 1.2% of seafarers, shipping has a major opportunity to broaden its talent pool, BIMCO’s Ship Manager Advisory Panel heard at its latest meeting.  Meeting on 25 September 2026, the panel discussed the recruitment of women seafarers alongside another pressing workforce issue:",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-10T13:24:55+08:00",
+      "summary_zh": "女性僅佔船員的1.2%。顯示航運業擁有擴大人才庫的重大機遇。BIMCO船舶管理諮詢小組於2026年9月25日會議中討論了女性船員的招募，並將其與另一項緊迫的勞動力議題併討論。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
     {
       "title": "Strait of Hormuz security, decarbonisation among key issues discussed by BIMCO committees",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/01-mec-mssc/",
@@ -206,63 +262,6 @@
       "importance": "notice",
       "category": "regulation",
       "watch_topics": []
-    },
-    {
-      "title": "Your input needed on new Virtual Notice of Readiness Clause for Voyage Charter Parties",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-virtual-nor/",
-      "published_at": "2026-08-21",
-      "summary": "We are developing a new Virtual Notice of Readiness and Just in Time Arrival Clause for Voyage Charter Parties aimed at supporting more efficient voyage execution while addressing some of the legal and commercial barriers to Just in Time (JIT) operations. \nWe are looking to provide a contractual fra",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-22T09:37:44+08:00",
-      "summary_zh": "相關機構正研擬新的航次租船合約「虛擬備便通知 (Virtual NOR)」與「準時抵達 (JIT)」條款，旨在提升航次執行效率並解決 JIT 作業的法律與商業障礙。目前正徵詢業界對此合約框架之意見。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "BIMCO seeks industry input on contractual gaps from Gulf disruption",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-gulf-contracts/",
-      "published_at": "2026-08-21",
-      "summary": "For months, ships and their crews have been facing extremely difficult and challenging circumstances in the Persian Gulf. Following the outbreak of hostilities in late February 2026 and the subsequent severe drop in traffic through the Strait of Hormuz, many ships already inside the Gulf have been u",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-22T09:37:44+08:00",
-      "summary_zh": "波斯灣衝突於 2026 年 2 月下旬爆發後，荷莫兹海峽通行量大幅下降，許多滯留於波斯灣內的船舶面臨嚴峻情況。為此 BIMCO 正就現行契約條款在戰爭風險與航行中斷情境下的適用性徵集業界意見，探討是否需要在標準合約中新增或修訂條款來因應此類區域性衝突所衍生的合約空隙。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "HNS Convention set to enter into force in November 2027",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/11-hns-convention/",
-      "published_at": "2026-08-11",
-      "summary": "The international maritime regime for liability and compensation following incidents involving hazardous and noxious substances is set to change when the International Convention on Liability and Compensation for Damage in connection with the Carriage of Hazardous and Noxious Substances by Sea enter",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:55+08:00",
-      "summary_zh": "《1996 年國際海上運輸有害及有毒物質造成損害之責任與賠償公約》(HNS 公約) 預定於 2027 年 11 月生效。該公約規範危險及有毒物質 (HNS) 海上運輸造成損害時的責任與賠償制度,生效後將對裝載 HNS 貨物的船舶及營運人產生新的法律與保險義務。船東需提前檢視船舶是否裝載 HNS 貨物、準備相關文件,並評估對責任險與強制保險要求的影響。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
     }
-  ],
-  "source_id": "bimco_news",
-  "source_name": "BIMCO News",
-  "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-07T13:28:21+08:00",
-  "crawl_status": "error",
-  "error_message": "HTTPSConnectionPool(host='www.bimco.org', port=443): Read timed out. (read timeout=30)"
+  ]
 }

@@ -2,10 +2,36 @@
   "source_id": "tokyo_mou",
   "source_name": "Tokyo MoU",
   "source_url": "https://www.tokyo-mou.org/publications/",
-  "last_crawled_at": "2026-10-07T13:28:10+08:00",
-  "last_success_at": "2026-10-07T13:28:10+08:00",
+  "last_crawled_at": "2026-10-10T13:24:43+08:00",
+  "last_success_at": "2026-10-10T13:24:43+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Tokyo MOU’s Changing of the Method of Calculation of the Performance on Flag and RO",
+      "url": "https://www.tokyo-mou.org/press-releases/2026/10/09/tokyo-mous-changing-of-the-method-of-calculation-of-the-performance-on-flag-and-ro/",
+      "published_at": "2026-10-09",
+      "summary": "",
+      "tags": [
+        "psc",
+        "press release"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-10T13:24:43+08:00"
+    },
+    {
+      "title": "CIC on on Ballast Water Management Convention (BWMC 2004) 2025",
+      "url": "https://www.tokyo-mou.org/cic-results/2026/10/08/cic-on-on-ballast-water-management-convention-bwmc-2004/",
+      "published_at": "2026-10-08",
+      "summary": "The Member Authorities of the Tokyo MOU carried out a concentrated inspection campaign on Ballast Water Management Convention (BWMC 2004)…",
+      "tags": [
+        "psc",
+        "cic results"
+      ],
+      "topic_ids": [
+        "psc_cic"
+      ],
+      "first_seen_at": "2026-10-10T13:24:43+08:00"
+    },
     {
       "title": "Tokyo MOU Port State Control Committee 37th Meeting in Singapore",
       "url": "https://www.tokyo-mou.org/press-releases/2026/09/18/tokyo-mou-port-state-control-committee-37th-meeting-in-singapore/",
@@ -151,42 +177,6 @@
       "summary_zh": "本安全公告提醒船東、操作人員及所有參與引航轉移設備的工作人員注意不當維護和裝配引航轉移設備的潛在風險。近期的檢查報告顯示，引航梯和轉移設備的缺陷數量顯著增加，強調了船員和操作人員需立即採取糾正行動的重要性。建議進行定期維護和訓練，並確保所有船員熟悉正確的裝配程序，以提高安全性。",
       "importance": "action",
       "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "Joint Press Release on the Concentrated Inspection Campaign on Ballast Water Management (BWM)",
-      "url": "https://www.tokyo-mou.org/press-releases/2025/08/01/joint-press-release-on-the-concentrated-inspection-campaign-on-ballast-water-management-bwm/",
-      "published_at": "2025-08-01",
-      "summary": "",
-      "tags": [
-        "psc",
-        "press release"
-      ],
-      "topic_ids": [
-        "psc_cic"
-      ],
-      "first_seen_at": "2025-08-01",
-      "summary_zh": "東京和巴黎港口國家控制備忘錄的成員機構將於2025年9月1日至11月30日啟動聯合集中檢查活動，重點檢查船舶的壓載水管理是否符合國際公約的要求。檢查將涵蓋有效的壓載水管理證書、壓載水管理計劃的批准與更新、船員對計劃的熟悉程度等多個方面。若發現不合規情況，港口國可要求船舶在特定期限內整改，甚至可扣留船舶。",
-      "importance": "action",
-      "category": "psc",
-      "watch_topics": [
-        "psc_cic"
-      ]
-    },
-    {
-      "title": "Deficiency Photo of the Year – 2024",
-      "url": "https://www.tokyo-mou.org/deficiency-photos/2025/05/15/deficiency-photo-of-the-year-2024/",
-      "published_at": "2025-05-15",
-      "summary": "",
-      "tags": [
-        "psc",
-        "deficiency photo"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2025-05-15",
-      "summary_zh": "船名：HC WAND，IMO號碼：9298430，檢查港口：韓國釜山，檢查日期：2024年10月8日，船隻被扣留。缺陷包括：貨艙甲板淹水、內板嚴重腐蝕、貨艙上方發現多個孔洞、救生筏無法正常運作、固定滅火系統管道腐蝕、食品數量不適合航行、衛生設施不衛生及火災警報系統失效。",
-      "importance": "action",
-      "category": "psc",
       "watch_topics": []
     }
   ]
