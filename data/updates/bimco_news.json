@@ -2,10 +2,23 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-10T13:24:55+08:00",
-  "last_success_at": "2026-10-10T13:24:55+08:00",
+  "last_crawled_at": "2026-10-13T14:27:26+08:00",
+  "last_success_at": "2026-10-13T14:27:26+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Where are the whales? Useful tools you can use to help protect them",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/12-whales/",
+      "published_at": "2026-10-12",
+      "summary": "As whales migrate into critical habitats, many authorities are activating seasonal and dynamic measures that can affect how should ships transit certain areas.\nWe recommend you check if any of your ships are travelling through areas with mandatory and voluntary whale strike reduction measures and if",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-13T14:27:26+08:00"
+    },
     {
       "title": "Supporting seafarers",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/08-sagarmanthan/",
@@ -244,23 +257,6 @@
       "summary_zh": "Global Shipping Business Network (GSBN) 是一個中立、非營利的 consortium。其目標是推動無紙化、便利且永續的全球貿易。",
       "importance": "reference",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Help BIMCO Shape the Future of Biofouling Management",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/03-biofouling-survey/",
-      "published_at": "2026-09-03",
-      "summary": "BIMCO is seeking industry feedback on practical experience with the 2023 IMO Biofouling Guidelines as the IMO considers details of a mandatory Convention. The survey gathers insights on implementation, effectiveness and operational challenges and forms part of a wider BIMCO evidence-gathering initia",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-04T12:02:45+08:00",
-      "summary_zh": "BIMCO 正在蒐集業界對 2023 年 IMO 生物附著管理指南實務經驗的回饋，作為 IMO 研議制定具強制力公約之依據。本次調查涵蓋執行現況、有效性及作業面挑戰，並屬於 BIMCO 整體證據蒐集工作的一部分。",
-      "importance": "notice",
-      "category": "regulation",
       "watch_topics": []
     }
   ]
