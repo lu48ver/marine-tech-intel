@@ -2,10 +2,25 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-10-13T14:27:19+08:00",
-  "last_success_at": "2026-10-13T14:27:19+08:00",
+  "last_crawled_at": "2026-10-16T12:07:09+08:00",
+  "last_success_at": "2026-10-16T12:07:09+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Hydrogen sulphide: The hidden danger outside enclosed spaces",
+      "url": "https://gard.no/en/insights/hydrogen-sulphide-the-hidden-danger-outside-enclosed-spaces/",
+      "published_at": "2026-10-14",
+      "summary": "Hydrogen sulphide (H₂S) is well recognised as one of the most dangerous hazards associated with enclosed spaces on board ships. However, recent casualty investigations demonstrate that the greatest danger may arise before anyone enters the space.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "first_seen_at": "2026-10-16T12:07:09+08:00"
+    },
     {
       "title": "Malaysia introduces new regulated sea areas",
       "url": "https://gard.no/en/insights/malaysia-introduces-new-regulated-sea-areas/",
@@ -73,6 +88,40 @@
       "summary_zh": "輔助機械過轉可能在數秒內發生，原因可能是簡單的設定錯誤或看似輕微的機械故障。後果可能導致嚴重的引擎損壞、高昂的維修費用以及數週的停航。文中建議採取一些關鍵步驟以降低此類風險。",
       "importance": "notice",
       "category": "machinery",
+      "watch_topics": []
+    },
+    {
+      "title": "Bearing failures: When normal readings hide the risk",
+      "url": "https://gard.no/en/insights/bearing-failures-when-normal-readings-hide-the-risk/",
+      "published_at": "2026-09-07",
+      "summary": "A serious engine-room incident shows how quickly a local bearing failure can escalate – even when standard temperature and pressure readings appear to be normal.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-16T12:07:09+08:00",
+      "summary_zh": "引擎室發生嚴重事故，顯示局部軸承失效可能迅速惡化。即使常規的溫度與壓力讀數顯示正常，也無法排除潛在的危險。",
+      "importance": "notice",
+      "category": "machinery",
+      "watch_topics": []
+    },
+    {
+      "title": "Loss of bridge control: Calling on back-up modes",
+      "url": "https://gard.no/en/insights/loss-of-bridge-control-calling-on-back-up-modes/",
+      "published_at": "2026-09-04",
+      "summary": "A loss of bridge control, typically of steering, can have severe consequences for people, property and the environment. In confined or congested waters, where immediate hazards, such as shallows, other vessels and objects are in close proximity, crew response time and measures are critical. Seconds ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-16T12:07:09+08:00",
+      "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
+      "importance": "notice",
+      "category": "safety",
       "watch_topics": []
     },
     {
@@ -146,6 +195,19 @@
       "watch_topics": []
     },
     {
+      "title": "The US and China port fees: a comparison",
+      "url": "https://gard.no/en/insights/the-us-and-china-port-fees-a-comparison/",
+      "published_at": "2025-10-21",
+      "summary": "The US and China have introduced reciprocal port fees targeting vessels linked to each other’s countries, marking a novel use of port fees as geopolitical tools akin to tariffs. The fees are based on vessel ownership, operation, flag, and place of build, but the regulations contain ambiguities, espe",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-16T12:07:09+08:00"
+    },
+    {
       "title": "Focus on seafarer wellbeing – a reflection on the “S” in “ESG”",
       "url": "https://gard.no/en/insights/focus-on-seafarer-wellbeing-reflection-on-s-esg/",
       "published_at": "2022-11-01",
@@ -163,59 +225,6 @@
       "watch_topics": []
     },
     {
-      "title": "Statsraad Lehmkuhl – the wind and the sails",
-      "url": "https://gard.no/en/insights/statsraad-lehmkuhl-wind-sails/",
-      "published_at": "2022-10-24",
-      "summary": "During a voyage from Ishigaki to Manila aboard the tall ship Statsraad Lehmkuhl, our author glimpsed what it means to have wind in our sails. He will take you on that voyage and what we can learn from the master and the crew; the ship and the sea; and the wind and the sails as well as some lessons t",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-19T12:11:53+08:00",
-      "summary_zh": "文章敘述Statsraad Lehmkuhl號帆船從石垣島航行至馬尼拉的航程。作者分享與船長及船員學到的經驗，涉及船體、海況、風帆以及所得的啟示。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Seafarer mental health and geopolitics",
-      "url": "https://gard.no/en/insights/seafarer-mental-health-geopolitics/",
-      "published_at": "2022-10-09",
-      "summary": "The IUMI 2022 Policy Forum Workshop in Chicago focused on the war in Ukraine and its impact on marine and war risk insurance.  At the workshop, Gard’s global head of People claims, Lene-Camilla Nordlie, turned her attention to seafarers and the challenges they face, not just due to the current geopo",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "IUMI 2022芝加哥論壇探討烏克蘭戰爭對海險與戰爭險之影響;Gard代表指出海員面臨地緣政治等心理健康挑戰。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "MARPOL compliance and distances ‘from the nearest land’",
-      "url": "https://gard.no/en/insights/marpol-compliance-distances-from-nearest-land/",
-      "published_at": "2022-09-27",
-      "summary": "MARPOL permits unprocessed food waste to be discharged into the sea from vessels proceeding at a distance not less than 12 nautical miles from the nearest land. Sounds straightforward? Unfortunately, it is not - all coastal states do not define their ‘nearest land boundary’ in the same way.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [
-        "cii_ets"
-      ],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "MARPOL 規定船舶距最近陸地 12 海里以上方可排放未處理廚餘，但各沿海國對「最近陸地邊界」的定義不一致，導致合規判斷存在差異。工務監督應留意各港口國對基線劃分的解釋，避免因距離認定不同而違規。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
       "title": "War in Ukraine – impact on the maritime situation",
       "url": "https://gard.no/en/insights/war-ukraine-impact-on-maritime-situation/",
       "published_at": "2022-03-28",
@@ -230,23 +239,6 @@
       "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。",
       "importance": "notice",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Collision avoidance – safeguarding the lives and livelihoods of fishermen",
-      "url": "https://gard.no/en/insights/collision-avoidance-safeguarding-lives-livelihoods-fishermen/",
-      "published_at": "2021-06-07",
-      "summary": "Collisions between merchant vessels and fishing vessels have caused multiple and tragic loss of life. What are the causes and what can be done to prevent such accidents?",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "商船與漁船碰撞事故已造成多人喪生，凸顯航行安全問題。文章探討事故成因及預防對策，以保障漁民生命與生計。",
-      "importance": "notice",
-      "category": "safety",
       "watch_topics": []
     }
   ]

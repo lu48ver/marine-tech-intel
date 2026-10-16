@@ -2295,5 +2295,32 @@
     "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "source_kind": "summary",
     "generated_at": "2026-10-10T13:25:01+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dry-bulk-network/": {
+    "summary_zh": "BIMCO 乾散貨網路在最新會議中討論了三項持續的安全挑戰：受污染的廢金屬貨物引發的火災風險。熏蒸工作正從專業人員轉移至船舶船員執行。密閉空間內的死亡事故仍持續發生。成員強調需要更明確的指引與程序以減少這些風險。",
+    "importance": "notice",
+    "category": "safety",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-16T12:07:19+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dc-report/": {
+    "summary_zh": "BIMCO 推出經修訂的 RECYCLECON 合約，協助應對船舶回收相關的營運與規範挑戰。同時發布 2026 年節能裝置改裝附加條款，提供節能改裝的合約框架。",
+    "importance": "notice",
+    "category": "industry",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-16T12:07:19+08:00"
+  },
+  "https://www.bimco.org/news-insights/bimco-news/2026/10/12-whales/": {
+    "summary_zh": "鯨魚進入關鍵棲息地時，各主管機關會啟動季節性與動態性措施，影響船舶在特定海域的航行。建議檢查貴船隊是否有航經設有強制或自願性鯨魚撞擊減少措施的區域。",
+    "importance": "action",
+    "category": "regulation",
+    "watch_topics": [],
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "source_kind": "summary",
+    "generated_at": "2026-10-16T12:07:19+08:00"
   }
 }

@@ -2,10 +2,46 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-13T14:27:26+08:00",
-  "last_success_at": "2026-10-13T14:27:26+08:00",
+  "last_crawled_at": "2026-10-16T12:07:15+08:00",
+  "last_success_at": "2026-10-16T12:07:15+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Dry bulk safety: scrap metal fires, fumigation and enclosed spaces",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dry-bulk-network/",
+      "published_at": "2026-10-14",
+      "summary": "BIMCO’s Dry Bulk Cargo Network discussed three persistent safety challenges at its latest meeting: fire risks from contaminated scrap metal cargoes, the shift of fumigation duties from specialists to ships’ crews, and continuing fatalities in enclosed spaces.\nMembers highlighted the need for clearer",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "gas_detector"
+      ],
+      "first_seen_at": "2026-10-16T12:07:15+08:00",
+      "summary_zh": "BIMCO 乾散貨網路在最新會議中討論了三項持續的安全挑戰：受污染的廢金屬貨物引發的火災風險。熏蒸工作正從專業人員轉移至船舶船員執行。密閉空間內的死亡事故仍持續發生。成員強調需要更明確的指引與程序以減少這些風險。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
+    {
+      "title": "New BIMCO contracts tackle ship recycling and energy-saving retrofits",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dc-report/",
+      "published_at": "2026-10-14",
+      "summary": "We have adopted two new contractual solutions designed to help you manage important operational and regulatory challenges: the revised RECYCLECON contract and the Energy Saving Device Retrofit Addendum 2026.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-16T12:07:15+08:00",
+      "summary_zh": "BIMCO 推出經修訂的 RECYCLECON 合約，協助應對船舶回收相關的營運與規範挑戰。同時發布 2026 年節能裝置改裝附加條款，提供節能改裝的合約框架。",
+      "importance": "notice",
+      "category": "industry",
+      "watch_topics": []
+    },
     {
       "title": "Where are the whales? Useful tools you can use to help protect them",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/12-whales/",
@@ -17,7 +53,11 @@
         "regulatory"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-10-13T14:27:26+08:00"
+      "first_seen_at": "2026-10-13T14:27:26+08:00",
+      "summary_zh": "鯨魚進入關鍵棲息地時，各主管機關會啟動季節性與動態性措施，影響船舶在特定海域的航行。建議檢查貴船隊是否有航經設有強制或自願性鯨魚撞擊減少措施的區域。",
+      "importance": "action",
+      "category": "regulation",
+      "watch_topics": []
     },
     {
       "title": "Supporting seafarers",
@@ -219,42 +259,6 @@
       "topic_ids": [],
       "first_seen_at": "2026-09-13T12:21:42+08:00",
       "summary_zh": "Sea 與 BIMCO 擴大合作。BIMCO 標準條款現在可直接於 Sea 的固定作業流程中使用。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "The IMO GHG working group – a BIMCO account",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/10-imo/",
-      "published_at": "2026-09-10",
-      "summary": "From 1-4 September 2026, the 22nd meeting of the intersessional working group on reduction of greenhouse gases from shipping took place at the IMO Headquarters in London. We were represented throughout the full week. Below is an account of the discussions, potential and hurdles following a week of i",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-13T12:21:42+08:00",
-      "summary_zh": "2026年9月1日至4日，第22次IMO溫室氣體減排工作組會議在倫敦IMO總部舉行。BIMCO全程參與。會議討論了船舶溫室氣體減減的潛力與挑戰。",
-      "importance": "notice",
-      "category": "regulation",
-      "watch_topics": [
-        "cii_ets"
-      ]
-    },
-    {
-      "title": "Global Shipping Business Network appoints BIMCO to its board",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/07-gsbn/",
-      "published_at": "2026-09-07",
-      "summary": "Global Shipping Business Network (GSBN) is a neutral, not-for-profit consortium enabling paperless, accessible and sustainable global trade.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-10T12:14:20+08:00",
-      "summary_zh": "Global Shipping Business Network (GSBN) 是一個中立、非營利的 consortium。其目標是推動無紙化、便利且永續的全球貿易。",
       "importance": "reference",
       "category": "industry",
       "watch_topics": []
