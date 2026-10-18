@@ -35,6 +35,12 @@ CRIT_AFTER_DAYS = 30
 # cadence (every 3 days) so badges survive until the next update.
 NEW_WINDOW_HOURS = 72
 
+# Served at the site root: keep this internal tool out of search engines.
+ROBOTS_TXT = """User-agent: *
+Disallow: /
+"""
+
+
 BRIEF_LIMIT = 10  # cross-source items on the front page
 BRIEF_WINDOW_DAYS = 60  # BRIEF only considers items published within this window
 BRIEF_PER_SOURCE = 3  # cap per source so one chatty source can't flood BRIEF
@@ -384,6 +390,13 @@ def main() -> int:
     BUILD_DIR.mkdir(parents=True)
     (BUILD_DIR / "index.html").write_text(html, encoding="utf-8")
     shutil.copytree(STATIC_DIR, BUILD_DIR / "static")
+
+    # Keep the site out of search engines: it is an internal department tool
+    # served from a public URL, so "findable only if you know the link" is the
+    # practical privacy boundary. (Pair with the noindex meta in base.html.)
+    (BUILD_DIR / "robots.txt").write_text(
+        ROBOTS_TXT, encoding="utf-8"
+    )
 
     # Client-side search index (all articles, searched in the browser)
     search_index = build_search_index(sources, now)

@@ -66,6 +66,11 @@ def test_main_builds_site_from_fixtures(tmp_path, monkeypatch):
     assert (build_dir / "topic-t1.html").exists()
     assert (build_dir / "static" / "style.css").exists()
 
+    # the site is served from a public URL: it must not invite crawlers
+    robots = (build_dir / "robots.txt").read_text(encoding="utf-8")
+    assert "Disallow: /" in robots
+    assert 'name="robots" content="noindex' in html
+
     index = json.loads((build_dir / "search.json").read_text(encoding="utf-8"))
     assert index and index[0]["url"] == "https://example.com/a"
 
