@@ -2,10 +2,49 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-10-19T12:13:18+08:00",
-  "last_success_at": "2026-10-19T12:13:18+08:00",
+  "last_crawled_at": "2026-10-22T12:15:45+08:00",
+  "last_success_at": "2026-10-22T12:15:45+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "India introduces new requirements for ships in coastal waters",
+      "url": "https://gard.no/en/insights/india-introduces-new-requirements-for-ships-in-coastal-waters/",
+      "published_at": "2026-10-21",
+      "summary": "Foreign ships calling at Indian ports, operating in Indian coastal waters or transiting those waters may fall within an expanded regulatory regime. A transition period applies to specified additional requirements until 1 April 2027.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-22T12:15:45+08:00"
+    },
+    {
+      "title": "New Fire Drill Guidelines for Vehicle Carrying Vessels",
+      "url": "https://gard.no/en/insights/new-fire-drill-guidelines-for-vehicle-carrying-vessels/",
+      "published_at": "2026-10-20",
+      "summary": "The Vehicle Carrier Safety Forum (VCSF) has published Fire Drill Guidelines for Vehicle Carrying Vessels, providing operators with a structured framework for the development and conduct of fire response drills on board vehicles carrying vessels.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-22T12:15:45+08:00"
+    },
+    {
+      "title": "Loss of bridge control: Human failure is normal - context is key",
+      "url": "https://gard.no/en/insights/loss-of-bridge-control-human-failure-is-normal-context-is-key/",
+      "published_at": "2026-10-19",
+      "summary": "When bridge control is lost in a functioning system, it can be easy to blame human error. But accidents rarely happen because of one mistake alone. Procedures, system design, fatigue, workload, communication and established ways of working can all set people up to fail. Understanding context is key ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-22T12:15:45+08:00"
+    },
     {
       "title": "Hydrogen sulphide: The hidden danger outside enclosed spaces",
       "url": "https://gard.no/en/insights/hydrogen-sulphide-the-hidden-danger-outside-enclosed-spaces/",
@@ -74,23 +113,6 @@
       "first_seen_at": "2026-10-01T13:22:17+08:00"
     },
     {
-      "title": "Preventing auxiliary engine overspeed",
-      "url": "https://gard.no/en/insights/preventing-auxiliary-engine-overspeed/",
-      "published_at": "2026-09-16",
-      "summary": "Overspeed can occur within seconds, perhaps from a simple setup error or a seemingly minor mechanical fault. The result can be severe engine damage, costly repairs and weeks out of service. Here are some of the key steps to reduce the risk.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-19T12:11:53+08:00",
-      "summary_zh": "輔助機械過轉可能在數秒內發生，原因可能是簡單的設定錯誤或看似輕微的機械故障。後果可能導致嚴重的引擎損壞、高昂的維修費用以及數週的停航。文中建議採取一些關鍵步驟以降低此類風險。",
-      "importance": "notice",
-      "category": "machinery",
-      "watch_topics": []
-    },
-    {
       "title": "Bearing failures: When normal readings hide the risk",
       "url": "https://gard.no/en/insights/bearing-failures-when-normal-readings-hide-the-risk/",
       "published_at": "2026-09-07",
@@ -121,23 +143,6 @@
       "first_seen_at": "2026-10-16T12:07:09+08:00",
       "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
       "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "Precautions against liquefaction when loading iron ore fines in India",
-      "url": "https://gard.no/en/insights/precautions-against-liquefaction-loading-iron-ore-fines-india/",
-      "published_at": "2026-09-02",
-      "summary": "Gard once again alerts Members and clients to the significant risks associated with bulk cargo liquefaction. The recent tragic loss of life of crew on a bulk carrier in the Bay of Bengal has renewed concerns regarding the safety of some iron ore fines shipments, particularly from ports on the east c",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-04T12:02:37+08:00",
-      "summary_zh": "Gard再次提醒會員注意散裝貨液化風險。近期一艘散貨船於孟加拉灣發生船員死亡事故，重新引發對東海岸港口裝載之鐵礦砂細粉運輸安全的關注。船舶裝載此類貨物時須嚴格遵守IMSBC規則中關於鐵礦砂細粉的運輸條件，特別是裝載前確認其流動水分點（FMP）試驗結果及貨艙含水量限制，避免裝載後因水分過高及振動導致貨物液化與船舶傾覆。建議加強裝載前檢查與船上監控，確保符合安全運輸要求。",
-      "importance": "action",
       "category": "safety",
       "watch_topics": []
     },
@@ -206,23 +211,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-10-16T12:07:09+08:00"
-    },
-    {
-      "title": "Focus on seafarer wellbeing – a reflection on the “S” in “ESG”",
-      "url": "https://gard.no/en/insights/focus-on-seafarer-wellbeing-reflection-on-s-esg/",
-      "published_at": "2022-11-01",
-      "summary": "Christen Guddal, Gard’s global head of claims, recently gave a talk at the International Marine Claims Conference in Dublin titled “Putting the S in ESG”. We share some of his comments and observations.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-19T12:11:53+08:00",
-      "summary_zh": "Gard 全球理賠主管於國際海事理賠會議中以「ESG 中的 S」為題發表演說，探討海員福祉議題。本文分享其演講中的部分評論與觀察。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
     },
     {
       "title": "War in Ukraine – impact on the maritime situation",

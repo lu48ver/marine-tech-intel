@@ -2,10 +2,22 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-10-19T12:13:17+08:00",
-  "last_success_at": "2026-10-19T12:13:17+08:00",
+  "last_crawled_at": "2026-10-22T12:15:44+08:00",
+  "last_success_at": "2026-10-22T12:15:44+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Lifting of Refusal of Access of M/V “SEA BREEZE” – IMO no: 9361988",
+      "url": "https://parismou.org/lifting-of-refusal-of-access-of-m-v-sea-breeze-imo-no-9361988/",
+      "published_at": "2026-10-20",
+      "summary": "",
+      "tags": [
+        "psc",
+        "paris-mou"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-22T12:15:44+08:00"
+    },
     {
       "title": "Register for TEG40 in Poland",
       "url": "https://parismou.org/register-for-teg40-in-poland/",

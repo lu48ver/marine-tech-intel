@@ -2,10 +2,49 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-19T12:13:26+08:00",
-  "last_success_at": "2026-10-19T12:13:26+08:00",
+  "last_crawled_at": "2026-10-22T12:15:51+08:00",
+  "last_success_at": "2026-10-22T12:15:51+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "BIMCO Energy Saving Device Retrofit Addendum available to support vessel efficiency investments",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-retrofit-addendum/",
+      "published_at": "2026-10-21",
+      "summary": "The addendum provides owners and charterers with a flexible mechanism for agreeing how the costs, time, fuel-saving benefits and environmental benefits associated with retrofit projects should be allocated between them.\nIt provides a new contractual framework designed to facilitate the installation ",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-22T12:15:51+08:00"
+    },
+    {
+      "title": "eBL adoption passes halfway mark",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-ebl/",
+      "published_at": "2026-10-21",
+      "summary": "Electronic bill of lading (eBL) adoption has reached 51.1%, according to the FIT Alliance’s 2026 global survey, up from 49.2% in 2024 and 33% in 2022.\nBIMCO is a founding member of the alliance.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-22T12:15:51+08:00"
+    },
+    {
+      "title": "BIMCO expands with new consultant in Japan",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/20-japan-consultant/",
+      "published_at": "2026-10-20",
+      "summary": "We are pleased to welcome Makoto Iwasaki as our representative in Japan, further strengthening support for our members, SmartCon customers and SHIP PI users across one of the world's most important maritime markets.\nWith more than 40 years of experience spanning both the maritime and shipping indust",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-22T12:15:51+08:00"
+    },
     {
       "title": "Dry bulk safety: scrap metal fires, fumigation and enclosed spaces",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dry-bulk-network/",
@@ -210,57 +249,6 @@
       "summary_zh": "地緣政治緊張、區域衝突及日益複雜的犯罪網絡正在為國際航運創造相互關聯的安全風險。在 BIMCO 2026 年海事安全研討會上，與會者一致認為，做好準備、可信的資訊共享以及更緊密的合作是必須的。",
       "importance": "notice",
       "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "BIMCO updates its open source eBL Standard to support the next stage of digital trade",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/22-ebl-standard/",
-      "published_at": "2026-09-22",
-      "summary": "We have updated our electronic bill of lading standard (eBL Standard) for the bulk shipping sector, supporting the industry’s transition from paper to digital trade documentation.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-25T12:29:28+08:00",
-      "summary_zh": "BIMCO 已更新其適用於散貨航運領域的電子提單 (eBL) 開源標準，以支援航運業從紙本文件轉向數位貿易文件的下一階段發展。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Join the sounding board for the revision of BIMCO's Electronic Bills of Lading Clause",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/19-ebl-sounding-board/",
-      "published_at": "2026-09-19",
-      "summary": "BIMCO is seeking industry participants to join a sounding board and provide feedback on the first draft of the new BIMCO Electronic Bills of Lading Clause.\nThe updated clause aims to reflect current market practice and the growing use of electronic trade documentation. The objective is to ensure tha",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-19T12:12:00+08:00",
-      "summary_zh": "...",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "BIMCO clauses now available directly within Sea's contract workflow",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/10-sea-contracts/",
-      "published_at": "2026-09-10",
-      "summary": "Sea and BIMCO have expanded their collaboration to bring BIMCO's standard clauses directly into Sea's fixture workflow.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-13T12:21:42+08:00",
-      "summary_zh": "Sea 與 BIMCO 擴大合作。BIMCO 標準條款現在可直接於 Sea 的固定作業流程中使用。",
-      "importance": "reference",
-      "category": "industry",
       "watch_topics": []
     }
   ]
