@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-10-22T12:15:45+08:00",
-  "last_success_at": "2026-10-22T12:15:45+08:00",
+  "last_crawled_at": "2026-10-25T12:13:00+08:00",
+  "last_success_at": "2026-10-25T12:13:00+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Pilot transfer operation: A safer step aboard",
+      "url": "https://gard.no/en/insights/safe-pilot-transfer-operation/",
+      "published_at": "2026-10-23",
+      "summary": "Safe pilot transfer operations depend on both correct procedures and fit-for-purpose equipment. New SOLAS requirements entering into force in 2028 will introduce mandatory performance standards for pilot transfer arrangements, and some existing installations may require physical modifications. Ship ",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-25T12:13:00+08:00"
+    },
     {
       "title": "India introduces new requirements for ships in coastal waters",
       "url": "https://gard.no/en/insights/india-introduces-new-requirements-for-ships-in-coastal-waters/",
@@ -87,10 +100,10 @@
       "first_seen_at": "2026-10-07T13:28:16+08:00"
     },
     {
-      "title": "Loss of bridge control in functioning systems",
-      "url": "https://gard.no/en/insights/loss-of-bridge-control-in-functioning-systems/",
+      "title": "Fish farm claims in China: lessons from a recent court judgement",
+      "url": "https://gard.no/en/insights/fish-farm-claims-in-china-lessons-from-a-recent-court-judgement/",
       "published_at": "2026-09-28",
-      "summary": "Effective control of a vessel can sometimes be lost even when equipment is working. In this article, we see how control settings applied by the crew can lead to serious accidents. In an era of increasingly sophisticated bridges and integrated systems, the accidents serve as a stark reminder of risks",
+      "summary": "Fish farm contact incidents remain a recurring issue for vessels trading to Chinese coastal waters. Traditionally, such claims can be difficult for owners to defend, particularly where liability is argued from the mere fact that a vessel entered an aquaculture area. A recent Chinese maritime court j",
       "tags": [
         "gard",
         "p&i",
@@ -100,10 +113,10 @@
       "first_seen_at": "2026-10-01T13:22:17+08:00"
     },
     {
-      "title": "Fish farm claims in China: lessons from a recent court judgement",
-      "url": "https://gard.no/en/insights/fish-farm-claims-in-china-lessons-from-a-recent-court-judgement/",
+      "title": "Loss of bridge control in functioning systems",
+      "url": "https://gard.no/en/insights/loss-of-bridge-control-in-functioning-systems/",
       "published_at": "2026-09-28",
-      "summary": "Fish farm contact incidents remain a recurring issue for vessels trading to Chinese coastal waters. Traditionally, such claims can be difficult for owners to defend, particularly where liability is argued from the mere fact that a vessel entered an aquaculture area. A recent Chinese maritime court j",
+      "summary": "Effective control of a vessel can sometimes be lost even when equipment is working. In this article, we see how control settings applied by the crew can lead to serious accidents. In an era of increasingly sophisticated bridges and integrated systems, the accidents serve as a stark reminder of risks",
       "tags": [
         "gard",
         "p&i",
@@ -162,25 +175,6 @@
       "importance": "notice",
       "category": "industry",
       "watch_topics": []
-    },
-    {
-      "title": "Cargo securing on the PSC agenda",
-      "url": "https://gard.no/en/insights/cargo-securing-psc-agenda/",
-      "published_at": "2026-08-14",
-      "summary": "As port state control authorities prepare to step up inspections of cargo securing arrangements, ship operators should ensure that manuals and procedures are in line with IMO requirements and guidance, that securing equipment is in good working order, and that crews are properly trained.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-08-16T09:44:45+08:00",
-      "summary_zh": "港口國管制當局將加強貨物繫固安排檢查，船東應確保繫固手冊與程序符合IMO要求與指引，繫固設備狀態良好，並對船員進行妥善訓練。",
-      "importance": "action",
-      "category": "psc",
-      "watch_topics": [
-        "psc_cic"
-      ]
     },
     {
       "title": "AIS-assisted collisions: The risks of over-reliance",

@@ -2,10 +2,22 @@
   "source_id": "tokyo_mou",
   "source_name": "Tokyo MoU",
   "source_url": "https://www.tokyo-mou.org/publications/",
-  "last_crawled_at": "2026-10-22T12:15:40+08:00",
-  "last_success_at": "2026-10-22T12:15:40+08:00",
+  "last_crawled_at": "2026-10-25T12:12:55+08:00",
+  "last_success_at": "2026-10-25T12:12:55+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Safety Bulletin 05/26 – Improper extensions of Statutory Certification",
+      "url": "https://www.tokyo-mou.org/safety-bulletin/2026/10/23/safety-bulletin-05-26-improper-extensions-of-statutory-certification/",
+      "published_at": "2026-10-23",
+      "summary": "",
+      "tags": [
+        "psc",
+        "safety bulletin"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-25T12:12:55+08:00"
+    },
     {
       "title": "Tokyo MOU’s Changing of the Method of Calculation of the Performance on Flag and RO",
       "url": "https://www.tokyo-mou.org/press-releases/2026/10/09/tokyo-mous-changing-of-the-method-of-calculation-of-the-performance-on-flag-and-ro/",
@@ -162,22 +174,6 @@
       "watch_topics": [
         "psc_cic"
       ]
-    },
-    {
-      "title": "Safety Bulletin 02/25 – Proper Maintenance and Rigging of Pilot Transfer Arrangements",
-      "url": "https://www.tokyo-mou.org/safety-bulletin/2025/08/25/safety-bulletin-02-25-proper-maintenance-and-rigging-of-pilot-transfer-arrangements/",
-      "published_at": "2025-08-25",
-      "summary": "",
-      "tags": [
-        "psc",
-        "safety bulletin"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2025-08-25",
-      "summary_zh": "本安全公告提醒船東、操作人員及所有參與引航轉移設備的工作人員注意不當維護和裝配引航轉移設備的潛在風險。近期的檢查報告顯示，引航梯和轉移設備的缺陷數量顯著增加，強調了船員和操作人員需立即採取糾正行動的重要性。建議進行定期維護和訓練，並確保所有船員熟悉正確的裝配程序，以提高安全性。",
-      "importance": "action",
-      "category": "safety",
-      "watch_topics": []
     }
   ]
 }

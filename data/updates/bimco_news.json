@@ -2,10 +2,23 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-22T12:15:51+08:00",
-  "last_success_at": "2026-10-22T12:15:51+08:00",
+  "last_crawled_at": "2026-10-25T12:13:36+08:00",
+  "last_success_at": "2026-10-25T12:13:36+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "An opportunity to contribute your thoughts on plastic waste management",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/23-plastic/",
+      "published_at": "2026-10-23",
+      "summary": "As part of our collaboration with the Maritime Association for Clean Seas (MACS), we are pleased to share information about an upcoming virtual round table on plastic waste management.\nBIMCO members are therefore invited to attend and contribute practical operational experience.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-25T12:13:36+08:00"
+    },
     {
       "title": "BIMCO Energy Saving Device Retrofit Addendum available to support vessel efficiency investments",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-retrofit-addendum/",
@@ -18,6 +31,19 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-10-22T12:15:51+08:00"
+    },
+    {
+      "title": "We have updated RECYCLECON – the global standard contract for sustainable ship recycling",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-recyclecon-2026/",
+      "published_at": "2026-10-21",
+      "summary": "The update reflects the entry into force of the Hong Kong Convention last year, as well as significant developments in ship recycling practice, regulatory requirements and sale and purchase procedures. \nIt replaces the 2012 edition and is now known as RECYCLECON 2026. It is BIMCO’s standard agreemen",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-25T12:13:36+08:00"
     },
     {
       "title": "eBL adoption passes halfway mark",
@@ -215,40 +241,6 @@
       "summary_zh": "標準培訓課程未必能針對員工日常工作遇到的具體挑戰。BIMCO 提供客製化內部培訓，採取不同的方式。您可以與 BIMCO 合作，決定培訓目標與內容。",
       "importance": "notice",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Unlocking the full value of vessel data: BIMCO's Energy Efficiency Data Sharing Clause 2025",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/28-data-sharing/",
-      "published_at": "2026-09-28",
-      "summary": "Every ship generates a significant amount of operational and performance data. When appropriate arrangements are in place, this data can support a range of activities, including vessel performance monitoring, voyage optimisation, weather routing, and other energy efficiency initiatives to the benefi",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-01T13:22:24+08:00",
-      "summary_zh": "每艘船舶都會產生大量運營與性能數據。當具備適當安排時，這些數據可用於船舶性能監測、航程優化、氣象航線規劃及其他節能措施。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "BIMCO Symposium highlights need for global maritime security co-operation",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/24-security-symposium/",
-      "published_at": "2026-09-24",
-      "summary": "Geopolitical tensions, regional conflicts and increasingly sophisticated criminal networks are creating connected security risks for international shipping. At BIMCO’s Maritime Security Symposium 2026, participants agreed that preparedness, trusted information sharing and closer co-operation are ess",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-25T12:29:28+08:00",
-      "summary_zh": "地緣政治緊張、區域衝突及日益複雜的犯罪網絡正在為國際航運創造相互關聯的安全風險。在 BIMCO 2026 年海事安全研討會上，與會者一致認為，做好準備、可信的資訊共享以及更緊密的合作是必須的。",
-      "importance": "notice",
-      "category": "safety",
       "watch_topics": []
     }
   ]
