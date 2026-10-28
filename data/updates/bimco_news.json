@@ -2,10 +2,36 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-10-25T12:13:36+08:00",
-  "last_success_at": "2026-10-25T12:13:36+08:00",
+  "last_crawled_at": "2026-10-28T13:08:53+08:00",
+  "last_success_at": "2026-10-28T13:08:53+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "New industry frameworks set out to cut duplicated emissions reporting",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/27-emissions/",
+      "published_at": "2026-10-27",
+      "summary": "Two voluntary frameworks released today by a BIMCO-chaired industry working group give shipowners and operators a common way to share vessel operational and emissions data, so the same information no longer has to be mapped, entered and checked several times over.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-28T13:08:53+08:00"
+    },
+    {
+      "title": "Ballast Water: BIMCO seeks clearer guidance for ships facing challenging water quality",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/27-bwm/",
+      "published_at": "2026-10-27",
+      "summary": "We have co-sponsored a submission to MEPC 85 making the case for revising the IMO guidance related to ballast water management for ships operating in challenging water quality conditions.\nDrawing on operational experience, the proposals seek clearer procedures and more consistent implementation, wit",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-28T13:08:53+08:00"
+    },
     {
       "title": "An opportunity to contribute your thoughts on plastic waste management",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/23-plastic/",
@@ -207,40 +233,6 @@
       "summary_zh": "IMO 成員國正在談判將成為首個具有法律約束力的全球性生物污防管理公約。目前的決策將可能影響船舶未來多年的操作、檢驗、清潔與維護方式。因此，業界必須發表意見，以參與塑造該公約的最終內容。",
       "importance": "notice",
       "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "Remember the special BIMCO clauses for US and China port fees",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/30-us-china/",
-      "published_at": "2026-09-30",
-      "summary": "Recent reports indicate that the reciprocal port fee measures introduced by the United States and China may remain suspended until 10 January 2027. If confirmed, this would remove the immediate prospect of the fees being reintroduced in November 2026.\nHowever, uncertainty remains both as to the long",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-01T13:22:24+08:00",
-      "summary_zh": "美國與中國的互惠港口費用措施可能維持暫停至2027年1月10日。若此情況得到確認，則原定於2026年11月重新實施的費用將不會出現。然而，長期情況仍存在不確定性。",
-      "importance": "reference",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Are skill gaps in your team costing you time and money?",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/28-inhouse-training/",
-      "published_at": "2026-09-28",
-      "summary": "Standard training courses do not always address the specific challenges your staff encounter in their day-to-day work.\nBIMCO’s customised inhouse training takes a different approach.\nRather than adapting your needs to an existing course, you can work with BIMCO to determine the objectives, topics, d",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-01T13:22:24+08:00",
-      "summary_zh": "標準培訓課程未必能針對員工日常工作遇到的具體挑戰。BIMCO 提供客製化內部培訓，採取不同的方式。您可以與 BIMCO 合作，決定培訓目標與內容。",
-      "importance": "notice",
-      "category": "industry",
       "watch_topics": []
     }
   ]

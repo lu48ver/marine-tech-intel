@@ -2,10 +2,25 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-10-25T12:13:35+08:00",
-  "last_success_at": "2026-10-25T12:13:35+08:00",
+  "last_crawled_at": "2026-10-28T13:08:52+08:00",
+  "last_success_at": "2026-10-28T13:08:52+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "UK ETS site visits: key steps towards compliance",
+      "url": "https://www.dnv.com/news/2026/uk-ets-site-visits-key-steps-towards-compliance/",
+      "published_at": "2026-10-27",
+      "summary": "UK ETS verification includes a site visit as part of the annual verification process. Maritime operators should prepare early on by ensuring their Emissions Monitoring Plan (EMP) is approved and by assembling the documentation needed to support verification of the Annual Emissions Report (AER). More",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "first_seen_at": "2026-10-28T13:08:52+08:00"
+    },
     {
       "title": "IMO CCC 12: Revised guidelines for methanol as fuel",
       "url": "https://www.dnv.com/news/2026/imo-ccc-12/",
@@ -202,23 +217,6 @@
       "watch_topics": [
         "cii_ets"
       ]
-    },
-    {
-      "title": "IMO MSC 111: New MASS Code adopted",
-      "url": "https://www.dnv.com/news/2026/imo-mcs-111-new-mass-code-adopted/",
-      "published_at": "2026-05-22",
-      "summary": "The 111th session of the Maritime Safety Committee (MSC 111) was held from 13 to 22 May 2026. The adoption of a new goal-based Code for Maritime Autonomous Surface Ships (MASS) marks a key milestone in the IMO’s work to ensure the regulatory framework keeps pace with the rapid development of shippin",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-05-22",
-      "summary_zh": "國際海事組織（IMO）於2026年5月13日至22日舉行的第111屆海事安全委員會（MSC 111）會議上，通過了針對海事自主水面船舶（MASS）的新目標導向法規。這標誌著IMO在確保監管框架跟上航運快速發展方面的重要里程碑。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
     }
   ]
 }
