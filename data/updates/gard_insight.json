@@ -2,8 +2,8 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-10-28T13:08:47+08:00",
-  "last_success_at": "2026-10-28T13:08:47+08:00",
+  "last_crawled_at": "2026-10-31T13:03:29+08:00",
+  "last_success_at": "2026-10-31T13:03:29+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -126,6 +126,23 @@
       "first_seen_at": "2026-10-01T13:22:17+08:00"
     },
     {
+      "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
+      "url": "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/",
+      "published_at": "2026-09-14",
+      "summary": "Gard’s claims data shows that half of 65 collisions involving fishing vessels occurred in Chinese waters. The risk is particularly high when seasonal fishing bans are lifted, and large numbers of fishing vessels return to sea.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-10-31T13:03:29+08:00",
+      "summary_zh": "Gard理賠數據顯示，65起涉及漁船碰撞事故中有半數發生於中國水域。禁漁期結束後大量漁船同時出海，碰撞風險尤高。船隊航行於該區應提高警覺並加強瞭望與避碰措施。",
+      "importance": "notice",
+      "category": "safety",
+      "watch_topics": []
+    },
+    {
       "title": "Bearing failures: When normal readings hide the risk",
       "url": "https://gard.no/en/insights/bearing-failures-when-normal-readings-hide-the-risk/",
       "published_at": "2026-09-07",
@@ -205,23 +222,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-10-16T12:07:09+08:00"
-    },
-    {
-      "title": "War in Ukraine – impact on the maritime situation",
-      "url": "https://gard.no/en/insights/war-ukraine-impact-on-maritime-situation/",
-      "published_at": "2022-03-28",
-      "summary": "The security situation in the Black Sea remains unstable, with commercial shipping facing an increased risk of attack. All transits and port calls should therefore be assessed individually, taking account of current threats, available guidance and appropriate mitigating measures.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-01T13:22:17+08:00",
-      "summary_zh": "儘管烏克蘭與俄羅斯之間正在進行和平談判，黑海的安全形勢仍然不穩定。該地區的所有港口進港應根據具體情況進行評估，並參考最佳管理實踐以指導威脅和減輕措施。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
     }
   ]
 }
