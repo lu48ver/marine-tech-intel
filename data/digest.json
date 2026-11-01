@@ -1,107 +1,139 @@
 {
-  "generated_at": "2026-09-25T12:33:59+08:00",
-  "model": "z-ai/glm-5.2:free",
+  "generated_at": "2026-11-01T13:40:45+08:00",
+  "model": "google/gemma-4-31b-it:free",
   "themes": [
     {
-      "name": "電子提單與數位貿易文件標準化",
-      "why": "BIMCO 更新其散貨航運電子提單開源標準並修訂 eBL 條款，同時 GSBN 等中立 consortium 推動無紙化全球貿易，船隊須準備將提單流程從紙本遷移至數位平台並確保合約條款與新標準接軌。",
+      "name": "貨物繫固集中檢查 (Cargo Securing CIC)",
+      "why": "Paris 與 Tokyo MoU 將於 2026 年 9 月 1 日至 11 月 30 日聯合執行貨物繫固 CIC，查核是否符合 SOLAS 裝載與綑綁要求，船方需準備經認可的貨物繫固手冊。",
       "articles": [
         {
-          "title": "BIMCO updates its open source eBL Standard to support the next stage of digital trade",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/22-ebl-standard/",
-          "source": "BIMCO News",
-          "published_at": "2026-09-22"
+          "title": "Tokyo MOU Port State Control Committee 37th Meeting in Singapore",
+          "url": "https://www.tokyo-mou.org/press-releases/2026/09/18/tokyo-mou-port-state-control-committee-37th-meeting-in-singapore/",
+          "source": "Tokyo MoU",
+          "published_at": "2026-09-18"
         },
         {
-          "title": "Join the sounding board for the revision of BIMCO's Electronic Bills of Lading Clause",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/19-ebl-sounding-board/",
-          "source": "BIMCO News",
-          "published_at": "2026-09-19"
+          "title": "Port State Control – CIC 2026 official questionnaire now published",
+          "url": "https://www.dnv.com/news/2026/port-state-control-cic-2026-official-questionnaire-now-published/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-08-04"
         },
         {
-          "title": "Global Shipping Business Network appoints BIMCO to its board",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/07-gsbn/",
-          "source": "BIMCO News",
-          "published_at": "2026-09-07"
+          "title": "Paris and Tokyo MoUs launch 2026 Concentrated Inspection Campaign on Cargo Securing",
+          "url": "https://parismou.org/paris-and-tokyo-mous-launch-2026-concentrated-inspection-campaign-on-cargo-securing/",
+          "source": "Paris MoU",
+          "published_at": "2026-08-03"
+        },
+        {
+          "title": "Joint Press Release on the Concentrated Inspection Campaign on Cargo Securing",
+          "url": "https://www.tokyo-mou.org/press-releases/2026/08/03/joint-press-release-on-the-concentrated-inspection-campaign-on-cargo-securing/",
+          "source": "Tokyo MoU",
+          "published_at": "2026-08-03"
+        },
+        {
+          "title": "The 2026 PSC CIC on cargo securing – be prepared",
+          "url": "https://www.dnv.com/news/2026/the-2026-psc-cic-on-cargo-securing/",
+          "source": "DNV Technical & Regulatory News",
+          "published_at": "2026-07-29"
         }
       ]
     },
     {
-      "name": "波斯灣衝突與戰爭風險合約空隙",
-      "why": "2026 年 2 月下旬波斯灣衝突爆發後荷莫兹海峽通行量大幅下降，滯留船舶面臨現行標準合約在戰爭風險與航行中斷情境下的適用性問題，BIMCO 正徵集業界意見以研擬新增或修訂條款填補合約空隙。",
+      "name": "節能裝置改裝合約機制",
+      "why": "BIMCO 發布 2026 年節能裝置改裝附加條款，提供船東與租船人在定期租船期間分擔安裝成本、時間及燃料節省效益的法律框架。",
       "articles": [
         {
-          "title": "BIMCO Symposium highlights need for global maritime security co-operation",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/24-security-symposium/",
+          "title": "BIMCO Energy Saving Device Retrofit Addendum available to support vessel efficiency investments",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-retrofit-addendum/",
           "source": "BIMCO News",
-          "published_at": "2026-09-24"
+          "published_at": "2026-10-21"
         },
         {
-          "title": "BIMCO seeks industry input on contractual gaps from Gulf disruption",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/21-gulf-contracts/",
+          "title": "New BIMCO contracts tackle ship recycling and energy-saving retrofits",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dc-report/",
           "source": "BIMCO News",
-          "published_at": "2026-08-21"
+          "published_at": "2026-10-14"
+        },
+        {
+          "title": "New addendum helps unlock investment in energy-saving retrofits",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/08-retrofit/",
+          "source": "BIMCO News",
+          "published_at": "2026-10-08"
         }
       ]
     },
     {
-      "name": "生物附著管理邁向強制公約",
-      "why": "BIMCO 推出三項問卷調查蒐集業界對 2023 年 IMO 生物附著管理指南的實務經驗，作為 IMO 研議制定具強制力公約之依據，船隊應及早評估現行清洗與檢查作業能否符合未來強制要求。",
+      "name": "船舶回收合規與標準",
+      "why": "隨著香港公約 (Hong Kong Convention) 生效，BIMCO 更新了 RECYCLECON 全球標準合約，以反映最新的可持續船舶回收實務與規範。",
       "articles": [
         {
-          "title": "Help BIMCO Shape the Future of Biofouling Management",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/09/03-biofouling-survey/",
+          "title": "We have updated RECYCLECON – the global standard contract for sustainable ship recycling",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-recyclecon-2026/",
           "source": "BIMCO News",
-          "published_at": "2026-09-03"
+          "published_at": "2026-10-21"
         },
         {
-          "title": "BIMCO launches surveys to support practical biofouling management",
-          "url": "https://www.bimco.org/news-insights/bimco-news/2026/08/05-biofouling-surveys/",
+          "title": "New BIMCO contracts tackle ship recycling and energy-saving retrofits",
+          "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dc-report/",
           "source": "BIMCO News",
-          "published_at": "2026-08-05"
+          "published_at": "2026-10-14"
         }
       ]
     },
     {
-      "name": "中國水域航行安全與執法風險",
-      "why": "Gard 理賠數據顯示 65 起漁船碰撞事故中半數發生於中國水域，禁漁期結束後風險尤高；同時中國海事局加強渤海海域燃油硫含量合規檢查，工務監督須針對該區強化避碰措施與燃油品質管控。",
+      "name": "駕駛台控制失效與人為因素",
+      "why": "近期事故分析顯示，即便設備運作正常，仍會因控制設定或人為操作導致駕駛台控制失效，在受限水域反應時間僅以秒計，對航行安全構成高風險。",
       "articles": [
+        {
+          "title": "Loss of bridge control: Human failure is normal - context is key",
+          "url": "https://gard.no/en/insights/loss-of-bridge-control-human-failure-is-normal-context-is-key/",
+          "source": "Gard Insight",
+          "published_at": "2026-10-19"
+        },
+        {
+          "title": "Loss of bridge control in functioning systems",
+          "url": "https://gard.no/en/insights/loss-of-bridge-control-in-functioning-systems/",
+          "source": "Gard Insight",
+          "published_at": "2026-09-28"
+        },
+        {
+          "title": "Loss of bridge control: Calling on back-up modes",
+          "url": "https://gard.no/en/insights/loss-of-bridge-control-calling-on-back-up-modes/",
+          "source": "Gard Insight",
+          "published_at": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "區域性水域新法規與風險",
+      "why": "印度擴大沿海水域監管要求，馬來西亞在馬六甲海峽交通分離計劃東側引入新管制海域，且中國水域漁船碰撞事故頻繁，需加強區域避碰措施。",
+      "articles": [
+        {
+          "title": "India introduces new requirements for ships in coastal waters",
+          "url": "https://gard.no/en/insights/india-introduces-new-requirements-for-ships-in-coastal-waters/",
+          "source": "Gard Insight",
+          "published_at": "2026-10-21"
+        },
+        {
+          "title": "Malaysia introduces new regulated sea areas",
+          "url": "https://gard.no/en/insights/malaysia-introduces-new-regulated-sea-areas/",
+          "source": "Gard Insight",
+          "published_at": "2026-10-06"
+        },
+        {
+          "title": "Fish farm claims in China: lessons from a recent court judgement",
+          "url": "https://gard.no/en/insights/fish-farm-claims-in-china-lessons-from-a-recent-court-judgement/",
+          "source": "Gard Insight",
+          "published_at": "2026-09-28"
+        },
         {
           "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
           "url": "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/",
           "source": "Gard Insight",
           "published_at": "2026-09-14"
-        },
-        {
-          "title": "Sulphur-related bunker claims on the rise amid increased China MSA enforcement",
-          "url": "https://gard.no/en/insights/sulphur-related-bunker-claims-on-the-rise-increased-china-msa-enforcement/",
-          "source": "Gard Insight",
-          "published_at": "2026-08-12"
-        }
-      ]
-    },
-    {
-      "name": "歐盟 MED 實施細則更新與英國 ETS 擴及海運",
-      "why": "歐盟第 10 號實施細則 (EU) 2026/1434 修訂海洋設備指令並於 2026 年 8 月 31 日生效，船隊須確認船上海洋設備型式認可符合新版要求；英國 ETS 於 2026 年 7 月 1 日擴展至海運業，營運人需將溫室氣體排放定價納入航次成本管理。",
-      "articles": [
-        {
-          "title": "Updated Implementing Regulation (EU) 2026/1434 amending the MED: In force from 31 August 2026",
-          "url": "https://www.dnv.com/news/2026/updated-implementing-regulation-med/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-08-20"
-        },
-        {
-          "title": "The UK ETS expands to maritime from 1 July 2026",
-          "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-          "source": "DNV Technical & Regulatory News",
-          "published_at": "2026-06-05"
         }
       ]
     }
   ],
-  "topic_status": {
-    "psc_cic": "巴黎MoU與東京MoU於2026年9月1日至11月30日聯合執行貨物繫固集中檢查（CIC），使用兩MoU共同制定的問卷，依據SOLAS關於裝載、堆積與繫固的規定檢查，每艘船舶在該期間僅受檢一次。東京MoU第37次委員會（2026-09-18）確認此項CIC自9月起實施，並宣佈將於2027年聯合執行密閉空間進入CIC、2028年執行航行安全（航程計畫）檢查，同時修訂船舶風險概況表，自2028年生效。",
-    "gas_detector": "東京MoU第37次委員會（2026-09-18）決議自2027年起與巴黎MoU聯合執行密閉空間進入集中檢查（CIC），重點檢查攜帶式氣體偵測器的配備、校正及船員訓練是否符合SOLAS及旗國要求。船隊需在此期間前確保氣體偵測器已依規定校正、記錄完整，並完成相關操作培訓，以避免在CIC中被列為不合格項目。",
-    "cii_ets": "IMO溫室氣體減排工作組第22次會議於2026年9月1日至4日在倫敦IMO總部舉行，討論船舶GHG減排潛力與挑戰。英國排放交易計劃（ETS）自2026年7月1日起擴展至海運業，要求船公司對在英國管轄水域航行的CO2排放額度進行配額交易與繳納。"
-  }
+  "topic_status": {}
 }
