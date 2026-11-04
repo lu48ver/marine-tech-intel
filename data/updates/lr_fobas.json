@@ -2,10 +2,23 @@
   "source_id": "lr_fobas",
   "source_name": "LR FOBAS",
   "source_url": "https://www.lr.org/en/knowledge/press-room/",
-  "last_crawled_at": "2026-11-01T13:35:10+08:00",
-  "last_success_at": "2026-11-01T13:35:10+08:00",
+  "last_crawled_at": "2026-11-04T13:49:26+08:00",
+  "last_success_at": "2026-11-04T13:49:26+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Alternative-fuel ships outpace port readiness, new LR report finds",
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alternative-fuel-ships-outpace-port-readiness-new-lr-report-finds/",
+      "published_at": "2026-11-02",
+      "summary": "1,942 alternative-fuel-capable vessels are on order, but methanol bunkering is available at just 25 ports.",
+      "tags": [
+        "fobas",
+        "fuel",
+        "press release"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-04T13:49:26+08:00"
+    },
     {
       "title": "Latest FOBAS Fuel Quality Report finds ISO-compliant fuels are increasingly causing operational problems",
       "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/latest-fobas-fuel-quality-report-finds-iso-compliant-fuels-are-increasingly-causing-operational-problems/",
@@ -365,23 +378,6 @@
       "summary_zh": "道格拉斯·賴特（Douglas Raitt）在倫敦保險集團（Lloyd's Register）指出，船東在訂購燃料油時，必須根據其適用性來選擇低硫燃料油的冷流特性，這是至關重要的。",
       "importance": "notice",
       "category": "fuel",
-      "watch_topics": []
-    },
-    {
-      "title": "BLOC announces demonstrator consortium for blockchain use in bunkering",
-      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2018/bloc-announces-demonstrator-consortium-for-blockchain-use-in-bunkering/",
-      "published_at": "2018-07-26",
-      "summary": "Consortium will demonstrate the application of blockchain as a means of facilitating an increase in transparency and traceability in marine fuel supply chain",
-      "tags": [
-        "fobas",
-        "fuel",
-        "press release"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2018-07-26",
-      "summary_zh": "BLOC宣布成立示範聯盟，將展示區塊鏈在船舶燃料供應鏈中的應用。此技術旨在提高透明度和可追溯性。",
-      "importance": "notice",
-      "category": "industry",
       "watch_topics": []
     }
   ]

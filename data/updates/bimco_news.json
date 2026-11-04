@@ -2,10 +2,23 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-11-01T13:35:22+08:00",
-  "last_success_at": "2026-11-01T13:35:22+08:00",
+  "last_crawled_at": "2026-11-04T13:49:43+08:00",
+  "last_success_at": "2026-11-04T13:49:43+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Tripartite 2026 focuses on practical steps towards the next generation of ships",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/02-tripartite/",
+      "published_at": "2026-11-02",
+      "summary": "Regulatory clarity, decarbonisation and digitalisation were central to discussions as more than 85 representatives of shipbuilders, shipowners and classification societies, together with invited observers, met in Tokyo on 28–29 October for Tripartite 2026. BIMCO was this year’s organising associatio",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-04T13:49:43+08:00"
+    },
     {
       "title": "Preventing engine room fires before small defects become emergencies",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/29-engine-fires/",
@@ -212,23 +225,6 @@
       "summary_zh": "女性僅佔船員的1.2%。顯示航運業擁有擴大人才庫的重大機遇。BIMCO船舶管理諮詢小組於2026年9月25日會議中討論了女性船員的招募，並將其與另一項緊迫的勞動力議題併討論。",
       "importance": "notice",
       "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Strait of Hormuz security, decarbonisation among key issues discussed by BIMCO committees",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/01-mec-mssc/",
-      "published_at": "2026-10-01",
-      "summary": "The security situation in the Strait of Hormuz and the Black and Red Seas, as well as environmental topics, were among the key issues discussed when BIMCO’s Maritime Safety & Security Committee (MSSC) and Marine Environment Committee (MEC) met on 30 September and 1 October.\nMembers considered the im",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-04T13:25:44+08:00",
-      "summary_zh": "BIMCO 的 Maritime Safety & Security Committee 與 Marine Environment Committee 於 9 月 30 日及 10 月 1 日舉行會議。會議主要討論了霍爾muz 海峽、黑海與紅海的安全情況。環境議題亦為會議重點。",
-      "importance": "notice",
-      "category": "safety",
       "watch_topics": []
     }
   ]

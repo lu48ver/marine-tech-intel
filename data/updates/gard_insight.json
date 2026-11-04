@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-11-01T13:35:16+08:00",
-  "last_success_at": "2026-11-01T13:35:16+08:00",
+  "last_crawled_at": "2026-11-04T13:49:31+08:00",
+  "last_success_at": "2026-11-04T13:49:31+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Electric shock: a hidden danger in everyday shipboard work",
+      "url": "https://gard.no/en/insights/electric-shock-a-hidden-danger-in-everyday-shipboard-work/",
+      "published_at": "2026-11-02",
+      "summary": "Electricity is essential to shipboard operations, but an electrical fault or unsafe working practice can have fatal consequences. Gard cases show that serious electric shocks often happen during familiar jobs such as using when using portable lights, grinding or welding tools or repairing electrical",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-04T13:49:31+08:00"
+    },
     {
       "title": "Pilot transfer operation: A safer step aboard",
       "url": "https://gard.no/en/insights/safe-pilot-transfer-operation/",
@@ -174,23 +187,6 @@
       "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
       "importance": "notice",
       "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "El Niño, Panama Canal restrictions, and routing off Cape Horn",
-      "url": "https://gard.no/en/insights/el-nino-panama-canal-restrictions-routing-off-cape-horn/",
-      "published_at": "2026-09-01",
-      "summary": "The Panama Canal remains the preferred route for vessels trading between the Atlantic and Pacific Oceans. However, recurring drought conditions associated with the El Niño phenomenon have repeatedly reduced water availability in the Canal's watershed, forcing the Panama Canal Authority (ACP) to intr",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-01T13:22:17+08:00",
-      "summary_zh": "聖嬰現象反覆造成巴拿馬運河流域缺水,巴拿馬運河管理局(ACP)因而實施船舶通行管制與限制,使部分船舶改航合恩角以維持船期。巴拿馬運河仍為大西洋與太平洋間貿易的首選航線,但乾旱風險持續,船隊應提前評估運河管制對航程與船期的影響。",
-      "importance": "notice",
-      "category": "industry",
       "watch_topics": []
     },
     {
