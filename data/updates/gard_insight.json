@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-11-04T13:49:31+08:00",
-  "last_success_at": "2026-11-04T13:49:31+08:00",
+  "last_crawled_at": "2026-11-07T13:35:09+08:00",
+  "last_success_at": "2026-11-07T13:35:09+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "New CINS Operational Guidelines for Lithium-Ion Batteries Shipped Under SP188",
+      "url": "https://gard.no/en/insights/new-cins-operational-guidelines-for-lithium-ion-batteries-shipped-under-sp188/",
+      "published_at": "2026-11-04",
+      "summary": "The Cargo Incident Network System (CINS) has now released Operational Guidelines for Lithium-Ion Batteries Shipped Under SP188 (Special Provision 188 of the IMDG Code).",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-07T13:35:09+08:00"
+    },
     {
       "title": "Electric shock: a hidden danger in everyday shipboard work",
       "url": "https://gard.no/en/insights/electric-shock-a-hidden-danger-in-everyday-shipboard-work/",
@@ -91,19 +104,6 @@
       "url": "https://gard.no/en/insights/malaysia-introduces-new-regulated-sea-areas/",
       "published_at": "2026-10-06",
       "summary": "Malaysia has introduced two new regulated sea areas near the eastern approaches to the Traffic Separation Scheme in the Straits of Malacca and Singapore. The regulations affect routing, anchoring, speed, cargo transfer and bunkering operations.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-07T13:28:16+08:00"
-    },
-    {
-      "title": "Cyber security controls for existing ships",
-      "url": "https://gard.no/en/insights/cyber-security-controls-for-existing-ships/",
-      "published_at": "2026-10-05",
-      "summary": "While mandatory cyber resilience requirements primarily apply to newbuilds, cyber threats affect ships regardless of age. IACS Recommendation No. 194 provides a practical baseline for strengthening cyber security controls across existing fleets.",
       "tags": [
         "gard",
         "p&i",

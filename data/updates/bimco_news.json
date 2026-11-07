@@ -2,10 +2,38 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-11-04T13:49:43+08:00",
-  "last_success_at": "2026-11-04T13:49:43+08:00",
+  "last_crawled_at": "2026-11-07T13:35:17+08:00",
+  "last_success_at": "2026-11-07T13:35:17+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "BIMCO co-sponsors proposal to focus CII on fuel consumption while ships are under way",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/06-cii-imo/",
+      "published_at": "2026-11-06",
+      "summary": "BIMCO has co-sponsored a proposal to the International Maritime Organization (IMO) to use new fuel consumption data to reassess and recalibrate the Carbon Intensity Indicator (CII) reference lines. The proposal aims to make CII ratings better reflect each ship’s operational efficiency by focusing on",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [
+        "cii_ets"
+      ],
+      "first_seen_at": "2026-11-07T13:35:17+08:00"
+    },
+    {
+      "title": "IMO launches survey on Maritime Single Windows",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/04-imo-msw-survey/",
+      "published_at": "2026-11-04",
+      "summary": "The IMO has launched a survey with the view to gathering information on the level of implementation and use of Maritime Single Window (MSW) systems to better understand the impact of MSW implementation on the administrative workload of maritime stakeholders and users.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-07T13:35:17+08:00"
+    },
     {
       "title": "Tripartite 2026 focuses on practical steps towards the next generation of ships",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/02-tripartite/",
@@ -191,40 +219,6 @@
       "summary_zh": "威脅航行自由將影響全球貿易與維持貿易運行的海員。\n此為BIMCO秘書長兼執行長David Loosley在新德里舉辦的Sagarmanthan：Great Oceans Dialogue中發表的明確訊息。",
       "importance": "notice",
       "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "New addendum helps unlock investment in energy-saving retrofits",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/08-retrofit/",
-      "published_at": "2026-10-08",
-      "summary": "A new BIMCO addendum gives owners and charterers a practical way to agree how they will share the costs and benefits of installing energy-saving technology during a time charter.\nThe BIMCO Energy Saving Device Retrofit Addendum 2026 is designed to help overcome this challenge.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-10T13:24:55+08:00",
-      "summary_zh": "BIMCO 發布 2026 年節能裝置改裝附加條款，為船東與租船人提供在定期租船期間共擔節能技術安裝成本與效益的機制。該附加條款旨在解決雙方在能源節約改裝上成本分擔的難題。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Shipping can tap into a wider seafaring talent pool by including more women, BIMCO panel hears",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/06-sma-panel/",
-      "published_at": "2026-10-06",
-      "summary": "With women making up only 1.2% of seafarers, shipping has a major opportunity to broaden its talent pool, BIMCO’s Ship Manager Advisory Panel heard at its latest meeting.  Meeting on 25 September 2026, the panel discussed the recruitment of women seafarers alongside another pressing workforce issue:",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-10T13:24:55+08:00",
-      "summary_zh": "女性僅佔船員的1.2%。顯示航運業擁有擴大人才庫的重大機遇。BIMCO船舶管理諮詢小組於2026年9月25日會議中討論了女性船員的招募，並將其與另一項緊迫的勞動力議題併討論。",
-      "importance": "notice",
-      "category": "industry",
       "watch_topics": []
     }
   ]
