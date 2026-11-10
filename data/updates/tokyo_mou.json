@@ -2,21 +2,21 @@
   "source_id": "tokyo_mou",
   "source_name": "Tokyo MoU",
   "source_url": "https://www.tokyo-mou.org/publications/",
-  "last_crawled_at": "2026-11-07T13:35:05+08:00",
-  "last_success_at": "2026-11-07T13:35:05+08:00",
+  "last_crawled_at": "2026-11-10T14:53:39+08:00",
+  "last_success_at": "2026-11-10T14:53:39+08:00",
   "crawl_status": "success",
   "items": [
     {
       "title": "Safety Bulletin 05/26 – Improper extensions of Statutory Certification",
-      "url": "https://www.tokyo-mou.org/safety-bulletin/2026/10/23/safety-bulletin-05-26-improper-extensions-of-statutory-certification/",
+      "url": "https://www.tokyo-mou.org/press-releases/2026/10/23/safety-bulletin-05-26-improper-extensions-of-statutory-certification/",
       "published_at": "2026-10-23",
       "summary": "",
       "tags": [
         "psc",
-        "safety bulletin"
+        "press release"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-10-25T12:12:55+08:00"
+      "first_seen_at": "2026-11-10T14:53:39+08:00"
     },
     {
       "title": "Tokyo MOU’s Changing of the Method of Calculation of the Performance on Flag and RO",
@@ -101,21 +101,15 @@
     },
     {
       "title": "Annual Report 2025",
-      "url": "https://www.tokyo-mou.org/annual-report/2026/05/01/annual-report-2025/",
+      "url": "https://www.tokyo-mou.org/press-releases/2026/05/01/annual-report-2025/",
       "published_at": "2026-05-01",
       "summary": "",
       "tags": [
         "psc",
-        "annual report"
+        "press release"
       ],
       "topic_ids": [],
-      "first_seen_at": "2026-05-01",
-      "summary_zh": "2025年亞太地區港口國控制年報顯示，東京MOU成員機構共進行了35,546次檢查，創下歷史新高。儘管拘留率持續下降，但尚未恢復到疫情前的水平。東京MOU將於2026年正式實施高效能和低效能公司的名單，以促進表現改善。報告強調過去三年低效能船舶的增加，並呼籲所有利益相關者重新評估其表現和安全文化，以確保符合國際海事標準。",
-      "importance": "notice",
-      "category": "psc",
-      "watch_topics": [
-        "psc_cic"
-      ]
+      "first_seen_at": "2026-11-10T14:53:39+08:00"
     },
     {
       "title": "Preliminary results of CIC on Ballast Water Management 2025",
