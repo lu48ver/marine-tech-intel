@@ -2,10 +2,23 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-11-10T14:53:50+08:00",
-  "last_success_at": "2026-11-10T14:53:50+08:00",
+  "last_crawled_at": "2026-11-13T14:06:53+08:00",
+  "last_success_at": "2026-11-13T14:06:53+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Verification of aisle passage width - Nishi-F FF-65 free-fall lifeboats",
+      "url": "https://www.dnv.com/news/2026/nishi-f-ff-65-free-fall-lifeboats-verification-of-aisle-passage-width/",
+      "published_at": "2026-11-10",
+      "summary": "Nishi-F has identified a potential passage-width issue affecting certain FF-65 free-fall lifeboats. Owners and managers should verify compliance with the 480 mm minimum requirement and arrange corrective measures where necessary. If your ships have a free-fall lifeboat of this type on board, please ",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-13T14:06:53+08:00"
+    },
     {
       "title": "UK ETS site visits: key steps towards compliance",
       "url": "https://www.dnv.com/news/2026/uk-ets-site-visits-key-steps-towards-compliance/",
@@ -196,27 +209,6 @@
       "importance": "action",
       "category": "regulation",
       "watch_topics": []
-    },
-    {
-      "title": "The UK ETS expands to maritime from 1 July 2026",
-      "url": "https://www.dnv.com/news/2026/the-uk-ets-expands-to-maritime-from-1-july-2026/",
-      "published_at": "2026-06-05",
-      "summary": "The UK Emissions Trading Scheme (ETS) is rapidly evolving, shaping how industries price and manage greenhouse gas emissions as the UK moves toward net-zero. As the scheme expands and its carbon market strengthens, understanding its key mechanisms and implications is becoming increasingly important f",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "cii_ets"
-      ],
-      "first_seen_at": "2026-06-05",
-      "summary_zh": "英國排放交易計劃（ETS）將於2026年7月1日起擴展至海運業。該計劃正在快速發展，影響各行業對溫室氣體排放的定價和管理。隨著計劃的擴展及碳市場的增強，了解其主要機制和影響變得越來越重要。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": [
-        "cii_ets"
-      ]
     }
   ]
 }

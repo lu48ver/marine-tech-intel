@@ -2,10 +2,49 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-11-10T14:53:51+08:00",
-  "last_success_at": "2026-11-10T14:53:51+08:00",
+  "last_crawled_at": "2026-11-13T14:06:54+08:00",
+  "last_success_at": "2026-11-13T14:06:54+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Making underwater radiated noise measurement practical for the world fleet",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/12-imo-urn/",
+      "published_at": "2026-11-12",
+      "summary": "Along with ICS, IPTA and RINA, we have co-sponsored a proposal to MEPC 85 aimed at making underwater radiated noise (URN) measurement practical and affordable for the world fleet.\nThe IMO’s Revised Guidelines (MEPC.1/Circ.906/Rev.1) prefer direct measurement to establish a ship’s URN baseline, and c",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-13T14:06:54+08:00"
+    },
+    {
+      "title": "LAYUPMAN revision reaches key milestone in London",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/11-layupman/",
+      "published_at": "2026-11-11",
+      "summary": "After months of online drafting sessions, BIMCO’s LAYUPMAN revision subcommittee met in person at the London offices of the International Transport Intermediaries Club (ITIC) for two days of intensive discussions, bringing the revised agreement  closer to completion. \nLAYUPMAN, BIMCO’s standard agre",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-13T14:06:54+08:00"
+    },
+    {
+      "title": "New guidance on IMDG Code changes for vehicles and batteries",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/10-ev-imdg/",
+      "published_at": "2026-11-10",
+      "summary": "We have added guidance on changes to the International Maritime Dangerous Goods (IMDG) Code. A member login is required to read the guidance.\nThe article outlines what Amendment 43-26 means for vehicle shipments and battery cargoes, helping members identify areas to review ahead of implementation.",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-13T14:06:54+08:00"
+    },
     {
       "title": "BIMCO co-sponsors proposal to focus CII on fuel consumption while ships are under way",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/06-cii-imo/",
@@ -166,57 +205,6 @@
       ],
       "first_seen_at": "2026-10-16T12:07:15+08:00",
       "summary_zh": "BIMCO 乾散貨網路在最新會議中討論了三項持續的安全挑戰：受污染的廢金屬貨物引發的火災風險。熏蒸工作正從專業人員轉移至船舶船員執行。密閉空間內的死亡事故仍持續發生。成員強調需要更明確的指引與程序以減少這些風險。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "New BIMCO contracts tackle ship recycling and energy-saving retrofits",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dc-report/",
-      "published_at": "2026-10-14",
-      "summary": "We have adopted two new contractual solutions designed to help you manage important operational and regulatory challenges: the revised RECYCLECON contract and the Energy Saving Device Retrofit Addendum 2026.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-16T12:07:15+08:00",
-      "summary_zh": "BIMCO 推出經修訂的 RECYCLECON 合約，協助應對船舶回收相關的營運與規範挑戰。同時發布 2026 年節能裝置改裝附加條款，提供節能改裝的合約框架。",
-      "importance": "notice",
-      "category": "industry",
-      "watch_topics": []
-    },
-    {
-      "title": "Where are the whales? Useful tools you can use to help protect them",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/12-whales/",
-      "published_at": "2026-10-12",
-      "summary": "As whales migrate into critical habitats, many authorities are activating seasonal and dynamic measures that can affect how should ships transit certain areas.\nWe recommend you check if any of your ships are travelling through areas with mandatory and voluntary whale strike reduction measures and if",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-13T14:27:26+08:00",
-      "summary_zh": "鯨魚進入關鍵棲息地時，各主管機關會啟動季節性與動態性措施，影響船舶在特定海域的航行。建議檢查貴船隊是否有航經設有強制或自願性鯨魚撞擊減少措施的區域。",
-      "importance": "action",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "Supporting seafarers",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/08-sagarmanthan/",
-      "published_at": "2026-10-08",
-      "summary": "“Threats to freedom of navigation affect both global trade and the people who keep it moving.”\nThat was the clear message from BIMCO Secretary General & CEO, David Loosley to Sagarmanthan: The Great Oceans Dialogue in New Delhi this week.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-10T13:24:55+08:00",
-      "summary_zh": "威脅航行自由將影響全球貿易與維持貿易運行的海員。\n此為BIMCO秘書長兼執行長David Loosley在新德里舉辦的Sagarmanthan：Great Oceans Dialogue中發表的明確訊息。",
       "importance": "notice",
       "category": "safety",
       "watch_topics": []
