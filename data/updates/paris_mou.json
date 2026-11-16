@@ -2,8 +2,8 @@
   "source_id": "paris_mou",
   "source_name": "Paris MoU",
   "source_url": "https://parismou.org/publications",
-  "last_crawled_at": "2026-11-13T14:06:47+08:00",
-  "last_success_at": "2026-11-13T14:06:47+08:00",
+  "last_crawled_at": "2026-11-16T13:54:30+08:00",
+  "last_success_at": "2026-11-16T13:54:30+08:00",
   "crawl_status": "success",
   "items": [
     {
@@ -45,40 +45,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-10-07T13:28:15+08:00"
-    },
-    {
-      "title": "Register for Seminar 80",
-      "url": "https://parismou.org/register-for-seminar-80-in-hamburg/",
-      "published_at": "2026-08-28",
-      "summary": "",
-      "tags": [
-        "psc",
-        "paris-mou"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-04T14:48:38+08:00",
-      "summary_zh": "巴黎備忘錄（Paris MoU）透過港口國監督（PSC）檢查外國船舶，確認其船況、設備、配員與營運符合國際法規，以打擊低標準船舶。Paris MoU 提供數位數據工具，可即時掌握船舶合規與風險資訊，並定期發布年度績效名單及拒絕進港船舶公告。該組織與觀察員及海事夥伴保持密切合作與數據交換。",
-      "importance": "reference",
-      "category": "psc",
-      "watch_topics": []
-    },
-    {
-      "title": "Register for The Human Element Training",
-      "url": "https://parismou.org/register-for-the-human-element-training/",
-      "published_at": "2026-08-03",
-      "summary": "",
-      "tags": [
-        "psc",
-        "paris-mou"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-04T14:48:38+08:00",
-      "summary_zh": "巴黎備忘錄（Paris MoU）介紹其港口國管制（PSC）制度，透過檢查外籍船舶的狀況、設備、船員編制與操作，確認其符合國際海事法規，並提供資料工具與年度表現名單等最新資訊。本文內容為巴黎備忘錄的整體說明與訓練課程註冊宣傳，未涉及具體新規或檢查重點。",
-      "importance": "reference",
-      "category": "psc",
-      "watch_topics": [
-        "psc_cic"
-      ]
     },
     {
       "title": "Paris and Tokyo MoUs launch 2026 Concentrated Inspection Campaign on Cargo Securing",
