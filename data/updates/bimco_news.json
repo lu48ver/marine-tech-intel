@@ -2,10 +2,36 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-11-16T13:54:37+08:00",
-  "last_success_at": "2026-11-16T13:54:37+08:00",
+  "last_crawled_at": "2026-11-19T14:56:16+08:00",
+  "last_success_at": "2026-11-19T14:56:16+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "BIMCO-initiated proposal for an ISO methodology on shipbuilding emissions enters the ISO process",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/18-iso/",
+      "published_at": "2026-11-18",
+      "summary": "A proposed ISO Technical Specification would set a common way to calculate greenhouse gas (GHG) emissions from building a ship. We invite experts to help shape it through their national standards body.\nA proposal for a new ISO project has been submitted to the International Organization for Standard",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-19T14:56:16+08:00"
+    },
+    {
+      "title": "GENCON 2022 now available in Traditional Chinese",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/17-gencon-2022-hk-chinese/",
+      "published_at": "2026-11-17",
+      "summary": "To support Chinese-speaking users worldwide, the Hong Kong Chamber of Shipping and BIMCO have jointly released the GENCON 2022 Chinese (Hong Kong) Edition which was launched during Hong Kong Maritime Week 2026.\nThis initiative is designed to raise awareness of BIMCO's contractual work, encourage the",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-19T14:56:16+08:00"
+    },
     {
       "title": "Making underwater radiated noise measurement practical for the world fleet",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/12-imo-urn/",
@@ -176,38 +202,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-10-22T12:15:51+08:00"
-    },
-    {
-      "title": "BIMCO expands with new consultant in Japan",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/20-japan-consultant/",
-      "published_at": "2026-10-20",
-      "summary": "We are pleased to welcome Makoto Iwasaki as our representative in Japan, further strengthening support for our members, SmartCon customers and SHIP PI users across one of the world's most important maritime markets.\nWith more than 40 years of experience spanning both the maritime and shipping indust",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-22T12:15:51+08:00"
-    },
-    {
-      "title": "Dry bulk safety: scrap metal fires, fumigation and enclosed spaces",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/14-dry-bulk-network/",
-      "published_at": "2026-10-14",
-      "summary": "BIMCO’s Dry Bulk Cargo Network discussed three persistent safety challenges at its latest meeting: fire risks from contaminated scrap metal cargoes, the shift of fumigation duties from specialists to ships’ crews, and continuing fatalities in enclosed spaces.\nMembers highlighted the need for clearer",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [
-        "gas_detector"
-      ],
-      "first_seen_at": "2026-10-16T12:07:15+08:00",
-      "summary_zh": "BIMCO 乾散貨網路在最新會議中討論了三項持續的安全挑戰：受污染的廢金屬貨物引發的火災風險。熏蒸工作正從專業人員轉移至船舶船員執行。密閉空間內的死亡事故仍持續發生。成員強調需要更明確的指引與程序以減少這些風險。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
     }
   ]
 }

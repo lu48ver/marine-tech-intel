@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-11-16T13:54:31+08:00",
-  "last_success_at": "2026-11-16T13:54:31+08:00",
+  "last_crawled_at": "2026-11-19T14:56:10+08:00",
+  "last_success_at": "2026-11-19T14:56:10+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Mediation in shipping disputes: an opportunity worth taking",
+      "url": "https://gard.no/en/insights/mediation-in-shipping-disputes-an-opportunity-worth-taking/",
+      "published_at": "2026-11-18",
+      "summary": "Mediation can resolve a commercial dispute before legal costs and management time escalate. Yet in shipping, where arbitration remains the usual route for many disputes, mediation may still be an underused option.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-19T14:56:10+08:00"
+    },
     {
       "title": "New CINS Operational Guidelines for Lithium-Ion Batteries Shipped Under SP188",
       "url": "https://gard.no/en/insights/new-cins-operational-guidelines-for-lithium-ion-batteries-shipped-under-sp188/",
@@ -126,19 +139,6 @@
       "first_seen_at": "2026-10-01T13:22:17+08:00"
     },
     {
-      "title": "Loss of bridge control in functioning systems",
-      "url": "https://gard.no/en/insights/loss-of-bridge-control-in-functioning-systems/",
-      "published_at": "2026-09-28",
-      "summary": "Effective control of a vessel can sometimes be lost even when equipment is working. In this article, we see how control settings applied by the crew can lead to serious accidents. In an era of increasingly sophisticated bridges and integrated systems, the accidents serve as a stark reminder of risks",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-01T13:22:17+08:00"
-    },
-    {
       "title": "Collisions with fishing vessels: Chinese waters remain a hotspot",
       "url": "https://gard.no/en/insights/collisions-with-fishing-vessels-chinese-waters-remain-a-hotspot/",
       "published_at": "2026-09-14",
@@ -153,23 +153,6 @@
       "summary_zh": "Gard理賠數據顯示，65起涉及漁船碰撞事故中有半數發生於中國水域。禁漁期結束後大量漁船同時出海，碰撞風險尤高。船隊航行於該區應提高警覺並加強瞭望與避碰措施。",
       "importance": "notice",
       "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "Bearing failures: When normal readings hide the risk",
-      "url": "https://gard.no/en/insights/bearing-failures-when-normal-readings-hide-the-risk/",
-      "published_at": "2026-09-07",
-      "summary": "A serious engine-room incident shows how quickly a local bearing failure can escalate – even when standard temperature and pressure readings appear to be normal.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-16T12:07:09+08:00",
-      "summary_zh": "引擎室發生嚴重事故，顯示局部軸承失效可能迅速惡化。即使常規的溫度與壓力讀數顯示正常，也無法排除潛在的危險。",
-      "importance": "notice",
-      "category": "machinery",
       "watch_topics": []
     },
     {
@@ -218,6 +201,19 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-10-16T12:07:09+08:00"
+    },
+    {
+      "title": "Third party requests for verification of bills of lading and other shipping documents",
+      "url": "https://gard.no/en/insights/third-party-requests-for-verification-bills-lading-other-shipping-documents/",
+      "published_at": "2015-03-26",
+      "summary": "Gard Members and clients are often contacted by third parties trying to investigate the validity of shipping documents. It can be confusing or worrying for a vessel owner to receive such questions by email without warning. This Insight gives some guidance on how to approach such requests.",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-19T14:56:10+08:00"
     }
   ]
 }
