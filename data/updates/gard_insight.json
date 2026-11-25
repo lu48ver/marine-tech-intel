@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-11-22T14:10:09+08:00",
-  "last_success_at": "2026-11-22T14:10:09+08:00",
+  "last_crawled_at": "2026-11-25T15:59:01+08:00",
+  "last_success_at": "2026-11-25T15:59:01+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "War-related pollution: who pays?",
+      "url": "https://gard.no/en/insights/war-related-pollution-who-pays/",
+      "published_at": "2026-11-23",
+      "summary": "Recent geopolitical tensions have prompted some authorities to require ships to demonstrate that adequate insurance arrangements are in place to respond to an oil spill, including incidents caused by hostile acts. But does a Blue Card mean the P&I Club will cover pollution costs caused by war? Not n",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-25T15:59:01+08:00"
+    },
     {
       "title": "Mediation in shipping disputes: an opportunity worth taking",
       "url": "https://gard.no/en/insights/mediation-in-shipping-disputes-an-opportunity-worth-taking/",
@@ -168,23 +181,6 @@
       "topic_ids": [],
       "first_seen_at": "2026-10-16T12:07:09+08:00",
       "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "AIS-assisted collisions: The risks of over-reliance",
-      "url": "https://gard.no/en/insights/ais-assisted-collisions-overreliance-risk/",
-      "published_at": "2026-07-14",
-      "summary": "AIS has evolved into an important safety aid for situational awareness and even collision avoidance. However, this evolution also brings new risks, and over-reliance on AIS may, in some cases, contribute to incidents rather than prevent them.",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-09-16T12:24:16+08:00",
-      "summary_zh": "AIS雖然已成為重要的安全輔助工具，但過度依賴AIS可能在某些情況下導致事故，而非預防事故。",
       "importance": "notice",
       "category": "safety",
       "watch_topics": []

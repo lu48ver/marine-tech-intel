@@ -2,10 +2,36 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-11-22T14:10:23+08:00",
-  "last_success_at": "2026-11-22T14:10:23+08:00",
+  "last_crawled_at": "2026-11-25T15:59:08+08:00",
+  "last_success_at": "2026-11-25T15:59:08+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "EU Tanker Sale and Resale Restrictions Clause 2026 available to support compliance in tanker sales",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/25-tanker-resale-clause/",
+      "published_at": "2026-11-25",
+      "summary": "The clause provides sellers with a contractual framework for obtaining information from buyers, restricting onward sales and transfers to Russia, and addressing breach. It is designed for use in tanker sale and purchase agreements alongside a general sanctions clause.\nThe EU’s 20th Package of Sancti",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-25T15:59:08+08:00"
+    },
+    {
+      "title": "New clause available for tanker ship-to-ship transfers and special operations",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/25-sts-clause/",
+      "published_at": "2026-11-25",
+      "summary": "We have published a new standard clause for ship-to-ship transfers and other transfer operations involving tankers and gas tankers.\nThe BIMCO Tanker Ship-to-Ship Transfer and Special Operations Clause 2026 provides a contractual framework for allocating the operational responsibilities, costs and ri",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-25T15:59:08+08:00"
+    },
     {
       "title": "BIMCO-initiated proposal for an ISO methodology on shipbuilding emissions enters the ISO process",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/18-iso/",
@@ -169,32 +195,6 @@
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-retrofit-addendum/",
       "published_at": "2026-10-21",
       "summary": "The addendum provides owners and charterers with a flexible mechanism for agreeing how the costs, time, fuel-saving benefits and environmental benefits associated with retrofit projects should be allocated between them.\nIt provides a new contractual framework designed to facilitate the installation ",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-22T12:15:51+08:00"
-    },
-    {
-      "title": "We have updated RECYCLECON – the global standard contract for sustainable ship recycling",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-recyclecon-2026/",
-      "published_at": "2026-10-21",
-      "summary": "The update reflects the entry into force of the Hong Kong Convention last year, as well as significant developments in ship recycling practice, regulatory requirements and sale and purchase procedures. \nIt replaces the 2012 edition and is now known as RECYCLECON 2026. It is BIMCO’s standard agreemen",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-25T12:13:36+08:00"
-    },
-    {
-      "title": "eBL adoption passes halfway mark",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-ebl/",
-      "published_at": "2026-10-21",
-      "summary": "Electronic bill of lading (eBL) adoption has reached 51.1%, according to the FIT Alliance’s 2026 global survey, up from 49.2% in 2024 and 33% in 2022.\nBIMCO is a founding member of the alliance.",
       "tags": [
         "bimco",
         "industry",

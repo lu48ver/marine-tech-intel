@@ -2,10 +2,23 @@
   "source_id": "dnv_trn",
   "source_name": "DNV Technical & Regulatory News",
   "source_url": "https://www.dnv.com/maritime/technical-regulatory-news/",
-  "last_crawled_at": "2026-11-22T14:10:14+08:00",
-  "last_success_at": "2026-11-22T14:10:14+08:00",
+  "last_crawled_at": "2026-11-25T15:59:07+08:00",
+  "last_success_at": "2026-11-25T15:59:07+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "New pilot transfer requirements – prepare your fleet now",
+      "url": "https://www.dnv.com/news/2026/new-pilot-transfer-requirements-prepare-your-fleet-now/",
+      "published_at": "2026-11-23",
+      "summary": "Our July Technical and Regulatory News highlighted the significant changes to pilot transfer arrangements introduced by the revised SOLAS Regulation V/23 and the new mandatory performance standards. Given the high level of customer interest and the many questions received, we are providing this foll",
+      "tags": [
+        "dnv",
+        "class",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-25T15:59:07+08:00"
+    },
     {
       "title": "Verification of aisle passage width - Nishi-F FF-65 free-fall lifeboats",
       "url": "https://www.dnv.com/news/2026/nishi-f-ff-65-free-fall-lifeboats-verification-of-aisle-passage-width/",
@@ -190,23 +203,6 @@
       "first_seen_at": "2026-07-06T19:11:21+08:00",
       "summary_zh": "國際海事組織導航、通訊、搜尋與救援小組委員會（NCSR 13）於2026年6月22日至26日召開，並完成了下一代電子海圖顯示與資訊系統（ECDIS）實施的草案指導。",
       "importance": "notice",
-      "category": "regulation",
-      "watch_topics": []
-    },
-    {
-      "title": "North-east Atlantic joins the expanding network of ECAs",
-      "url": "https://www.dnv.com/news/2026/north-east-atlantic-joins-the-expanding-network-of-ecas/",
-      "published_at": "2026-06-17",
-      "summary": "Recent amendments to MARPOL Annex VI adopted at MEPC 84 introduce the North-East Atlantic as a new Emission Control Area (ECA) for nitrogen oxides (NOx), sulphur oxides (SOx) and particulate matter (PM). The regulations enter into force on 1 September 2027.",
-      "tags": [
-        "dnv",
-        "class",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-06-17",
-      "summary_zh": "北東大西洋被納入新的排放控制區（ECA），針對氮氧化物（NOx）、硫氧化物（SOx）和顆粒物（PM）進行管控。相關規定將於2027年9月1日生效。",
-      "importance": "action",
       "category": "regulation",
       "watch_topics": []
     }
