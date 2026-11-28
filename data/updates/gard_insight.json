@@ -2,10 +2,23 @@
   "source_id": "gard_insight",
   "source_name": "Gard Insight",
   "source_url": "https://www.gard.no/insights",
-  "last_crawled_at": "2026-11-25T15:59:01+08:00",
-  "last_success_at": "2026-11-25T15:59:01+08:00",
+  "last_crawled_at": "2026-11-28T15:20:02+08:00",
+  "last_success_at": "2026-11-28T15:20:02+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "Fatigue at sea: Looking beyond rest hours",
+      "url": "https://gard.no/en/insights/fatigue-at-sea-looking-beyond-rest-hours/",
+      "published_at": "2026-11-25",
+      "summary": "Rest-hour requirements and other established approaches to managing fatigue are important, but they do not necessarily tell the whole story. Could wearables and other monitoring technology help identify and ultimately reduce the risk of fatigue-related incidents at sea?",
+      "tags": [
+        "gard",
+        "p&i",
+        "insight"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-28T15:20:02+08:00"
+    },
     {
       "title": "War-related pollution: who pays?",
       "url": "https://gard.no/en/insights/war-related-pollution-who-pays/",
@@ -49,7 +62,7 @@
       "title": "Electric shock: a hidden danger in everyday shipboard work",
       "url": "https://gard.no/en/insights/electric-shock-a-hidden-danger-in-everyday-shipboard-work/",
       "published_at": "2026-11-02",
-      "summary": "Electricity is essential to shipboard operations, but an electrical fault or unsafe working practice can have fatal consequences. Gard cases show that serious electric shocks often happen during familiar jobs such as using when using portable lights, grinding or welding tools or repairing electrical",
+      "summary": "Electricity is essential to shipboard operations, but an electrical fault or unsafe working practice can have fatal consequences. Gard cases show that serious electric shocks often happen during familiar jobs such as when using portable lights, grinding or welding tools or repairing electrical equip",
       "tags": [
         "gard",
         "p&i",
@@ -164,23 +177,6 @@
       "topic_ids": [],
       "first_seen_at": "2026-10-31T13:03:29+08:00",
       "summary_zh": "Gard理賠數據顯示，65起涉及漁船碰撞事故中有半數發生於中國水域。禁漁期結束後大量漁船同時出海，碰撞風險尤高。船隊航行於該區應提高警覺並加強瞭望與避碰措施。",
-      "importance": "notice",
-      "category": "safety",
-      "watch_topics": []
-    },
-    {
-      "title": "Loss of bridge control: Calling on back-up modes",
-      "url": "https://gard.no/en/insights/loss-of-bridge-control-calling-on-back-up-modes/",
-      "published_at": "2026-09-04",
-      "summary": "A loss of bridge control, typically of steering, can have severe consequences for people, property and the environment. In confined or congested waters, where immediate hazards, such as shallows, other vessels and objects are in close proximity, crew response time and measures are critical. Seconds ",
-      "tags": [
-        "gard",
-        "p&i",
-        "insight"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-16T12:07:09+08:00",
-      "summary_zh": "舵機故障導致駕駛台控制失效,可能造成人命、財產與環境嚴重後果。在受限或繁忙水域中,由於淺灘、其他船舶及障礙物鄰近,船員應變時間與處置措施至關重要,反應時間常以秒計。",
       "importance": "notice",
       "category": "safety",
       "watch_topics": []

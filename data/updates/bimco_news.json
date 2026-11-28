@@ -2,10 +2,23 @@
   "source_id": "bimco_news",
   "source_name": "BIMCO News",
   "source_url": "https://www.bimco.org/news-insights/bimco-news/",
-  "last_crawled_at": "2026-11-25T15:59:08+08:00",
-  "last_success_at": "2026-11-25T15:59:08+08:00",
+  "last_crawled_at": "2026-11-28T15:20:09+08:00",
+  "last_success_at": "2026-11-28T15:20:09+08:00",
   "crawl_status": "success",
   "items": [
+    {
+      "title": "\"Your membership contribution is £5 and 5 shillings...\"",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/26-marfin-100-years/",
+      "published_at": "2026-11-26",
+      "summary": "It’s not every day that we can help celebrate a member’s 100th anniversary in business – and what’s more, 100 years of BIMCO membership. \nMarfin Management, based in Monaco, manages and operates nine handy and supramax ships, all named after their founder, Ante Topić. And while the past has formed t",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-28T15:20:09+08:00"
+    },
     {
       "title": "EU Tanker Sale and Resale Restrictions Clause 2026 available to support compliance in tanker sales",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/25-tanker-resale-clause/",
@@ -20,6 +33,19 @@
       "first_seen_at": "2026-11-25T15:59:08+08:00"
     },
     {
+      "title": "Tanker safety experts share lessons on engine room fires",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/25-tanker-fires/",
+      "published_at": "2026-11-25",
+      "summary": "Small defects can turn into serious engine room fires. That was the main message when members of BIMCO's Tanker Safety Network met on 29 October 2026. \nThe meeting was chaired by Abhijith Balakrishnan of Scorpio Group, with Pranesh Kumar of Hafnia as co-chair. Nitin Chawla of Scorpio gave a presenta",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-28T15:20:09+08:00"
+    },
+    {
       "title": "New clause available for tanker ship-to-ship transfers and special operations",
       "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/25-sts-clause/",
       "published_at": "2026-11-25",
@@ -31,6 +57,19 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-11-25T15:59:08+08:00"
+    },
+    {
+      "title": "BIMCO regrets European Parliament vote to exclude Indian yards",
+      "url": "https://www.bimco.org/news-insights/bimco-news/2026/11/25-eu-vote/",
+      "published_at": "2026-11-25",
+      "summary": "BIMCO is concerned by the European Parliament’s decision on 25 November to reject the inclusion of two Indian yards on the European List of ship recycling facilities. The two yards have undergone an extensive, independent inspection process carried out by the EU Commission, the results of which are ",
+      "tags": [
+        "bimco",
+        "industry",
+        "regulatory"
+      ],
+      "topic_ids": [],
+      "first_seen_at": "2026-11-28T15:20:09+08:00"
     },
     {
       "title": "BIMCO-initiated proposal for an ISO methodology on shipbuilding emissions enters the ISO process",
@@ -163,45 +202,6 @@
       ],
       "topic_ids": [],
       "first_seen_at": "2026-10-28T13:08:53+08:00"
-    },
-    {
-      "title": "Ballast Water: BIMCO seeks clearer guidance for ships facing challenging water quality",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/27-bwm/",
-      "published_at": "2026-10-27",
-      "summary": "We have co-sponsored a submission to MEPC 85 making the case for revising the IMO guidance related to ballast water management for ships operating in challenging water quality conditions.\nDrawing on operational experience, the proposals seek clearer procedures and more consistent implementation, wit",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-28T13:08:53+08:00"
-    },
-    {
-      "title": "An opportunity to contribute your thoughts on plastic waste management",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/23-plastic/",
-      "published_at": "2026-10-23",
-      "summary": "As part of our collaboration with the Maritime Association for Clean Seas (MACS), we are pleased to share information about an upcoming virtual round table on plastic waste management.\nBIMCO members are therefore invited to attend and contribute practical operational experience.",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-25T12:13:36+08:00"
-    },
-    {
-      "title": "BIMCO Energy Saving Device Retrofit Addendum available to support vessel efficiency investments",
-      "url": "https://www.bimco.org/news-insights/bimco-news/2026/10/21-retrofit-addendum/",
-      "published_at": "2026-10-21",
-      "summary": "The addendum provides owners and charterers with a flexible mechanism for agreeing how the costs, time, fuel-saving benefits and environmental benefits associated with retrofit projects should be allocated between them.\nIt provides a new contractual framework designed to facilitate the installation ",
-      "tags": [
-        "bimco",
-        "industry",
-        "regulatory"
-      ],
-      "topic_ids": [],
-      "first_seen_at": "2026-10-22T12:15:51+08:00"
     }
   ]
 }
